@@ -281,6 +281,7 @@ const rankList = [
   'Combat Technician',
   'Smartgunner',
   'Weapons Specialist',
+  'Group Leader',
   'Fireteam Leader',
   'Squad Leader',
 ];
@@ -539,7 +540,10 @@ const ObservableItem = (props: {
     >
       {displayHealth && <ColorBox color={getHealthColor(health)} mr="0.5em" />}
       {!!icon && (
-        <ObservableIcon icon={icon} background_color={background_color || squad_color} />
+        <ObservableIcon
+          icon={icon}
+          background_color={background_color || squad_color}
+        />
       )}
       {capitalizeFirst(getDisplayName(full_name, nickname))}
       {!!orbiters && (
@@ -556,7 +560,15 @@ const ObservableItem = (props: {
 /** Displays some info on the mob as a tooltip. */
 const ObservableTooltip = (props: { readonly item: Observable }) => {
   const {
-    item: { caste, health, job, full_name, icon, background_color, squad_color },
+    item: {
+      caste,
+      health,
+      job,
+      full_name,
+      icon,
+      background_color,
+      squad_color,
+    },
   } = props;
 
   const displayHealth = typeof health === 'number';
@@ -570,7 +582,10 @@ const ObservableTooltip = (props: { readonly item: Observable }) => {
       {!!caste && (
         <LabeledList.Item label="Caste">
           {!!icon && (
-            <ObservableIcon icon={icon} background_color={background_color || squad_color} />
+            <ObservableIcon
+              icon={icon}
+              background_color={background_color || squad_color}
+            />
           )}
           {caste}
         </LabeledList.Item>
@@ -578,7 +593,10 @@ const ObservableTooltip = (props: { readonly item: Observable }) => {
       {!!job && (
         <LabeledList.Item label="Job">
           {!!icon && (
-            <ObservableIcon icon={icon} background_color={background_color || squad_color} />
+            <ObservableIcon
+              icon={icon}
+              background_color={background_color || squad_color}
+            />
           )}
           {job}
         </LabeledList.Item>

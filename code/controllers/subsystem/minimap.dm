@@ -563,7 +563,7 @@ SUBSYSTEM_DEF(minimaps)
 		debug_log("SVG coordinates for [faction] are not implemented!")
 
 /datum/tacmap/drawing/proc/can_draw(faction, mob/user)
-	var/datum/squad/main_squad_path = MAIN_SHIP_PLATOON
+	var/datum/squad/main_squad_path = GLOB.RoleAuthority?.get_active_ship_platoon_type() || MAIN_SHIP_PLATOON || text2path(MAIN_SHIP_DEFAULT_PLATOON) // SS220 EDIT: tacmap faction gate follows active ship platoon resolver with vanilla fallback
 	return ((faction == main_squad_path::faction && skillcheck(user, SKILL_LEADERSHIP, SKILL_LEAD_NOVICE)) || (faction == XENO_HIVE_NORMAL && isqueen(user)))
 
 /datum/controller/subsystem/minimaps/proc/fetch_tacmap_datum(zlevel, flags)
@@ -1141,6 +1141,8 @@ SUBSYSTEM_DEF(minimaps)
 			return MINIMAP_FLAG_XENO_MUTATED
 		if(XENO_HIVE_FORSAKEN)
 			return MINIMAP_FLAG_XENO_FORSAKEN
+		if(XENO_HIVE_PATHOGEN) // SS220 EDIT: modular xeno_races hive uses the base xeno minimap flag
+			return MINIMAP_FLAG_XENO
 		if(XENO_HIVE_YAUTJA)
 			return MINIMAP_FLAG_YAUTJA
 		if(XENO_HIVE_RENEGADE)

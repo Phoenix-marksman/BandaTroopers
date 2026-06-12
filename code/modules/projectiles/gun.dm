@@ -48,6 +48,8 @@
 	var/caliber
 	///Effect for the muzzle flash of the gun.
 	var/atom/movable/vis_obj/effect/muzzle_flash/muzzle_flash
+	///Icon file for muzzle flash visuals.
+	var/muzzleflash_icon = 'icons/obj/items/weapons/projectiles.dmi' // SS220 EDIT: HALO weapons can override muzzle flash icon sheet
 	///Icon state of the muzzle flash effect.
 	var/muzzleflash_iconstate
 	///Brightness of the muzzle flash effect.
@@ -62,6 +64,7 @@
 	///Does our gun have a unique empty mag sound? If so use instead of pitch shifting.
 	var/fire_rattle = null
 	var/unload_sound = 'sound/weapons/flipblade.ogg'
+	var/empty_click = 'sound/weapons/gun_empty.ogg' // SS220 EDIT: HALO energy weapons use dedicated empty trigger click sounds
 	var/empty_sound = 'sound/weapons/smg_empty_alarm.ogg'
 	//We don't want these for guns that don't have them.
 	var/reload_sound = null
@@ -203,12 +206,15 @@
 
 	///the default gun icon_state. change to reskin the gun
 	var/base_gun_icon
+	/// Optional stats sheet lineart state when the live base icon has no lineart counterpart.
+	var/lineart_gun_icon // SS220 EDIT: allow modular guns to reuse existing lineart without changing live overlays
 	/// whether gun has icon state of (base_gun_icon)_e
 	var/has_empty_icon = TRUE
 	/// whether gun has icon state of (base_gun_icon)_o
 	var/has_open_icon = FALSE
 	var/bonus_overlay_x = 0
 	var/bonus_overlay_y = 0
+	var/bonus_overlay_layer = 3.02 // SS220 EDIT: HALO weapon overlays can require custom layer priority
 
 	/// How much recoil_buildup is lost per second. Builds up as time passes, and is set to 0 when a single shot is fired
 	var/recoil_loss_per_second = 10
@@ -282,6 +288,7 @@
 	base_gun_icon = icon_state
 	attachable_overlays = list("muzzle" = null, "rail" = null, "side_rail" = null, "under" = null, "stock" = null, "mag" = null, "special" = null)
 	muzzle_flash = new(src, muzzleflash_iconstate)
+	muzzle_flash.icon = muzzleflash_icon // SS220 EDIT: respect per-gun muzzle flash icon overrides
 
 	LAZYSET(item_state_slots, WEAR_BACK, item_state)
 	LAZYSET(item_state_slots, WEAR_JACKET, item_state)
@@ -314,6 +321,7 @@
 	attachable_offset = null
 
 /obj/item/weapon/gun/Destroy()
+	SEND_SIGNAL(src, COMSIG_GUN_INTERRUPT_FIRE)
 	in_chamber = null
 	ammo = null
 	QDEL_NULL(current_mag)
@@ -791,7 +799,10 @@ As sniper rifles have both and weapon mods can change them as well. ..() deals w
 	flags_item ^= WIELDED
 	name += " (Wielded)"
 	item_state += "_w"
-	slowdown = initial(slowdown) + aim_slowdown
+	if(user.skills && user.skills.get_skill_level(SKILL_GUN_HO) >= SKILL_GUN_HO_TRAINED && !is_civilian_usable(user))
+		slowdown = initial(slowdown) + (aim_slowdown / user.skills.get_skill_level(SKILL_GUN_HO))
+	else
+		slowdown = initial(slowdown) + aim_slowdown
 	place_offhand(user, initial(name))
 	wield_time = world.time + wield_delay
 	if(HAS_TRAIT(user, TRAIT_DAZED))
@@ -854,6 +865,8 @@ As sniper rifles have both and weapon mods can change them as well. ..() deals w
 //Hardcoded and horrible
 /obj/item/weapon/gun/proc/cock_gun(mob/user)
 	set waitfor = 0
+	if(QDELETED(src))
+		return
 	if(cocked_sound)
 		addtimer(CALLBACK(src, PROC_REF(cock_sound), user), 0.5 SECONDS)
 
@@ -1328,6 +1341,14 @@ and you're good to go.
 		active_attachable.fire_attachment(target, src, user)
 		return TRUE
 
+	if(ishuman(user))
+		var/mob/living/carbon/human/human_user = user
+		if(human_user.skills?.get_skill_level(SKILL_GUN_HO) >= SKILL_GUN_HO_TRAINED)
+			if(tactical_reload(target, human_user))
+				return TRUE
+
+	return ..()
+
 
 /obj/item/weapon/gun/attack(mob/living/attacked_mob, mob/living/user, dual_wield)
 	if(active_attachable && (active_attachable.flags_attach_features & ATTACH_MELEE)) //this is expected to do something in melee.
@@ -1766,7 +1787,8 @@ not all weapons use normal magazines etc. load_into_chamber() itself is designed
 		if(user?.skills?.get_skill_level(SKILL_FIREARMS) == SKILL_FIREARMS_CIVILIAN && !is_civilian_usable(user))
 			skill_accuracy = -1
 		else
-			skill_accuracy = user.skills.get_skill_level(SKILL_FIREARMS)
+			var/gun_ho_bonus = max(user.skills.get_skill_level(SKILL_GUN_HO) - SKILL_GUN_HO_UNTRAINED, 0) // SS220 EDIT: keep Gun Ho as a linear bonus above the untrained baseline
+			skill_accuracy = user.skills.get_skill_level(SKILL_FIREARMS) + gun_ho_bonus
 		if(skill_accuracy)
 			gun_accuracy_mult += skill_accuracy * HIT_ACCURACY_MULT_TIER_3 // Accuracy mult increase/decrease per level is equal to attaching/removing a red dot sight
 
@@ -1826,7 +1848,8 @@ not all weapons use normal magazines etc. load_into_chamber() itself is designed
 		if(user?.skills?.get_skill_level(SKILL_FIREARMS) == SKILL_FIREARMS_CIVILIAN && !is_civilian_usable(user))
 			total_scatter_angle += SCATTER_AMOUNT_TIER_7
 		else
-			total_scatter_angle -= user.skills.get_skill_level(SKILL_FIREARMS)*SCATTER_AMOUNT_TIER_8
+			var/gun_ho_bonus = max(user.skills.get_skill_level(SKILL_GUN_HO) - SKILL_GUN_HO_UNTRAINED, 0) // SS220 EDIT: keep Gun Ho scatter reduction linear and preserve the untrained baseline
+			total_scatter_angle -= (user.skills.get_skill_level(SKILL_FIREARMS) + gun_ho_bonus) * SCATTER_AMOUNT_TIER_8
 
 
 	//Not if the gun doesn't scatter at all, or negative scatter.
@@ -1865,7 +1888,8 @@ not all weapons use normal magazines etc. load_into_chamber() itself is designed
 		if(user?.skills?.get_skill_level(SKILL_FIREARMS) == SKILL_FIREARMS_CIVILIAN && !is_civilian_usable(user))
 			total_recoil += RECOIL_AMOUNT_TIER_5
 		else
-			total_recoil -= user.skills.get_skill_level(SKILL_FIREARMS)*RECOIL_AMOUNT_TIER_5
+			var/gun_ho_bonus = max(user.skills.get_skill_level(SKILL_GUN_HO) - SKILL_GUN_HO_UNTRAINED, 0) // SS220 EDIT: keep Gun Ho recoil reduction linear and preserve the untrained baseline
+			total_recoil -= (user.skills.get_skill_level(SKILL_FIREARMS) + gun_ho_bonus) * RECOIL_AMOUNT_TIER_5
 
 	if(total_recoil > 0 && (ishuman(user) || HAS_TRAIT(user, TRAIT_OPPOSABLE_THUMBS)))
 		if(total_recoil >= 4)
@@ -2100,7 +2124,7 @@ not all weapons use normal magazines etc. load_into_chamber() itself is designed
 	SIGNAL_HANDLER
 
 	var/list/modifiers = params2list(params)
-	if(modifiers[SHIFT_CLICK] || modifiers[MIDDLE_CLICK] || modifiers[RIGHT_CLICK] || modifiers[BUTTON4] || modifiers[BUTTON5])
+	if(modifiers[CTRL_CLICK] || modifiers[SHIFT_CLICK] || modifiers[MIDDLE_CLICK] || modifiers[RIGHT_CLICK] || modifiers[BUTTON4] || modifiers[BUTTON5])
 		return FALSE
 
 	// Don't allow doing anything else if inside a container of some sort, like a locker.
@@ -2165,15 +2189,22 @@ not all weapons use normal magazines etc. load_into_chamber() itself is designed
 	return target
 
 /obj/item/weapon/gun/ai_can_use(mob/living/carbon/human/user, datum/human_ai_brain/ai_brain)
-	if(istype(current_mag, /obj/item/ammo_magazine/internal) && (current_mag.current_rounds <= 0) && !ai_brain.weapon_ammo_search(ai_brain.primary_weapon))
-		return FALSE
-	else if((!current_mag || (current_mag.current_rounds <= 0)) && !ai_brain.weapon_ammo_search(ai_brain.primary_weapon))
+	if(!has_ammunition() && (!ai_brain || !ai_brain.weapon_ammo_search(src)))
 		return FALSE
 
 	if((flags_gun_features & GUN_WY_RESTRICTED) && !wy_allowed_check(user))
 		return FALSE
 
 	return TRUE
+
+/obj/item/weapon/gun/proc/get_ai_followup_fire_callback(mob/living/carbon/human/user, atom/target)
+	return null
+
+/obj/item/weapon/gun/proc/get_ai_followup_fire_delay(mob/living/carbon/human/user, atom/target)
+	return null
+
+/obj/item/weapon/gun/proc/get_ai_followup_fire_cooldown(mob/living/carbon/human/user, atom/target)
+	return get_ai_followup_fire_delay(user, target)
 
 /// For ejecting the spent casing from corresponding guns
 /obj/item/weapon/gun/proc/eject_casing()

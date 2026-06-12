@@ -23,10 +23,10 @@ Contains most of the procs that are called when a mob is attacked by something
 
 				drop_inv_item_on_ground(c_hand)
 				if (affected.status & (LIMB_ROBOT|LIMB_SYNTHSKIN))
-					emote("me", 1, "drops what they were holding, their [affected.display_name] malfunctioning!")
+					src.visible_message("[src.name]'s [affected.display_name] malfunctions! And they drop what they were holding!", "Your [affected.display_name] and you drop what you were holding!")
 				else
 					var/emote_scream = pick("screams in pain and", "lets out a sharp cry and", "cries out and")
-					emote("me", 1, "[(!pain.feels_pain) ? "" : emote_scream ] drops what they were holding in their [affected.display_name]!")
+					src.visible_message("[src.name] [(!pain.feels_pain) ? "" : emote_scream ]drops what they were holding in their [affected.display_name]!", "You[(!pain.feels_pain) ? "" : "'re over come by pain! You cry out and" ] drop what you were holding in your [affected.display_name]!")
 
 	..(stun_amount, agony_amount, def_zone)
 
@@ -194,6 +194,11 @@ Contains most of the procs that are called when a mob is attacked by something
 	if((user != src) && check_shields(I.force, "the [I.name]"))
 		return FALSE
 
+	// SS220 EDIT: HALO modular energy shield hook.
+	var/remaining_force = check_energy_shield(I.force, "the [I.name]")
+	if(!remaining_force)
+		return FALSE
+
 	if(LAZYLEN(I.attack_verb))
 		visible_message(SPAN_DANGER("<B>[src] has been [pick(I.attack_verb)] in the [hit_area] with [I.name] by [user]!</B>"), null, null, 5)
 	else
@@ -207,14 +212,14 @@ Contains most of the procs that are called when a mob is attacked by something
 		weapon_sharp = FALSE
 		weapon_edge = FALSE
 
-	if(!I.force)
+	if(!remaining_force)
 		return FALSE
 	if(weapon_sharp)
 		user.flick_attack_overlay(src, "punch")
 	else
 		user.flick_attack_overlay(src, "punch")
 
-	var/damage = armor_damage_reduction(GLOB.marine_melee, I.force, armor, (weapon_sharp?30:0) + (weapon_edge?10:0)) // no penetration frm punches
+	var/damage = armor_damage_reduction(GLOB.marine_melee, remaining_force, armor, (weapon_sharp?30:0) + (weapon_edge?10:0)) // no penetration frm punches
 	apply_damage(damage, I.damtype, affecting, sharp=weapon_sharp, edge=weapon_edge, used_weapon=I)
 
 	if(damage > 5)
@@ -271,6 +276,7 @@ Contains most of the procs that are called when a mob is attacked by something
 
 	var/obj/O = AM
 	var/datum/launch_metadata/LM = O.launch_metadata
+	var/atom/thrower = istype(LM) ? LM.thrower : null // SS220 EDIT: explosion-thrown debris can legitimately lack a thrower
 
 	//empty active hand and we're in throw mode
 	var/can_catch = (!(O.flags_atom & ITEM_UNCATCHABLE) || isyautja(src))
@@ -288,8 +294,8 @@ Contains most of the procs that are called when a mob is attacked by something
 	var/impact_damage = (1 + O.throwforce*THROWFORCE_COEFF)*O.throwforce*THROW_SPEED_IMPACT_COEFF*O.cur_speed
 
 	var/zone
-	if (istype(LM.thrower, /mob/living))
-		var/mob/living/L = LM.thrower
+	if (istype(thrower, /mob/living))
+		var/mob/living/L = thrower
 		zone = check_zone(L.zone_selected)
 	else
 		zone = rand_zone("chest", 75) //Hits a random part of the body, geared towards the chest
@@ -299,7 +305,12 @@ Contains most of the procs that are called when a mob is attacked by something
 		return
 	O.throwing = FALSE //it hit, so stop moving
 
-	if ((LM.thrower != src) && check_shields(impact_damage, "[O]"))
+	if ((thrower != src) && check_shields(impact_damage, "[O]"))
+		return
+
+	// SS220 EDIT: HALO modular energy shield hook.
+	impact_damage = check_energy_shield(impact_damage, "[O]")
+	if(!impact_damage)
 		return
 
 	var/obj/limb/affecting = get_limb(zone)
@@ -326,8 +337,8 @@ Contains most of the procs that are called when a mob is attacked by something
 		else
 			playsound(loc, 'sound/effects/thud.ogg', 25, TRUE, 5, falloff = 2)
 
-	if (ismob(LM.thrower))
-		var/mob/M = LM.thrower
+	if (ismob(thrower))
+		var/mob/M = thrower
 		var/client/assailant = M.client
 		if (damage > 5)
 			last_damage_mob = M

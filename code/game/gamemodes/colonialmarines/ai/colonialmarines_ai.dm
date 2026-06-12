@@ -33,45 +33,32 @@
 
 /datum/game_mode/colonialmarines/ai/pre_setup()
 	RegisterSignal(SSdcs, COMSIG_GLOB_XENO_SPAWN, PROC_REF(handle_xeno_spawn))
-	squad_limit.Cut()
-	squad_limit += MAIN_SHIP_PLATOON
-	for(var/i in squad_limit)
-		role_mappings = GLOB.platoon_to_jobs[i]
-	GLOB.RoleAuthority.reset_roles()
-	for(var/datum/squad/sq in GLOB.RoleAuthority.squads)
-		if(sq.type in squad_limit)
-			GLOB.main_platoon_name = sq.name
-			GLOB.main_platoon_initial_name = sq.name
-
-	squad_limit += USCM_AUXILIARY_PLATOON // SS220 EDIT
-	squad_limit += FORECON_AUXILIARY_PLATOON
-	squad_limit += UPP_AUXILIARY_PLATOON
-	squad_limit += PMC_AUXILIARY_PLATOON
-
-	for(var/datum/squad/squad in GLOB.RoleAuthority.squads)
-		if(squad.type in squad_limit)
-			continue
-		GLOB.RoleAuthority.squads -= squad
-		GLOB.RoleAuthority.squads_by_type -= squad.type
-
-	GLOB.RoleAuthority.squads += USCM_AUXILIARY_PLATOON
-	GLOB.RoleAuthority.squads += USCM_AUXILIARY_SECOND_PLATOON // SS220 EDIT
-	GLOB.RoleAuthority.squads += USCM_AUXILIARY_THIRD_PLATOON // SS220 EDIT
-	GLOB.RoleAuthority.squads += FORECON_AUXILIARY_PLATOON
-	GLOB.RoleAuthority.squads += UPP_AUXILIARY_PLATOON
-	GLOB.RoleAuthority.squads += PMC_AUXILIARY_PLATOON
-	GLOB.RoleAuthority.squads_by_type += USCM_AUXILIARY_PLATOON
-	GLOB.RoleAuthority.squads_by_type += USCM_AUXILIARY_SECOND_PLATOON // SS220 EDIT
-	GLOB.RoleAuthority.squads_by_type += USCM_AUXILIARY_THIRD_PLATOON // SS220 EDIT
-	GLOB.RoleAuthority.squads_by_type += FORECON_AUXILIARY_PLATOON
-	GLOB.RoleAuthority.squads_by_type += UPP_AUXILIARY_PLATOON
-	GLOB.RoleAuthority.squads_by_type += PMC_AUXILIARY_PLATOON
+	var/datum/authority/branch/role/role_authority = GLOB.RoleAuthority
+	if(role_authority) // SS220 EDIT: lowpop ship-side roster and squad family are selected through modular platoon helpers
+		role_authority.sync_pending_same_ship_platoon_for_round_start() // SS220 EDIT: Start Round on the already loaded ship must still apply same-map platoon overrides from next_ship.json
+		squad_limit = role_authority.get_main_ship_lowpop_keep_types()
+		role_mappings = role_authority.get_main_ship_role_mappings(TRUE)
+		role_authority.handle_main_ship_mode_changed()
+		role_authority.reset_roles()
+		role_authority.filter_role_authority_squads_to_types(squad_limit) // SS220 EDIT: trim active squad pool to the current ship-mode family
+	else
+		squad_limit = list(MAIN_SHIP_PLATOON || text2path(MAIN_SHIP_DEFAULT_PLATOON))
+	var/datum/squad/main_squad
+	if(role_authority) // SS220 EDIT: lowpop main platoon follows active ship-profile resolver when RoleAuthority is available
+		var/active_ship_platoon = role_authority.get_active_ship_platoon_type()
+		main_squad = role_authority.squads_by_type[active_ship_platoon]
+	if(main_squad)
+		GLOB.main_platoon_name = main_squad.name
+		GLOB.main_platoon_initial_name = main_squad.name
 
 	. = ..()
 
 /datum/game_mode/colonialmarines/ai/post_setup()
 	set_lz_resin_allowed(TRUE)
-	spawn_personal_weapon()
+	// SS220 EDIT - START
+	// spawn_personal_weapon()
+	spawn_personal_weapon() // SS220 EDIT: keep the upstream lowpop integration point explicit while modular locker runtime owns actual weapon delivery
+	// SS220 EDIT - END
 	return ..()
 
 /datum/game_mode/colonialmarines/ai/announce_bioscans()
@@ -92,7 +79,8 @@
 		return
 
 /datum/game_mode/colonialmarines/ai/get_roles_list()
-	return GLOB.platoon_to_role_list[MAIN_SHIP_PLATOON]
+	// return GLOB.platoon_to_role_list[MAIN_SHIP_PLATOON]
+	return GLOB.RoleAuthority?.get_main_ship_lowpop_roles() || GLOB.platoon_to_role_list[MAIN_SHIP_PLATOON] // SS220 EDIT: ship-side lowpop roster resolves through modular platoon helpers when RoleAuthority is available
 
 /datum/game_mode/colonialmarines/ai/check_queen_status()
 	return
@@ -126,6 +114,12 @@ GLOBAL_LIST_INIT(platoon_to_jobs, list(/datum/squad/marine/alpha = list(/datum/j
 		/datum/job/marine/medic/ai/pmc/small = JOB_SQUAD_MEDIC,\
 		/datum/job/marine/smartgunner/ai/pmc/small = JOB_SQUAD_SMARTGUN,\
 		/datum/job/marine/leader/ai/pmc/small = JOB_SQUAD_LEADER),\
+		/datum/squad/marine/upp/forecon = list(/datum/job/marine/standard/ai/upp/forecon = JOB_SQUAD_MARINE,\
+		/datum/job/marine/standard/ai/rto/upp/forecon = JOB_SQUAD_RTO,\
+		/datum/job/marine/leader/ai/upp/forecon = JOB_SQUAD_LEADER,\
+		/datum/job/marine/medic/ai/upp/forecon = JOB_SQUAD_MEDIC,\
+		/datum/job/marine/tl/ai/upp/forecon = JOB_SQUAD_TEAM_LEADER,\
+		/datum/job/marine/smartgunner/ai/upp/forecon = JOB_SQUAD_SMARTGUN),\
 		/datum/squad/marine/rmc = list(/datum/job/command/bridge/ai/rmc = JOB_TWE_RMC_LIEUTENANT,\
 		/datum/job/marine/leader/ai/rmc = JOB_TWE_RMC_TROOPLEADER,\
 		/datum/job/marine/tl/ai/rmc = JOB_TWE_RMC_SECTIONLEADER,\
@@ -142,51 +136,28 @@ GLOBAL_LIST_INIT(platoon_to_role_list, list(/datum/squad/marine/alpha = ROLES_AI
 												/datum/squad/marine/pmc = ROLES_PMCPLT,\
 												/datum/squad/marine/forecon = ROLES_AI_FORECON,\
 												/datum/squad/marine/pmc/small = ROLES_PMCPLT_SMALL,\
+												/datum/squad/marine/upp/forecon = ROLES_AI_UPP_FORECON,\
 												/datum/squad/marine/rmc = ROLES_RMCTROOP))
 
 
-GLOBAL_LIST_INIT(personal_weapons_list, list("Ithaca 37 shotgun-stakeout" = /obj/item/storage/large_holster/m37/full/noammo,\
-											"Ithaca 37 shotgun-traditional" = /obj/item/weapon/gun/shotgun/pump/stock,\
-											"Sawn-off double barrel shotgun" = /obj/item/weapon/gun/shotgun/double/sawn,\
-											"M79 grenade launcher" = /obj/item/weapon/gun/launcher/grenade/m81/m79/modified,\
-											"Cut down M79 grenade launcher" = /obj/item/weapon/gun/launcher/grenade/m81/m79/modified/sawnoff,\
-											"4 M15 grenades" = /obj/effect/essentials_set/m15_4_pack))
+// SS220 EDIT - START
+/*
+GLOBAL_LIST_INIT(personal_weapons_list, list(
+	"Ithaca 37 shotgun-stakeout" = /obj/item/storage/large_holster/m37/full/noammo,
+	"Ithaca 37 shotgun-traditional" = /obj/item/weapon/gun/shotgun/pump/stock,
+	"Sawn-off double barrel shotgun" = /obj/item/weapon/gun/shotgun/double/sawn,
+	"M79 grenade launcher" = /obj/item/weapon/gun/launcher/grenade/m81/m79/modified,
+	"Cut down M79 grenade launcher" = /obj/item/weapon/gun/launcher/grenade/m81/m79/modified/sawnoff,
+	"4 M15 grenades" = /obj/effect/essentials_set/m15_4_pack,
+))
+*/
+GLOBAL_LIST_INIT(personal_weapons_list, list("Shotgun",\
+											"Compact shotgun",\
+											"Double-barrel shotgun",\
+											"Grenade launcher",\
+											"Compact grenade launcher",\
+											"Grenade pack"))
+// SS220 EDIT - END
 
 /datum/game_mode/colonialmarines/ai/proc/spawn_personal_weapon()
-	var/datum/squad/squad = locate() in GLOB.RoleAuthority.squads
-	if(!squad || squad.faction != FACTION_MARINE || !squad.marines_list.len > 0)
-		return
-	if(!GLOB.personal_weapon.len)
-		return
-	var/mob/living/carbon/human/marine
-	var/chosen_weapon
-	var/iteration = 0 //10 marines with no personal weapon selected? its more likely than you think!
-	var/list/temporary_list = squad.marines_list
-	while(!chosen_weapon && iteration < squad.marines_list.len)
-		iteration++
-		marine = pick(temporary_list)
-		if(!squad.marines_list.Find(marine))
-			chosen_weapon = "bugged"
-			break
-		if(marine.job == JOB_SO) //get outta here butter bars
-			temporary_list.Remove(marine)
-			continue
-		if(!marine.client)
-			temporary_list.Remove(marine)
-			continue
-		if(marine.client.prefs.personal_weapon == "None")
-			temporary_list.Remove(marine)
-			continue
-		chosen_weapon = marine.client.prefs.personal_weapon
-	if(!isnull(chosen_weapon)) //Probably highly unlikely that all marines have it set to None but uhhhhh you never know.
-		if(chosen_weapon == "bugged")
-			log_debug("Chosen Weapon selected a bugged marine.")
-		else
-			var/obj/item/storage/box/personalcase/pcase = new(get_turf(pick(GLOB.personal_weapon)))
-			pcase.assign_owner(marine.real_name)
-			addtimer(CALLBACK(GLOBAL_PROC, GLOBAL_PROC_REF(to_chat), marine, SPAN_NOTICE("You remember that you've successfully snuck in your <b>heirloom weapon</b> aboard: <b>[marine.client.prefs.personal_weapon]</b>. It's in the armory")), 5 SECONDS)
-			var/the_gun = GLOB.personal_weapons_list[chosen_weapon]
-			new the_gun(pcase)
-			for(var/obj/effect/landmark/personal_weapon/PW in GLOB.personal_weapon)
-				qdel(PW)
-	temporary_list = null
+	return // SS220 EDIT: legacy lowpop armory-landmark delivery now resolves through modular personal locker population

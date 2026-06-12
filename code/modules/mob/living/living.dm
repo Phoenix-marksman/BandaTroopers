@@ -599,6 +599,12 @@
 /// Change the [body_position] to [LYING_DOWN] and update associated behavior.
 /mob/living/proc/set_lying_down(new_lying_angle)
 	set_body_position(LYING_DOWN)
+	if(body_position != LYING_DOWN)
+		return
+	if(!isnull(new_lying_angle))
+		set_lying_angle(new_lying_angle, TRUE) // SS220 EDIT: explicit prone callers must restore the visual lying transform immediately
+	else if(lying_angle == 0)
+		set_lying_angle(pick(90, 270), TRUE) // SS220 EDIT: rest/death-driven prone must not keep a stale standing transform
 
 /// Proc to append behavior related to lying down.
 /mob/living/proc/on_lying_down(new_lying_angle)
@@ -623,8 +629,10 @@
 		layer = ABOVE_MOB_LAYER
 	else if (body_position == LYING_DOWN && stat == DEAD)
 		layer = LYING_DEAD_MOB_LAYER // Dead mobs should layer under living ones
-	else if(body_position == LYING_DOWN && layer == initial(layer)) //to avoid things like hiding larvas. //i have no idea what this means
+	else if(body_position == LYING_DOWN && (layer == initial(layer) || iszombie(src))) //to avoid things like hiding larvas. //i have no idea what this means
 		layer = LYING_LIVING_MOB_LAYER
+	else
+		layer = initial(layer)
 
 /// Called when mob changes from a standing position into a prone while lacking the ability to stand up at the moment.
 /mob/living/proc/on_fall()

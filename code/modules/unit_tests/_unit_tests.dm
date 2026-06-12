@@ -75,10 +75,13 @@
 #define TRAIT_SOURCE_UNIT_TESTS "unit_tests"
 
 // Unit tests
+#include "admin_music.dm" // SS220 EDIT: cover the modular Admin Music Panel preset parsing, validation, and merge/save helpers
 #include "autowiki.dm"
 #include "check_runtimes.dm"
 #include "create_and_destroy.dm"
 #include "emote_panels.dm"
+#include "game_rule_panel.dm" // SS220 EDIT: include Game Rule Panel unit tests
+#include "gc_regressions.dm"
 #include "missing_icons.dm"
 #include "resist.dm"
 #include "spawn_humans.dm"

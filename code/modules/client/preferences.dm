@@ -271,8 +271,8 @@ GLOBAL_LIST_INIT(bgstate_options, list(
 	/// Dropship name used when spawning as LT
 	var/dropship_name = "Midway"
 
-	/// Personal weapon that spawns randomly roundstart
-	var/personal_weapon = "Ithaca 37 shotgun"
+	/// Personal weapon category resolved by the active ship profile
+	var/personal_weapon = "Shotgun" // SS220 EDIT: profile-specific locker spawn resolves this generic choice into the concrete weapon type
 
 /datum/preferences/New(client/C)
 	key_bindings = deep_copy_list(GLOB.hotkey_keybinding_list_by_key) // give them default keybinds and update their movement keys
@@ -340,7 +340,7 @@ GLOBAL_LIST_INIT(bgstate_options, list(
 
 	dat += "<center>"
 	dat += "<a[current_menu == MENU_MARINE ? " class='linkOff'" : ""] href=\"byond://?src=\ref[user];preference=change_menu;menu=[MENU_MARINE]\"><b>Human</b></a> - "
-	dat += "<a[current_menu == MENU_PLTCO ? " class='linkOff'" : ""] href=\"byond://?src=\ref[user];preference=change_menu;menu=[MENU_PLTCO]\"><b>Platoon Commander</b></a> - "
+	dat += "<a[current_menu == MENU_PLTCO ? " class='linkOff'" : ""] href=\"byond://?src=\ref[user];preference=change_menu;menu=[MENU_PLTCO]\"><b>Platoon Presets</b></a> - " // SS220 EDIT: renamed menu label to match preset-only behavior
 	dat += "<a[current_menu == MENU_XENOMORPH ? " class='linkOff'" : ""] href=\"byond://?src=\ref[user];preference=change_menu;menu=[MENU_XENOMORPH]\"><b>Xenomorph</b></a> - "
 	if(owner.check_whitelist_status(WHITELIST_COMMANDER))
 		dat += "<a[current_menu == MENU_CO ? " class='linkOff'" : ""] href=\"byond://?src=\ref[user];preference=change_menu;menu=[MENU_CO]\"><b>Commanding Officer</b></a> - "
@@ -417,7 +417,9 @@ GLOBAL_LIST_INIT(bgstate_options, list(
 			dat += "<br><br>"
 
 			dat += "<h2><b><u>Marine Gear:</u></b></h2>"
-			dat += "<b>Personal Weapon:</b> <a href ='byond://?_src_=prefs;preference=personalweapon;task=input'><b>[personal_weapon]</b></a><br>"
+			var/list/personal_weapon_profile = GLOB.RoleAuthority?.get_main_ship_personal_weapon_profile() // SS220 EDIT: ship profile owns personal weapon UI text and concrete spawn resolution
+			var/personal_weapon_label = personal_weapon_profile?["label"] || "Personal Weapon" // SS220 EDIT: HALO-specific label stays in modular ship profile metadata
+			dat += "<b>[personal_weapon_label]:</b> <a href ='byond://?_src_=prefs;preference=personalweapon;task=input'><b>[personal_weapon]</b></a><br>"
 			dat += "<b>Underwear:</b> <a href ='byond://?_src_=prefs;preference=underwear;task=input'><b>[underwear]</b></a><br>"
 			dat += "<b>Undershirt:</b> <a href='byond://?_src_=prefs;preference=undershirt;task=input'><b>[undershirt]</b></a><br>"
 
@@ -481,7 +483,7 @@ GLOBAL_LIST_INIT(bgstate_options, list(
 
 		if(MENU_PLTCO)
 			dat += "<div id='column1'>"
-			dat += "<h2><b><u>Platoon Settings:</u></b></h2>"
+			dat += "<h2><b><u>Platoon Presets:</u></b></h2>" // SS220 EDIT: renamed section header to match preset-only behavior
 			dat += "<b>Alpha Squad Name:</b> <a href='byond://?_src_=prefs;preference=squad_name_alpha_pref;task=input'><b>[squad_name_alpha_pref]</b></a><br>"
 			dat += "<b>Bravo Squad Name:</b> <a href='byond://?_src_=prefs;preference=squad_name_bravo_pref;task=input'><b>[squad_name_bravo_pref]</b></a><br>"
 			dat += "<b>Charlie Squad Name:</b> <a href='byond://?_src_=prefs;preference=squad_name_charlie_pref;task=input'><b>[squad_name_charlie_pref]</b></a><br>"
@@ -736,12 +738,13 @@ GLOBAL_LIST_INIT(bgstate_options, list(
 
 	//The job before the current job. I only use this to get the previous jobs color when I'm filling in blank rows.
 
-	var/list/active_role_names = GLOB.gamemode_roles[GLOB.master_mode]
+	var/datum/authority/branch/role/role_authority = GLOB.RoleAuthority
+	var/list/active_role_names = role_authority?.get_gamemode_role_titles() || GLOB.gamemode_roles[GLOB.master_mode] // SS220 EDIT: resolve active ship-mode roster through modular helpers
 	if(!active_role_names)
 		active_role_names = GLOB.ROLES_DISTRESS_SIGNAL
 
 	for(var/role_name as anything in active_role_names)
-		var/datum/job/job = GLOB.RoleAuthority.roles_by_name[role_name]
+		var/datum/job/job = role_authority?.roles_by_name[role_name]
 		if(!job)
 			debug_log("Missing job for prefs: [role_name]")
 			continue
@@ -857,12 +860,13 @@ GLOBAL_LIST_INIT(bgstate_options, list(
 
 	//The job before the current job. I only use this to get the previous jobs color when I'm filling in blank rows.
 
-	var/list/active_role_names = GLOB.gamemode_roles[GLOB.master_mode]
+	var/datum/authority/branch/role/role_authority = GLOB.RoleAuthority
+	var/list/active_role_names = role_authority?.get_gamemode_role_titles() || GLOB.gamemode_roles[GLOB.master_mode] // SS220 EDIT: resolve active ship-mode roster through modular helpers
 	if(!active_role_names)
 		active_role_names = GLOB.ROLES_DISTRESS_SIGNAL
 
 	for(var/role_name as anything in active_role_names)
-		var/datum/job/job = GLOB.RoleAuthority.roles_by_name[role_name]
+		var/datum/job/job = role_authority?.roles_by_name[role_name]
 		if(!job)
 			debug_log("Missing job for prefs: [role_name]")
 			continue
@@ -965,7 +969,7 @@ GLOBAL_LIST_INIT(bgstate_options, list(
 	job_preference_list = list()
 	for(var/role in GLOB.RoleAuthority.roles_by_path)
 		var/datum/job/J = GLOB.RoleAuthority.roles_by_path[role]
-		job_preference_list[J.title] = NEVER_PRIORITY
+		job_preference_list[GLOB.RoleAuthority.get_job_preference_bucket_key(J.title)] = NEVER_PRIORITY // SS220 EDIT: seed canonical preference buckets for ship-side role variants
 
 /datum/preferences/proc/get_job_priority(J)
 	if(!J)
@@ -974,7 +978,16 @@ GLOBAL_LIST_INIT(bgstate_options, list(
 	if(!length(job_preference_list))
 		ResetJobs()
 
-	return job_preference_list[J]
+	var/direct_key = J
+	if(istype(J, /datum/job))
+		var/datum/job/job_datum = J
+		direct_key = job_datum.title
+	var/bucket_key = GLOB.RoleAuthority?.get_job_preference_bucket_key(J)
+	if(bucket_key in job_preference_list)
+		return job_preference_list[bucket_key]
+	if(direct_key in job_preference_list)
+		return job_preference_list[direct_key]
+	return NEVER_PRIORITY
 
 /// Returns a list of all the proference's jobs set to the priority argument
 /datum/preferences/proc/get_jobs_by_priority(priority)
@@ -984,9 +997,15 @@ GLOBAL_LIST_INIT(bgstate_options, list(
 		ResetJobs()
 		return jobs_to_return
 
+	var/list/seen_buckets = list()
 	for(var/job in job_preference_list)
-		if(job_preference_list[job] == priority)
-			jobs_to_return += job
+		if(job_preference_list[job] != priority)
+			continue
+		var/bucket_key = GLOB.RoleAuthority?.get_job_preference_bucket_key(job) || job
+		if(!bucket_key || ((bucket_key in seen_buckets)))
+			continue
+		seen_buckets += bucket_key
+		jobs_to_return += bucket_key
 
 	return jobs_to_return
 
@@ -1020,7 +1039,7 @@ GLOBAL_LIST_INIT(bgstate_options, list(
 			if(job_preference_list[job] == HIGH_PRIORITY)
 				job_preference_list[job] = MED_PRIORITY
 
-	job_preference_list[J.title] = priority
+	job_preference_list[(GLOB.RoleAuthority?.get_job_preference_bucket_key(J.title) || J.title)] = priority // SS220 EDIT: store priorities by canonical ship-side role bucket
 	return TRUE
 
 /datum/preferences/proc/assign_job_slot(mob/user, target_job)
@@ -1034,14 +1053,20 @@ GLOBAL_LIST_INIT(bgstate_options, list(
 			slot_options["[slot_name] (slot #[slot])"] = slot
 	var/chosen_slot = tgui_input_list(user, "Assign character for [target_job] job", "Slot assignment", slot_options)
 	if(chosen_slot)
-		pref_job_slots[target_job] = slot_options[chosen_slot]
+		pref_job_slots[(GLOB.RoleAuthority?.get_job_preference_bucket_key(target_job) || target_job)] = slot_options[chosen_slot] // SS220 EDIT: store slot assignment by canonical ship-side role bucket
 	set_job_slots(user)
+
+/datum/preferences/proc/get_job_slot_assignment(job_title)
+	var/bucket_key = GLOB.RoleAuthority?.get_job_preference_bucket_key(job_title) || job_title
+	if(bucket_key in pref_job_slots)
+		return pref_job_slots[bucket_key]
+	if(job_title in pref_job_slots)
+		return pref_job_slots[job_title]
+	return JOB_SLOT_CURRENT_SLOT
 
 /datum/preferences/proc/get_job_slot_name(job_title)
 	. = JOB_SLOT_CURRENT_TEXT
-	if(!(job_title in pref_job_slots))
-		return
-	var/slot_number = pref_job_slots[job_title]
+	var/slot_number = get_job_slot_assignment(job_title)
 	switch(slot_number)
 		if(JOB_SLOT_RANDOMISED_SLOT)
 			return JOB_SLOT_RANDOMISED_TEXT
@@ -1055,7 +1080,7 @@ GLOBAL_LIST_INIT(bgstate_options, list(
 	var/datum/job/J
 	for(var/role in GLOB.RoleAuthority.roles_by_path)
 		J = GLOB.RoleAuthority.roles_by_path[role]
-		pref_job_slots[J.title] = JOB_SLOT_CURRENT_SLOT
+		pref_job_slots[GLOB.RoleAuthority.get_job_preference_bucket_key(J.title)] = JOB_SLOT_CURRENT_SLOT // SS220 EDIT: seed canonical slot buckets for ship-side role variants
 
 /datum/preferences/proc/process_link(mob/user, list/href_list)
 
@@ -1355,63 +1380,35 @@ GLOBAL_LIST_INIT(bgstate_options, list(
 
 				if("squad_name_alpha_pref")
 					var/raw_name = input(user, "Choose your Alpha squad name:", "Character Preference", squad_name_alpha_pref) as text|null
-					// SS220 EDIT - START
-					var/datum/squad_name_manager/manager_alpha = GLOB.squad_name_manager
-					var/normalized_name_alpha = manager_alpha ? manager_alpha.normalize_squad_name(raw_name) : null
-					if(!normalized_name_alpha && raw_name && !manager_alpha && length_char(raw_name) <= 32)
-						normalized_name_alpha = raw_name
-					// if(!raw_name || !length_char(raw_name) || length_char(raw_name) > 32)
+					var/normalized_name_alpha = squad_name_normalize(raw_name, 32) // SS220 EDIT: unified preset validation with Cyrillic support
 					if(!normalized_name_alpha)
-						to_chat(user, SPAN_WARNING("Invalid squad name. Length must be between 1 and 32 characters."))
+						to_chat(user, SPAN_WARNING("Invalid squad name. Use 1-32 chars: Latin/Cyrillic letters, numbers, spaces, apostrophe, hyphen or dot.")) // SS220 EDIT: explicit validation contract
 					else
-						// squad_name_alpha_pref = raw_name
 						squad_name_alpha_pref = normalized_name_alpha
-					// SS220 EDIT - END
 
 				if("squad_name_bravo_pref")
 					var/raw_name = input(user, "Choose your Bravo squad name:", "Character Preference", squad_name_bravo_pref) as text|null
-					// SS220 EDIT - START
-					var/datum/squad_name_manager/manager_bravo = GLOB.squad_name_manager
-					var/normalized_name_bravo = manager_bravo ? manager_bravo.normalize_squad_name(raw_name) : null
-					if(!normalized_name_bravo && raw_name && !manager_bravo && length_char(raw_name) <= 32)
-						normalized_name_bravo = raw_name
-					// if(!raw_name || !length_char(raw_name) || length_char(raw_name) > 32)
+					var/normalized_name_bravo = squad_name_normalize(raw_name, 32) // SS220 EDIT: unified preset validation with Cyrillic support
 					if(!normalized_name_bravo)
-						to_chat(user, SPAN_WARNING("Invalid squad name. Length must be between 1 and 32 characters."))
+						to_chat(user, SPAN_WARNING("Invalid squad name. Use 1-32 chars: Latin/Cyrillic letters, numbers, spaces, apostrophe, hyphen or dot.")) // SS220 EDIT: explicit validation contract
 					else
-						// squad_name_bravo_pref = raw_name
 						squad_name_bravo_pref = normalized_name_bravo
-					// SS220 EDIT - END
 
 				if("squad_name_charlie_pref")
 					var/raw_name = input(user, "Choose your Charlie squad name:", "Character Preference", squad_name_charlie_pref) as text|null
-					// SS220 EDIT - START
-					var/datum/squad_name_manager/manager_charlie = GLOB.squad_name_manager
-					var/normalized_name_charlie = manager_charlie ? manager_charlie.normalize_squad_name(raw_name) : null
-					if(!normalized_name_charlie && raw_name && !manager_charlie && length_char(raw_name) <= 32)
-						normalized_name_charlie = raw_name
-					// if(!raw_name || !length_char(raw_name) || length_char(raw_name) > 32)
+					var/normalized_name_charlie = squad_name_normalize(raw_name, 32) // SS220 EDIT: unified preset validation with Cyrillic support
 					if(!normalized_name_charlie)
-						to_chat(user, SPAN_WARNING("Invalid squad name. Length must be between 1 and 32 characters."))
+						to_chat(user, SPAN_WARNING("Invalid squad name. Use 1-32 chars: Latin/Cyrillic letters, numbers, spaces, apostrophe, hyphen or dot.")) // SS220 EDIT: explicit validation contract
 					else
-						// squad_name_charlie_pref = raw_name
 						squad_name_charlie_pref = normalized_name_charlie
-					// SS220 EDIT - END
 
 				if("squad_name_delta_pref")
 					var/raw_name = input(user, "Choose your Delta squad name:", "Character Preference", squad_name_delta_pref) as text|null
-					// SS220 EDIT - START
-					var/datum/squad_name_manager/manager_delta = GLOB.squad_name_manager
-					var/normalized_name_delta = manager_delta ? manager_delta.normalize_squad_name(raw_name) : null
-					if(!normalized_name_delta && raw_name && !manager_delta && length_char(raw_name) <= 32)
-						normalized_name_delta = raw_name
-					// if(!raw_name || !length_char(raw_name) || length_char(raw_name) > 32)
+					var/normalized_name_delta = squad_name_normalize(raw_name, 32) // SS220 EDIT: unified preset validation with Cyrillic support
 					if(!normalized_name_delta)
-						to_chat(user, SPAN_WARNING("Invalid squad name. Length must be between 1 and 32 characters."))
+						to_chat(user, SPAN_WARNING("Invalid squad name. Use 1-32 chars: Latin/Cyrillic letters, numbers, spaces, apostrophe, hyphen or dot.")) // SS220 EDIT: explicit validation contract
 					else
-						// squad_name_delta_pref = raw_name
 						squad_name_delta_pref = normalized_name_delta
-					// SS220 EDIT - END
 
 				if ("dropship_camo")
 					var/new_camo = tgui_input_list(user, "Choose your platoon's dropship camo:", "Character Preferences", GLOB.dropship_camos)
@@ -1420,11 +1417,12 @@ GLOBAL_LIST_INIT(bgstate_options, list(
 						dropship_camo = new_camo
 
 				if("dropship_name")
-					var/raw_name = input(user, "Choose your Platoon's Dropship name:", "Character Preference")  as text|null
-					if(length(raw_name) > 10 || !length(raw_name)) // Check to ensure that the user entered text (rather than cancel.)
-						to_chat(user, "<font color='red'>Invalid name. Your name should be at least 2 and at most [MAX_NAME_LEN] characters long. It may only contain the characters A-Z, a-z, -, ' and .</font>")
+					var/raw_name = input(user, "Choose your Platoon's Dropship name:", "Character Preference", dropship_name) as text|null
+					var/normalized_dropship_name = squad_name_normalize(raw_name, 10) // SS220 EDIT: unified preset validation with Cyrillic support
+					if(!normalized_dropship_name)
+						to_chat(user, SPAN_WARNING("Invalid dropship name. Use 1-10 chars: Latin/Cyrillic letters, numbers, spaces, apostrophe, hyphen or dot.")) // SS220 EDIT: explicit validation contract
 					else
-						dropship_name = raw_name
+						dropship_name = normalized_dropship_name
 
 				if("synth_name")
 					var/raw_name = input(user, "Choose your Synthetic's name:", "Character Preference")  as text|null
@@ -1777,7 +1775,11 @@ GLOBAL_LIST_INIT(bgstate_options, list(
 						f_style = new_f_style
 
 				if("personalweapon")
-					var/new_weapon = tgui_input_list(user, "Choose your character's personal weapon:", "Character Preference (USCM Only)", GLOB.personal_weapons_list+"None")
+					var/list/personal_weapon_profile = GLOB.RoleAuthority?.get_main_ship_personal_weapon_profile() // SS220 EDIT: active ship profile supplies the generic personal weapon categories shown in prefs
+					var/list/personal_weapon_options = personal_weapon_profile?["options"] || GLOB.personal_weapons_list
+					var/personal_weapon_prompt = personal_weapon_profile?["prompt"] || "Choose your character's personal weapon:"
+					var/personal_weapon_title = personal_weapon_profile?["title"] || "Character Preference (USCM Only)"
+					var/new_weapon = tgui_input_list(user, personal_weapon_prompt, personal_weapon_title, personal_weapon_options + "None")
 					if(new_weapon)
 						personal_weapon = new_weapon
 					ShowChoices(user)
@@ -2203,7 +2205,7 @@ GLOBAL_LIST_INIT(bgstate_options, list(
 /datum/preferences/proc/find_assigned_slot(job_title, is_late_join = FALSE)
 	if(toggle_prefs & (is_late_join ? TOGGLE_LATE_JOIN_CURRENT_SLOT : TOGGLE_START_JOIN_CURRENT_SLOT))
 		return
-	var/slot_for_job = pref_job_slots[job_title]
+	var/slot_for_job = get_job_slot_assignment(job_title) // SS220 EDIT: slot lookup resolves through canonical ship-side role bucket with legacy fallback
 	switch(slot_for_job)
 		if(JOB_SLOT_RANDOMISED_SLOT)
 			be_random_body = TRUE
