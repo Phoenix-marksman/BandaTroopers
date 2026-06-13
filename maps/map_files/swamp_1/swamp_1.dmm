@@ -3175,9 +3175,7 @@
 	pixel_y = 10
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer/greenfull{
-	color = "#999999"
-	},
+/turf/open/floor/almayer/greenfull,
 /area/swamp/murasverd/village)
 "aOu" = (
 /obj/structure/flora/grass/tallgrass/jungle{
