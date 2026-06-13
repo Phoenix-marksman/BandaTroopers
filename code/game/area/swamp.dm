@@ -283,6 +283,6 @@
 /area/swamp/villa/bunker/research
 	name = "Villa General - Bunker - Research Labs"
 	icon_state = "research"
-
-
-
+/area/swamp/villa/bunker/barracks
+	name = "Barracks"
+	icon_state = "Sleep"

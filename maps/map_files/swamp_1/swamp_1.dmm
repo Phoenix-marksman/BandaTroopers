@@ -6523,9 +6523,7 @@
 	dir = 4
 	},
 /turf/open/floor/prison/sterile_white,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "bBz" = (
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "grassybush_3"
@@ -6712,9 +6710,7 @@
 "bEl" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/sterile_white,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "bEn" = (
 /turf/open/gm/river{
 	base_river_slowdown = 10;
@@ -6898,9 +6894,7 @@
 	},
 /obj/item/stool,
 /turf/open/floor/prison,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "bGT" = (
 /obj/structure/reagent_dispensers/beerkeg,
 /obj/structure/reagent_dispensers/beerkeg{
@@ -8418,9 +8412,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/prison/floor_plate,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "bZq" = (
 /obj/structure/surface/table/reinforced/prison{
 	color = "#8B7B5B"
@@ -8813,9 +8805,7 @@
 /area/swamp/base/inside/flag)
 "cdS" = (
 /turf/open/floor/prison,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "cdU" = (
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal5"
@@ -15136,9 +15126,7 @@
 	layer = 3.3
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "dAH" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/hybrisa/wood/darkerwood,
@@ -15655,9 +15643,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "dHq" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	color = "#999900";
@@ -17666,9 +17652,7 @@
 	pixel_x = -5
 	},
 /turf/open/floor/prison/sterile_white,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "ehA" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/icefloor,
@@ -21264,9 +21248,7 @@
 	pixel_y = 2
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "eYE" = (
 /obj/item/tool/screwdriver{
 	pixel_x = 5;
@@ -22697,9 +22679,7 @@
 	height = 1
 	},
 /turf/open/floor/prison,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "frI" = (
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice12";
@@ -23570,9 +23550,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/prison/floor_plate,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "fCZ" = (
 /obj/structure/platform/kutjevo/rock{
 	dir = 8;
@@ -24928,9 +24906,7 @@
 	},
 /obj/structure/machinery/light/blue,
 /turf/open/floor/prison,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "fQG" = (
 /obj/structure/largecrate/random/case/small{
 	pixel_y = 14;
@@ -27096,9 +27072,7 @@
 	icon_state = "1-2-8"
 	},
 /turf/open/floor/prison/floor_plate,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "goY" = (
 /obj/structure/machinery/colony_floodlight,
 /turf/open/auto_turf/strata_grass/layer1,
@@ -27243,9 +27217,7 @@
 	},
 /obj/item/clothing/glasses/sunglasses/big,
 /turf/open/floor/prison/floor_plate,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "grp" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -27494,9 +27466,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/stool,
 /turf/open/floor/prison,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "gua" = (
 /obj/structure/desertdam/decals/road_edge{
 	pixel_x = -12
@@ -28164,9 +28134,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "gBH" = (
 /obj/structure/machinery/door/airlock/almayer/secure{
 	name = "Operation Room";
@@ -28839,9 +28807,7 @@
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/floor_plate,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "gKu" = (
 /obj/structure/flora/jungle/planttop1,
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -32286,9 +32252,7 @@
 /area/swamp/villa/garage)
 "hCe" = (
 /turf/closed/wall/rock/brown,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "hCf" = (
 /turf/open/gm/coast/beachcorner/north_east,
 /area/swamp/murasverd/swamp)
@@ -36494,9 +36458,7 @@
 	dir = 8
 	},
 /turf/open/floor/prison/floor_plate,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "iEq" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/asphalt/cement/cement12,
@@ -39814,9 +39776,7 @@
 "jsd" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/r_wall/unmeltable,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "jse" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/prison,
@@ -43133,9 +43093,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/sterile_white,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "kjy" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment{
@@ -43276,9 +43234,7 @@
 /area/swamp/base/inside/dorms)
 "kkQ" = (
 /turf/open/floor/prison/floor_plate,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "kla" = (
 /obj/structure/flora/bush/ausbushes/grassybush,
 /obj/effect/decal/grass_overlay/grass1/inner{
@@ -44046,9 +44002,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "kuU" = (
 /obj/item/stack/sheet/wood,
 /turf/open/gm/river{
@@ -44192,9 +44146,7 @@
 /area/swamp/base/road)
 "kwT" = (
 /turf/closed/wall/r_wall/unmeltable,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "kwW" = (
 /turf/open/floor/prison/darkred2,
 /area/swamp/colony/complex)
@@ -44328,9 +44280,7 @@
 /obj/item/clothing/under/marine/officer/boiler,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/sterile_white,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "kyJ" = (
 /turf/closed/wall/rock{
 	color = "#a39e99"
@@ -58996,9 +58946,7 @@
 	pixel_y = 5
 	},
 /turf/open/floor/prison/floor_plate,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "nKV" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/greenfull{
@@ -60363,9 +60311,7 @@
 "oaR" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "oaT" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/cable/heavyduty{
@@ -73506,9 +73452,7 @@
 	can_be_stacked = 1
 	},
 /turf/open/floor/prison/floor_plate,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "rbg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment{
@@ -81207,9 +81151,7 @@
 /area/swamp/murasverd/swamp)
 "sMH" = (
 /turf/open/floor/corsat/marked,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "sMK" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner,
 /turf/open/auto_turf/strata_grass/layer1,
@@ -83502,9 +83444,7 @@
 "trM" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/floor_plate,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "trP" = (
 /obj/structure/platform/kutjevo{
 	dir = 4
@@ -87044,9 +86984,7 @@
 	pixel_x = -1
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "ujg" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	color = "#999900"
@@ -89188,9 +89126,7 @@
 /area/swamp/murasverd/village)
 "uJt" = (
 /turf/closed/wall/r_wall,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "uJv" = (
 /obj/structure/largecrate/random,
 /turf/open/asphalt/cement,
@@ -93087,9 +93023,7 @@
 	},
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/prison/floor_plate,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "vJn" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -95080,9 +95014,7 @@
 "wgJ" = (
 /obj/structure/pipes/vents/scrubber,
 /turf/open/floor/prison/floor_plate,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "wgN" = (
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 4
@@ -97188,9 +97120,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "wKb" = (
 /obj/structure/barricade/handrail/strata{
 	dir = 4
@@ -98494,9 +98424,7 @@
 	dir = 8
 	},
 /turf/open/floor/prison,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "xae" = (
 /obj/structure/flora/grass/desert/lightgrass_11,
 /obj/structure/prop/wooden_cross,
@@ -98537,9 +98465,7 @@
 	dir = 4
 	},
 /turf/open/floor/prison,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "xaR" = (
 /turf/open/gm/river{
 	color = "#990000";
@@ -100277,9 +100203,7 @@
 	pixel_y = 6
 	},
 /turf/open/floor/prison/sterile_white,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "xvR" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8
@@ -101150,9 +101074,7 @@
 	},
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/closed/wall/r_wall/unmeltable,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "xGV" = (
 /obj/structure/flora/jungle/vines,
 /turf/open/auto_turf/strata_grass/layer1,
@@ -102298,9 +102220,7 @@
 	pixel_x = 1
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "xVo" = (
 /obj/structure/largecrate/random/case/double{
 	pixel_y = -7;
@@ -103553,9 +103473,7 @@
 	},
 /obj/item/storage/backpack/marine,
 /turf/open/floor/prison/floor_plate,
-/area/calliope/bunker/barracks{
-	name = "Villa General - Bunker - Barracks"
-	})
+/area/swamp/villa/bunker/barracks)
 "yma" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
