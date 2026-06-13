@@ -43888,11 +43888,6 @@
 	},
 /turf/open/gm/grass,
 /area/swamp/base/road)
-"kNQ" = (
-/turf/open/gm/dirtgrassborder/west{
-	dir = 8
-	},
-/area/swamp/murasverd/swamp)
 "kNR" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /obj/effect/decal/warning_stripes{
@@ -79072,9 +79067,7 @@
 	climb_delay = 1;
 	layer = 2.99
 	},
-/turf/open/gm/dirtgrassborder/west{
-	dir = 8
-	},
+/turf/open/gm/dirtgrassborder/east,
 /area/swamp/murasverd/swamp)
 "tcY" = (
 /obj/structure/roof/cargocrane_tracks/horizontal{
@@ -146696,8 +146689,8 @@ ipI
 efw
 mjg
 tcW
-kNQ
-kNQ
+wFp
+wFp
 npD
 wsl
 osG
