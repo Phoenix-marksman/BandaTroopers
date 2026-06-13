@@ -33182,11 +33182,6 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/swamp/murasverd/swamp)
-"ihA" = (
-/turf/open/gm/dirtgrassborder2/west{
-	color = "#999999"
-	},
-/area/swamp/murasverd/river)
 "ihE" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 8
@@ -48923,12 +48918,6 @@
 /obj/structure/surface/table/woodentable/fancy,
 /turf/open/floor/kutjevo/fake_wood,
 /area/swamp/murasverd/oldman)
-"lZE" = (
-/obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/gm/dirtgrassborder2/west{
-	color = "#999999"
-	},
-/area/swamp/murasverd/river)
 "lZK" = (
 /turf/closed/wall/strata_outpost/reinforced,
 /area/swamp/base/bunker/engineering)
@@ -173488,8 +173477,8 @@ fSt
 fSt
 fSt
 bXD
-ihA
-lZE
+bXD
+lCN
 bXD
 pCl
 gdU
