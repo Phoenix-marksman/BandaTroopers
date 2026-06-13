@@ -862,6 +862,29 @@
 	dir = NORTHEAST
 // SS220 EDIT - END
 
+// SS220 EDIT  START: GroundSide Smamp_1 for Swamp
+/turf/open/gm/river/swamp
+	name = "Puddle"
+	base_river_slowdown = 4
+/turf/open/gm/river/swamp/mid
+	base_river_slowdown = 10
+	//color = "#990000"
+/turf/open/gm/river/swamp/mid/grass
+	icon_state = "grass1"
+	icon_overlay = "grass1"
+/turf/open/gm/river/swamp/deep
+	base_river_slowdown = 100
+	//color = "#111111"
+/turf/open/gm/river/swamp/dirt
+	icon_state = "dirt"
+	icon_overlay = "dirt"
+	color = "#999999"
+/turf/open/gm/river/swamp/dirt/slow3
+	base_river_slowdown = 3
+/turf/open/gm/river/swamp/dirt/slow4
+	base_river_slowdown = 4
+// SS220 EDIT - END
+
 /turf/open/gm/coast/south_east
 	dir = 9
 
