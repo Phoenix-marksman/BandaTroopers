@@ -98431,9 +98431,7 @@
 /turf/open/floor/grass,
 /area/swamp/murasverd/village)
 "xaz" = (
-/obj/structure/closet/cabinet{
-	pixel_y = 20
-	},
+/obj/structure/closet/cabinet,
 /obj/item/clothing/head/uppcap/ushanka/civi,
 /obj/item/clothing/mask/gas/military/upp,
 /obj/item/clothing/suit/storage/jacket/marine/upp/naval,
@@ -98444,9 +98442,7 @@
 	dir = 8
 	},
 /obj/item/clothing/accessory/patch/upp/naval,
-/obj/item/storage/belt/gun/type47/revolver{
-	desc_lore = d
-	},
+/obj/item/storage/belt/gun/type47/revolver,
 /obj/item/ammo_magazine/revolver/upp,
 /obj/item/ammo_magazine/revolver/upp,
 /obj/item/ammo_magazine/revolver/upp,
