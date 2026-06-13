@@ -12,6 +12,9 @@ Format:
 	disabled (disables the map)
 endmap
 
+map swamp_1
+endmap
+
 map lv624
 	default
 endmap
@@ -166,8 +169,5 @@ map oni_digsite_451
 endmap
 
 map traxus_gamma_zone
-endmap
-
-map swamp_1
 endmap
 # SS220 EDIT - END
