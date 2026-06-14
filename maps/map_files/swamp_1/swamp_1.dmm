@@ -23601,7 +23601,9 @@
 /turf/open/floor/prison/floor_plate,
 /area/swamp/base/bunker/telecommunication)
 "fKS" = (
-/obj/structure/mineral_door/wood/open,
+/obj/structure/mineral_door/wood{
+	open = 1
+	},
 /turf/open/gm/river/swamp,
 /area/swamp/murasverd/house)
 "fKT" = (
@@ -67265,6 +67267,12 @@
 	},
 /turf/open/asphalt/cement,
 /area/swamp/base/road)
+"qhr" = (
+/obj/structure/mineral_door/wood{
+	open = 1
+	},
+/turf/open/floor/strata/faux_wood,
+/area/swamp/murasverd/house)
 "qhz" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo_arrow"
@@ -75472,7 +75480,9 @@
 /obj/structure/flora/grass/tallgrass/jungle{
 	color = "#999900"
 	},
-/obj/structure/mineral_door/wood/open,
+/obj/structure/mineral_door/wood{
+	open = 1
+	},
 /turf/open/gm/river/swamp,
 /area/swamp/murasverd/house)
 "sbf" = (
@@ -90214,7 +90224,9 @@
 /turf/open/asphalt/cement/cement4,
 /area/swamp/base/road)
 "vJz" = (
-/obj/structure/mineral_door/wood/open,
+/obj/structure/mineral_door/wood{
+	open = 1
+	},
 /turf/open/floor/white,
 /area/swamp/murasverd/house)
 "vJD" = (
@@ -218270,7 +218282,7 @@ fcR
 nxO
 fXO
 iyy
-nbH
+qhr
 akG
 dQo
 akG
