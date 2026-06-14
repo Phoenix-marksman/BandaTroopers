@@ -24550,9 +24550,6 @@
 /obj/structure/stairs/perspective/kutjevo,
 /turf/closed/wall/wood,
 /area/swamp/villa/house)
-"fXf" = (
-/turf/closed/wall/wood,
-/area/swamp/colony/complex)
 "fXk" = (
 /obj/item/storage/box/guncase/m41aMK1{
 	pixel_y = -10
@@ -42733,7 +42730,7 @@
 	vector_y = -184
 	},
 /turf/closed/wall/wood,
-/area/swamp/murasverd/village)
+/area/swamp/murasverd/house)
 "kwq" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -64574,12 +64571,8 @@
 /turf/open/floor/interior/wood/alt,
 /area/swamp/beach)
 "pxS" = (
-/obj/effect/projector{
-	vector_x = 59;
-	vector_y = -184
-	},
-/turf/open/gm/river/swamp/mid/grass,
-/area/swamp/murasverd/house)
+/turf/open/floor/grass,
+/area/swamp/caverns)
 "pxU" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
@@ -76544,7 +76537,7 @@
 	},
 /obj/structure/mineral_door/wood,
 /turf/open/floor/wood,
-/area/swamp/murasverd/village)
+/area/swamp/murasverd/house)
 "snm" = (
 /obj/structure/platform/kutjevo{
 	dir = 1
@@ -186397,7 +186390,7 @@ hMt
 fYI
 aDC
 sci
-pxS
+sci
 rSa
 tBd
 tBd
@@ -203009,8 +203002,8 @@ tCt
 kFW
 kFW
 nxO
-fXf
-fXf
+nxO
+nxO
 rUa
 iCG
 iCG
@@ -205578,15 +205571,15 @@ rUa
 rUa
 rUa
 rUa
-rUa
-rUa
+pxS
+pxS
 rSa
 fZu
 fZu
 fZu
 rSa
-rUa
-rUa
+pxS
+pxS
 rUa
 iCG
 iCG
@@ -205900,15 +205893,15 @@ rUa
 rUa
 rUa
 rUa
-rUa
-rUa
+pxS
+pxS
 nxO
 nxO
 nxO
 nxO
 nxO
-rUa
-rUa
+pxS
+pxS
 rUa
 iCG
 iCG
