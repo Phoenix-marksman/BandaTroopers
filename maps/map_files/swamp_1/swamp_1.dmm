@@ -5590,8 +5590,7 @@
 /turf/open/floor/carpet5_1,
 /area/swamp/villa/house)
 "bry" = (
-/obj/structure/mineral_door/wood/open,
-/turf/open/gm/river/swamp/mid,
+/turf/open/floor/whitegreen/northwest,
 /area/swamp/murasverd/house)
 "brA" = (
 /obj/structure/machinery/power/apc/almayer/west,
@@ -23603,7 +23602,7 @@
 /area/swamp/base/bunker/telecommunication)
 "fKS" = (
 /obj/structure/mineral_door/wood/open,
-/turf/open/gm/river/swamp/deep,
+/turf/open/gm/river/swamp,
 /area/swamp/murasverd/house)
 "fKT" = (
 /obj/structure/flora/grass/tallgrass/jungle,
@@ -31679,10 +31678,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/floor_plate,
 /area/swamp/base/bunker/engineering)
-"hIH" = (
-/obj/structure/mineral_door/wood/open,
-/turf/open/floor/strata/faux_wood,
-/area/swamp/murasverd/house)
 "hIN" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 8
@@ -97914,10 +97909,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/asphalt/cement,
 /area/swamp/colony/colony_exterior)
-"xGu" = (
-/obj/structure/mineral_door/wood/open,
-/turf/open/floor/whitegreen/northwest,
-/area/swamp/murasverd/house)
 "xGF" = (
 /turf/closed/wall/r_wall,
 /area/swamp/murasverd/oldman_basement)
@@ -200643,8 +200634,8 @@ nxO
 wQG
 lYK
 bum
-xGu
-lYK
+vJz
+bry
 ayc
 vJz
 aex
@@ -218279,7 +218270,7 @@ fcR
 nxO
 fXO
 iyy
-hIH
+nbH
 akG
 dQo
 akG
@@ -218923,7 +218914,7 @@ fcR
 rSa
 akG
 akG
-bry
+fKS
 jte
 akG
 akG
