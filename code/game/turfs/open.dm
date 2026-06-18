@@ -883,6 +883,9 @@
 	base_river_slowdown = 3
 /turf/open/gm/river/swamp/dirt/slow4
 	base_river_slowdown = 4
+// SS220 EDIT - START: Jungle Delta maplint compat
+/turf/open/gm/coast/southwest
+	dir = SOUTHWEST
 // SS220 EDIT - END
 
 /turf/open/gm/coast/south_east
