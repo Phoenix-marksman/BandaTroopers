@@ -324,13 +324,6 @@
 	icon_state = "grass_1"
 	bleed_layer = 1
 
-//new grass for Swamp
-/turf/open/auto_turf/swamp/layer1
-	name = "grass"
-	icon = 'icons/turf/floors/floors.dmi'
-	icon_state = "grass1"
-	bleed_layer = 1
-
 //Chance's Claim / Hadley Shale dirt
 
 /turf/open/auto_turf/shale

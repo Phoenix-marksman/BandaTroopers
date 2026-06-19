@@ -865,7 +865,7 @@
 // SS220 EDIT  START: GroundSide Smamp_1 for Swamp
 /turf/open/gm/river/swamp
 	name = "Puddle"
-	base_river_slowdown = 4
+	base_river_slowdown = 1.75
 /turf/open/gm/river/swamp/mid
 	base_river_slowdown = 10
 	color = "#990000"
@@ -874,16 +874,17 @@
 	icon_overlay = "grass1"
 	color = null
 /turf/open/gm/river/swamp/deep
-	base_river_slowdown = 50
+	base_river_slowdown = 20
 	color = "#111111"
 /turf/open/gm/river/swamp/dirt
+	name = "dirt"
 	icon_state = "dirt"
 	icon_overlay = "dirt"
 	color = "#999999"
+/turf/open/gm/river/swamp/dirt/slow2
+	base_river_slowdown = 2
 /turf/open/gm/river/swamp/dirt/slow3
 	base_river_slowdown = 3
-/turf/open/gm/river/swamp/dirt/slow4
-	base_river_slowdown = 4
 // SS220 EDIT - START: Jungle Delta maplint compat
 /turf/open/gm/coast/southwest
 	dir = SOUTHWEST
