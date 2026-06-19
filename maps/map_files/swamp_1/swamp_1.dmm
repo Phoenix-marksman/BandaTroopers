@@ -6,6 +6,14 @@
 /obj/structure/bed/chair/wood/normal,
 /turf/open/floor/hybrisa/carpet/carpetgreendeco,
 /area/swamp/murasverd/house)
+"aaI" = (
+/obj/structure/flora/grass/tallgrass/jungle,
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	color = "#999900";
+	dir = 10
+	},
+/turf/open/gm/river/swamp,
+/area/swamp/murasverd/swamp)
 "aaJ" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -292,11 +300,11 @@
 "aeG" = (
 /obj/structure/flora/trees220/tree_3,
 /obj/structure/flora/grass/desert/lightgrass_8,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "aeJ" = (
 /obj/structure/flora/bush/ausbushes/var3,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "aeN" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -379,7 +387,7 @@
 /area/swamp/murasverd/trench)
 "afF" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "afG" = (
 /obj/structure/flora/grass/tallgrass/jungle,
@@ -635,7 +643,7 @@
 	layer = 3.1;
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "ahN" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -779,7 +787,7 @@
 	color = "#999999";
 	layer = 3.02
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "akd" = (
 /turf/open/floor/carpet/bcarpet09,
@@ -901,7 +909,7 @@
 	color = "#999900";
 	dir = 10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/river)
 "alt" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
@@ -982,13 +990,13 @@
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "alW" = (
 /obj/structure/platform_decoration/kutjevo{
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "alY" = (
 /obj/structure/platform/kutjevo/rock{
@@ -1123,7 +1131,7 @@
 	light_power = 0.3;
 	light_range = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "anY" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -1226,7 +1234,7 @@
 	color = "#999900";
 	dir = 6
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "apP" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1358,12 +1366,12 @@
 	pixel_y = 17
 	},
 /obj/item/clothing/accessory/storage/knifeharness/duelling,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "arO" = (
 /obj/structure/machinery/portable_atmospherics/hydroponics/soil,
 /obj/structure/flora/bush/ausbushes/pointybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "arQ" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -1502,7 +1510,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "grassybush_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "atK" = (
 /obj/structure/platform_decoration/kutjevo,
@@ -1548,7 +1556,7 @@
 	climb_delay = 1;
 	layer = 2.99
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "aus" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -1795,7 +1803,7 @@
 /turf/open/floor/hybrisa/carpet/carpetfadedred,
 /area/swamp/murasverd/house)
 "awy" = (
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/river)
 "awA" = (
 /obj/structure/prop/dam/truck/damaged,
@@ -1819,7 +1827,7 @@
 	color = "#999900";
 	dir = 1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "awQ" = (
 /obj/structure/machinery/door/airlock/almayer/generic,
@@ -1989,7 +1997,7 @@
 /area/swamp/base/outskirts)
 "ayE" = (
 /obj/structure/flora/bush/ausbushes/genericbush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "ayK" = (
 /obj/structure/bed/chair/comfy/beige,
@@ -2386,7 +2394,7 @@
 "aEd" = (
 /obj/structure/barricade/handrail/kutjevo,
 /obj/structure/flora/grass/desert/lightgrass_6,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "aEk" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -2490,8 +2498,8 @@
 /turf/open/floor/airless/asteroidfloor,
 /area/swamp/base/inside/dorms)
 "aFp" = (
-/obj/effect/vehicle_spawner/van/armored,
-/turf/open/auto_turf/strata_grass/layer0_mud,
+/obj/structure/prop/hybrisa/vehicles/Armored_Truck/White,
+/turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/swamp/murasverd/trench)
 "aFE" = (
 /obj/structure/pipes/vents/pump,
@@ -2590,7 +2598,7 @@
 	dir = 8
 	},
 /obj/structure/flora/bush/ausbushes/grassybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "aGJ" = (
 /obj/item/bedsheet/hos,
@@ -2644,21 +2652,21 @@
 /area/swamp/base/outskirts)
 "aGZ" = (
 /obj/structure/flora/trees220/tree_6,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "aHf" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	pixel_y = 16
 	},
 /obj/structure/flora/bush/ausbushes/grassybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "aHr" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	color = "#999900";
 	dir = 10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/farmland)
 "aHw" = (
 /obj/structure/blocker/invisible_wall,
@@ -3156,7 +3164,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "aNR" = (
 /obj/structure/pipes/vents/pump,
@@ -3402,7 +3410,7 @@
 	dir = 1;
 	pixel_y = 20
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "aQb" = (
 /obj/structure/platform{
@@ -3478,7 +3486,7 @@
 /obj/structure/flora/grass/desert/lightgrass_12,
 /obj/structure/flora/grass/desert/heavygrass_9,
 /obj/structure/flora/bigtree220/tree_8,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "aRa" = (
 /obj/structure/platform/kutjevo/rock{
@@ -4130,7 +4138,7 @@
 	color = "#999900";
 	dir = 6
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/farmland)
 "aYl" = (
 /obj/structure/closet/crate/construction,
@@ -4184,7 +4192,7 @@
 	color = "#999900";
 	dir = 1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/outskirts)
 "aZk" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -4194,7 +4202,7 @@
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/road)
 "aZs" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4509,7 +4517,7 @@
 	},
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
 /obj/structure/flora/trees220/tree_1,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "bdj" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -4709,7 +4717,7 @@
 "bgP" = (
 /obj/structure/flora/grass/desert/heavy,
 /obj/structure/flora/bigtree220/tree_7,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "bgS" = (
 /obj/effect/decal/siding{
@@ -4736,7 +4744,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "bhs" = (
 /obj/structure/closet/coffin/woodencrate,
@@ -4866,7 +4874,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "bjb" = (
 /turf/open/floor/prison/darkyellow2/northwest,
@@ -4999,7 +5007,7 @@
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "bkl" = (
 /obj/structure/flora/jungle/vines/light_1,
@@ -5829,7 +5837,7 @@
 "bvY" = (
 /obj/structure/flora/trees220/tree_2,
 /obj/structure/flora/bush/ausbushes/palebush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "bwg" = (
 /turf/closed/wall/wood,
@@ -6116,14 +6124,14 @@
 "byF" = (
 /obj/structure/machinery/portable_atmospherics/hydroponics/soil,
 /obj/structure/flora/bush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "byI" = (
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 8
 	},
 /obj/structure/flora/bush/ausbushes/ppflowers,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "byQ" = (
 /obj/structure/flora/jungle/vines/heavy,
@@ -6142,7 +6150,7 @@
 "byW" = (
 /obj/structure/flora/trees220/tree_13,
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "bzd" = (
 /obj/structure/bed/bedroll{
@@ -6220,7 +6228,7 @@
 "bAg" = (
 /obj/structure/barricade/handrail/kutjevo,
 /obj/structure/flora/bush/ausbushes,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "bAi" = (
 /obj/structure/surface/table/holotable/wood,
@@ -6241,7 +6249,7 @@
 /area/swamp/villa)
 "bAA" = (
 /obj/structure/flora/grass/desert/heavy,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "bAN" = (
 /obj/effect/decal/warning_stripes{
@@ -6303,7 +6311,7 @@
 "bBE" = (
 /obj/structure/flora/trees220/tree_9,
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "bBY" = (
 /obj/effect/decal/cleanable/dirt,
@@ -6346,7 +6354,7 @@
 	dir = 1;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/river)
 "bCM" = (
 /obj/structure/platform/kutjevo/rock{
@@ -6358,7 +6366,7 @@
 	color = "#999900";
 	dir = 10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "bCN" = (
 /obj/effect/decal/grass_overlay/grass1/inner{
@@ -6420,7 +6428,7 @@
 /area/swamp/colony/colony_exterior)
 "bDx" = (
 /obj/structure/platform/kutjevo/smooth,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "bDS" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -6582,7 +6590,7 @@
 /turf/open/floor/prison/floor_plate,
 /area/swamp/base/bunker/synthetic)
 "bGc" = (
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/house)
 "bGd" = (
 /obj/structure/bed/chair/comfy/bench/south,
@@ -6655,7 +6663,7 @@
 	pixel_y = 9;
 	layer = 3
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "bHi" = (
 /obj/effect/decal/cleanable/dirt,
@@ -6777,7 +6785,7 @@
 /area/swamp/beach)
 "bIj" = (
 /obj/structure/platform_decoration/kutjevo,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "bIq" = (
 /obj/structure/flora/bigtree220/tree_6,
@@ -6834,7 +6842,7 @@
 /obj/structure/largecrate/random/case{
 	pixel_y = -5
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "bIK" = (
 /obj/structure/noticeboard{
@@ -6905,7 +6913,7 @@
 /area/swamp/base/keppitz/command)
 "bJJ" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "bJK" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -6955,7 +6963,7 @@
 /area/swamp/murasverd/house)
 "bLf" = (
 /obj/structure/flora/trees220/tree_13,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "bLi" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer{
@@ -7021,7 +7029,7 @@
 /area/swamp/murasverd/house)
 "bLx" = (
 /obj/structure/barricade/handrail/kutjevo,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "bLy" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -7089,7 +7097,7 @@
 	layer = 2.0;
 	pixel_y = -13
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "bMi" = (
 /obj/structure/cargo_container/horizontal/blue/top,
@@ -7100,7 +7108,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "bMs" = (
 /obj/structure/surface/table/almayer,
@@ -7167,7 +7175,7 @@
 /obj/structure/largecrate/supply/medicine/iv,
 /obj/item/clothing/accessory/storage/surg_vest/blue,
 /obj/item/clothing/accessory/storage/surg_vest/drop_green,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "bNi" = (
 /obj/effect/decal/grass_overlay/grass1/inner,
@@ -7575,7 +7583,7 @@
 /obj/structure/platform_decoration/kutjevo/rock{
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "bRB" = (
 /obj/structure/sink{
@@ -7676,7 +7684,7 @@
 /area/swamp/colony/colony_exterior)
 "bSU" = (
 /obj/structure/flora/grass/desert/lightgrass_10,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "bSX" = (
 /obj/effect/decal/cleanable/dirt,
@@ -7737,7 +7745,7 @@
 	color = "#999900";
 	dir = 10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "bTS" = (
 /obj/structure/bed/bedroll,
@@ -8016,7 +8024,7 @@
 	dir = 1;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "bYU" = (
 /obj/structure/surface/rack,
@@ -8093,7 +8101,7 @@
 /obj/structure/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/inside/flag)
 "bZS" = (
 /obj/structure/machinery/light/small,
@@ -8377,7 +8385,7 @@
 /obj/structure/flora/grass/desert/lightgrass_10{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "cdm" = (
 /obj/structure/platform{
@@ -8523,7 +8531,7 @@
 /area/swamp/base/road)
 "ceX" = (
 /obj/structure/flora/bush/ausbushes/pointybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "cfa" = (
 /turf/open/floor/carpet/edge/north,
@@ -8549,7 +8557,7 @@
 	pixel_y = 11;
 	icon_state = "reedbush_3"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "cfj" = (
 /obj/structure/barricade/handrail/kutjevo,
@@ -8634,7 +8642,7 @@
 	pixel_x = -5;
 	pixel_y = -4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "cfO" = (
 /obj/effect/decal/cleanable/dirt{
@@ -8773,7 +8781,7 @@
 "chl" = (
 /obj/structure/machinery/portable_atmospherics/hydroponics/soil,
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "cho" = (
 /turf/open/gm/dirtgrassborder/grassdirt_corner2/north_east,
@@ -8979,7 +8987,7 @@
 "ciG" = (
 /obj/structure/barricade/handrail/kutjevo,
 /obj/structure/flora/grass/desert/lightgrass_7,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "ciM" = (
 /obj/structure/machinery/computer3/server/rack,
@@ -9003,7 +9011,7 @@
 /area/swamp/villa)
 "ciX" = (
 /obj/structure/flora/grass/desert/heavygrass_2,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "cjc" = (
 /obj/effect/step_trigger/clone_cleaner,
@@ -9011,7 +9019,7 @@
 /area/swamp/beach)
 "cjf" = (
 /obj/structure/flora/bush/ausbushes/var3,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "cjg" = (
 /obj/structure/bed/roller,
@@ -9109,7 +9117,7 @@
 	color = "#999999";
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "ckj" = (
 /obj/effect/decal/grass_overlay/grass1/inner{
@@ -9239,7 +9247,7 @@
 	pixel_y = 13;
 	icon_state = "sunnybush_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "cly" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -9353,7 +9361,7 @@
 /obj/structure/flora/bush/ausbushes/var3/sunnybush{
 	layer = 3.499
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "cnG" = (
 /obj/structure/platform/kutjevo/rock{
@@ -9380,7 +9388,7 @@
 	vector_y = -207
 	},
 /obj/effect/step_trigger/clone_cleaner,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/canal)
 "cnU" = (
 /turf/open/floor/prison/darkyellow2/west,
@@ -9510,7 +9518,7 @@
 /area/swamp/base/bunker/synthetic)
 "cpS" = (
 /obj/structure/flora/grass/desert/lightgrass_9,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "cpX" = (
 /turf/closed/shuttle/elevator,
@@ -9575,7 +9583,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "crk" = (
 /obj/structure/pipes/standard/manifold/hidden/cyan{
@@ -9821,7 +9829,7 @@
 /obj/structure/flora/trees220/tree_13{
 	pixel_y = -15
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "ctd" = (
 /obj/structure/machinery/landinglight/ds1/delaythree{
@@ -10071,7 +10079,7 @@
 /area/swamp/beach)
 "cvB" = (
 /obj/structure/flora/bigtree220/tree_2,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "cvK" = (
 /obj/structure/desertdam/decals/road_edge{
@@ -10180,7 +10188,7 @@
 	pixel_y = 10;
 	icon_state = "fernybush_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "cwS" = (
 /obj/structure/flora/bush/ausbushes/var3/leafybush,
@@ -10189,7 +10197,7 @@
 "cwZ" = (
 /obj/structure/flora/grass/desert/lightgrass_1,
 /obj/structure/flag/plantable/ua,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "cxo" = (
 /obj/structure/machinery/door/airlock/almayer/maint/colony/autoname{
@@ -10223,7 +10231,7 @@
 	dir = 8
 	},
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "cxO" = (
 /obj/structure/surface/table/almayer,
@@ -10297,7 +10305,7 @@
 /area/swamp/murasverd/trench)
 "cyF" = (
 /obj/structure/flora/bush/ausbushes/var3/fernybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/road)
 "cyH" = (
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -10311,7 +10319,7 @@
 	color = "#bdce86";
 	desc = "A large swathe of drygrass"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "cyX" = (
 /obj/structure/surface/table/reinforced/cloth,
@@ -10535,7 +10543,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "fernybush_1"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "cCc" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -10768,7 +10776,7 @@
 	pixel_y = 16
 	},
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "cFi" = (
 /obj/structure/machinery/door/airlock/engineering/colony,
@@ -11033,7 +11041,7 @@
 	dir = 1;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "cIh" = (
 /obj/structure/largecrate/random{
@@ -11212,7 +11220,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 6
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "cKR" = (
 /obj/structure/largecrate/random/barrel/true_random{
@@ -11296,7 +11304,7 @@
 /obj/effect/decal/siding{
 	icon_state = "siding6"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/colony/complex)
 "cMd" = (
 /obj/effect/decal/warning_stripes{
@@ -11363,7 +11371,7 @@
 	dir = 4
 	},
 /obj/structure/flora/bush/ausbushes/palebush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "cMW" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -11601,7 +11609,7 @@
 /obj/structure/flora/bush/ausbushes/pointybush{
 	pixel_y = 5
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "cPF" = (
 /obj/structure/surface/rack{
@@ -11964,7 +11972,7 @@
 /area/swamp/murasverd/river)
 "cTW" = (
 /obj/structure/flag/plantable/ua,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "cUa" = (
 /obj/structure/stairs/perspective{
@@ -11985,7 +11993,7 @@
 	color = "#bdce86";
 	desc = "A large swathe of drygrass"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "cUf" = (
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
@@ -12188,7 +12196,7 @@
 /area/swamp/murasverd/swamp)
 "cWn" = (
 /obj/structure/flora/grass/desert/heavygrass_7,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "cWt" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass{
@@ -13020,7 +13028,7 @@
 /area/swamp/base/road)
 "dhn" = (
 /obj/structure/flora/bush/ausbushes/var3/leafybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "dhr" = (
 /obj/structure/pipes/standard/manifold/hidden/green,
@@ -13080,7 +13088,7 @@
 /obj/item/clothing/accessory/storage/black_vest,
 /obj/item/clothing/accessory/storage/black_vest,
 /obj/item/clothing/accessory/storage/black_vest,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "dhU" = (
 /obj/effect/decal/warning_stripes{
@@ -13306,7 +13314,7 @@
 /area/swamp/base/keppitz/entry_pub)
 "dkl" = (
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/farmland)
 "dkr" = (
 /obj/structure/surface/table/holotable/wood,
@@ -13397,7 +13405,7 @@
 	color = "#999999"
 	},
 /obj/structure/flora/bush/ausbushes/ausbush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "dlB" = (
 /obj/structure/machinery/light{
@@ -13406,7 +13414,7 @@
 /turf/open/floor/kutjevo/fake_wood,
 /area/swamp/beach_house)
 "dlG" = (
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "dlV" = (
 /obj/structure/sign/safety/hazard{
@@ -13423,7 +13431,7 @@
 "dml" = (
 /obj/structure/barricade/handrail/kutjevo,
 /obj/effect/step_trigger/clone_cleaner,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "dmv" = (
 /obj/structure/sign/prop1,
@@ -13554,7 +13562,7 @@
 /area/swamp/colony/colony_exterior)
 "dnF" = (
 /obj/structure/flora/grass/desert/heavygrass_1,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "dnJ" = (
 /obj/structure/bed/chair/office/light,
@@ -13915,7 +13923,7 @@
 "dsS" = (
 /obj/structure/flora/grass/desert/heavygrass_4,
 /obj/structure/flora/grass/desert/heavygrass_4,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "dsU" = (
 /obj/effect/decal/cleanable/dirt,
@@ -13987,7 +13995,7 @@
 /area/swamp/murasverd/house)
 "dtz" = (
 /obj/structure/flora/bush/ausbushes/palebush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/road)
 "dtL" = (
 /turf/closed/wall/rock{
@@ -14055,7 +14063,7 @@
 /area/swamp/colony/logistics_hub)
 "duW" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "dve" = (
 /obj/structure/flora/grass/tallgrass/jungle{
@@ -14109,7 +14117,7 @@
 	color = "#999900";
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/farmland)
 "dvK" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -14227,7 +14235,7 @@
 	layer = 3.04
 	},
 /obj/structure/platform/kutjevo/smooth,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "dwL" = (
 /obj/effect/decal/warning_stripes{
@@ -14270,7 +14278,7 @@
 	layer = 3.05
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "dxW" = (
 /obj/structure/pipes/standard/simple/hidden/cyan,
@@ -14292,7 +14300,7 @@
 /area/swamp/caverns)
 "dxZ" = (
 /obj/structure/flora/bush/ausbushes/ppflowers,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "dyh" = (
 /obj/structure/flora/bush/ausbushes/var3/fernybush{
@@ -14398,7 +14406,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "dzj" = (
 /obj/structure/cable/heavyduty{
@@ -14477,7 +14485,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "fullgrass_1"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "dzP" = (
 /obj/structure/platform_decoration/kutjevo/rock{
@@ -14754,7 +14762,7 @@
 /area/swamp/murasverd/river)
 "dDJ" = (
 /obj/structure/prop/rock,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "dDV" = (
 /obj/structure/blocker/fog,
@@ -14838,7 +14846,7 @@
 /obj/structure/flora/bush/ausbushes/ppflowers{
 	icon_state = "fullgrass_1"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "dEM" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -14849,7 +14857,7 @@
 /area/swamp/base/outskirts)
 "dEQ" = (
 /obj/structure/flora/grass/tallgrass/jungle,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/road)
 "dEZ" = (
 /obj/structure/platform{
@@ -14976,7 +14984,7 @@
 /area/swamp/villa)
 "dGe" = (
 /obj/structure/flag/plantable/ua,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/inside/flag)
 "dGf" = (
 /obj/structure/stairs/perspective{
@@ -15015,7 +15023,7 @@
 	dir = 5;
 	layer = 3.15
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "dGV" = (
 /obj/structure/filingcabinet/medical{
@@ -15048,7 +15056,7 @@
 /obj/structure/platform_decoration/kutjevo{
 	dir = 1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "dHn" = (
 /obj/effect/decal/warning_stripes{
@@ -15143,7 +15151,7 @@
 	color = "#999900";
 	dir = 10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "dHQ" = (
 /obj/structure/flora/grass/tallgrass/jungle{
@@ -15256,7 +15264,7 @@
 	color = "#999999";
 	layer = 3.02
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "dJT" = (
 /obj/structure/barricade/handrail/kutjevo{
@@ -15265,7 +15273,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "dJV" = (
 /obj/structure/flora/bush/desert,
@@ -15464,7 +15472,7 @@
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "dMi" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -15482,7 +15490,7 @@
 	dir = 8
 	},
 /obj/structure/flora/trees220/tree_9,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "dMw" = (
 /obj/item/stack/sheet/metal/medium_stack,
@@ -15787,7 +15795,7 @@
 /area/swamp/murasverd/swamp)
 "dQj" = (
 /obj/structure/flora/grass/desert,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "dQo" = (
 /obj/item/stack/sheet/wood{
@@ -16031,7 +16039,7 @@
 /area/swamp/base/bunker/cargo)
 "dTO" = (
 /obj/structure/flora/grass/desert/lightgrass_7,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "dTT" = (
 /obj/structure/surface/table/holotable/wood,
@@ -16061,7 +16069,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "dUg" = (
 /obj/structure/platform/kutjevo/rock{
@@ -16118,7 +16126,7 @@
 /obj/structure/flora/bush/ausbushes/lavendergrass{
 	icon_state = "lavendergrass_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "dVi" = (
 /turf/open/gm/dirtgrassborder2/north,
@@ -16238,7 +16246,7 @@
 "dWW" = (
 /obj/structure/blocker/invisible_wall,
 /obj/effect/step_trigger/clone_cleaner,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/canal)
 "dWX" = (
 /obj/structure/stairs/perspective{
@@ -16347,7 +16355,7 @@
 /area/swamp/murasverd/river)
 "dXX" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/outskirts)
 "dXY" = (
 /obj/effect/decal/cleanable/dirt{
@@ -16453,7 +16461,7 @@
 	color = "#999900"
 	},
 /obj/structure/flora/grass/tallgrass/jungle/corner,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "eao" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -16489,7 +16497,7 @@
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "eay" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -16687,7 +16695,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "eda" = (
 /obj/structure/flora/jungle/plantbot1,
@@ -17049,7 +17057,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "fullgrass_1"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "eih" = (
 /obj/effect/decal/cleanable/dirt,
@@ -17067,7 +17075,7 @@
 	dir = 1;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "eiD" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -17235,7 +17243,7 @@
 	dir = 1;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "ejN" = (
 /obj/structure/prop/invuln{
@@ -17282,7 +17290,7 @@
 "ekr" = (
 /obj/structure/machinery/portable_atmospherics/hydroponics/soil,
 /obj/structure/flora/bush/ausbushes/ausbush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "ekt" = (
 /obj/structure/platform/kutjevo{
@@ -17456,7 +17464,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "enj" = (
 /obj/structure/disposalpipe/segment{
@@ -17479,7 +17487,7 @@
 	color = "#999999";
 	layer = 3.02
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "enE" = (
 /obj/effect/decal/cleanable/dirt,
@@ -17525,7 +17533,7 @@
 /area/swamp/murasverd/river)
 "eoD" = (
 /obj/structure/flora/bush/ausbushes/palebush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "eoG" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -17936,7 +17944,7 @@
 /obj/structure/flora/bush/ausbushes/lavendergrass{
 	icon_state = "lavendergrass_3"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "eua" = (
 /obj/structure/desertdam/decals/road_edge,
@@ -18240,7 +18248,7 @@
 	dir = 1;
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "eyl" = (
 /turf/open/floor/prison/blue/north,
@@ -18440,7 +18448,7 @@
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass{
 	layer = 3
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "eAe" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -18509,7 +18517,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "eAY" = (
 /obj/structure/bed/chair/comfy/bench/south,
@@ -18582,7 +18590,7 @@
 	dir = 4
 	},
 /obj/structure/flora/grass/desert/heavygrass_9,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "eCk" = (
 /obj/structure/flora/bush/desert{
@@ -19137,7 +19145,7 @@
 /obj/structure/platform/kutjevo{
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/outskirts)
 "eIG" = (
 /obj/structure/platform/kutjevo,
@@ -19277,7 +19285,7 @@
 	color = "#999999"
 	},
 /obj/structure/flora/bush/ausbushes/ausbush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "eKl" = (
 /obj/structure/platform/kutjevo/rock{
@@ -19378,7 +19386,7 @@
 	color = "#999900";
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "eLB" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -19601,12 +19609,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/asteroidwarning/north,
 /area/swamp/colony/colony_exterior)
-"eOc" = (
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/turf/open/gm/grass,
-/area/swamp/villa)
 "eOh" = (
 /obj/structure/platform/kutjevo{
 	dir = 4
@@ -20279,7 +20281,7 @@
 /obj/structure/filtration/machine_96x96/distribution,
 /obj/structure/blocker/invisible_wall,
 /obj/effect/step_trigger/clone_cleaner,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/canal)
 "eWG" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -20375,7 +20377,7 @@
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "eXo" = (
 /turf/open/asphalt,
@@ -20586,7 +20588,7 @@
 /area/swamp/villa/bunker/cafe)
 "eZp" = (
 /obj/structure/flag/plantable/brazil,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "eZt" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -20901,7 +20903,7 @@
 	color = "#bdce86";
 	desc = "A large swathe of drygrass"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "fdZ" = (
 /obj/structure/bookcase{
@@ -20940,7 +20942,7 @@
 	color = "#bdce86";
 	desc = "A large swathe of drygrass"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "feG" = (
 /obj/effect/decal/warning_stripes{
@@ -20972,7 +20974,7 @@
 	dir = 4
 	},
 /obj/structure/flora/grass/desert/lightgrass_3,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "ffg" = (
 /obj/structure/flora/grass/tallgrass/jungle{
@@ -20986,7 +20988,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "fullgrass_1"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "ffs" = (
 /obj/structure/machinery/light{
@@ -21257,7 +21259,7 @@
 /area/swamp/colony/engineering)
 "fiH" = (
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "fiJ" = (
 /obj/structure/desertdam/decals/road_edge{
@@ -21341,7 +21343,7 @@
 	color = "#999900"
 	},
 /obj/structure/flora/trees220/tree_12,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "fjM" = (
 /obj/structure/largecrate{
@@ -21437,7 +21439,7 @@
 	color = "#999999"
 	},
 /obj/structure/flora/bush/ausbushes/var3/ywflowers,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "flZ" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -21524,7 +21526,7 @@
 	dir = 8
 	},
 /obj/structure/flora/bush/ausbushes/grassybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "fmI" = (
 /obj/structure/flora/bush/ausbushes/var3/stalkybush,
@@ -21679,7 +21681,7 @@
 	color = "#999900";
 	dir = 10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "fpz" = (
 /obj/structure/machinery/camera{
@@ -21691,7 +21693,7 @@
 /area/swamp/villa/bunker/armory)
 "fpC" = (
 /obj/structure/flora/grass/desert/heavygrass_3,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "fpF" = (
 /obj/structure/platform_decoration/kutjevo/rock{
@@ -21714,7 +21716,7 @@
 /obj/structure/flora/bush/ausbushes/palebush{
 	icon_state = "palebush_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "fpN" = (
 /obj/structure/machinery/door/poddoor/almayer/open{
@@ -21942,7 +21944,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "fsW" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -21959,7 +21961,7 @@
 	layer = 2.9;
 	pixel_y = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "ftd" = (
 /obj/structure/pipes/standard/manifold/hidden/green{
@@ -21989,7 +21991,7 @@
 	color = "#999900";
 	dir = 9
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/outskirts)
 "ftH" = (
 /obj/structure/platform_decoration/kutjevo/rock{
@@ -22023,7 +22025,7 @@
 "ftP" = (
 /obj/structure/largecrate,
 /obj/item/clothing/accessory/storage/droppouch,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "ftQ" = (
 /obj/item/reagent_container/food/snacks/carrotfries{
@@ -22226,7 +22228,7 @@
 	color = "#999900";
 	dir = 6
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "fwF" = (
 /obj/structure/platform{
@@ -22401,7 +22403,7 @@
 	color = "#999900";
 	dir = 1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/farmland)
 "fyL" = (
 /obj/structure/surface/rack{
@@ -22501,7 +22503,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 6
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/outskirts)
 "fzL" = (
 /obj/structure/flora/grass/tallgrass/jungle,
@@ -22589,7 +22591,7 @@
 /area/swamp/beach)
 "fAS" = (
 /obj/structure/flora/bush/ausbushes/var3/stalkybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "fBh" = (
 /obj/structure/surface/table/reinforced/prison{
@@ -22611,7 +22613,7 @@
 	dir = 1
 	},
 /obj/structure/flora/bush/ausbushes/grassybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "fBv" = (
 /obj/structure/machinery/door/airlock/multi_tile/upp_grey/glass{
@@ -22960,7 +22962,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "fFE" = (
 /obj/effect/decal/cleanable/dirt,
@@ -23381,7 +23383,7 @@
 	pixel_x = 20
 	},
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "fIN" = (
 /obj/effect/decal/cleanable/dirt,
@@ -23426,7 +23428,7 @@
 /obj/structure/flora/bush/ausbushes/ppflowers{
 	icon_state = "ppflowers_3"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "fJc" = (
 /obj/structure/largecrate/supply/supplies/sandbags,
@@ -23475,7 +23477,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "fJE" = (
 /turf/closed/wall/r_wall/elevator{
@@ -23578,7 +23580,7 @@
 	dir = 6
 	},
 /obj/effect/decal/grass_overlay/grass1/inner,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "fKD" = (
 /obj/structure/flora/trees220/tree_13{
@@ -23591,7 +23593,7 @@
 	pixel_y = 6;
 	pixel_x = 6
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "fKP" = (
 /obj/structure/barricade/handrail{
@@ -23642,7 +23644,7 @@
 	dir = 4
 	},
 /obj/structure/flora/grass/desert/lightgrass_6,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "fLn" = (
 /obj/item/reagent_container/food/drinks/coffee{
@@ -23757,7 +23759,7 @@
 /turf/open/gm/river/ocean/deep_ocean,
 /area/swamp/beach)
 "fNB" = (
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/inside/flag)
 "fNG" = (
 /turf/open/floor/kutjevo/tan/multi_tiles/west,
@@ -24053,7 +24055,7 @@
 	color = "#999900";
 	dir = 5
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "fRl" = (
 /obj/structure/platform/kutjevo,
@@ -24219,7 +24221,7 @@
 "fTU" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
 /obj/structure/flora/grass/desert/heavygrass_9,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "fTW" = (
 /obj/effect/decal/warning_stripes{
@@ -24379,7 +24381,7 @@
 /area/swamp/villa/house)
 "fVD" = (
 /obj/structure/platform,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/church/ext)
 "fVG" = (
 /obj/structure/largecrate/random/barrel/blue{
@@ -24432,7 +24434,7 @@
 /area/swamp/base/keppitz/interlude)
 "fWe" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/church/ext)
 "fWg" = (
 /obj/item/trash/hotdog{
@@ -24669,7 +24671,7 @@
 	icon_state = "fullgrass_1"
 	},
 /obj/structure/flora/bush/ausbushes/lavendergrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/colony/complex)
 "fYI" = (
 /turf/open/gm/river/swamp/mid,
@@ -24685,7 +24687,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "fZi" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
@@ -24773,7 +24775,7 @@
 /area/swamp/villa)
 "gab" = (
 /obj/structure/flora/trees220/tree_10,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "gae" = (
 /obj/structure/flora/grass/tallgrass/jungle{
@@ -24834,7 +24836,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "gau" = (
 /obj/structure/bookcase/manuals/research_and_development{
@@ -24853,7 +24855,7 @@
 "gaD" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "gaF" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -24957,7 +24959,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "gbX" = (
 /obj/structure/barricade/handrail{
@@ -24998,7 +25000,7 @@
 /obj/structure/flora/trees220/tree_12{
 	pixel_y = -5
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "gcs" = (
 /obj/structure/machinery/door/poddoor/railing{
@@ -25085,7 +25087,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "genericbush_4"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "gdH" = (
 /obj/structure/platform/kutjevo/rock{
@@ -25097,7 +25099,7 @@
 	color = "#999999";
 	layer = 3.02
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "gdI" = (
 /obj/structure/machinery/light{
@@ -25412,7 +25414,7 @@
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "ghJ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -25449,7 +25451,7 @@
 	color = "#999999";
 	layer = 3.02
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "gic" = (
 /obj/structure/closet/cabinet,
@@ -25772,7 +25774,7 @@
 /area/swamp/murasverd/swamp)
 "glU" = (
 /obj/structure/flora/bush/ausbushes/ausbush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "glW" = (
 /turf/open/floor/prison/floor_plate,
@@ -26254,7 +26256,7 @@
 	dir = 8
 	},
 /obj/structure/flora/trees220/tree_12,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "grs" = (
 /obj/effect/decal/cleanable/hybrisa/dirt_2,
@@ -26271,7 +26273,7 @@
 "grw" = (
 /obj/structure/flora/grass/tallgrass/jungle,
 /obj/structure/flora/trees220/tree_3,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "grz" = (
 /obj/structure/tunnel/maint_tunnel/no_xeno_desc{
@@ -26344,13 +26346,13 @@
 /obj/structure/platform/kutjevo{
 	dir = 1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "gsi" = (
 /obj/structure/platform/kutjevo/rock{
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "gsk" = (
 /obj/structure/surface/table/almayer,
@@ -26476,7 +26478,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 5
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "gtY" = (
 /obj/effect/decal/warning_stripes{
@@ -27010,7 +27012,7 @@
 /area/swamp/base/outskirts)
 "gzz" = (
 /obj/structure/flora/grass/desert/lightgrass_5,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "gzA" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -27049,7 +27051,7 @@
 	dir = 8
 	},
 /obj/structure/flora/trees220/tree_7,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "gAk" = (
 /obj/structure/surface/rack,
@@ -27148,7 +27150,7 @@
 "gBL" = (
 /obj/structure/flora/trees220/tree_7,
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "gCg" = (
 /obj/effect/decal/strata_decals/catwalk/prison,
@@ -27436,7 +27438,7 @@
 	vector_x = 59;
 	vector_y = -184
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "gGw" = (
 /obj/structure/gun_rack/m41,
@@ -27475,7 +27477,7 @@
 	color = "#999900";
 	dir = 9
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/farmland)
 "gHb" = (
 /obj/structure/prop/invuln/lattice_prop{
@@ -27606,7 +27608,7 @@
 	dir = 1;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "gHF" = (
 /obj/structure/barricade/handrail/kutjevo{
@@ -28143,7 +28145,7 @@
 /area/swamp/murasverd/swamp)
 "gOp" = (
 /obj/structure/cargo_container/horizontal/blue/bottom,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "gOD" = (
 /obj/structure/flora/bush/ausbushes/var3/ywflowers,
@@ -28395,9 +28397,6 @@
 /turf/open/floor/hybrisa/carpet/carpetblue,
 /area/swamp/murasverd/house)
 "gTa" = (
-/obj/effect/vehicle_spawner/van/decrepit{
-	dir = 1
-	},
 /obj/effect/decal/strata_decals/grime/grime3{
 	dir = 1
 	},
@@ -28436,7 +28435,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "gTC" = (
 /turf/open/floor/asteroidwarning/east,
@@ -28499,7 +28498,7 @@
 /area/swamp/base/inside/requisitions)
 "gVh" = (
 /obj/structure/flora/trees220/tree_12,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "gVm" = (
 /obj/structure/surface/table/holotable/wood,
@@ -28588,7 +28587,7 @@
 /area/swamp/colony/complex)
 "gWD" = (
 /obj/structure/platform/kutjevo,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "gWF" = (
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
@@ -28599,7 +28598,7 @@
 /obj/structure/flora/grass/desert/lightgrass_10{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "gWH" = (
 /obj/structure/stairs/perspective{
@@ -28629,7 +28628,7 @@
 	dir = 8
 	},
 /obj/structure/flora/grass/desert/heavygrass_7,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "gWW" = (
 /obj/structure/largecrate/random/case/small{
@@ -28752,7 +28751,7 @@
 /turf/open/floor/asteroidwarning/northeast,
 /area/swamp/colony/colony_exterior)
 "gYr" = (
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "gYv" = (
 /turf/closed/wall/rock{
@@ -28769,7 +28768,7 @@
 /area/swamp/murasverd/house)
 "gYE" = (
 /obj/structure/flora/grass/desert/lightgrass_4,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "gYI" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -28852,7 +28851,7 @@
 	pixel_x = -3;
 	pixel_y = 9
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "gZZ" = (
 /obj/structure/sign/safety/hvac_old{
@@ -29049,7 +29048,7 @@
 	pixel_x = 10;
 	pixel_y = -7
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "hbC" = (
 /obj/structure/roof/cargocrane_tracks/horizontal/endcap1{
@@ -29208,7 +29207,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "hdb" = (
 /obj/structure/coatrack{
@@ -29423,7 +29422,7 @@
 	dir = 8
 	},
 /obj/structure/flora/grass/desert/heavygrass_9,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "hfK" = (
 /obj/structure/closet/cabinet,
@@ -29559,7 +29558,7 @@
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass{
 	icon_state = "sparsegrass_3"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "hhw" = (
 /obj/effect/decal/cleanable/dirt,
@@ -29715,7 +29714,7 @@
 /area/swamp/caverns)
 "hiS" = (
 /obj/structure/flora/bigtree220/tree_4,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "hiU" = (
 /obj/effect/decal/cleanable/dirt,
@@ -29739,7 +29738,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "fullgrass_1"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "hjt" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -29932,7 +29931,7 @@
 /area/swamp/murasverd/river)
 "hlI" = (
 /obj/structure/flora/bush/ausbushes/lavendergrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "hlN" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -30081,7 +30080,7 @@
 /area/swamp/murasverd/house)
 "hob" = (
 /obj/structure/flora/trees220/tree_2,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "hod" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -30249,7 +30248,7 @@
 /area/swamp/murasverd/swamp)
 "hqO" = (
 /obj/structure/flora/trees220/tree_8,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "hqZ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -30468,7 +30467,7 @@
 	dir = 4;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "hty" = (
 /obj/effect/decal/cleanable/dirt,
@@ -30737,7 +30736,7 @@
 	color = "#bdce86";
 	desc = "A large swathe of drygrass"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "hxA" = (
 /obj/structure/machinery/light,
@@ -30978,7 +30977,7 @@
 	pixel_x = 10;
 	pixel_y = -7
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "hBl" = (
 /obj/structure/largecrate/random/mini/small_case/c{
@@ -31251,7 +31250,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "hDY" = (
 /obj/structure/platform{
@@ -31389,7 +31388,7 @@
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass{
 	icon_state = "sparsegrass_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "hEX" = (
 /obj/structure/platform/kutjevo/rock{
@@ -31517,7 +31516,7 @@
 /area/swamp/villa/house)
 "hGM" = (
 /obj/structure/flora/bigtree220/tree_3,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "hGV" = (
 /obj/effect/decal/warning_stripes{
@@ -31536,7 +31535,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 9
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/road)
 "hHi" = (
 /obj/effect/decal/cleanable/dirt,
@@ -31620,7 +31619,7 @@
 /area/swamp/colony/colony_exterior)
 "hHJ" = (
 /obj/structure/flora/grass/desert/lightgrass_3,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "hIg" = (
 /obj/structure/surface/table/almayer,
@@ -31644,7 +31643,7 @@
 	icon_state = "fullgrass_1";
 	layer = 2.9
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "hIn" = (
 /obj/structure/bed/sofa/pews/flipped{
@@ -31684,7 +31683,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "hIP" = (
 /obj/effect/decal/cleanable/dirt,
@@ -31698,7 +31697,7 @@
 	dir = 4
 	},
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "hJc" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -31895,7 +31894,7 @@
 /area/swamp/murasverd/swamp)
 "hMC" = (
 /obj/structure/flora/trees220/tree_1,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "hMF" = (
 /obj/effect/decal/cleanable/dirt,
@@ -32094,7 +32093,7 @@
 /area/swamp/murasverd/house)
 "hOG" = (
 /obj/structure/flora/trees220/tree_2,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "hOH" = (
 /obj/structure/machinery/door/airlock/almayer/engineering/colony{
@@ -32213,7 +32212,7 @@
 /area/swamp/base/keppitz/entry_pub)
 "hPS" = (
 /obj/structure/flora/bush/ausbushes,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "hPV" = (
 /obj/structure/machinery/light{
@@ -32618,7 +32617,7 @@
 /area/swamp/murasverd/trench)
 "hWL" = (
 /obj/effect/decal/grass_overlay/grass1/inner,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "hWN" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -32666,7 +32665,7 @@
 /area/swamp/base/road)
 "hXO" = (
 /obj/structure/flora/grass/desert/lightgrass_11,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "hXP" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
@@ -32938,7 +32937,7 @@
 /obj/structure/platform/kutjevo/rock{
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "iaR" = (
 /obj/structure/machinery/cm_vending/sorted/tech/comtech_tools,
@@ -33317,7 +33316,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "sunnybush_1"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "ifK" = (
 /obj/structure/pipes/standard/simple/hidden/yellow{
@@ -33511,7 +33510,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "fullgrass_1"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "iit" = (
 /obj/item/storage/backpack/marine/satchel{
@@ -33944,7 +33943,7 @@
 	pixel_y = 22;
 	pixel_x = 6
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/colony/complex)
 "ioV" = (
 /obj/structure/platform_decoration/kutjevo/rock{
@@ -34000,7 +33999,7 @@
 	pixel_y = 16
 	},
 /obj/structure/flora/bush/ausbushes/ausbush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "ipv" = (
 /obj/structure/closet/secure_closet/freezer/fridge/full,
@@ -34044,7 +34043,7 @@
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "iql" = (
 /obj/structure/surface/table/holotable/wood,
@@ -34137,7 +34136,7 @@
 	dir = 4
 	},
 /obj/structure/flora/bush/ausbushes/lavendergrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "ird" = (
 /obj/structure/closet/crate{
@@ -34176,7 +34175,7 @@
 /area/swamp/murasverd/house)
 "irp" = (
 /obj/structure/flora/bush/ausbushes/var3/fernybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "irs" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -34225,7 +34224,7 @@
 /obj/structure/flora/grass/tallgrass/jungle{
 	color = "#999900"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "irL" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -34304,7 +34303,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "itt" = (
 /obj/effect/decal/warning_stripes{
@@ -34342,7 +34341,7 @@
 /obj/structure/flora/bush/ausbushes/var3/brflowers{
 	icon_state = "brflowers_3"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "itM" = (
 /obj/structure/surface/rack,
@@ -34496,7 +34495,7 @@
 	dir = 1;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "ivp" = (
 /obj/structure/barricade/sandbags/wired{
@@ -34550,7 +34549,7 @@
 	color = "#999900";
 	dir = 5
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "ivJ" = (
 /obj/structure/machinery/telecomms/hub,
@@ -34569,7 +34568,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 9
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "iwg" = (
 /obj/structure/desertdam/decals/road_edge{
@@ -34946,7 +34945,7 @@
 /area/swamp/base/road)
 "iAD" = (
 /obj/structure/flora/grass/desert/lightgrass_12,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "iAR" = (
 /obj/structure/surface/rack{
@@ -35268,7 +35267,7 @@
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass{
 	icon_state = "sparsegrass_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "iEM" = (
 /obj/structure/pipes/standard/simple/hidden/cyan{
@@ -35457,7 +35456,7 @@
 /obj/structure/flora/bush/ausbushes/ppflowers{
 	icon_state = "brflowers_1"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "iHo" = (
 /obj/structure/sign/safety/fridge{
@@ -35506,7 +35505,7 @@
 	anchored = 1;
 	density = 0
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "iHH" = (
 /obj/structure/flora/trees220/tree_7,
@@ -35520,7 +35519,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	icon_state = "fullgrass_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "iHJ" = (
 /obj/structure/pipes/standard/simple/hidden/cyan{
@@ -35817,7 +35816,7 @@
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass{
 	icon_state = "sparsegrass_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "iKI" = (
 /obj/structure/disposalpipe/segment{
@@ -35911,7 +35910,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 6
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/road)
 "iMs" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -35924,7 +35923,7 @@
 	pixel_x = 10;
 	pixel_y = -7
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "iMH" = (
 /obj/structure/platform/kutjevo/rock{
@@ -35967,7 +35966,7 @@
 /area/swamp/murasverd/trench)
 "iMX" = (
 /obj/structure/prop/power_transformer,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "iMZ" = (
 /obj/structure/surface/rack,
@@ -35998,7 +35997,7 @@
 /area/swamp/murasverd/swamp)
 "iND" = (
 /obj/structure/flora/grass/desert/lightgrass_6,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "iNH" = (
 /obj/effect/decal/warning_stripes{
@@ -36070,7 +36069,7 @@
 	dir = 8
 	},
 /obj/structure/barricade/handrail/kutjevo,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "iOa" = (
 /obj/effect/overlay/palmtree_r,
@@ -36273,7 +36272,7 @@
 /area/swamp/murasverd/house)
 "iQV" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/road)
 "iRb" = (
 /obj/structure/window/reinforced,
@@ -36531,7 +36530,7 @@
 	dir = 4
 	},
 /obj/structure/flora/bush/ausbushes/ppflowers,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "iVb" = (
 /obj/structure/platform/kutjevo{
@@ -36779,7 +36778,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "iXJ" = (
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -37036,7 +37035,7 @@
 /area/swamp/murasverd/house)
 "jbk" = (
 /obj/structure/flora/bigtree220/tree_6,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "jbl" = (
 /obj/effect/decal/siding{
@@ -37079,7 +37078,7 @@
 /area/swamp/murasverd/swamp)
 "jbK" = (
 /obj/structure/flora/trees220/tree_3,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "jbR" = (
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -37096,7 +37095,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/item/trash/crushed_cup,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "jbY" = (
 /obj/effect/decal/hybrisa/tiretrack{
@@ -37115,7 +37114,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "leafybush_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/colony/complex)
 "jcb" = (
 /obj/structure/cargo_container/seegson/left,
@@ -37131,7 +37130,7 @@
 /area/swamp/murasverd/oldman_basement)
 "jch" = (
 /obj/structure/flora/trees220/tree_13,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "jcp" = (
 /obj/structure/platform{
@@ -37224,7 +37223,7 @@
 /area/swamp/base/church/int)
 "jdt" = (
 /obj/structure/flora/grass/desert/heavygrass_8,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "jdv" = (
 /obj/structure/surface/table/holotable/wood,
@@ -37267,7 +37266,7 @@
 	dir = 4
 	},
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "jeA" = (
 /obj/structure/barricade/handrail/strata{
@@ -37314,7 +37313,7 @@
 	dir = 1
 	},
 /obj/structure/flora/bush/ausbushes/ausbush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "jfc" = (
 /obj/structure/bed,
@@ -37357,7 +37356,7 @@
 	dir = 1;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "jfD" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -37489,7 +37488,7 @@
 	dir = 1;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "jha" = (
 /obj/effect/decal/strata_decals/catwalk/prison,
@@ -37637,7 +37636,7 @@
 	dir = 4
 	},
 /obj/structure/flora/bush/ausbushes/grassybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "jir" = (
 /obj/structure/prop/invuln/lattice_prop{
@@ -37684,9 +37683,14 @@
 /area/swamp/base/bunker/engineering)
 "jiR" = (
 /obj/structure/closet,
-/obj/item/storage/box/guncase/vp70,
-/obj/item/ammo_magazine/handful/lever_action,
-/obj/item/ammo_magazine/handful/lever_action,
+/obj/item/storage/belt/shotgun,
+/obj/item/weapon/gun/shotgun/double,
+/obj/item/ammo_magazine/shotgun/buckshot,
+/obj/item/ammo_magazine/shotgun/buckshot,
+/obj/item/ammo_magazine/shotgun/buckshot,
+/obj/item/ammo_magazine/shotgun/flechette,
+/obj/item/ammo_magazine/shotgun/slugs,
+/obj/item/ammo_magazine/shotgun/beanbag,
 /turf/open/floor/prison/floor_plate,
 /area/swamp/murasverd/oldman)
 "jiW" = (
@@ -37719,7 +37723,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "jje" = (
 /obj/item/stack/sandbags/large_stack,
@@ -37850,7 +37854,7 @@
 	color = "#999999"
 	},
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "jkM" = (
 /obj/structure/showcase{
@@ -37902,11 +37906,11 @@
 	pixel_y = -4;
 	icon_state = "genericbush_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "jkZ" = (
 /obj/structure/flora/trees220/tree_11,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "jlc" = (
 /obj/structure/bed,
@@ -37960,7 +37964,7 @@
 /turf/open/gm/river/swamp/mid/grass,
 /area/swamp/murasverd/swamp)
 "jlr" = (
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/outskirts)
 "jly" = (
 /obj/structure/flora/grass/tallgrass/jungle,
@@ -38219,7 +38223,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "jnZ" = (
 /obj/structure/machinery/telecomms/relay/preset/tower/mapcomms,
@@ -38254,7 +38258,7 @@
 /area/swamp/base/bunker/cargo)
 "jov" = (
 /obj/structure/fence,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/church/ext)
 "joA" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -38300,7 +38304,7 @@
 "jpc" = (
 /obj/structure/flora/grass/tallgrass/jungle,
 /obj/effect/decal/grass_overlay/grass1/inner,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "jpi" = (
 /obj/structure/bed/chair/office/light,
@@ -38385,7 +38389,7 @@
 	dir = 8
 	},
 /obj/structure/flora/bush/ausbushes/pointybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "jqL" = (
 /turf/open/gm/dirt/desert0,
@@ -38581,7 +38585,7 @@
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "jtr" = (
 /obj/structure/machinery/telecomms/relay/preset/tower/mapcomms,
@@ -38714,7 +38718,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "jvj" = (
 /obj/structure/platform/kutjevo/rock{
@@ -38730,7 +38734,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "jvs" = (
 /obj/effect/decal/cleanable/dirt,
@@ -38756,7 +38760,7 @@
 /area/swamp/murasverd/swamp)
 "jwe" = (
 /obj/structure/flora/bush/ausbushes/var3/brflowers,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "jwm" = (
 /obj/structure/machinery/computer/station_alert{
@@ -38811,7 +38815,7 @@
 	layer = 3.05
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "jwM" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic,
@@ -38866,7 +38870,7 @@
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 4
 	},
-/turf/open/gm/river/swamp/deep,
+/turf/open/gm/river/swamp,
 /area/swamp/murasverd/swamp)
 "jxO" = (
 /obj/structure/mineral_door/wood,
@@ -38946,7 +38950,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "jyJ" = (
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
@@ -38982,7 +38986,7 @@
 /obj/structure/prop/rock/brown{
 	layer = 2
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/farmland)
 "jzA" = (
 /obj/structure/machinery/cm_vending/sorted/marine_food,
@@ -39007,7 +39011,7 @@
 	layer = 2.99
 	},
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "jzK" = (
 /obj/structure/flora/grass/tallgrass/desert/corner{
@@ -39339,7 +39343,7 @@
 /obj/structure/prop/rock/brown{
 	dir = 9
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "jFD" = (
 /obj/structure/platform_decoration/kutjevo{
@@ -39703,9 +39707,6 @@
 /area/swamp/villa/bunker)
 "jKe" = (
 /obj/effect/decal/strata_decals/grime/grime3,
-/obj/effect/decal/strata_decals/grime/grime3{
-	dir = 1
-	},
 /turf/open/floor/prison/floor_plate,
 /area/swamp/murasverd/house)
 "jKn" = (
@@ -40312,7 +40313,7 @@
 	dir = 1;
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "jQQ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -40831,7 +40832,7 @@
 /area/swamp/colony/complex)
 "jWL" = (
 /obj/structure/flora/trees220/tree_2,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "jWM" = (
 /obj/structure/platform_decoration/strata/metal,
@@ -41076,7 +41077,7 @@
 "kaR" = (
 /obj/structure/flora/trees220/tree_11,
 /obj/structure/flora/grass/desert/heavy,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "kaT" = (
 /obj/structure/flora/pottedplant{
@@ -41343,7 +41344,7 @@
 /area/swamp/murasverd/oldman_basement)
 "ked" = (
 /obj/structure/flora/grass/desert/lightgrass_12,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "keh" = (
 /obj/structure/largecrate/random/case/small{
@@ -41369,7 +41370,7 @@
 	color = "#999900";
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "kek" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -41404,7 +41405,7 @@
 /area/swamp/murasverd/swamp)
 "keG" = (
 /obj/structure/flora/grass/desert/lightgrass_4,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "keN" = (
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -41778,13 +41779,13 @@
 	dir = 1;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "kjT" = (
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "grassybush_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "kjW" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -41934,7 +41935,7 @@
 /area/swamp/murasverd/swamp)
 "klE" = (
 /obj/structure/flora/grass/desert/heavygrass_2,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "klJ" = (
 /turf/open/floor/carpet/bcarpet02,
@@ -42032,7 +42033,7 @@
 	color = "#999900";
 	dir = 9
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/river)
 "knc" = (
 /obj/structure/largecrate/random/case/small{
@@ -42072,7 +42073,7 @@
 "knB" = (
 /obj/structure/flora/trees220/tree_4,
 /obj/structure/flora/grass/desert/heavy,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "knH" = (
 /obj/structure/platform{
@@ -42093,7 +42094,7 @@
 	color = "#bdce86";
 	desc = "A large swathe of drygrass"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "knP" = (
 /obj/structure/closet/cabinet,
@@ -42333,7 +42334,7 @@
 	pixel_x = 3
 	},
 /obj/structure/reagent_dispensers/fueltank,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "krk" = (
 /obj/structure/closet/secure_closet/freezer/meat{
@@ -42568,7 +42569,7 @@
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "kul" = (
 /obj/structure/coatrack{
@@ -42629,7 +42630,7 @@
 /obj/structure/flora/grass/desert/lightgrass_10{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "kuI" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
@@ -42694,7 +42695,7 @@
 	dir = 4
 	},
 /obj/structure/flora/grass/desert/lightgrass_9,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "kwd" = (
 /obj/structure/safe/floor{
@@ -42751,11 +42752,11 @@
 	pixel_y = 22;
 	pixel_x = 6
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/colony/complex)
 "kwz" = (
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "kwD" = (
 /obj/structure/surface/rack,
@@ -42867,7 +42868,7 @@
 	pixel_x = 3;
 	pixel_y = 5
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "kxU" = (
 /obj/structure/platform_decoration/kutjevo/rock{
@@ -42891,7 +42892,7 @@
 	pixel_y = 11;
 	layer = 3.1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "kyq" = (
 /obj/effect/decal/warning_stripes{
@@ -43027,7 +43028,7 @@
 /obj/structure/flora/grass/desert/lightgrass_10{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "kzM" = (
 /obj/structure/largecrate{
@@ -43049,7 +43050,7 @@
 	dir = 8
 	},
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "kAh" = (
 /obj/structure/closet/cabinet,
@@ -43159,7 +43160,7 @@
 "kBy" = (
 /obj/structure/flora/trees220/tree_8,
 /obj/structure/flora/grass/desert/lightgrass_12,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "kBQ" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -43168,7 +43169,7 @@
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "kBS" = (
 /obj/effect/step_trigger/teleporter_vector/damage{
@@ -43456,7 +43457,7 @@
 	dir = 4;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "kFk" = (
 /obj/structure/desertdam/decals/road_edge{
@@ -43685,7 +43686,7 @@
 /area/swamp/beach_house)
 "kHS" = (
 /obj/structure/flora/bush/ausbushes/var3/ywflowers,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "kHV" = (
 /obj/structure/stairs/perspective/kutjevo,
@@ -43695,7 +43696,7 @@
 /obj/structure/ore_box{
 	name = "wooden cargo crate"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "kIc" = (
 /obj/structure/surface/rack,
@@ -43713,7 +43714,7 @@
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass{
 	icon_state = "sparsegrass_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "kIg" = (
 /obj/structure/disposalpipe/segment{
@@ -43860,13 +43861,13 @@
 "kKq" = (
 /obj/structure/machinery/door/poddoor/railing{
 	dir = 8;
-	id = "Relay Checkpoint"
+	id = "Relay Checkpoint_1"
 	},
 /turf/open/floor/prison/cell_stripe/west,
 /area/swamp/base/road)
 "kKt" = (
 /obj/structure/flora/trees220/tree_9,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "kKC" = (
 /obj/effect/decal/strata_decals/catwalk/prison,
@@ -43985,7 +43986,7 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/swamp/murasverd/trench)
 "kLB" = (
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "kLC" = (
 /obj/structure/machinery/prop{
@@ -44511,7 +44512,7 @@
 	dir = 1;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "kQe" = (
 /obj/structure/flora/grass/tallgrass/desert/corner{
@@ -44900,7 +44901,7 @@
 /obj/structure/flora/bush/ausbushes/ppflowers{
 	icon_state = "lavendergrass_1"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "kVu" = (
 /obj/structure/stairs/perspective{
@@ -45000,7 +45001,7 @@
 "kWf" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "kWk" = (
 /turf/closed/wall/rock/brown,
@@ -45732,7 +45733,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "lgi" = (
 /obj/structure/platform/kutjevo,
@@ -45867,7 +45868,7 @@
 "lia" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/platform/kutjevo/smooth,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "lij" = (
 /obj/structure/cable/heavyduty{
@@ -45884,7 +45885,7 @@
 	color = "#bdce86";
 	desc = "A large swathe of drygrass"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "lip" = (
 /obj/structure/flora/grass/tallgrass/jungle,
@@ -46082,14 +46083,12 @@
 /turf/open/floor/prison/floor_plate,
 /area/swamp/base/inside)
 "lka" = (
-/obj/structure/flora/bush/ausbushes/grassybush{
-	icon_state = "fullgrass_1"
-	},
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/turf/open/gm/grass,
-/area/swamp/villa)
+/obj/structure/surface/table/reinforced,
+/obj/effect/spawner/random/tool,
+/obj/effect/spawner/random/tool,
+/obj/effect/spawner/random/goggles,
+/turf/open/asphalt/cement,
+/area/swamp/villa/garage)
 "lkd" = (
 /obj/structure/flora/grass/tallgrass/jungle{
 	color = "#999900"
@@ -46195,7 +46194,7 @@
 /area/swamp/colony/logistics_hub)
 "llt" = (
 /obj/structure/flora/trees220/tree_4,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "llv" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -46678,7 +46677,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "brflowers_1"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "lqH" = (
 /obj/structure/platform{
@@ -46733,7 +46732,7 @@
 /area/swamp/villa/bunker/hospital)
 "lrz" = (
 /obj/structure/flora/bush/ausbushes/var3/brflowers,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/inside/flag)
 "lrD" = (
 /obj/structure/filingcabinet/chestdrawer{
@@ -46923,7 +46922,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "fullgrass_1"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "lta" = (
 /obj/structure/barricade/sandbags{
@@ -47045,7 +47044,7 @@
 /area/swamp/murasverd/house)
 "luq" = (
 /obj/structure/flora/grass/desert/lightgrass_2,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "luu" = (
 /obj/structure/bed/chair/office/light,
@@ -47100,7 +47099,7 @@
 	color = "#bdce86";
 	desc = "A large swathe of drygrass"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "lvd" = (
 /obj/structure/machinery/vending/snack/packaged{
@@ -47253,7 +47252,7 @@
 	pixel_x = 5;
 	pixel_y = -12
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "lvX" = (
 /obj/structure/largecrate/random/mini/small_case/c{
@@ -47285,7 +47284,7 @@
 	pixel_x = 5;
 	pixel_y = -12
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "lwl" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass{
@@ -47295,7 +47294,7 @@
 	dir = 1;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "lwm" = (
 /obj/effect/decal/cleanable/dirt,
@@ -47485,7 +47484,7 @@
 	layer = 3.02
 	},
 /obj/structure/flora/bush/ausbushes/ausbush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "lyo" = (
 /obj/structure/barricade/handrail/kutjevo{
@@ -47496,7 +47495,7 @@
 	pixel_x = -4;
 	pixel_y = -17
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "lyx" = (
 /obj/item/trash/cigbutt{
@@ -47985,11 +47984,11 @@
 	dir = 4;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "lFA" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/farmland)
 "lFD" = (
 /obj/effect/decal/cleanable/dirt,
@@ -48031,7 +48030,7 @@
 "lGw" = (
 /obj/structure/flora/trees220/tree_13,
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "lGE" = (
 /obj/structure/platform/kutjevo,
@@ -48342,7 +48341,7 @@
 /area/swamp/murasverd/river)
 "lLd" = (
 /obj/structure/closet/crate,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "lLg" = (
 /obj/structure/pipes/standard/simple/hidden/cyan{
@@ -48393,7 +48392,7 @@
 	dir = 8
 	},
 /obj/structure/flora/grass/desert/lightgrass_10,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "lLW" = (
 /obj/structure/desertdam/decals/road_edge{
@@ -48627,7 +48626,7 @@
 /obj/structure/machinery/portable_atmospherics/hydroponics/soil{
 	pixel_y = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/church/ext)
 "lPi" = (
 /obj/structure/largecrate/supply/supplies/metal,
@@ -48695,7 +48694,7 @@
 	color = "#999900";
 	dir = 1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "lQd" = (
 /obj/effect/decal/warning_stripes{
@@ -48842,7 +48841,7 @@
 	dir = 8
 	},
 /obj/structure/prop/rock/brown,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "lRA" = (
 /obj/structure/largecrate/supply/ammo/supply_drop,
@@ -48975,7 +48974,7 @@
 /area/swamp/base/outskirts)
 "lTL" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "lTM" = (
 /obj/structure/platform/kutjevo{
@@ -49027,7 +49026,7 @@
 /area/swamp/beach)
 "lUu" = (
 /obj/structure/barricade/handrail,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/inside/flag)
 "lUD" = (
 /obj/effect/decal/cleanable/dirt{
@@ -49041,7 +49040,7 @@
 	dir = 8
 	},
 /obj/structure/flora/trees220/tree_1,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "lUU" = (
 /obj/item/tool/warning_cone{
@@ -49109,7 +49108,7 @@
 /area/swamp/murasverd/oldman_basement)
 "lVE" = (
 /obj/structure/flora/bush/ausbushes/palebush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "lVZ" = (
 /obj/structure/platform/kutjevo/rock{
@@ -49137,7 +49136,7 @@
 /obj/structure/platform/kutjevo/rock{
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "lWq" = (
 /obj/structure/prop/rock,
@@ -49259,7 +49258,7 @@
 /area/swamp/colony/hangar)
 "lXM" = (
 /obj/structure/flora/grass/desert/heavygrass_10,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "lXO" = (
 /obj/structure/catwalk/prison,
@@ -49579,7 +49578,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "mcd" = (
 /obj/item/weapon/straight_razor{
@@ -49688,7 +49687,7 @@
 /obj/structure/largecrate/random/barrel/blue{
 	pixel_x = -10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "mdz" = (
 /obj/structure/largecrate/random{
@@ -49847,7 +49846,7 @@
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "mfd" = (
 /obj/structure/prop/rock/brown{
@@ -49924,7 +49923,7 @@
 /area/swamp/colony/colony_exterior)
 "mfN" = (
 /obj/structure/flora/trees220/tree_5,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "mga" = (
 /obj/structure/machinery/light{
@@ -50241,7 +50240,7 @@
 /obj/structure/platform/kutjevo/rock{
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "mje" = (
 /obj/structure/surface/table/almayer,
@@ -50281,7 +50280,7 @@
 /obj/structure/flora/bush/ausbushes/ppflowers{
 	icon_state = "brflowers_3"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "mjH" = (
 /obj/structure/closet/radiation{
@@ -50469,7 +50468,7 @@
 "mlD" = (
 /obj/structure/machinery/door/poddoor/railing{
 	dir = 4;
-	id = "Relay Checkpoint"
+	id = "Relay Checkpoint_1"
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/cell_stripe/east,
@@ -50549,7 +50548,7 @@
 "mmN" = (
 /obj/structure/flora/trees220/tree_7,
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "mmS" = (
 /obj/structure/platform/kutjevo,
@@ -50813,7 +50812,7 @@
 /area/swamp/base/inside/messhall)
 "mpR" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "mpS" = (
 /obj/structure/flora/grass/tallgrass/jungle{
@@ -51087,7 +51086,7 @@
 "msn" = (
 /obj/effect/decal/grass_overlay/grass1/inner,
 /obj/structure/flora/bush/ausbushes/genericbush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "mso" = (
 /obj/structure/machinery/light{
@@ -51152,7 +51151,7 @@
 	dir = 9
 	},
 /obj/structure/flora/bush/ausbushes/grassybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "mtg" = (
 /obj/effect/decal/cleanable/dirt,
@@ -51226,7 +51225,7 @@
 /area/swamp/beach)
 "mtz" = (
 /obj/structure/flora/bush/ausbushes/pointybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "mtC" = (
 /obj/structure/machinery/door/airlock/almayer/maint/colony/autoname{
@@ -51244,7 +51243,7 @@
 /area/swamp/murasverd/oldman_basement)
 "mtH" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/road)
 "mtM" = (
 /obj/structure/surface/table/reinforced/prison{
@@ -51276,7 +51275,7 @@
 "muf" = (
 /obj/structure/flora/trees220/tree_1,
 /obj/structure/flora/grass/desert/lightgrass_5,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "mui" = (
 /obj/structure/platform{
@@ -51729,7 +51728,7 @@
 	dir = 8
 	},
 /obj/structure/flora/bigtree220/tree_2,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "mzr" = (
 /turf/open/floor/plating/plating_catwalk,
@@ -51820,7 +51819,7 @@
 	climb_delay = 1;
 	layer = 2.99
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "mAH" = (
 /obj/effect/projector{
@@ -51882,7 +51881,7 @@
 	color = "#999900";
 	dir = 10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "mBd" = (
 /obj/effect/projector{
@@ -52080,7 +52079,7 @@
 /area/swamp/murasverd/house)
 "mDQ" = (
 /obj/structure/fence,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/outskirts)
 "mDS" = (
 /turf/open/floor/prison/bluecorner/east,
@@ -52115,7 +52114,7 @@
 /area/swamp/base/road)
 "mEn" = (
 /obj/structure/flora/grass/desert/heavy,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "mEo" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -52360,7 +52359,7 @@
 "mHm" = (
 /obj/structure/machinery/portable_atmospherics/hydroponics/soil,
 /obj/structure/flora/bush/ausbushes/var3/stalkybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "mHw" = (
 /obj/effect/decal/warning_stripes{
@@ -52674,7 +52673,7 @@
 	color = "#999900";
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "mLC" = (
 /obj/effect/decal/warning_stripes{
@@ -52923,7 +52922,7 @@
 	color = "#999999";
 	layer = 3.02
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/river)
 "mOt" = (
 /obj/structure/flag/plantable/brazil{
@@ -53071,7 +53070,7 @@
 	dir = 1
 	},
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "mPN" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -53088,7 +53087,7 @@
 	dir = 1
 	},
 /obj/structure/flora/bush/ausbushes/palebush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "mPT" = (
 /obj/structure/machinery/disposal,
@@ -53259,7 +53258,7 @@
 	color = "#999900";
 	dir = 10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "mRr" = (
 /obj/structure/prop/static_tank/fuel,
@@ -53379,7 +53378,7 @@
 /area/swamp/colony/colony_exterior)
 "mTK" = (
 /obj/structure/flora/grass/desert/lightgrass_3,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "mTP" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -53537,20 +53536,20 @@
 /area/swamp/base/outskirts)
 "mVy" = (
 /obj/structure/platform/kutjevo,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "mVF" = (
 /obj/structure/ore_box,
 /obj/item/clothing/accessory/storage/black_vest,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "mVK" = (
 /obj/structure/flora/bush/ausbushes/grassybush,
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/swamp/murasverd/village)
 "mVQ" = (
-/obj/effect/vehicle_spawner/box_van/ambulance/fixed{
-	dir = 4
+/obj/structure/prop/hybrisa/vehicles/Ambulance{
+	dir = 8
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/swamp/murasverd/trench)
@@ -53820,7 +53819,7 @@
 	dir = 4
 	},
 /obj/structure/flora/grass/desert/heavygrass_8,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "mYP" = (
 /obj/structure/flora/bush/ausbushes/grassybush{
@@ -54019,7 +54018,7 @@
 /obj/structure/flora/grass/tallgrass/jungle{
 	color = "#999900"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "nbi" = (
 /obj/structure/prop/ice_colony/flamingo,
@@ -54129,7 +54128,7 @@
 "ncl" = (
 /obj/structure/flora/bush/ausbushes/ausbush,
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "ncq" = (
 /obj/structure/platform/kutjevo/rock{
@@ -54365,7 +54364,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	color = "#999900"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "neM" = (
 /turf/open/floor/almayer,
@@ -54407,7 +54406,7 @@
 	},
 /obj/structure/flora/bush/ausbushes/ppflowers,
 /obj/structure/prop/rock/black_ground,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/colony/complex)
 "nfr" = (
 /turf/open/floor/strata/floor3,
@@ -54856,7 +54855,7 @@
 /area/swamp/colony/flightdeck)
 "nkH" = (
 /obj/structure/flora/grass/desert/heavygrass_4,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "nkJ" = (
 /obj/structure/platform/kutjevo/rock{
@@ -54889,7 +54888,7 @@
 "nkQ" = (
 /obj/structure/flora/trees220/tree_10,
 /obj/structure/flora/grass/desert/lightgrass_4,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "nkS" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -54904,7 +54903,7 @@
 	layer = 2.99
 	},
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "nlf" = (
 /obj/structure/machinery/colony_floodlight,
@@ -55090,7 +55089,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 5
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/beach)
 "nod" = (
 /obj/structure/platform/strata/metal{
@@ -55283,7 +55282,7 @@
 	dir = 8
 	},
 /obj/structure/flora/bush/ausbushes/palebush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "nqq" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -55512,12 +55511,12 @@
 /obj/structure/flora/grass/desert/lightgrass_10{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "nsV" = (
 /obj/structure/flora/trees220/tree_3,
 /obj/structure/flora/grass/desert/heavy,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "nsX" = (
 /obj/structure/barricade/handrail/kutjevo{
@@ -55527,7 +55526,7 @@
 	pixel_x = -1;
 	pixel_y = -12
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "nta" = (
 /obj/structure/platform/kutjevo/rock{
@@ -55588,7 +55587,7 @@
 /area/swamp/murasverd/trench)
 "ntB" = (
 /obj/structure/flora/bush/ausbushes/pointybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/beach)
 "ntE" = (
 /obj/structure/flora/grass/tallgrass/ice/corner{
@@ -55599,7 +55598,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "ntP" = (
 /obj/item/stool{
@@ -55840,11 +55839,11 @@
 /area/swamp/colony/complex)
 "nws" = (
 /obj/structure/flora/trees220/tree_6,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "nwt" = (
 /obj/structure/flora/grass/tallgrass/jungle,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "nwu" = (
 /obj/structure/surface/rack,
@@ -55927,7 +55926,7 @@
 	vector_x = 240;
 	vector_y = -207
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/canal)
 "nxV" = (
 /obj/structure/cargo_container/horizontal/blue/top,
@@ -55995,7 +55994,7 @@
 /area/swamp/base/outskirts)
 "nza" = (
 /obj/structure/platform_decoration/kutjevo,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "nze" = (
 /obj/structure/largecrate/random/barrel/true_random{
@@ -56265,7 +56264,7 @@
 	dir = 1;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "nAL" = (
 /obj/structure/gun_rack/flamer/unloaded{
@@ -56483,7 +56482,7 @@
 	pixel_y = 10
 	},
 /obj/structure/flora/bush/ausbushes/grassybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "nEg" = (
 /obj/effect/step_trigger/clone_cleaner,
@@ -56527,7 +56526,7 @@
 	color = "#999900";
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "nEI" = (
 /obj/structure/surface/table/holotable/wood,
@@ -56560,7 +56559,7 @@
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/swamp/murasverd/river)
 "nFf" = (
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/beach)
 "nFg" = (
 /obj/structure/machinery/disposal{
@@ -56583,7 +56582,7 @@
 	pixel_x = 20
 	},
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "nFw" = (
 /obj/structure/cargo_container/ferret/right,
@@ -56653,7 +56652,7 @@
 	dir = 1;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "nFH" = (
 /obj/structure/flora/jungle/plantbot1{
@@ -56664,7 +56663,7 @@
 /area/swamp/murasverd/swamp)
 "nFM" = (
 /obj/structure/flora/grass/desert/lightgrass_1,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "nFN" = (
 /obj/structure/surface/table/gamblingtable,
@@ -56753,8 +56752,6 @@
 /area/swamp/murasverd/swamp)
 "nGJ" = (
 /obj/structure/closet,
-/obj/item/clothing/under/hybrisa/pizza_galaxy,
-/obj/item/clothing/under/hybrisa/pizza_galaxy,
 /obj/item/clothing/head/hybrisa/pizza_galaxy,
 /obj/item/clothing/head/hybrisa/pizza_galaxy,
 /obj/item/card/id/pizza,
@@ -57125,7 +57122,7 @@
 /obj/structure/platform/kutjevo{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "nKL" = (
 /obj/structure/surface/table/reinforced/prison{
@@ -57261,7 +57258,7 @@
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/church/ext)
 "nMC" = (
 /obj/structure/surface/table/woodentable,
@@ -57289,7 +57286,7 @@
 "nMQ" = (
 /obj/structure/flora/grass/desert/heavygrass_3,
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "nMS" = (
 /obj/structure/prop/rock/brown,
@@ -57434,7 +57431,7 @@
 	color = "#999900";
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "nOg" = (
 /obj/structure/closet/cabinet,
@@ -57449,7 +57446,7 @@
 	dir = 4
 	},
 /obj/structure/flora/bush/ausbushes/genericbush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "nOk" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -57627,7 +57624,7 @@
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "nQJ" = (
 /obj/structure/bed/chair,
@@ -57887,7 +57884,7 @@
 /obj/structure/flora/grass/tallgrass/jungle{
 	color = "#999900"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/farmland)
 "nUr" = (
 /obj/structure/bed/chair{
@@ -57970,7 +57967,7 @@
 	dir = 1;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "nVw" = (
 /obj/structure/surface/rack,
@@ -57992,7 +57989,7 @@
 	pixel_x = 19;
 	pixel_y = 13
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "nWd" = (
 /obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep{
@@ -58182,14 +58179,14 @@
 	pixel_x = 11;
 	pixel_y = -4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "nYp" = (
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 8
 	},
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "nYs" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -58253,7 +58250,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "nYQ" = (
 /turf/open/gm/river/swamp,
@@ -58533,7 +58530,7 @@
 	dir = 4
 	},
 /obj/structure/flora/grass/desert/lightgrass_11,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "obP" = (
 /obj/structure/machinery/portable_atmospherics/powered/scrubber/huge/stationary,
@@ -58651,7 +58648,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "fullgrass_1"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "odw" = (
 /turf/open/gm/river/swamp/mid,
@@ -58800,7 +58797,7 @@
 	color = "#999900";
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/farmland)
 "oge" = (
 /obj/effect/decal/grass_overlay/grass1/inner,
@@ -58891,7 +58888,7 @@
 /area/swamp/murasverd/river)
 "ohC" = (
 /obj/structure/prop/rock/black_ground,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "ohE" = (
 /obj/structure/barricade/handrail/strata{
@@ -58933,7 +58930,7 @@
 	dir = 8
 	},
 /obj/structure/flora/bush/ausbushes/var3/ywflowers,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "oib" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/glass{
@@ -58975,7 +58972,7 @@
 	layer = 2.99
 	},
 /obj/structure/flora/bush/ausbushes,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "oiN" = (
 /obj/structure/barricade/handrail/kutjevo{
@@ -58983,7 +58980,7 @@
 	},
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /obj/structure/flora/bush/ausbushes,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "oiU" = (
 /obj/item/toy/plush/box{
@@ -59169,7 +59166,7 @@
 	dir = 8
 	},
 /obj/structure/flora/trees220/tree_5,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "okb" = (
 /obj/structure/bed/chair/comfy{
@@ -59289,7 +59286,7 @@
 	color = "#999900";
 	dir = 9
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "olk" = (
 /obj/structure/flora/bush/ausbushes/var3/fernybush,
@@ -59696,7 +59693,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 9
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "oqm" = (
 /obj/structure/surface/table/reinforced/almayer_B,
@@ -59804,7 +59801,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "osa" = (
 /obj/structure/stairs/perspective{
@@ -59967,7 +59964,7 @@
 	color = "#999900";
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "otQ" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -60096,17 +60093,14 @@
 /area/swamp/base/keppitz/command)
 "ova" = (
 /obj/structure/closet,
-/obj/item/clothing/under/hybrisa/pizza_galaxy,
 /obj/item/card/id/pizza,
 /obj/item/card/id/pizza,
-/obj/item/clothing/under/hybrisa/pizza_galaxy,
-/obj/item/clothing/under/hybrisa/pizza_galaxy,
 /obj/item/clothing/head/hybrisa/pizza_galaxy,
 /turf/open/gm/river/swamp/mid,
 /area/swamp/murasverd/house)
 "ovh" = (
 /obj/structure/ore_box,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "ovu" = (
 /obj/effect/decal/siding{
@@ -60172,7 +60166,7 @@
 	color = "#999900";
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "ovY" = (
 /obj/structure/closet/crate/supply,
@@ -60180,7 +60174,7 @@
 /obj/item/clothing/accessory/storage/smallpouch/upp,
 /obj/item/clothing/accessory/storage/smallpouch/upp,
 /obj/item/clothing/accessory/storage/smallpouch/upp,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "ovZ" = (
 /obj/structure/machinery/vending/coffee/simple,
@@ -60191,7 +60185,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "owq" = (
 /obj/structure/machinery/light{
@@ -60328,7 +60322,7 @@
 /obj/structure/flora/grass/tallgrass/jungle{
 	color = "#999900"
 	},
-/turf/open/gm/river/swamp/mid/grass,
+/turf/open/gm/river/swamp,
 /area/swamp/murasverd/swamp)
 "oyb" = (
 /obj/item/stack/sandbags_empty/full{
@@ -60441,7 +60435,7 @@
 	pixel_x = 3;
 	pixel_y = 10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "ozB" = (
 /obj/structure/girder/reinforced,
@@ -60554,7 +60548,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "oAl" = (
 /obj/structure/bed/sofa/south/grey/right,
@@ -60646,10 +60640,10 @@
 /area/swamp/murasverd/swamp)
 "oBo" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "oBt" = (
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/farmland)
 "oBu" = (
 /turf/closed/wall/wood,
@@ -60664,7 +60658,7 @@
 "oBD" = (
 /obj/structure/flora/trees220/tree_3,
 /obj/structure/flora/grass/desert/heavygrass_4,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "oBH" = (
 /obj/structure/prop/hybrisa/vehicles/Small_Truck/Brown_Cargo,
@@ -60777,14 +60771,14 @@
 	},
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /obj/structure/flora/trees220/tree_3,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "oDB" = (
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 4
 	},
 /obj/structure/flora/grass/desert/heavygrass_10,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "oDC" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
@@ -60863,12 +60857,6 @@
 /obj/structure/cargo_container/arious/rightmid,
 /turf/open/asphalt,
 /area/swamp/base/road)
-"oEF" = (
-/obj/effect/vehicle_spawner/uppvant/fixed{
-	dir = 8
-	},
-/turf/open/asphalt/cement,
-/area/swamp/villa/garage)
 "oEI" = (
 /obj/structure/prop/dam/crane/damaged{
 	icon_state = "tractor_damaged"
@@ -60908,7 +60896,7 @@
 /area/swamp/murasverd/house)
 "oFj" = (
 /obj/structure/flora/bush/ausbushes/grassybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/farmland)
 "oFk" = (
 /obj/structure/largecrate,
@@ -60918,7 +60906,7 @@
 /obj/item/clothing/accessory/health/scrap,
 /obj/item/clothing/accessory/health/scrap,
 /obj/item/clothing/accessory/health/scrap,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "oFR" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -61399,11 +61387,11 @@
 /turf/open/floor/wood,
 /area/swamp/base/church/int)
 "oMw" = (
-/obj/effect/vehicle_spawner/van/decrepit{
-	dir = 1
+/obj/effect/vehicle_spawner/apc_cmd/decrepit{
+	dir = 8
 	},
-/turf/open/floor/prison/floor_plate,
-/area/swamp/murasverd/house)
+/turf/open/asphalt/cement,
+/area/swamp/villa/garage)
 "oMJ" = (
 /obj/structure/stairs/perspective{
 	color = "#6b675e";
@@ -61480,7 +61468,7 @@
 	dir = 1
 	},
 /obj/structure/platform/kutjevo/smooth,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "oNx" = (
 /obj/structure/barricade/metal/wired{
@@ -61721,7 +61709,7 @@
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 6
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "oPL" = (
 /obj/structure/surface/table/reinforced,
@@ -61834,7 +61822,7 @@
 	color = "#999900";
 	dir = 10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/outskirts)
 "oRg" = (
 /obj/structure/flora/bush/ausbushes/pointybush,
@@ -61923,7 +61911,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/farmland)
 "oRS" = (
 /obj/effect/decal/cleanable/dirt,
@@ -62066,7 +62054,7 @@
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "oTe" = (
 /obj/structure/machinery/atm{
@@ -62137,7 +62125,7 @@
 /area/swamp/base/inside)
 "oUh" = (
 /obj/structure/flora/bush/ausbushes/genericbush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "oUn" = (
 /obj/effect/decal/cleanable/dirt,
@@ -62268,7 +62256,7 @@
 "oVK" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /obj/structure/flora/tree/joshua,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "oVS" = (
 /obj/structure/prop/hybrisa/vehicles/Meridian/Orange{
@@ -62359,7 +62347,7 @@
 	dir = 8
 	},
 /obj/structure/flora/bush/ausbushes/ausbush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "oXb" = (
 /obj/structure/barricade/handrail/kutjevo{
@@ -62467,7 +62455,7 @@
 /area/swamp/colony/colony_exterior)
 "oXU" = (
 /obj/structure/flora/bush/ausbushes/lavendergrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/house)
 "oXX" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner,
@@ -62533,7 +62521,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	icon_state = "fullgrass_3"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "oYJ" = (
 /obj/effect/step_trigger/clone_cleaner,
@@ -62686,7 +62674,7 @@
 	dir = 4
 	},
 /obj/structure/flora/grass/desert/lightgrass_8,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "pal" = (
 /obj/effect/decal/warning_stripes{
@@ -63014,7 +63002,7 @@
 	dir = 4
 	},
 /obj/structure/flora/bush/ausbushes/ausbush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "peB" = (
 /obj/structure/platform/kutjevo{
@@ -63079,7 +63067,7 @@
 /area/swamp/murasverd/village)
 "pff" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/river)
 "pfl" = (
 /obj/structure/sink{
@@ -63262,7 +63250,7 @@
 	dir = 4
 	},
 /obj/structure/flora/bush/ausbushes/var3/leafybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "piw" = (
 /obj/structure/platform_decoration/kutjevo,
@@ -63558,7 +63546,7 @@
 /obj/structure/flora/trees220/tree_4{
 	pixel_x = 20
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "pmy" = (
 /turf/open/floor/prison/blue/west,
@@ -63791,7 +63779,7 @@
 	dir = 8
 	},
 /obj/structure/flora/trees220/tree_13,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "ppd" = (
 /obj/structure/flora/grass/tallgrass/jungle{
@@ -63927,7 +63915,7 @@
 	desc = "A large swathe of drygrass"
 	},
 /obj/structure/flora/bigtree220/tree_4,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "pqS" = (
 /obj/structure/platform_decoration/kutjevo/rock{
@@ -64222,7 +64210,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 6
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "ptS" = (
 /obj/effect/vehicle_spawner/van/armored/decrepid{
@@ -64514,7 +64502,7 @@
 	layer = 4.3;
 	pixel_y = 13
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "pxp" = (
 /obj/structure/machinery/door/airlock/almayer/medical{
@@ -64568,7 +64556,7 @@
 /turf/open/floor/interior/wood/alt,
 /area/swamp/beach)
 "pxS" = (
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/caverns)
 "pxU" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
@@ -64635,7 +64623,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/item/clothing/accessory/storage/sheath,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "pyQ" = (
 /obj/structure/platform{
@@ -64691,7 +64679,7 @@
 	color = "#999999";
 	layer = 3.02
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "pzA" = (
 /obj/structure/blocker/invisible_wall,
@@ -64840,7 +64828,7 @@
 /obj/structure/flora/bush/ausbushes/ppflowers{
 	icon_state = "fullgrass_3"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "pBY" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -64955,7 +64943,7 @@
 "pDH" = (
 /obj/structure/barricade/handrail/kutjevo,
 /obj/structure/flora/trees220/tree_13,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "pDP" = (
 /obj/structure/prop/invuln/lattice_prop{
@@ -64996,7 +64984,7 @@
 	dir = 1;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "pEA" = (
 /obj/structure/prop/turbine_extras,
@@ -65057,7 +65045,7 @@
 	color = "#999900";
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/outskirts)
 "pFB" = (
 /obj/structure/largecrate/supply/supplies/wy_emergency_food,
@@ -65245,7 +65233,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	color = "#999900"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "pHK" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -65278,7 +65266,7 @@
 	dir = 4
 	},
 /obj/effect/step_trigger/clone_cleaner,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "pHX" = (
 /obj/effect/decal/siding{
@@ -65479,7 +65467,7 @@
 "pJR" = (
 /obj/structure/flora/trees220/tree_10,
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "pJU" = (
 /obj/effect/decal/cleanable/dirt,
@@ -65520,7 +65508,7 @@
 /area/swamp/colony/colony_exterior)
 "pKx" = (
 /obj/structure/flora/bush/ausbushes/grassybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "pKH" = (
 /obj/structure/coatrack,
@@ -65587,7 +65575,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "grassybush_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "pMk" = (
 /obj/structure/platform_decoration/kutjevo/rock{
@@ -65612,7 +65600,7 @@
 	desc = "A large swathe of drygrass"
 	},
 /obj/structure/flora/bigtree220/tree_4,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "pMA" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -65801,7 +65789,7 @@
 	pixel_x = -32;
 	pixel_y = -20
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "pPm" = (
 /obj/effect/decal/grass_overlay/grass1/inner{
@@ -65809,7 +65797,7 @@
 	},
 /obj/structure/flora/bush/ausbushes/lavendergrass,
 /obj/structure/flora/trees220/tree_1,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "pPs" = (
 /obj/structure/flora/bush/ausbushes/ausbush,
@@ -65850,7 +65838,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "pPV" = (
 /obj/structure/flora/grass/tallgrass/jungle{
@@ -65861,7 +65849,7 @@
 	color = "#999999";
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "pPX" = (
 /obj/structure/prop/rock/black_ground/dense,
@@ -65978,7 +65966,7 @@
 	icon_state = "siding4"
 	},
 /obj/structure/flora/bush/ausbushes/var3/ywflowers,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/colony/complex)
 "pRy" = (
 /obj/effect/decal/cleanable/dirt,
@@ -65989,7 +65977,7 @@
 	icon_state = "siding9"
 	},
 /obj/structure/flora/bush/ausbushes/genericbush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/colony/complex)
 "pRJ" = (
 /obj/structure/disposalpipe/segment,
@@ -66003,7 +65991,7 @@
 /obj/structure/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/inside/flag)
 "pRU" = (
 /obj/structure/prop/rock/brown{
@@ -66023,7 +66011,7 @@
 	pixel_y = -5
 	},
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "pSs" = (
 /obj/structure/surface/table/almayer,
@@ -66125,7 +66113,7 @@
 /area/swamp/shuttles/drop2)
 "pTx" = (
 /obj/structure/flora/grass/desert/lightgrass_11,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "pTD" = (
 /obj/structure/prop/almayer/computers/sensor_computer3,
@@ -66185,7 +66173,7 @@
 	pixel_x = 8;
 	pixel_y = 5
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "pUu" = (
 /obj/structure/filingcabinet/chestdrawer{
@@ -66214,7 +66202,7 @@
 	pixel_x = 20
 	},
 /obj/structure/flora/bush/ausbushes/palebush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "pUx" = (
 /obj/effect/decal/grass_overlay/grass1/inner{
@@ -66493,7 +66481,7 @@
 	color = "#999900";
 	dir = 10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "pXO" = (
 /obj/effect/decal/cleanable/dirt,
@@ -66686,7 +66674,7 @@
 /area/swamp/colony/colony_exterior)
 "qaA" = (
 /obj/structure/flora/trees220/tree_1,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "qaK" = (
 /obj/structure/cargo_container/uscm/chinook/left{
@@ -66759,7 +66747,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 5
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "qbv" = (
 /obj/item/weapon/gun/smartgun/upp,
@@ -67056,7 +67044,7 @@
 	pixel_x = 3;
 	pixel_y = 10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "qft" = (
 /obj/structure/filtration/machine_96x96/filtration,
@@ -67461,7 +67449,7 @@
 /obj/structure/flora/bush/ausbushes{
 	pixel_y = 5
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "qki" = (
 /obj/structure/prop/broken_arcade,
@@ -67477,7 +67465,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "qkw" = (
 /obj/structure/machinery/light{
@@ -67518,7 +67506,7 @@
 "qkW" = (
 /obj/structure/flora/trees220/tree_11,
 /obj/structure/flora/grass/desert/heavygrass_6,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "qlf" = (
 /obj/structure/barricade/handrail/kutjevo{
@@ -67645,7 +67633,7 @@
 	dir = 4
 	},
 /obj/structure/flora/grass/desert/lightgrass_4,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "qmv" = (
 /obj/structure/flora/bush/ausbushes/reedbush,
@@ -67796,7 +67784,7 @@
 	color = "#999900";
 	dir = 9
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "qoc" = (
 /obj/structure/platform/kutjevo{
@@ -68089,7 +68077,7 @@
 "qrp" = (
 /obj/structure/flora/trees220/tree_11,
 /obj/structure/flora/grass/desert/heavy,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "qrq" = (
 /obj/structure/machinery/light/small{
@@ -68140,7 +68128,7 @@
 /obj/structure/flora/bigtree220/tree_3{
 	pixel_x = -32
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "qsp" = (
 /turf/open/floor/prison/blue/northwest,
@@ -68278,7 +68266,7 @@
 "qtw" = (
 /obj/structure/flora/trees220/tree_3,
 /obj/structure/flora/grass/desert/lightgrass_4,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "qtD" = (
 /obj/effect/decal/cleanable/dirt{
@@ -68690,7 +68678,7 @@
 /obj/item/clothing/accessory/storage/black_vest/brown_vest,
 /obj/item/clothing/accessory/storage/black_vest/brown_vest,
 /obj/item/clothing/accessory/storage/black_vest/brown_vest,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "qyI" = (
 /obj/effect/decal/grass_overlay/grass1/inner,
@@ -68778,7 +68766,7 @@
 	dir = 4
 	},
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "qzl" = (
 /obj/structure/platform/kutjevo/rock{
@@ -68835,7 +68823,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "pointybush_1"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "qzN" = (
 /obj/structure/machinery/light/double{
@@ -68920,7 +68908,7 @@
 /area/swamp/canal)
 "qBk" = (
 /obj/structure/flora/bush/ausbushes/var3/ywflowers,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "qBo" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
@@ -68958,7 +68946,7 @@
 "qBH" = (
 /obj/structure/flora/trees220/tree_6,
 /obj/structure/flora/grass/desert/heavy,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "qBI" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -69540,7 +69528,7 @@
 	color = "#999900";
 	dir = 1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "qJq" = (
 /obj/item/trash/burger,
@@ -69687,7 +69675,7 @@
 	pixel_y = 5;
 	icon_state = "firstbush_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "qLi" = (
 /obj/structure/sink{
@@ -69703,7 +69691,7 @@
 "qLj" = (
 /obj/structure/machinery/portable_atmospherics/hydroponics/soil,
 /obj/structure/flora/bush/ausbushes/genericbush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "qLm" = (
 /turf/open/gm/coast/south,
@@ -69793,7 +69781,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "lavendergrass_4"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "qMs" = (
 /obj/structure/platform/kutjevo/rock{
@@ -69833,7 +69821,7 @@
 /area/swamp/colony/colony_exterior)
 "qMN" = (
 /obj/structure/flora/grass/desert/lightgrass_6,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "qMU" = (
 /obj/structure/surface/table/almayer,
@@ -69880,7 +69868,7 @@
 	color = "#999900";
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "qNo" = (
 /obj/structure/platform/strata/metal,
@@ -70205,7 +70193,7 @@
 /area/swamp/murasverd/house)
 "qQS" = (
 /obj/structure/flora/bush/ausbushes/var3/leafybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "qQU" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
@@ -70560,7 +70548,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "genericbush_4"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "qUV" = (
 /obj/item/trash/uscm_mre,
@@ -70622,7 +70610,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 6
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "qVR" = (
 /obj/structure/surface/rack,
@@ -70789,7 +70777,7 @@
 /area/swamp/murasverd/swamp)
 "qXz" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/beach)
 "qXC" = (
 /obj/structure/barricade/handrail/strata{
@@ -71076,7 +71064,7 @@
 /area/swamp/base/outskirts)
 "rad" = (
 /obj/structure/flora/grass/desert/lightgrass_10,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "rae" = (
 /obj/structure/flora/bush/ausbushes/var3/leafybush,
@@ -71146,7 +71134,7 @@
 /obj/structure/platform/kutjevo/rock{
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "raH" = (
 /obj/structure/surface/table/almayer,
@@ -71314,7 +71302,7 @@
 	pixel_y = 10;
 	icon_state = "fernybush_3"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "rcN" = (
 /obj/structure/platform/kutjevo,
@@ -71407,7 +71395,7 @@
 /area/swamp/base/keppitz/archives)
 "rdM" = (
 /obj/structure/flora/grass/desert/heavygrass_5,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "reb" = (
 /turf/open/gm/grass/grassbeach/south,
@@ -71679,7 +71667,7 @@
 	color = "#999999";
 	layer = 3.02
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "rgW" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -71722,7 +71710,7 @@
 /obj/structure/platform_decoration/kutjevo{
 	dir = 1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "ris" = (
 /obj/structure/sink{
@@ -71743,7 +71731,7 @@
 /area/swamp/villa/bunker/hospital)
 "riy" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "riP" = (
 /obj/structure/flora/bush/ausbushes/grassybush,
@@ -71843,7 +71831,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "rka" = (
 /obj/structure/surface/table/woodentable/poor,
@@ -71986,7 +71974,7 @@
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "rlD" = (
 /obj/structure/barricade/sandbags{
@@ -72034,7 +72022,7 @@
 "rmu" = (
 /obj/structure/flora/trees220/tree_6,
 /obj/structure/flora/grass/desert/heavygrass_7,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "rmL" = (
 /obj/structure/surface/table/reinforced/prison{
@@ -72130,7 +72118,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "rnJ" = (
 /obj/item/storage/box/fish,
@@ -72279,7 +72267,7 @@
 	pixel_y = 20
 	},
 /obj/structure/flora/grass/desert/lightgrass_1,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "rpv" = (
 /obj/structure/largecrate/supply/ammo/sentry{
@@ -72548,7 +72536,7 @@
 "rsM" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
 /obj/structure/flora/bush/ausbushes/palebush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "rsV" = (
 /obj/effect/decal/grass_overlay/grass1/inner,
@@ -72593,7 +72581,7 @@
 /obj/structure/flora/grass/desert/lightgrass_10{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "rtz" = (
 /obj/structure/surface/table/almayer,
@@ -72678,7 +72666,7 @@
 	color = "#999999"
 	},
 /obj/structure/flora/bush/ausbushes/ausbush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "run" = (
 /obj/structure/machinery/medical_pod/bodyscanner,
@@ -72704,7 +72692,7 @@
 /area/swamp/villa/garage)
 "rut" = (
 /obj/structure/flora/grass/desert/heavygrass_9,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "ruz" = (
 /obj/structure/closet/secure_closet/freezer/fridge/full{
@@ -72716,7 +72704,7 @@
 /area/swamp/murasverd/house)
 "ruA" = (
 /obj/structure/flora/grass/desert/heavygrass_6,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "ruC" = (
 /obj/structure/machinery/power/apc/power/north,
@@ -72726,7 +72714,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	color = "#999900"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "rvf" = (
 /obj/structure/flora/bush/ausbushes,
@@ -72841,7 +72829,7 @@
 /obj/structure/flora/grass/desert/lightgrass_10{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "rwC" = (
 /obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep{
@@ -72892,7 +72880,7 @@
 /area/swamp/murasverd/swamp)
 "rxj" = (
 /obj/structure/flora/trees220/tree_10,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "rxr" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner,
@@ -73145,7 +73133,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "rBa" = (
 /obj/structure/barricade/handrail/strata{
@@ -73259,7 +73247,7 @@
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "rCH" = (
 /obj/structure/cable/heavyduty{
@@ -73596,7 +73584,7 @@
 /obj/structure/flora/trees220/tree_12{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "rGG" = (
 /obj/structure/flora/jungle/planttop1,
@@ -73795,7 +73783,7 @@
 /obj/structure/platform_decoration/kutjevo{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/outskirts)
 "rIR" = (
 /turf/open/floor/prison/floor_plate,
@@ -73970,7 +73958,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "rKY" = (
 /obj/structure/cargo_container/armat/mid{
@@ -74598,8 +74586,9 @@
 "rSB" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/door_control/brbutton/alt{
-	id = "Relay Checkpoint";
-	name = "Blocker Button"
+	pixel_y = -1;
+	id = "Relay Checkpoint_1";
+	name = "Checkpoint Barrier"
 	},
 /turf/open/floor/prison,
 /area/swamp/base/bunker/cargo)
@@ -74726,7 +74715,7 @@
 /area/swamp/colony/hangar)
 "rTJ" = (
 /obj/structure/flora/grass/desert/heavygrass_4,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "rTV" = (
 /obj/structure/flora/trees220/tree_11,
@@ -74761,7 +74750,7 @@
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass{
 	icon_state = "sparsegrass_3"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "rUs" = (
 /obj/structure/surface/table/almayer,
@@ -74824,7 +74813,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "rVq" = (
 /obj/structure/largecrate/random/barrel/true_random{
@@ -74841,7 +74830,7 @@
 "rVC" = (
 /obj/structure/flora/trees220/tree_2,
 /obj/structure/flora/grass/desert/heavygrass_5,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "rVD" = (
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -75026,7 +75015,7 @@
 	layer = 3.02
 	},
 /obj/structure/largecrate/supply/supplies/water,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "rXo" = (
 /obj/structure/platform/kutjevo,
@@ -75114,7 +75103,7 @@
 "rYi" = (
 /obj/structure/flora/grass/tallgrass/jungle,
 /obj/structure/flora/trees220/tree_12,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "rYj" = (
 /obj/structure/machinery/landinglight/ds1/delaytwo{
@@ -75244,7 +75233,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 6
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/farmland)
 "rZz" = (
 /turf/open/gm/coast/north,
@@ -75499,7 +75488,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "sbo" = (
 /obj/structure/tent/big,
@@ -75528,7 +75517,9 @@
 /turf/open/gm/dirt2,
 /area/swamp/murasverd/village)
 "sbx" = (
-/obj/effect/vehicle_spawner/van/fixed,
+/obj/structure/prop/hybrisa/vehicles/Armored_Truck/Blue{
+	dir = 4
+	},
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/swamp/murasverd/trench)
 "sbH" = (
@@ -75600,7 +75591,7 @@
 	},
 /obj/structure/flora/bush/ausbushes/grassybush,
 /obj/structure/platform/kutjevo/smooth,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "scm" = (
 /obj/structure/closet/crate/supply,
@@ -75739,7 +75730,7 @@
 	pixel_x = -8;
 	pixel_y = 10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "sed" = (
 /obj/structure/roof/cargocrane_tracks/vertical{
@@ -75951,7 +75942,7 @@
 "sgq" = (
 /obj/structure/flora/trees220/tree_3,
 /obj/structure/flora/grass/desert/lightgrass_1,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "sgr" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer{
@@ -76119,7 +76110,7 @@
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass{
 	layer = 3
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "shN" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -76151,7 +76142,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 5
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/road)
 "siq" = (
 /obj/structure/flora/jungle/treeblocker,
@@ -76231,7 +76222,7 @@
 "sjB" = (
 /obj/structure/flora/trees220/tree_3,
 /obj/structure/flora/grass/desert/lightgrass_2,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "sjE" = (
 /obj/structure/platform_decoration/kutjevo{
@@ -76362,7 +76353,7 @@
 	color = "#999900";
 	dir = 1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "slM" = (
 /obj/effect/decal/strata_decals/grime/grime3{
@@ -76611,7 +76602,7 @@
 "snR" = (
 /obj/effect/decal/grass_overlay/grass1/inner,
 /obj/structure/flora/bush/ausbushes/pointybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "snU" = (
 /obj/structure/platform/kutjevo/rock{
@@ -76713,7 +76704,7 @@
 /area/swamp/base/bunker/engineering)
 "sox" = (
 /obj/structure/flora/trees220/tree_6,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "soD" = (
 /obj/structure/machinery/light/blue{
@@ -76909,7 +76900,7 @@
 	dir = 4
 	},
 /obj/structure/flora/bush/ausbushes/palebush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "sru" = (
 /obj/effect/decal/cleanable/dirt,
@@ -76952,7 +76943,7 @@
 	pixel_x = 19;
 	pixel_y = 13
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "srL" = (
 /obj/effect/projector{
@@ -77027,7 +77018,7 @@
 /area/swamp/villa/house)
 "ssF" = (
 /obj/structure/flora/grass/desert/heavygrass_10,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "ssI" = (
 /obj/effect/decal/cleanable/dirt,
@@ -77199,7 +77190,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "suf" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -77207,7 +77198,7 @@
 	climb_delay = 1;
 	layer = 2.99
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "sui" = (
 /turf/open/floor/asteroidplating,
@@ -77300,7 +77291,7 @@
 "suP" = (
 /obj/structure/largecrate,
 /obj/item/clothing/accessory/health/ceramic_plate,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "suX" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
@@ -77373,7 +77364,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "svT" = (
 /obj/structure/desertdam/decals/loose_sand_overlay,
@@ -77940,7 +77931,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "sDc" = (
 /obj/structure/pipes/vents/pump{
@@ -78088,7 +78079,7 @@
 "sEB" = (
 /obj/structure/machinery/portable_atmospherics/hydroponics/soil,
 /obj/structure/flora/bush/ausbushes/palebush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "sEF" = (
 /obj/structure/machinery/vending/hydroseeds,
@@ -78336,7 +78327,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "fullgrass_1"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "sIl" = (
 /obj/effect/decal/warning_stripes{
@@ -78430,7 +78421,7 @@
 /area/swamp/base/farmland)
 "sJD" = (
 /obj/structure/flora/bush/ausbushes/var3/fernybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "sJG" = (
 /obj/structure/platform/kutjevo{
@@ -78476,7 +78467,7 @@
 	dir = 4
 	},
 /obj/effect/step_trigger/clone_cleaner,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "sKd" = (
 /obj/effect/decal/cleanable/dirt,
@@ -78487,7 +78478,7 @@
 /area/swamp/murasverd/oldman_basement)
 "sKl" = (
 /obj/structure/flora/bush/ausbushes/grassybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/road)
 "sKo" = (
 /obj/item/storage/firstaid/regular{
@@ -78695,7 +78686,7 @@
 /area/swamp/villa/bunker/engineer)
 "sMm" = (
 /obj/structure/largecrate/random/barrel/yellow,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "sMv" = (
 /obj/item/stack/sheet/wood,
@@ -78748,11 +78739,11 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "leafybush_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "sNA" = (
 /obj/structure/flora/grass/desert/lightgrass_8,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "sNH" = (
 /obj/structure/largecrate,
@@ -78783,7 +78774,7 @@
 	pixel_y = 13
 	},
 /obj/structure/flora/bush/ausbushes/grassybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "sOq" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
@@ -78811,7 +78802,7 @@
 "sOX" = (
 /obj/structure/flora/trees220/tree_2,
 /obj/structure/flora/grass/desert/heavy,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "sOY" = (
 /obj/structure/prop/rock/brown,
@@ -79625,7 +79616,7 @@
 /area/swamp/caverns)
 "sYK" = (
 /obj/structure/flora/trees220/tree_12,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "sZa" = (
 /obj/structure/platform_decoration/strata/metal{
@@ -79844,7 +79835,7 @@
 /area/swamp/colony/colony_exterior)
 "tbL" = (
 /obj/structure/flora/trees220/tree_3,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "tbO" = (
 /obj/structure/prop/invuln/lattice_prop{
@@ -79965,7 +79956,7 @@
 	color = "#999999"
 	},
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "tdG" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -80004,19 +79995,19 @@
 /obj/structure/flora/grass/tallgrass/jungle{
 	color = "#999900"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "teg" = (
 /obj/item/stool{
 	pixel_x = -15;
 	pixel_y = 6
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "ter" = (
 /obj/structure/flora/trees220/tree_10,
 /obj/structure/flora/grass/desert/lightgrass_5,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "tes" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass{
@@ -80338,7 +80329,7 @@
 /area/swamp/colony/colony_exterior)
 "tkx" = (
 /obj/structure/flora/bush/ausbushes/var3/ywflowers,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/inside/flag)
 "tkB" = (
 /turf/closed/wall/almayer/outer,
@@ -80347,7 +80338,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "fullgrass_1"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "tkV" = (
 /obj/structure/machinery/light{
@@ -80372,7 +80363,7 @@
 	color = "#999999";
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "tlq" = (
 /obj/structure/machinery/landinglight/ds1{
@@ -80645,7 +80636,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	icon_state = "fullgrass_3"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "top" = (
 /obj/effect/decal/warning_stripes{
@@ -80733,7 +80724,7 @@
 	dir = 1;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "tpj" = (
 /obj/structure/machinery/vending/snack/packaged{
@@ -80790,7 +80781,7 @@
 "tpU" = (
 /obj/structure/platform,
 /obj/structure/flora/bush/ausbushes/var3/brflowers,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/church/ext)
 "tqb" = (
 /obj/structure/closet/firecloset,
@@ -80946,7 +80937,7 @@
 /area/swamp/murasverd/trench)
 "trS" = (
 /obj/structure/flora/bush/ausbushes/ppflowers,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/inside/flag)
 "trU" = (
 /obj/effect/decal/cleanable/dirt{
@@ -81047,7 +81038,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	icon_state = "fullgrass_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "tte" = (
 /obj/structure/flora/bush/ausbushes/grassybush{
@@ -81111,7 +81102,7 @@
 	color = "#999900"
 	},
 /obj/structure/flora/grass/tallgrass/jungle/corner,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/farmland)
 "tub" = (
 /obj/structure/platform{
@@ -81197,7 +81188,7 @@
 	dir = 4
 	},
 /obj/structure/flora/grass/desert/heavygrass_6,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "tve" = (
 /obj/structure/flora/bush/ausbushes/lavendergrass,
@@ -81404,7 +81395,7 @@
 "tyl" = (
 /obj/structure/flora/trees220/tree_7,
 /obj/structure/flora/bush/ausbushes/ausbush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "tyo" = (
 /obj/structure/prop/rock,
@@ -81517,7 +81508,7 @@
 	},
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
 /obj/structure/flora/bush/ausbushes/lavendergrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/colony/complex)
 "tzE" = (
 /turf/open/floor/prison/cell_stripe/north,
@@ -81610,7 +81601,7 @@
 	color = "#999900";
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "tAl" = (
 /obj/structure/platform{
@@ -81640,7 +81631,7 @@
 	layer = 3.1;
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "tAD" = (
 /obj/item/storage/box/lightstick/red,
@@ -81754,7 +81745,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "tCt" = (
 /obj/effect/projector{
@@ -81868,7 +81859,7 @@
 	layer = 2.99
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "tDX" = (
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
@@ -81967,7 +81958,7 @@
 	dir = 4
 	},
 /obj/structure/flora/grass/desert/lightgrass_2,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "tFi" = (
 /turf/open/asphalt/cement/cement3,
@@ -82009,7 +82000,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "tFI" = (
 /obj/structure/prop/rock/brown,
@@ -82117,7 +82108,7 @@
 	color = "#999900";
 	dir = 9
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "tHb" = (
 /obj/structure/stairs/perspective{
@@ -82227,7 +82218,7 @@
 /area/swamp/villa/bunker/hospital)
 "tIk" = (
 /obj/structure/flora/bigtree220/tree_5,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "tIl" = (
 /obj/structure/window_frame/wood,
@@ -82339,7 +82330,7 @@
 "tKj" = (
 /obj/structure/flora/trees220/tree_5,
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "tKk" = (
 /obj/structure/barricade/handrail/kutjevo{
@@ -82619,7 +82610,7 @@
 "tMJ" = (
 /obj/structure/flora/trees220/tree_12,
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "tMO" = (
 /obj/structure/cable/heavyduty,
@@ -82752,7 +82743,7 @@
 /obj/structure/flora/bigtree220/tree_8{
 	pixel_y = -15
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "tPc" = (
 /obj/structure/platform{
@@ -82832,7 +82823,7 @@
 "tQt" = (
 /obj/structure/flora/trees220/tree_3,
 /obj/structure/flora/grass/desert/lightgrass_5,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "tQu" = (
 /obj/effect/decal/strata_decals/grime/grime3{
@@ -82894,7 +82885,7 @@
 	vector_x = 59;
 	vector_y = -184
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "tQS" = (
 /obj/structure/girder/reinforced,
@@ -83052,7 +83043,7 @@
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "tSV" = (
 /obj/structure/flora/grass/tallgrass/desert/corner{
@@ -83089,7 +83080,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "tTq" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -83141,7 +83132,7 @@
 /area/swamp/base/outskirts)
 "tTO" = (
 /obj/structure/flora/grass/desert/lightgrass_2,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "tTS" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -83176,7 +83167,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "tUp" = (
 /obj/structure/surface/rack,
@@ -83226,7 +83217,7 @@
 /area/swamp/colony/colony_exterior)
 "tVf" = (
 /obj/structure/flora/trees220/tree_7,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "tVi" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -83455,7 +83446,7 @@
 /area/swamp/colony/complex)
 "tXm" = (
 /obj/structure/flora/bush/ausbushes/lavendergrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "tXo" = (
 /obj/structure/flora/grass/tallgrass/desert/corner{
@@ -83551,7 +83542,7 @@
 	dir = 4
 	},
 /obj/structure/barricade/handrail/kutjevo,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "tYJ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -83665,7 +83656,7 @@
 	dir = 8
 	},
 /obj/structure/flora/grass/desert/heavygrass_8,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "uaL" = (
 /obj/structure/surface/table/holotable/wood,
@@ -83854,7 +83845,7 @@
 	pixel_x = 5;
 	pixel_y = -12
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "ucJ" = (
 /turf/closed/wall/strata_outpost/reinforced,
@@ -84287,7 +84278,7 @@
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 9
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "uhM" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -84302,7 +84293,7 @@
 	pixel_y = -9;
 	pixel_x = 10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "uhW" = (
 /obj/structure/platform_decoration/kutjevo{
@@ -84650,7 +84641,7 @@
 	dir = 1;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "unk" = (
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -84842,7 +84833,7 @@
 	dir = 9
 	},
 /obj/structure/flora/bush/ausbushes/genericbush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "upP" = (
 /obj/effect/decal/grass_overlay/grass1/inner{
@@ -84988,7 +84979,7 @@
 /area/swamp/murasverd/river)
 "uqL" = (
 /obj/effect/step_trigger/clone_cleaner,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "uqM" = (
 /obj/effect/decal/cleanable/dirt,
@@ -85143,7 +85134,7 @@
 	pixel_y = 17
 	},
 /obj/item/clothing/accessory/storage/droppouch,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "utB" = (
 /obj/structure/barricade/handrail/kutjevo{
@@ -85154,7 +85145,7 @@
 	color = "#bdce86";
 	desc = "A large swathe of drygrass"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "utG" = (
 /turf/open/floor/prison/blue/southeast,
@@ -85167,7 +85158,7 @@
 /area/swamp/base/keppitz/interlude)
 "utZ" = (
 /obj/structure/flora/grass/desert/heavygrass_6,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "uui" = (
 /obj/structure/surface/table/reinforced/almayer_B,
@@ -85186,7 +85177,7 @@
 /area/swamp/base/keppitz/entry_pub)
 "uun" = (
 /obj/structure/flora/bush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "uus" = (
 /obj/structure/surface/rack,
@@ -85607,7 +85598,7 @@
 /area/swamp/villa/bunker/armory)
 "uzC" = (
 /obj/structure/flora/bush/ausbushes/grassybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "uzD" = (
 /obj/structure/disposalpipe/segment,
@@ -85621,7 +85612,7 @@
 "uzE" = (
 /obj/structure/flora/trees220/tree_3,
 /obj/structure/flora/bush/ausbushes/grassybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "uzH" = (
 /obj/effect/decal/cleanable/dirt,
@@ -85634,7 +85625,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/farmland)
 "uzL" = (
 /obj/structure/prop/rock/brown{
@@ -85671,7 +85662,7 @@
 	dir = 1;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "uAg" = (
 /obj/effect/decal/cleanable/dirt{
@@ -85691,7 +85682,7 @@
 	dir = 4
 	},
 /obj/structure/flora/grass/desert/lightgrass_1,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "uAB" = (
 /obj/structure/pipes/vents/pump{
@@ -85750,7 +85741,7 @@
 	color = "#999999";
 	layer = 3.02
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "uBa" = (
 /obj/item/tool/extinguisher{
@@ -85865,7 +85856,7 @@
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass{
 	icon_state = "sparsegrass_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "uDc" = (
 /turf/open/floor/almayer/uscm/directional/up_down/northwest,
@@ -85948,7 +85939,7 @@
 /turf/closed/wall/r_wall/elevator/button/research,
 /area/swamp/base/keppitz/interlude)
 "uDJ" = (
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/church/ext)
 "uDP" = (
 /obj/effect/decal/cleanable/dirt,
@@ -86045,7 +86036,7 @@
 	color = "#bdce86";
 	desc = "A large swathe of drygrass"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "uEJ" = (
 /obj/structure/machinery/door/airlock/multi_tile/glass,
@@ -86366,7 +86357,7 @@
 /area/swamp/colony/flightdeck)
 "uIJ" = (
 /obj/structure/flora/grass/desert/heavygrass_9,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "uIL" = (
 /obj/structure/platform_decoration/kutjevo/rock{
@@ -86431,7 +86422,7 @@
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/church/ext)
 "uJe" = (
 /obj/structure/machinery/door/airlock/multi_tile/upp_grey{
@@ -86919,7 +86910,7 @@
 /area/swamp/base/keppitz/Engineeringlower)
 "uPt" = (
 /obj/structure/flora/trees220/tree_5,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "uPC" = (
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -87022,7 +87013,7 @@
 	pixel_x = -17;
 	pixel_y = 15
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "uQj" = (
 /obj/structure/cargo_container/seegson/mid,
@@ -87397,7 +87388,7 @@
 	pixel_y = 8;
 	pixel_x = -7
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "uVb" = (
 /obj/structure/largecrate/random/barrel/true_random{
@@ -87521,7 +87512,7 @@
 	color = "#bdce86";
 	desc = "A large swathe of drygrass"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "uWG" = (
 /obj/effect/decal/cleanable/dirt,
@@ -87629,7 +87620,7 @@
 	dir = 1
 	},
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "uYk" = (
 /obj/structure/platform/kutjevo/rock{
@@ -87744,7 +87735,7 @@
 /obj/structure/flora/bigtree220/tree_5{
 	pixel_y = -36
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "var" = (
 /obj/structure/largecrate/black_market/uscm_heap,
@@ -88049,7 +88040,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 9
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "vey" = (
 /obj/item/device/flashlight/lamp/tripod{
@@ -88373,7 +88364,7 @@
 "viw" = (
 /obj/structure/machinery/door/poddoor/railing{
 	dir = 4;
-	id = "Relay Checkpoint"
+	id = "Relay Checkpoint_1"
 	},
 /turf/open/floor/prison/cell_stripe/east,
 /area/swamp/base/road)
@@ -88459,7 +88450,7 @@
 /area/swamp/murasverd/swamp)
 "vkk" = (
 /obj/structure/flora/grass/desert/lightgrass_1,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "vkm" = (
 /obj/structure/platform/kutjevo{
@@ -88562,7 +88553,7 @@
 /area/swamp/base/keppitz/archives)
 "vlQ" = (
 /obj/structure/flora/bigtree220/tree_1,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "vmi" = (
 /obj/structure/machinery/light/small{
@@ -88577,7 +88568,7 @@
 /obj/structure/flora/bush/ausbushes/palebush{
 	pixel_y = 5
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "vmD" = (
 /obj/effect/decal/cleanable/dirt,
@@ -88621,7 +88612,7 @@
 	pixel_y = 9;
 	layer = 3
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "vnj" = (
 /obj/effect/decal/cleanable/dirt,
@@ -88746,7 +88737,7 @@
 	layer = 2.79
 	},
 /obj/item/prop/geiger_counter,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "voS" = (
 /obj/effect/decal/cleanable/dirt,
@@ -89026,7 +89017,7 @@
 /area/swamp/shuttles/drop4)
 "vrr" = (
 /obj/structure/flora/bush/ausbushes/var3/brflowers,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "vrw" = (
 /obj/structure/bed/chair{
@@ -89050,7 +89041,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "fernybush_3"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "vrI" = (
 /obj/structure/largecrate/random/mini/small_case/c{
@@ -89067,7 +89058,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	color = "#999900"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/outskirts)
 "vsj" = (
 /obj/effect/decal/warning_stripes{
@@ -89192,7 +89183,7 @@
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 5
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "vtM" = (
 /obj/structure/girder/displaced,
@@ -89221,7 +89212,7 @@
 /obj/structure/prop/rock/black_ground/dense{
 	dir = 1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/colony/complex)
 "vuf" = (
 /obj/effect/decal/cleanable/dirt,
@@ -89271,7 +89262,7 @@
 /obj/structure/platform/kutjevo/rock{
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "vvr" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -89281,7 +89272,7 @@
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "vvs" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
@@ -89355,7 +89346,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/farmland)
 "vwt" = (
 /obj/structure/machinery/autolathe,
@@ -89487,7 +89478,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/clothing/accessory/storage/knifeharness/duelling,
 /obj/item/clothing/accessory/storage/black_vest,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "vyu" = (
 /turf/open/gm/coast/beachcorner2/north_east,
@@ -89631,7 +89622,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "vAV" = (
 /obj/effect/decal/cleanable/dirt,
@@ -89677,7 +89668,7 @@
 	pixel_y = 5;
 	icon_state = "palebush_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "vBv" = (
 /obj/structure/filingcabinet/chestdrawer{
@@ -89774,7 +89765,7 @@
 "vCu" = (
 /obj/structure/flora/trees220/tree_11,
 /obj/structure/flora/grass/desert/lightgrass_11,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "vCx" = (
 /obj/structure/platform_decoration/kutjevo/rock{
@@ -89949,7 +89940,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	pixel_y = 7
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "vEN" = (
 /obj/item/toy/plush/box{
@@ -90319,7 +90310,7 @@
 	dir = 5
 	},
 /obj/structure/flora/bush/ausbushes/grassybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "vKp" = (
 /turf/open/floor/hybrisa/tile/tilewhitecheckered/blue,
@@ -90369,6 +90360,14 @@
 	},
 /turf/open/asphalt/cement/cement1,
 /area/swamp/colony/colony_exterior)
+"vKP" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/door_control/brbutton/alt{
+	id = "Relay Checkpoint";
+	name = "Blocker Button"
+	},
+/turf/open/floor/prison/floor_plate,
+/area/swamp/base/bunker/cargo)
 "vKZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment,
@@ -90692,7 +90691,7 @@
 "vPr" = (
 /obj/effect/step_trigger/clone_cleaner,
 /obj/structure/blocker/invisible_wall,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/canal)
 "vPt" = (
 /obj/structure/barricade/handrail/kutjevo{
@@ -90703,7 +90702,7 @@
 	pixel_y = -19;
 	layer = 2.99
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "vPB" = (
 /obj/structure/barricade/handrail/kutjevo,
@@ -91037,7 +91036,7 @@
 	pixel_y = 5;
 	icon_state = "palebush_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "vUh" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -91138,7 +91137,7 @@
 "vVo" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
 /obj/structure/flora/bush/ausbushes/ausbush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "vVp" = (
 /obj/effect/decal/warning_stripes{
@@ -91256,7 +91255,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "fullgrass_1"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "vWP" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
@@ -91812,7 +91811,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "grassybush_3"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "wcV" = (
 /obj/effect/decal/warning_stripes{
@@ -91957,7 +91956,7 @@
 	dir = 1;
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "wel" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -92395,7 +92394,7 @@
 /obj/structure/flora/trees220/tree_4{
 	pixel_y = -12
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "wkC" = (
 /obj/effect/decal/cleanable/dirt,
@@ -92417,7 +92416,7 @@
 /area/swamp/colony/hangar)
 "wkJ" = (
 /obj/structure/flora/grass/desert/lightgrass_5,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "wkR" = (
 /obj/structure/barricade/razorwire{
@@ -92549,7 +92548,7 @@
 /obj/structure/platform/kutjevo/rock{
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "wmb" = (
 /obj/effect/decal/warning_stripes{
@@ -92860,7 +92859,7 @@
 /area/swamp/murasverd/swamp)
 "wqn" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "wqp" = (
 /obj/effect/decal/warning_stripes{
@@ -92893,7 +92892,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "wqA" = (
 /obj/structure/largecrate/random/barrel{
@@ -92969,7 +92968,7 @@
 	dir = 1;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "wrp" = (
 /obj/effect/decal/strata_decals/grime/grime1,
@@ -93033,7 +93032,7 @@
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "wsw" = (
 /obj/structure/surface/table/almayer,
@@ -93128,7 +93127,7 @@
 /area/swamp/murasverd/swamp)
 "wth" = (
 /obj/structure/flora/bush/ausbushes/grassybush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/river)
 "wtj" = (
 /obj/structure/flora/grass/tallgrass/jungle{
@@ -93234,7 +93233,7 @@
 	color = "#999900";
 	dir = 5
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/farmland)
 "wvg" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -93303,7 +93302,7 @@
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "wwj" = (
 /obj/structure/barricade/handrail/kutjevo,
@@ -93554,7 +93553,7 @@
 /area/swamp/base/keppitz/entry_pub)
 "wAr" = (
 /obj/structure/flag/plantable/usa,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "wAs" = (
 /obj/structure/bed/bedroll{
@@ -93729,7 +93728,7 @@
 	dir = 4
 	},
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "wCz" = (
 /obj/structure/platform/kutjevo/rock{
@@ -93919,7 +93918,7 @@
 	dir = 4;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/river)
 "wFC" = (
 /obj/structure/barricade/sandbags/wired{
@@ -93995,7 +93994,7 @@
 	icon_state = "brflowers_3"
 	},
 /obj/structure/barricade/handrail/kutjevo,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "wGS" = (
 /obj/effect/decal/grass_overlay/grass1/inner{
@@ -94059,7 +94058,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	icon_state = "fullgrass_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "wIg" = (
 /obj/structure/bed,
@@ -94077,7 +94076,7 @@
 /area/swamp/villa/bunker/hospital)
 "wIq" = (
 /obj/structure/flora/grass/desert/heavygrass_1,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "wIu" = (
 /obj/structure/prop/structure_lattice{
@@ -94546,7 +94545,7 @@
 /obj/structure/flora/bush/ausbushes/ppflowers{
 	icon_state = "brflowers_1"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "wPt" = (
 /obj/structure/prop/structure_lattice{
@@ -94578,7 +94577,7 @@
 /obj/structure/flora/bush/ausbushes/var3/brflowers{
 	icon_state = "brflowers_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "wQg" = (
 /obj/structure/flora/bush/ausbushes/grassybush{
@@ -94592,13 +94591,13 @@
 	color = "#999999";
 	layer = 3.02
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "wQx" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "wQy" = (
 /obj/structure/roof/cargocrane_tracks/vertical{
@@ -94719,7 +94718,7 @@
 	color = "#999900"
 	},
 /obj/effect/decal/grass_overlay/grass1/inner,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "wRV" = (
 /obj/structure/bed,
@@ -94882,7 +94881,7 @@
 	pixel_x = -13;
 	pixel_y = 11
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/road)
 "wTP" = (
 /obj/structure/cable/heavyduty{
@@ -94968,7 +94967,7 @@
 /area/swamp/base/keppitz/command)
 "wUC" = (
 /obj/structure/flora/grass/desert/heavygrass_3,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "wUF" = (
 /obj/structure/platform/kutjevo/rock{
@@ -95051,7 +95050,7 @@
 	layer = 3.1;
 	pixel_y = 32
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "wVf" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -95131,7 +95130,7 @@
 	color = "#999999";
 	layer = 3.02
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "wWl" = (
 /obj/item/storage/belt/utility,
@@ -95148,7 +95147,7 @@
 	pixel_x = 2;
 	pixel_y = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "wWr" = (
 /obj/structure/window_frame/wood,
@@ -95159,7 +95158,7 @@
 	icon_state = "fullgrass_1";
 	layer = 2.9
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "wWI" = (
 /obj/structure/flora/grass/desert/lightgrass_4,
@@ -95181,7 +95180,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "fullgrass_1"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "wWP" = (
 /obj/structure/desertdam/decals/road_edge{
@@ -95316,7 +95315,7 @@
 /obj/structure/prop/ice_colony/dense/planter_box{
 	dir = 9
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "wYE" = (
 /obj/effect/decal/warning_stripes{
@@ -95385,7 +95384,7 @@
 /area/swamp/base/road)
 "wZt" = (
 /obj/structure/flora/trees220/tree_3,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "wZD" = (
 /obj/effect/decal/warning_stripes{
@@ -95405,7 +95404,7 @@
 "wZH" = (
 /obj/effect/decal/grass_overlay/grass1/inner,
 /obj/structure/flora/bush/ausbushes/palebush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "wZM" = (
 /obj/structure/flora/bush/ausbushes/var3/leafybush,
@@ -95416,7 +95415,7 @@
 	dir = 5
 	},
 /obj/effect/decal/grass_overlay/grass1/inner,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "wZS" = (
 /obj/structure/machinery/door/airlock/almayer/secure{
@@ -95451,7 +95450,7 @@
 "xae" = (
 /obj/structure/flora/grass/desert/lightgrass_11,
 /obj/structure/prop/wooden_cross,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "xaz" = (
 /obj/structure/closet/cabinet,
@@ -95671,7 +95670,7 @@
 /obj/structure/flora/grass/tallgrass/jungle{
 	color = "#999900"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/outskirts)
 "xcG" = (
 /obj/structure/bed/chair/comfy/bench/north,
@@ -95689,7 +95688,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "grassybush_3"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "xcU" = (
 /obj/structure/closet/firecloset{
@@ -95730,7 +95729,7 @@
 	pixel_y = 5
 	},
 /obj/item/clothing/accessory/storage/holster,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "xdv" = (
 /obj/structure/platform/kutjevo/rock{
@@ -95767,7 +95766,7 @@
 	dir = 1
 	},
 /obj/structure/flora/bush/ausbushes/palebush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "xdY" = (
 /obj/structure/bed/chair{
@@ -96017,7 +96016,7 @@
 "xgZ" = (
 /obj/structure/flora/tree/joshua,
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "xhd" = (
 /obj/structure/bed/chair/comfy,
@@ -96052,7 +96051,7 @@
 /area/swamp/beach)
 "xhD" = (
 /obj/effect/decal/cleanable/blood/oil,
-/obj/effect/vehicle_spawner/van/decrepit{
+/obj/effect/decal/strata_decals/grime/grime3{
 	dir = 1
 	},
 /turf/open/floor/prison/floor_plate,
@@ -96359,7 +96358,7 @@
 /area/swamp/murasverd/house)
 "xkA" = (
 /obj/structure/flora/bush/ausbushes/ausbush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "xkD" = (
 /obj/item/device/flashlight/lamp/tripod{
@@ -96537,7 +96536,7 @@
 	pixel_y = 11;
 	icon_state = "reedbush_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "xnJ" = (
 /obj/structure/machinery/light{
@@ -96609,7 +96608,7 @@
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass{
 	icon_state = "sparsegrass_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "xoB" = (
 /obj/structure/surface/table/reinforced/almayer_B,
@@ -96840,7 +96839,7 @@
 /obj/structure/platform/kutjevo{
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "xrb" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -96941,7 +96940,7 @@
 	pixel_x = -8;
 	pixel_y = 10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "xsg" = (
 /obj/structure/prop/invuln/lattice_prop{
@@ -96977,7 +96976,7 @@
 /obj/item/clothing/accessory/storage/smallpouch,
 /obj/item/clothing/accessory/storage/smallpouch,
 /obj/item/clothing/accessory/storage/smallpouch,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "xsz" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -96991,7 +96990,7 @@
 /area/swamp/murasverd/swamp)
 "xsF" = (
 /obj/structure/flora/bush/ausbushes/var3/brflowers,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/church/ext)
 "xsK" = (
 /obj/structure/machinery/disposal,
@@ -97024,7 +97023,7 @@
 /area/swamp/murasverd/trench)
 "xtg" = (
 /obj/structure/flora/grass/desert/lightgrass_7,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "xtx" = (
 /obj/structure/flora/bush/ausbushes/var3/sunnybush{
@@ -97056,7 +97055,7 @@
 	pixel_y = 8;
 	pixel_x = -7
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "xtU" = (
 /turf/open/floor/plating,
@@ -97102,7 +97101,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "xvp" = (
 /obj/structure/machinery/landinglight/ds1/delaythree{
@@ -97312,7 +97311,7 @@
 "xxs" = (
 /obj/structure/flora/trees220/tree_12,
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "xxu" = (
 /obj/effect/decal/grass_overlay/grass1/inner,
@@ -97373,7 +97372,7 @@
 /area/swamp/murasverd/house)
 "xyb" = (
 /obj/structure/flora/grass/desert/lightgrass_8,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "xyd" = (
 /obj/structure/desertdam/decals/road_edge{
@@ -97455,7 +97454,7 @@
 "xAa" = (
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
 /obj/structure/flora/grass/tallgrass/jungle,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "xAb" = (
 /obj/structure/surface/table/reinforced/cloth,
@@ -97491,7 +97490,7 @@
 /area/swamp/murasverd/oldman_basement)
 "xAH" = (
 /obj/structure/flora/bush/ausbushes/lavendergrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/road)
 "xAJ" = (
 /obj/structure/prop/dam/van/damaged,
@@ -97597,7 +97596,7 @@
 "xCd" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /obj/structure/flora/trees220/tree_9,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "xCf" = (
 /obj/effect/decal/warning_stripes{
@@ -97748,7 +97747,7 @@
 /area/swamp/base/inside/garage)
 "xEb" = (
 /obj/structure/flora/grass/tallgrass/jungle,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "xEc" = (
 /obj/structure/flora/grass/tallgrass/jungle{
@@ -98086,7 +98085,7 @@
 /obj/structure/flora/bush/ausbushes/ppflowers{
 	icon_state = "ppflowers_2"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "xHX" = (
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
@@ -98180,7 +98179,7 @@
 	layer = 3.04
 	},
 /obj/structure/platform/kutjevo/smooth,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "xJq" = (
 /obj/effect/decal/warning_stripes{
@@ -98245,7 +98244,7 @@
 /area/swamp/beach_house)
 "xJW" = (
 /obj/structure/flora/bush/ausbushes/ausbush,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/road)
 "xJX" = (
 /obj/structure/platform_decoration/kutjevo/rock{
@@ -98258,7 +98257,7 @@
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 5
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "xKc" = (
 /turf/open/floor/corsat/purple/southwest,
@@ -98367,13 +98366,13 @@
 /area/swamp/murasverd/trench)
 "xLX" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/inside/flag)
 "xMa" = (
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 4
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "xMb" = (
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
@@ -98416,7 +98415,7 @@
 	dir = 4;
 	color = "#999999"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "xMA" = (
 /obj/structure/prop/invuln/overhead_pipe{
@@ -98542,7 +98541,7 @@
 /area/swamp/colony/colony_exterior)
 "xOq" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "xOu" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
@@ -98659,7 +98658,7 @@
 /obj/structure/flora/trees220/tree_4{
 	pixel_y = 20
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "xQm" = (
 /obj/effect/decal/cleanable/dirt,
@@ -98704,7 +98703,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	pixel_y = 16
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "xQO" = (
 /obj/effect/decal/strata_decals/catwalk/prison,
@@ -98847,7 +98846,7 @@
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "fernybush_1"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "xSs" = (
 /obj/structure/window/framed/strata,
@@ -98880,7 +98879,7 @@
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/church/ext)
 "xTa" = (
 /obj/structure/platform/kutjevo/rock{
@@ -99275,7 +99274,7 @@
 	color = "#999900";
 	dir = 5
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "xYh" = (
 /turf/open/gm/river/swamp/mid/grass,
@@ -99518,7 +99517,7 @@
 /obj/structure/largecrate/random/barrel/blue{
 	pixel_x = -10
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "yaS" = (
 /obj/structure/prop/invuln/overhead_pipe{
@@ -99611,7 +99610,7 @@
 /area/swamp/murasverd/trench)
 "ybr" = (
 /obj/structure/machinery/vending/cigarette/upp,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "yby" = (
 /obj/structure/machinery/prop/almayer/computer{
@@ -99854,7 +99853,7 @@
 "yeX" = (
 /obj/structure/barricade/handrail/kutjevo,
 /obj/structure/flora/trees220/tree_7,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "yft" = (
 /obj/structure/surface/rack,
@@ -99886,7 +99885,7 @@
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	icon_state = "fullgrass_3"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "yfF" = (
 /obj/item/toy/deck/uno{
@@ -99939,7 +99938,7 @@
 /turf/open/floor/prison/sterile_white,
 /area/swamp/villa/bunker/cafe)
 "ygg" = (
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/base/road)
 "ygm" = (
 /obj/structure/machinery/door/poddoor/railing{
@@ -99955,7 +99954,7 @@
 /obj/structure/flora/grass/tallgrass/jungle{
 	color = "#999900"
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/trench)
 "ygr" = (
 /turf/open/asphalt/cement/cement12,
@@ -100061,7 +100060,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "yhN" = (
 /obj/structure/closet/cabinet{
@@ -100213,7 +100212,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 1
 	},
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "ykb" = (
 /obj/structure/barricade/sandbags/wired{
@@ -100271,7 +100270,7 @@
 /area/swamp/base/road)
 "ykL" = (
 /obj/structure/flora/grass/desert/heavygrass_8,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/village)
 "ylA" = (
 /obj/structure/prop/invuln/lattice_prop{
@@ -100297,7 +100296,7 @@
 "ylN" = (
 /obj/structure/platform/kutjevo,
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/floor/grass,
+/turf/open/auto_turf/swamp/layer1,
 /area/swamp/murasverd/swamp)
 "ylY" = (
 /obj/structure/closet/secure_closet/personal{
@@ -141303,7 +141302,7 @@ vci
 qOn
 mzM
 vgK
-gvY
+kNf
 mOY
 mOY
 mBw
@@ -141625,7 +141624,7 @@ vci
 pBa
 wLN
 vgK
-dIH
+aaI
 mOY
 mOY
 mBw
@@ -143888,7 +143887,7 @@ sBY
 sBY
 oVa
 vsK
-sBY
+osG
 xnS
 vsK
 vsK
@@ -144847,7 +144846,7 @@ sBY
 sBY
 sBY
 sBY
-oii
+vgK
 hmb
 hmb
 csX
@@ -145321,7 +145320,7 @@ vAI
 shE
 igt
 cFF
-pFR
+vKP
 fnN
 tDv
 bep
@@ -145826,7 +145825,7 @@ nux
 sBY
 xnS
 osG
-sBY
+osG
 sBY
 sBY
 sBY
@@ -146147,7 +146146,7 @@ sBY
 osG
 osG
 osG
-sBY
+osG
 sBY
 sBY
 sBY
@@ -146468,7 +146467,7 @@ sBY
 sBY
 gmN
 xnS
-sBY
+osG
 sBY
 sBY
 sBY
@@ -146781,13 +146780,13 @@ sBY
 pWG
 ffx
 ffx
-qOT
-sBY
+kHz
+osG
 vsK
 vsK
-sBY
-sBY
-pWG
+osG
+osG
+pUx
 ffx
 lPm
 vsK
@@ -147425,8 +147424,8 @@ sBY
 sBY
 oVa
 jxz
-tMb
-qZO
+rsv
+phO
 vsK
 vCM
 vsK
@@ -147746,7 +147745,7 @@ sBY
 rDE
 sBY
 osG
-tzO
+gzI
 nVx
 tMb
 bzL
@@ -148068,7 +148067,7 @@ sBY
 sBY
 sBY
 osG
-sDo
+cYS
 vci
 fVX
 pME
@@ -148390,7 +148389,7 @@ sBY
 sBY
 sBY
 osG
-sBY
+osG
 flZ
 vci
 mOY
@@ -153531,7 +153530,7 @@ sBY
 sBY
 sBY
 sBY
-sBY
+osG
 vsK
 vCM
 vCM
@@ -154173,10 +154172,10 @@ lfF
 osG
 vCM
 vsK
+osG
 sBY
 sBY
-sBY
-sBY
+osG
 osG
 vsK
 sBY
@@ -154498,7 +154497,7 @@ sBY
 lfF
 sBY
 sBY
-sBY
+osG
 osG
 sBY
 fcR
@@ -154812,7 +154811,7 @@ pWG
 ffx
 hHC
 vsK
-sBY
+osG
 vsK
 ulI
 osG
@@ -155770,7 +155769,7 @@ sBY
 qBo
 ffx
 vsK
-sBY
+osG
 sBY
 sBY
 sBY
@@ -156093,7 +156092,7 @@ sBY
 sBY
 osG
 osG
-sBY
+osG
 sBY
 sBY
 sBY
@@ -156106,7 +156105,7 @@ sBY
 sBY
 sBY
 osG
-sBY
+osG
 sBY
 sBY
 lfF
@@ -156428,7 +156427,7 @@ sBY
 sBY
 sBY
 osG
-sBY
+osG
 rDE
 sBY
 sBY
@@ -157054,7 +157053,7 @@ sBY
 qnu
 ulI
 osG
-sBY
+osG
 sBY
 sBY
 sBY
@@ -157062,14 +157061,14 @@ sBY
 sBY
 rjG
 rjG
-sBY
-pWG
+osG
+pUx
 ffx
 ffx
 hHC
-sBY
-sBY
-sBY
+osG
+osG
+osG
 rjG
 rjG
 rjG
@@ -157697,8 +157696,8 @@ sBY
 sBY
 sBY
 sBY
-sBY
-sBY
+osG
+osG
 vsK
 vsK
 vsK
@@ -158344,7 +158343,7 @@ vaW
 tdc
 wEZ
 sBY
-sBY
+osG
 osG
 sBY
 sBY
@@ -159628,8 +159627,8 @@ dlG
 hSo
 vsK
 vsK
-sBY
-sBY
+osG
+osG
 sBY
 sBY
 fYI
@@ -160272,10 +160271,10 @@ lmM
 sBY
 sBY
 sBY
-mIR
-mIR
-mIR
-mIR
+dpP
+dpP
+dpP
+dpP
 osG
 ulI
 fEr
@@ -160378,7 +160377,7 @@ fcR
 fcR
 fcR
 fcR
-fYI
+osG
 fYI
 fcR
 fcR
@@ -160700,8 +160699,8 @@ taC
 fcR
 xnS
 osG
+osG
 tzd
-fYI
 fYI
 fcR
 djs
@@ -161021,9 +161020,9 @@ tMb
 tMb
 taC
 osG
+osG
 mJs
 htU
-fYI
 fYI
 fcR
 fcR
@@ -161344,7 +161343,7 @@ tMb
 mzM
 xnS
 oVa
-sBY
+osG
 sBY
 fYI
 fYI
@@ -161666,9 +161665,9 @@ tMb
 qZO
 jTy
 vsK
+sBY
 ybm
-eda
-fYI
+htU
 fYI
 fcR
 aws
@@ -161988,7 +161987,7 @@ tMb
 qZO
 eLU
 vsK
-sBY
+lfF
 sBY
 fYI
 fYI
@@ -164783,8 +164782,8 @@ vsK
 jTy
 osG
 xnS
-fcR
-ycf
+osG
+dgb
 rsv
 phO
 osG
@@ -164794,7 +164793,7 @@ vsK
 xnS
 gzI
 oxQ
-vci
+eWU
 kjW
 vsK
 fYI
@@ -165105,8 +165104,8 @@ vsK
 vsK
 bnX
 alu
-fcR
-ycf
+osG
+dgb
 rsv
 phO
 xnS
@@ -165115,9 +165114,9 @@ noR
 vsK
 osG
 dvN
-vci
-vci
-qYN
+eWU
+eWU
+fek
 sBY
 fYI
 gMd
@@ -181490,7 +181489,7 @@ oOP
 (253,1,1) = {"
 oOP
 pRn
-pRn
+fcR
 fcR
 fcR
 fYI
@@ -181811,8 +181810,8 @@ oOP
 "}
 (254,1,1) = {"
 hiM
-osG
 pRn
+fcR
 fcR
 wCs
 sca
@@ -182133,8 +182132,8 @@ oOP
 "}
 (255,1,1) = {"
 yal
-sBY
 pRn
+fcR
 fcR
 huy
 vci
@@ -182455,8 +182454,8 @@ oOP
 "}
 (256,1,1) = {"
 xaR
-fYI
 pRn
+fcR
 fcR
 huy
 kPP
@@ -182777,8 +182776,8 @@ oOP
 "}
 (257,1,1) = {"
 xSc
-fcR
 pRn
+fcR
 fcR
 psU
 kPP
@@ -183100,7 +183099,7 @@ oOP
 (258,1,1) = {"
 oOP
 pRn
-pRn
+fcR
 fYI
 psU
 mOY
@@ -191739,14 +191738,14 @@ axS
 vIg
 sYp
 abG
-qZd
-lka
-pYE
-pYE
-pYE
-eOc
-abG
-abG
+swH
+swH
+eqZ
+eqZ
+eqZ
+swH
+swH
+swH
 wdF
 jHZ
 eHe
@@ -192062,13 +192061,13 @@ vIg
 sYp
 abG
 swH
-swH
-eqZ
-eqZ
-eqZ
-swH
-swH
-swH
+rus
+fBj
+fBj
+fBj
+uOo
+vHC
+whv
 mKV
 sBL
 eHe
@@ -192383,13 +192382,13 @@ vIg
 vIg
 sYp
 qZd
-swH
-rus
+whv
+mBN
+fzb
 fBj
 fBj
 fBj
-uOo
-vHC
+rgR
 whv
 mKV
 lmW
@@ -192624,7 +192623,7 @@ wvS
 edN
 snb
 edN
-oMw
+edN
 edN
 lDy
 aUS
@@ -192706,13 +192705,13 @@ vIg
 sYp
 moR
 whv
-mBN
+unF
+fBj
+oMw
+fBj
 fzb
-fBj
-oEF
-fBj
-rgR
-whv
+oXv
+swH
 tcJ
 uwe
 lmW
@@ -193028,12 +193027,12 @@ vIg
 sYp
 moR
 whv
-unF
+lka
 fBj
 fBj
 fBj
-fzb
-oXv
+fBj
+fBj
 swH
 unL
 pmr
@@ -198933,7 +198932,7 @@ ntw
 tdi
 uwD
 faI
-sbx
+cUf
 cUf
 cUf
 cUf
@@ -199577,9 +199576,9 @@ xUk
 uwD
 uwD
 cUf
+sbx
 cUf
-cUf
-cUf
+aFp
 cUf
 faI
 rJs
@@ -199900,7 +199899,7 @@ pHo
 kQi
 nii
 cUf
-aFp
+faI
 faI
 mTe
 uKL

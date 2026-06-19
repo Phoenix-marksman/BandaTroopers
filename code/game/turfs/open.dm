@@ -868,13 +868,14 @@
 	base_river_slowdown = 4
 /turf/open/gm/river/swamp/mid
 	base_river_slowdown = 10
-	//color = "#990000"
+	color = "#990000"
 /turf/open/gm/river/swamp/mid/grass
 	icon_state = "grass1"
 	icon_overlay = "grass1"
+	color = null
 /turf/open/gm/river/swamp/deep
-	base_river_slowdown = 100
-	//color = "#111111"
+	base_river_slowdown = 50
+	color = "#111111"
 /turf/open/gm/river/swamp/dirt
 	icon_state = "dirt"
 	icon_overlay = "dirt"
