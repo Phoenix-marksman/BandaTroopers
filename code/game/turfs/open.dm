@@ -865,19 +865,21 @@
 // SS220 EDIT  START: GroundSide Smamp_1 for Swamp
 /turf/open/gm/river/swamp
 	name = "Puddle"
+	default_name = "Puddle"
 	base_river_slowdown = 1.75
 /turf/open/gm/river/swamp/mid
 	base_river_slowdown = 10
-	color = "#990000"
+	//color = "#990000"
 /turf/open/gm/river/swamp/mid/grass
 	icon_state = "grass1"
 	icon_overlay = "grass1"
 	color = null
 /turf/open/gm/river/swamp/deep
 	base_river_slowdown = 20
-	color = "#111111"
+	//color = "#111111"
 /turf/open/gm/river/swamp/dirt
 	name = "dirt"
+	default_name = "Dirt"
 	icon_state = "dirt"
 	icon_overlay = "dirt"
 	color = "#999999"
