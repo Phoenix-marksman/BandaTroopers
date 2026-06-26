@@ -116,7 +116,7 @@
 /obj/structure/prop/swamp_plants/wood_flora
 	name = "stick"
 	desc = "stick... "
-	icon = "icons/obj/structures/props/natural/vegetation/tyrargo_wood_flora.dmi"
+	icon = 'icons/obj/structures/props/natural/vegetation/tyrargo_wood_flora.dmi'
 	icon_state = "stick1"
 
 /obj/structure/prop/swamp_plants/wood_flora/stick2
@@ -262,7 +262,6 @@
 	name = "swamp dirt"
 	icon = 'icons/turf/floors/swamp_water.dmi'
 	icon_state = "desert"
-	baseturfs = /turf/open/gm/dirt/dark_brown
 	minimap_color = MINIMAP_DIRT
 
 /turf/open/gm/dirt/swamp_dirt/variant_1

@@ -2776,4 +2776,5 @@
 #include "interface\skin.dmf"
 #include "maps\_basemap.dm"
 #include "modular\modular.dme" // BANDATROOPERS EDIT
+#include "modular\swamp\Swamp.dm"
 // END_INCLUDE

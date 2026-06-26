@@ -921,6 +921,8 @@
 	no_overlay = TRUE
 	supports_surgery = FALSE
 
+
+
 //ELEVATOR SHAFT-----------------------------------//
 /turf/open/gm/empty
 	name = "empty space"
