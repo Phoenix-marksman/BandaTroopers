@@ -582,7 +582,15 @@ INITIALIZE_IMMEDIATE(/turf/closed/wall/indestructible/splashscreen)
 	desc = "Exceptionally dense vegetation that you can't see through."
 	walltype = WALL_JUNGLE_UPDATED //Not a metal wall
 	hull = 1
+//SS220 START ============= For swamp
+/turf/closed/wall/strata_ice/swamp
+	name = "swamp vegetation"
+	icon = 'icons/turf/walls/swamp_veg.dmi'
+	icon_state = "swamp_veg"
+	desc = "Exceptionally dense vegetation that you can't see through."
+	walltype = WALL_JUNGLE_UPDATED
 
+//SS220 END =========================
 /turf/closed/wall/strata_outpost_ribbed //this guy is our reinforced replacement
 	name = "ribbed outpost walls"
 	icon = 'icons/turf/walls/strata_outpost.dmi'

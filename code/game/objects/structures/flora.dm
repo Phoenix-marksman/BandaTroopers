@@ -775,3 +775,144 @@ ICEY GRASS. IT LOOKS LIKE IT'S MADE OF ICE.
 	desc = "Looks like some of that fruit might be edible."
 	icon_tag = "plant"
 	variations  = 7
+
+/obj/structure/prop/swamp_plants
+	name = "swamp plant"
+	desc = "you shouldn't be seeing this."
+	icon = 'icons/obj/structures/props/natural/vegetation/swamp_plants.dmi'
+	icon_state = "lillypads1"
+	layer = TURF_LAYER
+	plane = FLOOR_PLANE
+	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
+
+/obj/structure/prop/swamp_plants/lily_pads
+	icon_state = "lillypads1"
+	layer = ABOVE_TURF_LAYER
+
+/obj/structure/prop/swamp_plants/lily_pads/lily_pads_1
+	icon_state = "lillypads1"
+
+/obj/structure/prop/swamp_plants/lily_pads/lily_pads_2
+	icon_state = "lillypads2"
+
+/obj/structure/prop/swamp_plants/lily_pads/lily_pads_3
+	icon_state = "lillypads3"
+
+/obj/structure/prop/swamp_plants/lily_pads/lily_pads_4
+	icon_state = "lillypads4"
+
+/obj/structure/prop/swamp_plants/lily_pads/lily_pads_5
+	icon_state = "lillypads5"
+
+/obj/structure/prop/swamp_plants/lily_pads/lily_pads_6
+	icon_state = "lillypads6"
+
+/obj/structure/prop/swamp_plants/lily_pads/lily_pads_7
+	icon_state = "lillypads7"
+
+/obj/structure/prop/swamp_plants/algae
+	icon_state = "algae1"
+	alpha = 215
+
+/obj/structure/prop/swamp_plants/algae/small
+	icon_state = "algae1"
+
+/obj/structure/prop/swamp_plants/algae/small/algae_1
+	icon_state = "algae2"
+
+/obj/structure/prop/swamp_plants/algae/small/algae_2
+	icon_state = "algae3"
+
+/obj/structure/prop/swamp_plants/algae/small/algae_3
+	icon_state = "algae4"
+
+/obj/structure/prop/swamp_plants/algae/small/algae_4
+	icon_state = "algae5"
+
+/obj/structure/prop/swamp_plants/algae/small/algae_5
+	icon_state = "algae6"
+
+/obj/structure/prop/swamp_plants/algae/full
+	icon_state = "algae_full"
+
+/obj/structure/prop/swamp_plants/algae/full/algae_full_1
+	icon_state = "algae_full_1"
+
+/obj/structure/prop/swamp_plants/algae/full/algae_full_2
+	icon_state = "algae_full_2"
+
+/obj/structure/prop/swamp_plants/algae/full/algae_full_3
+	icon_state = "algae_full_3"
+
+/obj/structure/prop/swamp_plants/algae/full/algae_full_4
+	icon_state = "algae_full_4"
+
+// Algae edges & corners
+
+/obj/structure/prop/swamp_plants/algae/straight
+	icon_state = "algae_edge"
+
+/obj/structure/prop/swamp_plants/algae/straight/south
+	dir = 1
+
+/obj/structure/prop/swamp_plants/algae/straight/west
+	dir = 4
+
+/obj/structure/prop/swamp_plants/algae/straight/east
+	dir = 8
+
+/obj/structure/prop/swamp_plants/algae/corner
+	icon_state = "algae_edge_2"
+
+/obj/structure/prop/swamp_plants/algae/corner/north_west
+
+/obj/structure/prop/swamp_plants/algae/corner/north_east
+	dir = 1
+
+/obj/structure/prop/swamp_plants/algae/corner/south_east
+	dir = 4
+
+/obj/structure/prop/swamp_plants/algae/corner/south_west
+	dir = 8
+
+/obj/structure/prop/swamp_plants/algae/corner2
+	icon_state = "algae_corner"
+
+/obj/structure/prop/swamp_plants/algae/corner2/north_west
+
+/obj/structure/prop/swamp_plants/algae/corner2/north_east
+	dir = 1
+
+/obj/structure/prop/swamp_plants/algae/corner2/south_west
+	dir = 4
+
+/obj/structure/prop/swamp_plants/algae/corner2/south_east
+	dir = 8
+
+
+//tyrargo_wood_flora
+/obj/structure/prop/swamp_plants/wood_flora
+	name = "stick"
+	desc = "stick... "
+	icon = "icons/obj/structures/props/natural/vegetation/tyrargo_wood_flora.dmi"
+	icon_state = "stick1"
+
+/obj/structure/prop/swamp_plants/wood_flora/stick2
+	icon_state = "stick2"
+
+/obj/structure/prop/swamp_plants/wood_flora/stick3
+	icon_state = "stick3"
+
+/obj/structure/prop/swamp_plants/wood_flora/stick4
+	icon_state = "stick4"
+
+/obj/structure/prop/swamp_plants/wood_flora/trunk1
+	name = "trunk"
+	desc = "trunk..."
+	icon_state = "trunk1"
+
+/obj/structure/prop/swamp_plants/wood_flora/trunk2
+	name = "trunk"
+	desc = "trunk..."
+	icon_state = "trunk2"
+//==========================================

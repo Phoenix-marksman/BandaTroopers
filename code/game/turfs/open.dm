@@ -628,6 +628,38 @@
 /turf/open/gm/dirtgrassborder2/wall3
 	icon_state = "wall3"
 
+/turf/open/gm/dirtgrassborder2/grassdirt_corner
+	icon_state = "grassdirt2_corner"
+
+/turf/open/gm/dirtgrassborder2/grassdirt_corner/north_east
+	dir = 1
+
+/turf/open/gm/dirtgrassborder2/grassdirt_corner/south_east
+	dir = 4
+
+/turf/open/gm/dirtgrassborder2/grassdirt_corner/south_west
+	dir = 8
+
+/turf/open/gm/dirtgrassborder2/grassdirt_corner2
+	icon_state = "grassdirt2_corner2"
+
+/turf/open/gm/dirtgrassborder2/grassdirt_corner2/north_east
+	dir = 1
+
+/turf/open/gm/dirtgrassborder2/grassdirt_corner2/south_west
+	dir = 4
+
+/turf/open/gm/dirtgrassborder2/grassdirt_corner2/south_east
+	dir = 8
+
+/turf/open/gm/dirtgrassborder2/east
+
+/turf/open/gm/dirtgrassborder2/west
+
+
+
+
+
 /turf/open/gm/river
 	name = "river"
 	icon_state = "seashallow"
@@ -865,21 +897,27 @@
 // SS220 EDIT  START: GroundSide Smamp_1 for Swamp
 /turf/open/gm/river/swamp
 	name = "Puddle"
+	icon = 'icons/turf/floors/swamp_water.dmi'
+	icon_state = "swampshallow"
+	icon_overlay = "swampriverwater"
 	default_name = "Puddle"
+	no_overlay = TRUE
 	base_river_slowdown = 1.75
 /turf/open/gm/river/swamp/mid
 	base_river_slowdown = 10
-	//color = "#990000"
+	color = "#d4d1bc"
 /turf/open/gm/river/swamp/mid/grass
+	icon = 'icons/turf/ground_map.dmi'
 	icon_state = "grass1"
 	icon_overlay = "grass1"
 	color = null
 /turf/open/gm/river/swamp/deep
 	base_river_slowdown = 20
-	//color = "#111111"
+	color = "#c4c2b3"
 /turf/open/gm/river/swamp/dirt
 	name = "dirt"
 	default_name = "Dirt"
+	icon = 'icons/turf/ground_map.dmi'
 	icon_state = "dirt"
 	icon_overlay = "dirt"
 	color = "#999999"
@@ -946,6 +984,82 @@
 	no_overlay = TRUE
 	supports_surgery = FALSE
 
+//for Swamp
+/turf/open/gm/coast/dirt/swampdir
+	icon = 'icons/turf/floors/swamp_water.dmi'
+	icon_state = "swamp"
+	baseturfs = /turf/open/gm/coast
+
+/turf/open/gm/coast/dirt/swampdir/south
+	dir = 1
+
+/turf/open/gm/coast/dirt/swampdir/west
+	dir = 4
+
+/turf/open/gm/coast/dirt/swampdir/east
+	dir = 8
+
+/turf/open/gm/coast/dirt/swampbeachcorner
+	icon = 'icons/turf/floors/swamp_water.dmi'
+	icon_state = "swampcorner"
+
+/turf/open/gm/coast/dirt/swampbeachcorner/north_west
+
+/turf/open/gm/coast/dirt/swampbeachcorner/north_east
+	dir = 1
+
+/turf/open/gm/coast/dirt/swampbeachcorner/south_east
+	dir = 4
+
+/turf/open/gm/coast/dirt/swampbeachcorner/south_west
+	dir = 8
+
+/turf/open/gm/coast/dirt/swampbeachcorner2
+	icon = 'icons/turf/floors/swamp_water.dmi'
+	icon_state = "swampcorner2"
+
+/turf/open/gm/coast/dirt/swampbeachcorner2/north_west
+
+/turf/open/gm/coast/dirt/swampbeachcorner2/north_east
+	dir = 1
+
+/turf/open/gm/coast/dirt/swampbeachcorner2/south_west
+	dir = 4
+
+/turf/open/gm/coast/dirt/swampbeachcorner2/south_east
+	dir = 8
+
+/turf/open/gm/dirt/swamp_dirt
+	name = "swamp dirt"
+	icon = 'icons/turf/floors/swamp_water.dmi'
+	icon_state = "desert"
+	baseturfs = /turf/open/gm/dirt/dark_brown
+	minimap_color = MINIMAP_DIRT
+
+/turf/open/gm/dirt/swamp_dirt/variant_1
+	icon_state = "desert0"
+
+/turf/open/gm/dirt/swamp_dirt/variant_2
+	icon_state = "desert1"
+
+/turf/open/gm/dirt/swamp_dirt/variant_3
+	icon_state = "desert2"
+
+/turf/open/gm/dirt/swamp_dirt/variant_5
+	icon_state = "desert3"
+
+/turf/open/gm/dirt/swamp_dirt/variant_5/east
+	dir = EAST
+
+/turf/open/gm/dirt/swamp_dirt/variant_5/south
+	dir = SOUTH
+
+/turf/open/gm/dirt/swamp_dirt/variant_5/west
+	dir = WEST
+
+/turf/open/gm/dirt/swamp_dirt/variant_6
+	icon_state = "desert_dug"
+///////////
 
 
 //ELEVATOR SHAFT-----------------------------------//
