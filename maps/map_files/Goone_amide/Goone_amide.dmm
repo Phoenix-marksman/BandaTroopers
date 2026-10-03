@@ -3,9 +3,11 @@
 /turf/closed/wall/strata_outpost/reinforced,
 /area/swamp/base/bunker/telecommunication)
 "aaB" = (
-/obj/structure/bed/chair/wood/normal,
-/turf/open/floor/hybrisa/carpet/carpetgreendeco,
-/area/swamp/murasverd/house)
+/obj/structure/machinery/portable_atmospherics/hydroponics/soil{
+	pixel_y = 8
+	},
+/turf/open/organic/grass,
+/area/swamp/murasverd/village)
 "aaI" = (
 /obj/structure/flora/grass/tallgrass/jungle,
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -148,6 +150,12 @@
 	},
 /turf/open/gm/grass,
 /area/swamp/villa)
+"acg" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 8
+	},
+/turf/open/gm/grass,
+/area/swamp/base/outskirts)
 "ach" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -168,6 +176,13 @@
 /obj/structure/prop/swamp_plants/algae/corner/south_east,
 /turf/open/gm/river/swamp/deep,
 /area/swamp/murasverd/swamp)
+"acn" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	color = "#999900";
+	dir = 4
+	},
+/turf/open/auto_turf/strata_grass,
+/area/swamp/base/outskirts)
 "aco" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/plating,
@@ -232,10 +247,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/strata/floor3,
 /area/swamp/base/keppitz/hangar)
-"adg" = (
-/obj/structure/prop/rock/brown,
-/turf/open/gm/river/swamp,
-/area/swamp/beach)
 "adv" = (
 /turf/open/floor/almayer_hull/blackfull,
 /area/swamp/base/keppitz/command)
@@ -375,26 +386,6 @@
 	},
 /turf/open/asphalt/cement/cement12,
 /area/swamp/colony/colony_exterior)
-"afh" = (
-/obj/structure/bed/sofa,
-/turf/open/floor/wood,
-/area/swamp/murasverd/house)
-"afr" = (
-/obj/structure/surface/rack,
-/obj/item/storage/fancy/candle_box{
-	pixel_x = 4;
-	pixel_y = 12
-	},
-/obj/item/storage/fancy/candle_box{
-	pixel_x = -5;
-	pixel_y = 5
-	},
-/obj/item/storage/fancy/candle_box{
-	pixel_x = 4;
-	pixel_y = -4
-	},
-/turf/open/floor/carpet/edge/west,
-/area/swamp/base/church/int)
 "afz" = (
 /obj/structure/largecrate/random/secure,
 /turf/open/floor/almayer/plating,
@@ -558,9 +549,9 @@
 /turf/open/floor/prison/floor_marked,
 /area/swamp/murasverd/oldman_basement)
 "agq" = (
-/obj/item/weapon/gun/flamer/upp,
+/obj/item/weapon/gun/launcher/rocket/upp,
 /turf/open/floor/almayer/plating,
-/area/swamp/murasverd/oldman_basement)
+/area/swamp/caverns)
 "agu" = (
 /obj/structure/sink{
 	dir = 4;
@@ -747,12 +738,6 @@
 "aiS" = (
 /turf/open/floor/interior/tatami,
 /area/swamp/villa/house)
-"aiY" = (
-/obj/structure/platform_decoration/kutjevo/smooth{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/swamp/base/church/int)
 "aiZ" = (
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice12";
@@ -849,9 +834,6 @@
 	},
 /turf/open/organic/grass,
 /area/swamp/murasverd/swamp)
-"akd" = (
-/turf/open/floor/carpet/bcarpet09,
-/area/swamp/murasverd/house)
 "aki" = (
 /obj/structure/prop/almayer/cannon_cables,
 /obj/structure/platform/kutjevo{
@@ -1252,6 +1234,11 @@
 /obj/structure/platform{
 	dir = 4
 	},
+/obj/structure/platform/kutjevo/rock{
+	dir = 8;
+	color = "#999999";
+	layer = 3.02
+	},
 /turf/open/gm/coast/east,
 /area/swamp/beach)
 "aoI" = (
@@ -1281,9 +1268,9 @@
 /turf/open/asphalt,
 /area/swamp/base/road)
 "apq" = (
-/obj/structure/bed/chair/comfy/teal,
-/turf/open/floor/carpet/edge/east,
-/area/swamp/murasverd/house)
+/obj/structure/flora/bush/ausbushes/var3/brflowers,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/swamp/base/outskirts)
 "apt" = (
 /turf/closed/wall/r_wall/unmeltable,
 /area/swamp/villa/bunker/cafe)
@@ -1328,17 +1315,6 @@
 /obj/structure/flora/trees220/tree_11,
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/swamp/murasverd/swamp)
-"aqf" = (
-/obj/structure/bed/sofa/pews/flipped{
-	dir = 1;
-	pixel_x = -10
-	},
-/obj/structure/machinery/light{
-	dir = 8;
-	pixel_y = -14
-	},
-/turf/open/floor/carpet/edge/west,
-/area/swamp/murasverd/house)
 "aqg" = (
 /obj/structure/prop/rock/brown{
 	dir = 1
@@ -1355,12 +1331,11 @@
 /turf/open/gm/river/swamp/deep,
 /area/swamp/murasverd/swamp)
 "aqG" = (
-/obj/item/stool{
-	pixel_x = -1;
-	pixel_y = 27
+/obj/structure/machinery/light{
+	dir = 4
 	},
-/turf/open/floor/hybrisa/carpet/pink,
-/area/swamp/murasverd/house)
+/turf/open/organic/grass,
+/area/swamp/murasverd/village)
 "aqO" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	color = "#999900"
@@ -1387,7 +1362,7 @@
 	dir = 8
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud,
-/area/swamp/base/road)
+/area/swamp/base/outskirts)
 "arh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/standard/simple/hidden/supply,
@@ -1468,6 +1443,24 @@
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/swamp/colony/hangar)
+"arU" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 4;
+	layer = 5.0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 11;
+	pixel_x = -2
+	},
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/swamp/base/outskirts)
 "asf" = (
 /obj/structure/machinery/light,
 /turf/open/floor/strata/faux_wood,
@@ -1580,9 +1573,9 @@
 /turf/open/gm/river/swamp/deep,
 /area/swamp/murasverd/swamp)
 "ata" = (
-/obj/item/weapon/gun/pistol/t73,
-/turf/open/floor/almayer/plating_striped/north,
-/area/swamp/murasverd/oldman_basement)
+/obj/item/weapon/gun/smg/bizon,
+/turf/open/floor/almayer/plating,
+/area/swamp/caverns)
 "atm" = (
 /obj/structure/machinery/power/apc/power/north,
 /turf/open/floor/prison/floor_plate,
@@ -1746,13 +1739,12 @@
 /obj/structure/prop/swamp_plants/wood_flora/trunk1,
 /turf/open/gm/river/swamp/mid,
 /area/swamp/murasverd/river)
-"avo" = (
-/obj/structure/platform_decoration/kutjevo/rock{
-	color = "#999999";
-	dir = 8
+"avh" = (
+/obj/structure/flora/bush/ausbushes/ppflowers{
+	icon_state = "fullgrass_3"
 	},
-/turf/open/gm/river/swamp,
-/area/swamp/beach)
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/swamp/base/road)
 "avu" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -1775,9 +1767,6 @@
 	},
 /turf/open/floor/strata/fake_wood,
 /area/swamp/murasverd/swamp)
-"avy" = (
-/turf/open/floor/carpet/edge/north,
-/area/swamp/base/church/int)
 "avA" = (
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 4
@@ -1899,9 +1888,9 @@
 /turf/open/asphalt/cement/cement15,
 /area/swamp/base/road)
 "awn" = (
-/obj/item/weapon/gun/rifle/type71,
+/obj/item/weapon/gun/minigun/upp,
 /turf/open/floor/almayer/plating,
-/area/swamp/murasverd/oldman_basement)
+/area/swamp/caverns)
 "aws" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 10
@@ -2290,13 +2279,6 @@
 	},
 /turf/open/floor/prison/floor_plate,
 /area/swamp/base/bunker/engineering)
-"aAS" = (
-/obj/structure/surface/table/holotable/wood,
-/obj/structure/flora/pottedplant/random{
-	pixel_y = 8
-	},
-/turf/open/floor/carpet/bcarpet02,
-/area/swamp/murasverd/house)
 "aAU" = (
 /obj/structure/fence,
 /turf/open/auto_turf/strata_grass/layer1,
@@ -2402,6 +2384,24 @@
 /obj/structure/ore_box,
 /turf/open/gm/dirt2,
 /area/swamp/murasverd/village)
+"aBT" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 4;
+	layer = 5.0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 11;
+	pixel_x = -2
+	},
+/turf/open/asphalt,
+/area/swamp/base/road)
 "aBU" = (
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
 /turf/open/gm/dirt/swamp_dirt/variant_3,
@@ -2822,10 +2822,6 @@
 	},
 /turf/open/floor/strata/faux_wood,
 /area/swamp/base/keppitz/archives)
-"aGT" = (
-/obj/structure/platform/kutjevo/smooth,
-/turf/open/floor/carpet/edge/southeast,
-/area/swamp/base/church/int)
 "aGV" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	color = "#999900"
@@ -2892,17 +2888,9 @@
 /turf/open/gm/grass,
 /area/swamp/caverns)
 "aIb" = (
-/obj/item/reagent_container/food/snacks/sliceable/bread{
-	pixel_y = 8
-	},
-/obj/item/reagent_container/food/snacks/sliceable/bread{
-	pixel_y = 4
-	},
-/obj/item/reagent_container/food/snacks/sliceable/bread,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/surface/table/holotable/wood,
-/turf/open/floor/hybrisa/carpet/carpetgreendeco,
-/area/swamp/murasverd/house)
+/obj/structure/flora/bush/ausbushes/ppflowers,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/swamp/base/outskirts)
 "aIf" = (
 /turf/open/gm/river/swamp,
 /area/swamp/murasverd/village)
@@ -3571,7 +3559,7 @@
 /turf/open/auto_turf/strata_grass/layer0,
 /area/swamp/murasverd/trench)
 "aPr" = (
-/turf/open/space/basic,
+/turf/open/gm/river/beach_water,
 /area/swamp/colony/filtration)
 "aPs" = (
 /obj/structure/platform_decoration/kutjevo{
@@ -4694,6 +4682,12 @@
 	},
 /turf/open/gm/river/swamp/dirt,
 /area/swamp/caverns)
+"bbC" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 9
+	},
+/turf/open/auto_turf/strata_grass/layer0,
+/area/swamp/base/outskirts)
 "bbD" = (
 /obj/structure/platform/kutjevo,
 /obj/structure/barricade/sandbags/wired{
@@ -5567,8 +5561,11 @@
 /turf/open/floor/prison/floor_plate,
 /area/swamp/colony/complex)
 "blM" = (
-/obj/structure/mineral_door/wood,
-/turf/open/floor/hybrisa/carpet/carpetfadedred,
+/obj/structure/stairs/perspective{
+	dir = 8;
+	icon_state = "p_stair_full"
+	},
+/turf/open/floor/wood,
 /area/swamp/murasverd/house)
 "blT" = (
 /obj/structure/flora/bigtree220/tree_2,
@@ -5928,15 +5925,6 @@
 	},
 /turf/open/asphalt,
 /area/swamp/colony/colony_exterior)
-"bqi" = (
-/obj/structure/platform/kutjevo/smooth{
-	layer = 2.98
-	},
-/obj/structure/platform/kutjevo/smooth{
-	dir = 4
-	},
-/turf/open/floor/wood,
-/area/swamp/base/church/int)
 "bqm" = (
 /obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/carpet5_1,
@@ -6309,11 +6297,6 @@
 /obj/structure/surface/table/holotable/wood,
 /turf/open/floor/hybrisa/carpet/carpetbeige,
 /area/swamp/murasverd/house)
-"bvY" = (
-/obj/structure/flora/trees220/tree_2,
-/obj/structure/flora/bush/ausbushes/palebush,
-/turf/open/organic/grass,
-/area/swamp/murasverd/village)
 "bwg" = (
 /turf/closed/wall/wood,
 /area/swamp/villa/house)
@@ -6626,12 +6609,17 @@
 	dir = 1
 	},
 /turf/open/floor/prison/green/northeast,
-/area/swamp/colony/colony_exterior)
+/area/swamp/colony/complex)
 "byW" = (
-/obj/structure/flora/trees220/tree_13,
-/obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/organic/grass,
-/area/swamp/murasverd/village)
+/obj/structure/stairs/perspective{
+	dir = 8;
+	icon_state = "p_stair_full"
+	},
+/obj/structure/platform/stair_cut/alt{
+	icon_state = "kutjevo_platform_sm_stair_alt"
+	},
+/turf/open/floor/wood,
+/area/swamp/murasverd/house)
 "bzd" = (
 /obj/structure/bed/bedroll{
 	pixel_x = -3;
@@ -6789,11 +6777,6 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/strata/floor3,
 /area/swamp/colony/hangar)
-"bBE" = (
-/obj/structure/flora/trees220/tree_9,
-/obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/organic/grass,
-/area/swamp/murasverd/village)
 "bBY" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/floor_plate,
@@ -7220,12 +7203,20 @@
 /turf/open/floor/strata/floor3,
 /area/swamp/base/keppitz/Engineeringlower)
 "bHt" = (
-/obj/structure/surface/table/holotable/wood,
-/obj/item/tool/candle,
-/obj/item/prop/helmetgarb/chaplain_patch,
-/obj/item/prop/helmetgarb/rosary,
-/turf/open/floor/carpet,
-/area/swamp/base/church/int)
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 8;
+	layer = 5.2
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 9;
+	dir = 8;
+	pixel_x = 0
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/swamp/base/outskirts)
 "bHz" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8"
@@ -7361,9 +7352,9 @@
 /area/swamp/colony/complex)
 "bIM" = (
 /obj/structure/closet,
-/obj/item/storage/box/guncase/vp70,
 /obj/item/ammo_magazine/handful/lever_action,
 /obj/item/ammo_magazine/handful/lever_action,
+/obj/item/storage/box/guncase/r4t_scout,
 /turf/open/floor/prison/floor_plate,
 /area/swamp/beach_house)
 "bIO" = (
@@ -7468,11 +7459,7 @@
 /turf/open/floor/interior/wood/alt,
 /area/swamp/murasverd/trench)
 "bKZ" = (
-/obj/structure/surface/table/holotable/wood,
-/obj/structure/machinery/computer/emails{
-	dir = 1
-	},
-/turf/open/floor/carpet/edge/southeast,
+/turf/open/floor/chapel,
 /area/swamp/murasverd/house)
 "bLc" = (
 /obj/structure/toilet{
@@ -8125,13 +8112,6 @@
 	},
 /turf/open/floor/carpet11_12,
 /area/swamp/villa/house)
-"bRM" = (
-/obj/structure/platform/kutjevo/rock{
-	dir = 1;
-	color = "#999999"
-	},
-/turf/open/gm/river/swamp,
-/area/swamp/beach)
 "bRY" = (
 /obj/structure/flora/bush/ausbushes/var3/stalkybush,
 /turf/open/gm/river/swamp,
@@ -8143,8 +8123,9 @@
 /turf/open/gm/river/swamp/mid/grass,
 /area/swamp/murasverd/village)
 "bSk" = (
-/turf/open/floor/carpet15_15/west,
-/area/swamp/murasverd/house)
+/obj/structure/flora/bush/ausbushes/var3/ywflowers,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/swamp/base/outskirts)
 "bSl" = (
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice12";
@@ -8157,13 +8138,23 @@
 /turf/open/asphalt/cement,
 /area/swamp/colony/colony_exterior)
 "bSt" = (
-/obj/structure/closet/cabinet,
-/obj/item/clothing/head/bowlerhat,
-/obj/item/clothing/suit/storage/internalaffairs,
-/obj/item/clothing/suit/storage/wcoat,
-/obj/item/clothing/suit/storage/windbreaker/windbreaker_brown,
-/turf/open/floor/hybrisa/carpet/blue_grey,
-/area/swamp/murasverd/house)
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 4;
+	layer = 5.0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 11;
+	pixel_x = -2
+	},
+/turf/open/auto_turf/strata_grass,
+/area/swamp/base/outskirts)
 "bSx" = (
 /obj/structure/platform_decoration/kutjevo/rock{
 	dir = 1;
@@ -8497,18 +8488,16 @@
 	},
 /turf/open/asphalt,
 /area/swamp/colony/colony_exterior)
+"bXn" = (
+/obj/structure/flora/bush/ausbushes/ppflowers,
+/turf/open/auto_turf/strata_grass,
+/area/swamp/base/outskirts)
 "bXt" = (
 /obj/effect/decal/strata_decals/grime/grime4{
 	icon_state = "grime3"
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/hybrisa/carpet/carpetblack,
-/area/swamp/murasverd/house)
-"bXv" = (
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/carpet/edge/east,
 /area/swamp/murasverd/house)
 "bXC" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -8656,6 +8645,16 @@
 /obj/structure/prop/swamp_plants/algae/small,
 /turf/open/gm/river/swamp/deep,
 /area/swamp/murasverd/swamp)
+"bZD" = (
+/obj/structure/machinery/power/port_gen/pacman{
+	layer = 2.9
+	},
+/obj/item/prop/colony/canister{
+	pixel_x = 10;
+	pixel_y = -15
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/swamp/base/road)
 "bZL" = (
 /obj/structure/barricade/handrail,
 /obj/structure/machinery/light{
@@ -9168,12 +9167,6 @@
 	},
 /turf/open/asphalt,
 /area/swamp/colony/complex)
-"cfo" = (
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/hybrisa/carpet/carpetblackdeco,
-/area/swamp/murasverd/house)
 "cfs" = (
 /obj/structure/showcase{
 	desc = "The display model for a Weyland Yutani generation one synthetic. Why would someone put a skirt on a synthetic?";
@@ -9697,6 +9690,14 @@
 	},
 /turf/open/floor/strata/fake_wood,
 /area/swamp/villa/bunker/command)
+"cjE" = (
+/obj/structure/prop/rock/brown{
+	dir = 9;
+	pixel_x = -4;
+	pixel_y = 12
+	},
+/turf/open/auto_turf/strata_grass/layer0,
+/area/swamp/base/outskirts)
 "cjG" = (
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "fullgrass_1"
@@ -10236,20 +10237,25 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/swamp/murasverd/village)
 "cqZ" = (
-/obj/structure/surface/table/reinforced,
-/obj/item/tool/kitchen/utensil/fork{
-	pixel_x = 7
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 8;
+	layer = 5.2
 	},
-/obj/item/tool/kitchen/utensil/spoon{
-	pixel_x = -8
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 9;
+	dir = 8;
+	pixel_x = 0
 	},
-/obj/structure/filingcabinet/chestdrawer{
+/obj/structure/prop/ice_colony/dense/planter_box/hydro{
 	density = 0;
-	pixel_x = -8;
-	pixel_y = 30
+	layer = 4.99;
+	pixel_y = 7
 	},
-/turf/open/floor/wood,
-/area/swamp/murasverd/house)
+/turf/open/auto_turf/strata_grass,
+/area/swamp/base/outskirts)
 "crg" = (
 /obj/structure/flora/grass/tallgrass/ice/corner{
 	dir = 10;
@@ -10617,7 +10623,7 @@
 /obj/structure/bed/chair/wood/wings{
 	dir = 1
 	},
-/turf/open/floor/hybrisa/carpet/carpetgreen,
+/turf/open/floor/hybrisa/carpet/blue_grey,
 /area/swamp/murasverd/house)
 "ctW" = (
 /obj/structure/largecrate/random/secure{
@@ -11556,8 +11562,28 @@
 /obj/item/storage/backpack/marine/marsoc,
 /obj/structure/closet/cabinet/hybrisa/metal,
 /obj/item/storage/belt/gun/m4a3/heavy/co,
+/obj/item/prop/helmetgarb/helmet_nvg,
 /turf/open/floor/hybrisa/carpet/carpet_colorable,
 /area/swamp/murasverd/house)
+"cFB" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 8;
+	layer = 5.2
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 9;
+	dir = 8;
+	pixel_x = 0
+	},
+/obj/structure/machinery/light/double{
+	dir = 4;
+	pixel_y = -5
+	},
+/turf/open/auto_turf/strata_grass,
+/area/swamp/base/outskirts)
 "cFF" = (
 /turf/open/floor/prison/floor_plate,
 /area/swamp/base/bunker/cargo)
@@ -11736,13 +11762,13 @@
 /turf/open/floor/prison,
 /area/swamp/colony/complex)
 "cHJ" = (
-/obj/structure/stairs/perspective{
-	color = "#6e6e6e";
-	icon_state = "p_stair_full";
-	dir = 5
+/obj/structure/surface/table/holotable/wood,
+/obj/item/storage/bible{
+	desc = "As the legendary US Army chaplain once said, 'There are no Athiests in fancy offices'.";
+	name = "Holy Bible"
 	},
-/turf/open/asphalt/cement_darkened,
-/area/swamp/base/church/ext)
+/turf/open/floor/carpet,
+/area/swamp/murasverd/house)
 "cIb" = (
 /obj/item/weapon/gun/pkp,
 /obj/structure/closet/crate/upp,
@@ -11909,9 +11935,6 @@
 "cJB" = (
 /turf/open/floor/prison/floor_plate,
 /area/swamp/colony/logistics_hub)
-"cJK" = (
-/turf/open/floor/carpet/edge,
-/area/swamp/base/church/int)
 "cJN" = (
 /obj/structure/platform_decoration/kutjevo/rock{
 	dir = 1;
@@ -12223,7 +12246,7 @@
 	dir = 1
 	},
 /turf/open/gm/grass,
-/area/swamp/base/road)
+/area/swamp/base/outskirts)
 "cNX" = (
 /obj/item/stack/sheet/wood{
 	pixel_x = -4;
@@ -13607,6 +13630,12 @@
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
 /area/swamp/murasverd/house)
+"dcP" = (
+/obj/structure/prop/rock/brown{
+	dir = 9
+	},
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/swamp/base/outskirts)
 "dcR" = (
 /obj/structure/flora/bush/ausbushes/var3/leafybush,
 /turf/open/gm/coast/dirt/swampdir/west,
@@ -14213,18 +14242,6 @@
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
 /turf/open/organic/grass,
 /area/swamp/base/farmland)
-"dkr" = (
-/obj/structure/surface/table/holotable/wood,
-/obj/structure/platform/kutjevo/smooth{
-	layer = 2.98
-	},
-/obj/item/storage/fancy/candle_box,
-/obj/item/storage/fancy/candle_box{
-	pixel_x = 6;
-	pixel_y = -2
-	},
-/turf/open/floor/wood,
-/area/swamp/base/church/int)
 "dkv" = (
 /obj/structure/flora/grass/tallgrass/jungle{
 	color = "#999900"
@@ -14242,9 +14259,21 @@
 /turf/open/asphalt/cement,
 /area/swamp/base/road)
 "dkV" = (
-/obj/structure/bed/chair/wood/normal,
-/turf/open/floor/chapel/east,
-/area/swamp/base/church/int)
+/obj/structure/surface/rack,
+/obj/item/reagent_container/food/drinks/bottle/holywater{
+	pixel_x = -2;
+	pixel_y = 6
+	},
+/obj/item/reagent_container/food/drinks/bottle/holywater{
+	pixel_x = 4;
+	pixel_y = -2
+	},
+/obj/item/reagent_container/food/drinks/bottle/holywater{
+	pixel_x = -4;
+	pixel_y = -4
+	},
+/turf/open/floor/carpet,
+/area/swamp/murasverd/house)
 "dkX" = (
 /turf/closed/wall/r_wall/bunker,
 /area/swamp/base/inside/requisitions)
@@ -14462,15 +14491,6 @@
 	dir = 4
 	},
 /turf/open/asphalt/cement,
-/area/swamp/colony/colony_exterior)
-"dnD" = (
-/obj/structure/window/framed/strata/reinforced,
-/obj/structure/machinery/door/poddoor/almayer/open{
-	name = "Heavy Shutter";
-	id = "otogi_complex_lockdown";
-	dir = 4
-	},
-/turf/open/floor/prison/floor_plate,
 /area/swamp/colony/colony_exterior)
 "dnF" = (
 /obj/structure/flora/grass/desert/heavygrass_1,
@@ -14845,9 +14865,9 @@
 /turf/open/floor/shiva,
 /area/swamp/colony/complex)
 "dsM" = (
-/obj/item/weapon/gun/pkp,
+/obj/item/weapon/gun/pistol/np92,
 /turf/open/floor/almayer/plating,
-/area/swamp/murasverd/oldman_basement)
+/area/swamp/caverns)
 "dsS" = (
 /obj/structure/flora/grass/desert/heavygrass_4,
 /obj/structure/flora/grass/desert/heavygrass_4,
@@ -15916,17 +15936,6 @@
 	},
 /turf/open/auto_turf/strata_grass/layer0,
 /area/swamp/murasverd/river)
-"dFi" = (
-/obj/item/weapon/straight_razor{
-	pixel_y = -7
-	},
-/obj/structure/surface/table/almayer,
-/obj/item/tool/soap{
-	pixel_x = 8;
-	pixel_y = -3
-	},
-/turf/open/floor/white,
-/area/swamp/murasverd/house)
 "dFl" = (
 /obj/structure/barricade/handrail/strata{
 	dir = 1
@@ -16165,7 +16174,7 @@
 /obj/structure/platform_decoration{
 	dir = 8
 	},
-/turf/open/gm/river/swamp,
+/turf/open/gm/river/beach_water,
 /area/swamp/beach)
 "dHD" = (
 /obj/structure/window/framed/bunker,
@@ -16190,13 +16199,8 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/swamp/murasverd/trench)
 "dHL" = (
-/obj/structure/flora/grass/tallgrass/jungle,
-/obj/structure/flora/grass/tallgrass/jungle/corner{
-	color = "#999900";
-	dir = 8
-	},
-/turf/open/auto_turf/strata_grass/layer0_mud,
-/area/swamp/base/road)
+/turf/open/asphalt/cement,
+/area/swamp/base/outskirts)
 "dHM" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	color = "#999900";
@@ -16254,8 +16258,13 @@
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/swamp/colony/colony_exterior)
 "dIz" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/hybrisa/carpet/carpetgreendeco,
+/obj/structure/surface/table/holotable/wood,
+/obj/item/tool/candle,
+/obj/item/reagent_container/food/drinks/bottle/holywater{
+	pixel_x = 4;
+	pixel_y = -2
+	},
+/turf/open/floor/carpet,
 /area/swamp/murasverd/house)
 "dIH" = (
 /obj/structure/flora/grass/tallgrass/jungle,
@@ -16359,12 +16368,9 @@
 /turf/open/gm/river/swamp/deep,
 /area/swamp/murasverd/swamp)
 "dKi" = (
-/obj/structure/roof/cargocrane_tracks/horizontal{
-	pixel_y = 14
-	},
 /obj/item/weapon/gun/smg/ppsh/with_drum_mag,
 /turf/open/floor/almayer/plating,
-/area/swamp/murasverd/oldman_basement)
+/area/swamp/caverns)
 "dKx" = (
 /obj/structure/bed/bedroll,
 /obj/structure/machinery/light_construct{
@@ -16851,7 +16857,7 @@
 	layer = 3.1
 	},
 /turf/open/auto_turf/strata_grass/layer1,
-/area/swamp/base/road)
+/area/swamp/base/outskirts)
 "dPO" = (
 /obj/structure/machinery/door/poddoor/railing{
 	dir = 2;
@@ -17115,6 +17121,10 @@
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/prison/sterile_white,
 /area/swamp/villa/bunker/hospital)
+"dTx" = (
+/obj/item/weapon/gun/flamer/upp,
+/turf/open/floor/almayer/plating,
+/area/swamp/caverns)
 "dTA" = (
 /obj/structure/flora/grass/tallgrass/jungle,
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -17281,15 +17291,6 @@
 	},
 /turf/open/floor/prison,
 /area/swamp/villa/bunker/cafe)
-"dVK" = (
-/obj/item/reagent_container/food/snacks/plaincakeslice{
-	pixel_x = 5;
-	pixel_y = 8
-	},
-/obj/item/reagent_container/food/snacks/plaincakeslice,
-/obj/structure/surface/table/holotable/wood,
-/turf/open/floor/hybrisa/carpet/carpetgreendeco,
-/area/swamp/murasverd/house)
 "dVM" = (
 /obj/structure/prop/server_equipment/yutani_server/off,
 /turf/open/floor/prison/floor_plate,
@@ -17298,6 +17299,10 @@
 /obj/structure/prop/swamp_plants/algae/corner2/south_west,
 /turf/open/gm/river/swamp/deep,
 /area/swamp/murasverd/swamp)
+"dVV" = (
+/obj/structure/cargo_container/horizontal/blue/top,
+/turf/open/auto_turf/strata_grass,
+/area/swamp/base/road)
 "dVX" = (
 /obj/structure/flora/bush/ausbushes/var3/leafybush,
 /turf/open/gm/grass,
@@ -17309,9 +17314,6 @@
 "dWb" = (
 /turf/closed/wall/strata_outpost/reinforced/hull,
 /area/swamp/canal)
-"dWc" = (
-/turf/open/floor/carpet/edge/west,
-/area/swamp/base/church/int)
 "dWq" = (
 /obj/structure/flora/grass/tallgrass/jungle{
 	color = "#999900"
@@ -18135,7 +18137,7 @@
 	color = "#999999";
 	layer = 3.02
 	},
-/turf/open/gm/river/swamp,
+/turf/open/gm/river/beach_water,
 /area/swamp/beach)
 "efJ" = (
 /obj/effect/decal/warning_stripes{
@@ -18324,12 +18326,23 @@
 /turf/open/floor/prison/floor_plate,
 /area/swamp/colony/complex)
 "eim" = (
-/obj/structure/surface/table/reinforced,
-/obj/structure/machinery/microwave{
-	pixel_y = 15
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 4;
+	layer = 5.0
 	},
-/turf/open/floor/hybrisa/tile/tilewhitecheckered/biege,
-/area/swamp/murasverd/house)
+/obj/structure/prop/invuln/overhead_pipe{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 11;
+	pixel_x = -2
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/swamp/base/road)
 "ein" = (
 /obj/structure/platform_decoration/kutjevo/rock{
 	dir = 1;
@@ -19101,7 +19114,7 @@
 	pixel_x = 10
 	},
 /turf/open/auto_turf/strata_grass,
-/area/swamp/base/road)
+/area/swamp/base/outskirts)
 "erB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment{
@@ -19418,11 +19431,12 @@
 /turf/open/asphalt/cement,
 /area/swamp/colony/colony_exterior)
 "evx" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/turf/open/asphalt/cement_darkened,
-/area/swamp/base/church/ext)
+/obj/structure/surface/table/holotable/wood,
+/obj/item/tool/candle,
+/obj/item/prop/helmetgarb/chaplain_patch,
+/obj/item/prop/helmetgarb/rosary,
+/turf/open/floor/carpet,
+/area/swamp/murasverd/house)
 "evy" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/standard/simple/hidden/cyan{
@@ -19627,9 +19641,20 @@
 /turf/open/gm/grass,
 /area/swamp/villa)
 "exI" = (
-/obj/structure/fence,
-/turf/open/auto_turf/strata_grass/layer1,
-/area/swamp/base/church/ext)
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 8;
+	layer = 5.2
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 9;
+	dir = 8;
+	pixel_x = 0
+	},
+/turf/open/auto_turf/strata_grass,
+/area/swamp/base/outskirts)
 "exZ" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -19681,7 +19706,7 @@
 	dir = 8;
 	icon_state = "platform_deco"
 	},
-/turf/open/gm/river/swamp,
+/turf/open/gm/river/beach_water,
 /area/swamp/beach)
 "eyB" = (
 /obj/structure/reagent_dispensers/water_cooler/stacks{
@@ -20262,6 +20287,10 @@
 	dir = 8;
 	icon_state = "platform_deco"
 	},
+/obj/structure/platform_decoration/kutjevo/rock{
+	dir = 4;
+	color = "#999999"
+	},
 /turf/open/gm/coast/beachcorner2/north_east,
 /area/swamp/beach)
 "eED" = (
@@ -20321,11 +20350,6 @@
 	},
 /turf/open/gm/coast/dirt/swampbeachcorner/north_east,
 /area/swamp/murasverd/river)
-"eFr" = (
-/obj/structure/surface/table/holotable/wood,
-/obj/item/tool/candle,
-/turf/open/floor/carpet/edge/northeast,
-/area/swamp/base/church/int)
 "eFy" = (
 /obj/structure/machinery/light,
 /turf/open/floor/carpet,
@@ -20385,12 +20409,6 @@
 	},
 /turf/open/floor/strata/faux_wood,
 /area/swamp/base/keppitz/archives)
-"eGd" = (
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/swamp/base/church/int)
 "eGf" = (
 /obj/structure/stairs/perspective{
 	dir = 8;
@@ -20726,7 +20744,7 @@
 /obj/structure/platform/kutjevo/rock{
 	color = "#999999"
 	},
-/turf/open/gm/river/swamp,
+/turf/open/gm/river/beach_water,
 /area/swamp/beach)
 "eJG" = (
 /obj/structure/closet/emcloset,
@@ -20786,9 +20804,6 @@
 	},
 /turf/open/gm/river/beach_water,
 /area/swamp/base/bunker/engineering)
-"eKu" = (
-/turf/open/floor/carpet/edge/northwest,
-/area/swamp/base/church/int)
 "eKB" = (
 /obj/structure/surface/table/gamblingtable,
 /obj/item/toy/handcard/aceofspades,
@@ -21209,7 +21224,7 @@
 "ePg" = (
 /obj/structure/platform/kutjevo,
 /obj/structure/platform,
-/turf/open/gm/river/swamp,
+/turf/open/gm/river/beach_water,
 /area/swamp/base/road)
 "ePp" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -22451,8 +22466,12 @@
 /turf/open/floor/plating,
 /area/swamp/murasverd/oldman_basement)
 "fdg" = (
-/turf/open/floor/wood,
-/area/swamp/base/church/int)
+/obj/structure/prop/rock/brown{
+	dir = 5;
+	layer = 3.15
+	},
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/swamp/base/road)
 "fdm" = (
 /obj/structure/machinery/light/small{
 	light_color = "#C02526";
@@ -23011,6 +23030,10 @@
 	},
 /turf/open/gm/dirt2,
 /area/swamp/murasverd/village)
+"fkJ" = (
+/obj/structure/flora/bush/ausbushes/var3/ywflowers,
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/swamp/base/road)
 "fkU" = (
 /turf/open/floor/prison/cell_stripe/west,
 /area/swamp/base/road)
@@ -23031,19 +23054,8 @@
 /turf/open/floor/kutjevo/fake_wood,
 /area/swamp/murasverd/village)
 "flq" = (
-/obj/structure/surface/rack{
-	density = 0;
-	pixel_y = -2;
-	pixel_x = 18
-	},
-/obj/structure/surface/rack{
-	density = 0;
-	pixel_x = -4;
-	pixel_y = -2
-	},
-/obj/item/clothing/shoes/centcom,
-/turf/open/floor/hybrisa/tile/tilebeige,
-/area/swamp/murasverd/house)
+/turf/closed/wall/strata_outpost/reinforced,
+/area/swamp/base/outskirts)
 "flv" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/asphalt,
@@ -23090,8 +23102,10 @@
 /turf/open/floor/plating/plating_catwalk/aicore/white,
 /area/swamp/villa/bunker)
 "fmg" = (
-/turf/open/floor/carpet/edge/southwest,
-/area/swamp/base/church/int)
+/obj/structure/surface/table/holotable/wood,
+/obj/item/tool/candle,
+/turf/open/floor/carpet,
+/area/swamp/murasverd/house)
 "fmi" = (
 /obj/structure/platform_decoration/kutjevo{
 	dir = 8
@@ -23529,7 +23543,7 @@
 /obj/structure/prop/rock/brown{
 	dir = 6
 	},
-/turf/open/gm/river/swamp,
+/turf/open/gm/river/beach_water,
 /area/swamp/beach)
 "frN" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -23824,6 +23838,10 @@
 /obj/structure/flora/trees220/tree_2,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/swamp/murasverd/swamp)
+"fuK" = (
+/obj/structure/flora/bush/ausbushes/palebush,
+/turf/open/gm/grass,
+/area/swamp/base/outskirts)
 "fva" = (
 /obj/structure/filingcabinet/chestdrawer{
 	pixel_x = -8;
@@ -23917,7 +23935,13 @@
 /turf/open/auto_turf/strata_grass/layer0,
 /area/swamp/murasverd/river)
 "fwh" = (
-/turf/open/floor/carpet/edge/east,
+/obj/structure/surface/table/holotable/wood,
+/obj/item/storage/fancy/candle_box,
+/obj/item/storage/fancy/candle_box{
+	pixel_x = 6;
+	pixel_y = -2
+	},
+/turf/open/floor/wood,
 /area/swamp/murasverd/house)
 "fwi" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -23981,19 +24005,6 @@
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/swamp/base/road)
-"fwR" = (
-/obj/structure/bed,
-/obj/item/bedsheet/brown,
-/obj/structure/bed{
-	buckling_y = 13;
-	layer = 3.5;
-	pixel_y = 13
-	},
-/obj/item/bedsheet/brown{
-	pixel_y = 13
-	},
-/turf/open/floor/prison,
-/area/swamp/colony/colony_exterior)
 "fwZ" = (
 /obj/structure/platform_decoration/kutjevo{
 	dir = 4
@@ -24421,6 +24432,24 @@
 	},
 /turf/closed/wall/r_wall/bunker,
 /area/swamp/base/inside/garage)
+"fCi" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 4;
+	layer = 5.0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 11;
+	pixel_x = -2
+	},
+/turf/closed/wall/strata_outpost/reinforced/hull,
+/area/swamp/base/road)
 "fCk" = (
 /obj/item/trash/cigbutt{
 	pixel_y = 19;
@@ -24709,7 +24738,6 @@
 /area/swamp/base/road)
 "fFt" = (
 /obj/effect/decal/cleanable/blood/oil,
-/obj/item/weapon/gun/minigun/upp,
 /turf/open/floor/almayer/plating_striped/north,
 /area/swamp/murasverd/oldman_basement)
 "fFu" = (
@@ -25975,10 +26003,6 @@
 	},
 /turf/open/asphalt,
 /area/swamp/colony/hangar)
-"fSq" = (
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/hybrisa/tile/tilebeige,
-/area/swamp/murasverd/house)
 "fSt" = (
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/swamp/murasverd/village)
@@ -26021,13 +26045,10 @@
 /turf/open/gm/coast/beachcorner/north_west,
 /area/swamp/beach)
 "fTk" = (
-/obj/structure/surface/table/holotable/wood,
-/obj/structure/phone_base/colony_net/rotary{
-	phone_category = "Murasverd Village";
-	phone_id = "Proffesor";
-	pixel_y = 6
+/obj/structure/bed/chair/wood/normal{
+	dir = 4
 	},
-/turf/open/floor/hybrisa/carpet/blue_grey,
+/turf/open/floor/chapel/west,
 /area/swamp/murasverd/house)
 "fTy" = (
 /obj/structure/barricade/handrail/strata{
@@ -26222,8 +26243,9 @@
 /area/swamp/villa/house)
 "fVD" = (
 /obj/structure/platform,
-/turf/open/organic/grass,
-/area/swamp/base/church/ext)
+/obj/structure/fence,
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/swamp/base/outskirts)
 "fVG" = (
 /obj/structure/largecrate/random/barrel/blue{
 	pixel_x = -10;
@@ -26274,9 +26296,11 @@
 /turf/open/floor/almayer_hull/blackfull,
 /area/swamp/base/keppitz/interlude)
 "fWe" = (
-/obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/organic/grass,
-/area/swamp/base/church/ext)
+/obj/structure/flora/bush/ausbushes/ppflowers{
+	icon_state = "brflowers_3"
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/swamp/base/road)
 "fWf" = (
 /obj/structure/prop/swamp_plants/algae/full/algae_full_2,
 /obj/structure/prop/swamp_plants/algae/corner2/south_east,
@@ -26821,12 +26845,6 @@
 	},
 /turf/open/floor/mech_bay_recharge_floor,
 /area/swamp/colony/hangar)
-"gcd" = (
-/obj/structure/flora/trees220/tree_5{
-	pixel_x = -10
-	},
-/turf/open/auto_turf/strata_grass/layer0_mud,
-/area/swamp/murasverd/village)
 "gcj" = (
 /obj/structure/largecrate/black_market/confiscated_equipment{
 	pixel_x = 6;
@@ -27592,13 +27610,13 @@
 /turf/open/asphalt/cement,
 /area/swamp/villa/house)
 "gld" = (
-/obj/structure/stairs/perspective{
-	color = "#6e6e6e";
-	icon_state = "p_stair_full";
+/obj/structure/surface/table/holotable/wood,
+/obj/item/tool/candle,
+/obj/structure/machinery/light{
 	dir = 1
 	},
-/turf/open/asphalt/cement_darkened,
-/area/swamp/base/church/ext)
+/turf/open/floor/wood,
+/area/swamp/murasverd/house)
 "glk" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -27843,18 +27861,6 @@
 /obj/structure/largecrate/supply/ammo/sentry,
 /turf/open/gm/dirt2,
 /area/swamp/murasverd/trench)
-"gnz" = (
-/obj/structure/platform/kutjevo/rock{
-	dir = 1;
-	color = "#999999"
-	},
-/obj/structure/platform/kutjevo/rock{
-	dir = 8;
-	color = "#999999";
-	layer = 3.02
-	},
-/turf/open/gm/river/swamp,
-/area/swamp/beach)
 "gnB" = (
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice3";
@@ -28223,8 +28229,20 @@
 /turf/open/gm/dirtgrassborder2/grassdirt_corner/south_east,
 /area/swamp/murasverd/swamp)
 "grE" = (
-/obj/structure/bed/chair/wood/normal,
-/turf/open/floor/wood,
+/obj/structure/surface/rack,
+/obj/item/storage/fancy/candle_box{
+	pixel_x = 4;
+	pixel_y = 12
+	},
+/obj/item/storage/fancy/candle_box{
+	pixel_x = -5;
+	pixel_y = 5
+	},
+/obj/item/storage/fancy/candle_box{
+	pixel_x = 4;
+	pixel_y = -4
+	},
+/turf/open/floor/carpet,
 /area/swamp/murasverd/house)
 "grG" = (
 /obj/structure/machinery/door/airlock/almayer/maint/colony/autoname{
@@ -28935,9 +28953,6 @@
 /obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/coagulation/icon2_0,
 /area/swamp/colony/colony_exterior)
-"gyI" = (
-/turf/open/floor/chapel,
-/area/swamp/base/church/int)
 "gyY" = (
 /turf/closed/wall/r_wall/elevator{
 	dir = 9
@@ -30485,11 +30500,11 @@
 /turf/open/asphalt,
 /area/swamp/colony/colony_exterior)
 "gRl" = (
-/obj/structure/machinery/door/airlock/almayer/generic{
+/obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 1
 	},
-/turf/open/floor/wood,
-/area/swamp/base/church/int)
+/turf/open/auto_turf/strata_grass/layer0,
+/area/swamp/base/outskirts)
 "gRs" = (
 /obj/structure/flora/bush/ausbushes/pointybush,
 /turf/open/gm/river/swamp/mid,
@@ -30793,7 +30808,7 @@
 	dir = 9
 	},
 /turf/open/asphalt/cement_darkened,
-/area/swamp/base/church/ext)
+/area/swamp/murasverd/village)
 "gWL" = (
 /obj/structure/cargo_container/horizontal/blue/bottom,
 /turf/open/auto_turf/strata_grass/layer1,
@@ -31193,13 +31208,6 @@
 	},
 /turf/open/floor/prison/floor_plate,
 /area/swamp/base/keppitz/entry_pub)
-"haR" = (
-/obj/structure/surface/table/holotable/wood,
-/obj/item/tool/candle,
-/obj/item/clothing/suit/storage/marine/fluff/chris1464,
-/obj/item/clothing/under/marine/fluff/chris1464,
-/turf/open/floor/carpet/edge/northwest,
-/area/swamp/base/church/int)
 "haS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/prop/invuln/lattice_prop{
@@ -31235,13 +31243,10 @@
 /turf/open/floor/plating,
 /area/swamp/murasverd/oldman_basement)
 "hbs" = (
-/obj/structure/machinery/door/window{
-	dir = 8
+/obj/structure/bed/chair/wood/normal{
+	dir = 4
 	},
-/obj/effect/decal/strata_decals/grime/grime3{
-	dir = 8
-	},
-/turf/open/floor/white,
+/turf/open/floor/wood,
 /area/swamp/murasverd/house)
 "hbt" = (
 /obj/item/ammo_box/magazine/m20a,
@@ -31441,25 +31446,12 @@
 /turf/open/gm/river/swamp/mid/grass,
 /area/swamp/murasverd/swamp)
 "hcY" = (
-/obj/structure/barricade/handrail/kutjevo{
-	dir = 8
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	color = "#999900";
+	dir = 9
 	},
-/obj/structure/flora/bush/ausbushes/var3/fullgrass{
-	pixel_y = 16
-	},
-/turf/open/organic/grass,
-/area/swamp/murasverd/village)
-"hdb" = (
-/obj/structure/coatrack{
-	pixel_y = 24
-	},
-/obj/structure/surface/rack{
-	density = 0;
-	pixel_y = -2;
-	pixel_x = 4
-	},
-/turf/open/floor/hybrisa/carpet/carpetblackdeco,
-/area/swamp/murasverd/house)
+/turf/open/auto_turf/strata_grass/layer0,
+/area/swamp/base/outskirts)
 "hdc" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -32419,6 +32411,12 @@
 	},
 /turf/open/floor/prison,
 /area/swamp/colony/hangar)
+"hoj" = (
+/obj/structure/prop/rock/brown{
+	dir = 1
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/swamp/base/outskirts)
 "hos" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/disposal,
@@ -32534,12 +32532,6 @@
 /obj/structure/flora/jungle/vines/light_3,
 /turf/open/auto_turf/strata_grass,
 /area/swamp/base/outskirts)
-"hqf" = (
-/obj/structure/flora/bush/ausbushes/var3/sparsegrass{
-	layer = 3
-	},
-/turf/open/gm/dirt2,
-/area/swamp/murasverd/village)
 "hqs" = (
 /obj/structure/flora/bush/ausbushes/var3/stalkybush,
 /turf/open/gm/river/swamp,
@@ -32749,6 +32741,28 @@
 	},
 /turf/open/floor/strata/fake_wood,
 /area/swamp/murasverd/house)
+"hte" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 4;
+	layer = 5.0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 11;
+	pixel_x = -2
+	},
+/obj/structure/machinery/light/double{
+	dir = 1;
+	pixel_y = 9
+	},
+/turf/open/auto_turf/strata_grass,
+/area/swamp/base/road)
 "hth" = (
 /obj/structure/flora/grass/desert,
 /turf/open/gm/river/swamp,
@@ -33138,10 +33152,6 @@
 	},
 /turf/open/gm/river/swamp/mid/grass,
 /area/swamp/murasverd/river)
-"hyE" = (
-/obj/structure/flora/bush/ausbushes/var3/stalkybush,
-/turf/open/gm/river/swamp,
-/area/swamp/beach)
 "hyR" = (
 /obj/structure/barricade/sandbags/wired{
 	dir = 4;
@@ -33520,10 +33530,6 @@
 "hCX" = (
 /turf/open/floor/elevatorshaft,
 /area/swamp/base/keppitz/interlude)
-"hCY" = (
-/obj/structure/closet/wardrobe/chaplain_black,
-/turf/open/floor/carpet/edge/southeast,
-/area/swamp/base/church/int)
 "hDd" = (
 /obj/structure/sign/safety/restrictedarea{
 	pixel_x = 15
@@ -34693,9 +34699,7 @@
 /turf/open/asphalt,
 /area/swamp/base/road)
 "hRF" = (
-/obj/structure/bed/chair/wood/normal,
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/hybrisa/carpet/pink,
+/turf/closed/wall,
 /area/swamp/murasverd/house)
 "hRH" = (
 /obj/effect/decal/cleanable/dirt,
@@ -34836,13 +34840,6 @@
 /obj/structure/flora/bigtree220/tree_1,
 /turf/open/auto_turf/strata_grass,
 /area/swamp/murasverd/swamp)
-"hTx" = (
-/obj/structure/machinery/light{
-	dir = 1;
-	pixel_y = 20
-	},
-/turf/open/floor/hybrisa/carpet/carpetgreendeco,
-/area/swamp/murasverd/house)
 "hTD" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -35427,6 +35424,24 @@
 	},
 /turf/open/floor/plating,
 /area/swamp/base/bunker/telecommunication)
+"ibc" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 4;
+	layer = 5.0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 11;
+	pixel_x = -2
+	},
+/turf/open/gm/grass,
+/area/swamp/base/outskirts)
 "ibf" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer,
@@ -35926,13 +35941,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/asphalt,
 /area/swamp/colony/colony_exterior)
-"ihk" = (
-/obj/structure/closet/secure_closet/freezer/fridge{
-	pixel_y = 20
-	},
-/obj/item/reagent_container/food/condiment/enzyme,
-/turf/open/floor/hybrisa/carpet/blue_grey,
-/area/swamp/murasverd/house)
 "ihl" = (
 /obj/structure/blocker/invisible_wall,
 /turf/open/void,
@@ -36030,6 +36038,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/swamp/colony/colony_exterior)
+"iiy" = (
+/obj/structure/prop/rock/brown{
+	dir = 10;
+	pixel_x = 12;
+	pixel_y = 13;
+	layer = 4.22
+	},
+/turf/open/gm/grass,
+/area/swamp/base/outskirts)
 "iiG" = (
 /obj/structure/barricade/sandbags{
 	icon_state = "sandbag_0";
@@ -36332,6 +36349,27 @@
 "imz" = (
 /turf/open/floor/kutjevo/colors/yellow,
 /area/swamp/base/inside)
+"imQ" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 4;
+	layer = 5.0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 11;
+	pixel_x = -2
+	},
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 1
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/swamp/base/road)
 "imT" = (
 /obj/structure/pipes/standard/simple/hidden/cyan,
 /turf/open/floor/plating/plating_catwalk/prison,
@@ -36452,7 +36490,7 @@
 	color = "#999999";
 	layer = 3.02
 	},
-/turf/open/gm/river/swamp,
+/turf/open/gm/river/beach_water,
 /area/swamp/beach)
 "ioM" = (
 /obj/structure/machinery/computer/cameras/wooden_tv{
@@ -36534,12 +36572,9 @@
 /turf/open/floor/prison/whitegreencorner,
 /area/swamp/villa/bunker/hospital)
 "ipr" = (
-/obj/structure/flora/bush/ausbushes/var3/fullgrass{
-	pixel_y = 16
-	},
-/obj/structure/flora/bush/ausbushes/ausbush,
-/turf/open/organic/grass,
-/area/swamp/murasverd/village)
+/obj/structure/flora/bush/ausbushes/var3/sunnybush,
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/swamp/base/outskirts)
 "ipv" = (
 /obj/structure/closet/secure_closet/freezer/fridge/full,
 /turf/open/floor/hybrisa/carpet/carpet_colorable/twe_red,
@@ -36704,7 +36739,7 @@
 	dir = 4
 	},
 /turf/open/gm/grass,
-/area/swamp/base/road)
+/area/swamp/base/outskirts)
 "irh" = (
 /obj/structure/platform/kutjevo/rock{
 	pixel_x = 0;
@@ -37054,7 +37089,7 @@
 	pixel_x = 8;
 	pixel_y = 9
 	},
-/turf/open/floor/hybrisa/carpet/carpetgreen,
+/turf/open/floor/hybrisa/carpet/blue_grey,
 /area/swamp/murasverd/house)
 "ivd" = (
 /obj/structure/largecrate/random/case/small{
@@ -37236,13 +37271,11 @@
 /turf/open/floor/almayer/plate,
 /area/swamp/murasverd/house)
 "iwz" = (
-/obj/item/reagent_container/food/snacks/sliceable/plaincake{
-	pixel_y = 4
+/obj/structure/flora/bush/ausbushes/var3/stalkybush{
+	pixel_y = 13
 	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/surface/table/holotable/wood,
-/turf/open/floor/hybrisa/carpet/carpetgreendeco,
-/area/swamp/murasverd/house)
+/turf/open/organic/grass,
+/area/swamp/murasverd/village)
 "iwE" = (
 /obj/structure/closet/crate/secure/ammo{
 	pixel_x = -9;
@@ -37500,6 +37533,10 @@
 	},
 /turf/open/gm/river/swamp/mid,
 /area/swamp/murasverd/swamp)
+"izp" = (
+/obj/structure/platform,
+/turf/open/gm/grass,
+/area/swamp/base/outskirts)
 "izC" = (
 /obj/item/storage/backpack/marine/satchel{
 	desc = "It's the heavy-duty black polymer kind. Time to take out the trash!";
@@ -39088,8 +39125,9 @@
 /turf/open/floor/almayer_hull,
 /area/swamp/shuttles/drop2)
 "iRY" = (
-/turf/open/floor/carpet/bcarpet08,
-/area/swamp/murasverd/house)
+/obj/structure/flora/grass/tallgrass/jungle,
+/turf/open/gm/grass,
+/area/swamp/base/outskirts)
 "iSc" = (
 /obj/structure/platform/kutjevo/rock{
 	dir = 1;
@@ -39171,7 +39209,7 @@
 /area/swamp/villa/bunker/research)
 "iTg" = (
 /obj/item/lightstick/planted,
-/turf/open/gm/river/swamp,
+/turf/open/gm/river/beach_water,
 /area/swamp/beach)
 "iTh" = (
 /obj/structure/fence,
@@ -39562,10 +39600,6 @@
 	},
 /turf/open/floor/interior/tatami,
 /area/swamp/beach_house)
-"iYc" = (
-/obj/structure/bed/chair/wood/normal,
-/turf/open/floor/chapel,
-/area/swamp/base/church/int)
 "iYk" = (
 /obj/effect/decal/cleanable/hybrisa/dirt,
 /obj/effect/decal/cleanable/hybrisa/trash{
@@ -39728,10 +39762,6 @@
 	},
 /turf/open/gm/river/swamp/mid,
 /area/swamp/murasverd/swamp)
-"jam" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/prison/green,
-/area/swamp/colony/colony_exterior)
 "jau" = (
 /obj/structure/platform/kutjevo/rock{
 	dir = 8;
@@ -39799,9 +39829,9 @@
 /turf/open/floor/wood,
 /area/swamp/murasverd/house)
 "jaY" = (
-/obj/structure/mineral_door/wood,
-/turf/open/floor/white,
-/area/swamp/murasverd/house)
+/obj/structure/cargo_container/horizontal/blue/bottom,
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/swamp/base/road)
 "jbk" = (
 /obj/structure/flora/bigtree220/tree_6,
 /turf/open/organic/grass,
@@ -39931,9 +39961,11 @@
 /turf/closed/wall/r_wall/bunker,
 /area/swamp/base/inside/messhall)
 "jcG" = (
-/obj/structure/closet/wardrobe/chaplain_black,
-/turf/open/floor/carpet/edge/southwest,
-/area/swamp/base/church/int)
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/swamp/murasverd/house)
 "jcK" = (
 /obj/effect/decal/grass_overlay/grass1/inner{
 	dir = 5
@@ -39988,8 +40020,12 @@
 /turf/open/floor/prison/floor_plate,
 /area/swamp/villa/bunker/armory)
 "jds" = (
-/turf/open/floor/chapel/west,
-/area/swamp/base/church/int)
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8
+	},
+/obj/structure/flora/bush/ausbushes/genericbush,
+/turf/open/organic/grass,
+/area/swamp/murasverd/village)
 "jdt" = (
 /obj/structure/flora/grass/desert/heavygrass_8,
 /turf/open/organic/grass,
@@ -40040,12 +40076,11 @@
 /turf/open/floor/corsat/purple/east,
 /area/swamp/base/keppitz/research)
 "jer" = (
-/obj/structure/barricade/handrail/kutjevo{
+/obj/structure/bed/chair/wood/normal{
 	dir = 4
 	},
-/obj/structure/flora/bush/ausbushes/var3/sunnybush,
-/turf/open/organic/grass,
-/area/swamp/murasverd/village)
+/turf/open/floor/chapel/north,
+/area/swamp/murasverd/house)
 "jeu" = (
 /obj/structure/prop/swamp_plants/algae/straight/south,
 /obj/structure/prop/swamp_plants/algae/small/algae_4,
@@ -40092,12 +40127,23 @@
 /turf/open/floor/prison/darkyellow2,
 /area/swamp/colony/engineering)
 "jeJ" = (
-/obj/structure/barricade/handrail/kutjevo{
-	dir = 1
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 4;
+	layer = 5.0
 	},
-/obj/structure/flora/bush/ausbushes/ausbush,
-/turf/open/organic/grass,
-/area/swamp/murasverd/village)
+/obj/structure/prop/invuln/overhead_pipe{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 11;
+	pixel_x = -2
+	},
+/turf/closed/wall/strata_outpost/reinforced/hull,
+/area/swamp/base/outskirts)
 "jfc" = (
 /obj/structure/bed,
 /obj/item/bedsheet/green,
@@ -40902,7 +40948,7 @@
 	},
 /obj/structure/curtain/red,
 /turf/open/floor/plating/plating_catwalk/aicore,
-/area/swamp/colony/colony_exterior)
+/area/swamp/colony/complex)
 "jmL" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/storage/fancy/cigarettes/kpack{
@@ -40931,12 +40977,9 @@
 /turf/open/floor/interior/wood,
 /area/swamp/murasverd/trench)
 "jmO" = (
-/obj/structure/roof/cargocrane_tracks/horizontal{
-	pixel_y = 14
-	},
-/obj/item/weapon/gun/smg/pps43/extended_mag,
+/obj/item/weapon/gun/pkp,
 /turf/open/floor/almayer/plating,
-/area/swamp/murasverd/oldman_basement)
+/area/swamp/caverns)
 "jmP" = (
 /obj/structure/platform/kutjevo/rock{
 	dir = 8;
@@ -40991,16 +41034,6 @@
 /obj/structure/curtain/open/shower,
 /turf/open/floor/plating/plating_catwalk/aicore,
 /area/swamp/colony/complex)
-"jnw" = (
-/obj/structure/toilet{
-	dir = 8
-	},
-/obj/structure/machinery/light/small{
-	dir = 1;
-	pixel_y = 20
-	},
-/turf/open/floor/hybrisa/tile/tilelightbeige,
-/area/swamp/murasverd/house)
 "jnA" = (
 /obj/structure/platform_decoration/kutjevo{
 	dir = 1
@@ -41117,10 +41150,6 @@
 	},
 /turf/open/asphalt,
 /area/swamp/base/bunker/cargo)
-"jov" = (
-/obj/structure/fence,
-/turf/open/organic/grass,
-/area/swamp/base/church/ext)
 "joy" = (
 /obj/structure/prop/swamp_plants/lily_pads/lily_pads_1,
 /obj/structure/prop/swamp_plants/lily_pads/lily_pads_7,
@@ -41734,7 +41763,7 @@
 	pixel_x = 1;
 	pixel_y = 2
 	},
-/turf/open/floor/hybrisa/carpet/carpetgreen,
+/turf/open/floor/hybrisa/carpet/blue_grey,
 /area/swamp/murasverd/house)
 "jxc" = (
 /obj/structure/barricade/handrail/kutjevo{
@@ -42096,6 +42125,12 @@
 	},
 /turf/open/floor/almayer/dark_sterile,
 /area/swamp/base/inside/medical)
+"jCU" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/swamp/base/outskirts)
 "jCZ" = (
 /obj/structure/pipes/vents/pump,
 /turf/open/floor/prison/floor_plate,
@@ -42554,7 +42589,6 @@
 /turf/open/floor/white,
 /area/swamp/murasverd/house)
 "jIs" = (
-/obj/item/weapon/gun/pistol/np92,
 /turf/open/floor/almayer/plating_striped/north,
 /area/swamp/murasverd/oldman_basement)
 "jIx" = (
@@ -42959,19 +42993,10 @@
 /turf/open/floor/prison/floor_plate,
 /area/swamp/base/keppitz/entry_pub)
 "jMM" = (
-/obj/item/tool/kitchen/rollingpin,
-/obj/item/reagent_container/food/condiment/saltshaker{
-	pixel_x = -4
+/obj/structure/machinery/light{
+	dir = 4
 	},
-/obj/item/reagent_container/food/condiment/peppermill{
-	pixel_x = 4
-	},
-/obj/item/tool/kitchen/knife{
-	pixel_x = -9;
-	pixel_y = 3
-	},
-/obj/structure/surface/table/reinforced,
-/turf/open/floor/hybrisa/tile/tilewhitecheckered/biege,
+/turf/open/floor/carpet,
 /area/swamp/murasverd/house)
 "jMQ" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -43004,8 +43029,9 @@
 /turf/open/floor/prison/floor_plate,
 /area/swamp/colony/complex)
 "jNt" = (
-/turf/open/floor/carpet/edge/southeast,
-/area/swamp/base/church/int)
+/obj/structure/flora/grass/tallgrass/jungle/corner,
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/swamp/base/road)
 "jNO" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
@@ -43144,6 +43170,25 @@
 /obj/item/device/flashlight/lamp/tripod,
 /turf/open/gm/dirtgrassborder/grassdirt_corner/north_east,
 /area/swamp/beach)
+"jPB" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 4;
+	layer = 5.0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 11;
+	pixel_x = -2
+	},
+/obj/structure/flora/grass/tallgrass/jungle/corner,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/swamp/base/road)
 "jPC" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 10
@@ -43173,10 +43218,6 @@
 	},
 /turf/open/asphalt/cement,
 /area/swamp/colony/colony_exterior)
-"jPL" = (
-/obj/structure/machinery/light/small,
-/turf/open/asphalt,
-/area/swamp/base/road)
 "jQa" = (
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/filtrationside/northwest,
@@ -44965,7 +45006,7 @@
 /area/swamp/colony/complex)
 "kkt" = (
 /obj/structure/bed/chair/wood/wings,
-/turf/open/floor/hybrisa/carpet/carpetgreen,
+/turf/open/floor/hybrisa/carpet/blue_grey,
 /area/swamp/murasverd/house)
 "kku" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -45071,11 +45112,6 @@
 	},
 /turf/open/floor/carpet11_12,
 /area/swamp/villa/house)
-"klu" = (
-/obj/item/device/flashlight/lamp/candelabra,
-/obj/structure/surface/table/holotable/wood,
-/turf/open/floor/carpet,
-/area/swamp/base/church/int)
 "klx" = (
 /obj/structure/platform/kutjevo{
 	dir = 4
@@ -45091,9 +45127,6 @@
 /obj/structure/flora/grass/desert/heavygrass_2,
 /turf/open/organic/grass,
 /area/swamp/murasverd/trench)
-"klJ" = (
-/turf/open/floor/carpet/bcarpet02,
-/area/swamp/murasverd/house)
 "klM" = (
 /obj/structure/desertdam/decals/road_stop{
 	icon_state = "stop_decal5";
@@ -45227,10 +45260,11 @@
 /turf/open/gm/grass,
 /area/swamp/villa)
 "knB" = (
-/obj/structure/flora/trees220/tree_4,
-/obj/structure/flora/grass/desert/heavy,
-/turf/open/organic/grass,
-/area/swamp/murasverd/village)
+/obj/structure/flora/grass/tallgrass/jungle{
+	color = "#999900"
+	},
+/turf/open/gm/grass,
+/area/swamp/base/outskirts)
 "knH" = (
 /obj/structure/platform{
 	dir = 4
@@ -45346,21 +45380,11 @@
 /turf/open/gm/river,
 /area/swamp/murasverd/swamp)
 "kpi" = (
-/obj/structure/surface/rack,
-/obj/item/reagent_container/food/drinks/bottle/holywater{
-	pixel_x = -2;
-	pixel_y = 6
+/obj/structure/prop/rock/brown{
+	dir = 8
 	},
-/obj/item/reagent_container/food/drinks/bottle/holywater{
-	pixel_x = 4;
-	pixel_y = -2
-	},
-/obj/item/reagent_container/food/drinks/bottle/holywater{
-	pixel_x = -4;
-	pixel_y = -4
-	},
-/turf/open/floor/carpet/edge/west,
-/area/swamp/base/church/int)
+/turf/open/auto_turf/strata_grass/layer1,
+/area/swamp/base/outskirts)
 "kpl" = (
 /obj/structure/platform_decoration/kutjevo/rock{
 	dir = 4;
@@ -45443,19 +45467,6 @@
 	},
 /turf/open/floor/corsat/retrosquares,
 /area/swamp/base/keppitz/hangar)
-"kqC" = (
-/obj/structure/surface/table/woodentable,
-/obj/item/reagent_container/food/drinks/sillycup{
-	pixel_x = -5;
-	pixel_y = 10
-	},
-/obj/item/reagent_container/food/drinks/coffee{
-	pixel_x = 11;
-	pixel_y = 14
-	},
-/obj/item/reagent_container/food/snacks/stuffing,
-/turf/open/floor/hybrisa/carpet/pink,
-/area/swamp/murasverd/house)
 "kqF" = (
 /obj/structure/platform/kutjevo/rock{
 	pixel_x = 0;
@@ -46067,13 +46078,6 @@
 	},
 /turf/open/floor/prison/floor_plate,
 /area/swamp/villa/bunker/command)
-"kxu" = (
-/obj/structure/machinery/computer/cameras/telescreen{
-	pixel_y = 8
-	},
-/obj/structure/surface/table/holotable/wood,
-/turf/open/floor/carpet/bcarpet03,
-/area/swamp/murasverd/house)
 "kxx" = (
 /obj/structure/surface/rack,
 /obj/effect/spawner/random/toolbox,
@@ -46461,9 +46465,12 @@
 /turf/open/floor/prison/floor_plate,
 /area/swamp/base/bunker/cargo)
 "kCc" = (
-/obj/structure/platform_decoration/kutjevo/smooth,
-/turf/open/floor/wood,
-/area/swamp/base/church/int)
+/obj/structure/surface/table/holotable/wood,
+/obj/item/tool/candle,
+/obj/item/clothing/suit/storage/marine/fluff/chris1464,
+/obj/item/clothing/under/marine/fluff/chris1464,
+/turf/open/floor/carpet,
+/area/swamp/murasverd/house)
 "kCf" = (
 /obj/item/tool/kitchen/tray,
 /obj/structure/surface/table/reinforced/prison{
@@ -46664,10 +46671,6 @@
 /obj/item/trash/semki,
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/swamp/colony/colony_exterior)
-"kEa" = (
-/obj/structure/platform/kutjevo/smooth,
-/turf/open/floor/carpet/edge,
-/area/swamp/base/church/int)
 "kEi" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 10
@@ -46931,7 +46934,6 @@
 /obj/structure/roof/cargocrane_tracks/horizontal/endcap1{
 	pixel_y = 14
 	},
-/obj/item/weapon/gun/smg/bizon,
 /turf/open/floor/almayer/plating,
 /area/swamp/murasverd/oldman_basement)
 "kGU" = (
@@ -47491,6 +47493,10 @@
 	},
 /turf/open/gm/river/swamp/mid/grass,
 /area/swamp/murasverd/swamp)
+"kMK" = (
+/obj/item/weapon/gun/pistol/t73,
+/turf/open/floor/almayer/plating,
+/area/swamp/caverns)
 "kMN" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	icon_state = "fullgrass_3"
@@ -47968,12 +47974,10 @@
 /turf/open/floor/strata/floor3,
 /area/swamp/colony/colony_exterior)
 "kRU" = (
-/obj/structure/surface/table/reinforced,
-/obj/structure/machinery/microwave{
-	pixel_y = 15
-	},
-/turf/open/floor/hybrisa/tile/tilewhitecheckered/blue,
-/area/swamp/murasverd/house)
+/obj/structure/flora/bush/ausbushes/var3/fullgrass,
+/obj/structure/barricade/handrail/kutjevo,
+/turf/open/organic/grass,
+/area/swamp/murasverd/village)
 "kSa" = (
 /obj/structure/cargo_container/trijent/right/alt,
 /turf/open/asphalt/cement,
@@ -48238,17 +48242,6 @@
 "kVg" = (
 /turf/open/gm/coast/beachcorner/south_east,
 /area/swamp/murasverd/river)
-"kVi" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 8;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/platform/kutjevo/smooth{
-	layer = 2.98
-	},
-/turf/open/floor/wood,
-/area/swamp/base/church/int)
 "kVl" = (
 /obj/structure/barricade/handrail{
 	dir = 4
@@ -48491,10 +48484,6 @@
 "kXM" = (
 /turf/open/floor/almayer/sterile_green_side/southeast,
 /area/swamp/base/inside/medical)
-"kXP" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/hybrisa/tile/tilebeige,
-/area/swamp/murasverd/house)
 "kXS" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -48503,10 +48492,25 @@
 /turf/open/floor/corsat/plate,
 /area/swamp/base/keppitz/powerstation)
 "kYa" = (
-/obj/structure/surface/table/holotable/wood,
-/obj/item/tool/candle,
-/turf/open/floor/carpet,
-/area/swamp/base/church/int)
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 8;
+	layer = 5.2
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 9;
+	dir = 8;
+	pixel_x = 0
+	},
+/obj/structure/prop/ice_colony/dense/planter_box/hydro{
+	density = 0;
+	layer = 4.99;
+	pixel_y = 7
+	},
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/swamp/base/outskirts)
 "kYc" = (
 /turf/open/asphalt/cement/cement7,
 /area/swamp/base/road)
@@ -48777,17 +48781,6 @@
 	layer = 3.23
 	},
 /turf/open/floor/kutjevo/fake_wood,
-/area/swamp/murasverd/house)
-"lbJ" = (
-/obj/structure/machinery/light{
-	dir = 8;
-	pixel_y = -14
-	},
-/obj/structure/bookcase{
-	icon_state = "book-5";
-	density = 0
-	},
-/turf/open/floor/hybrisa/carpet/carpetfadedred,
 /area/swamp/murasverd/house)
 "lbK" = (
 /obj/structure/closet/crate/ammo/alt,
@@ -49131,13 +49124,6 @@
 	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/swamp/murasverd/trench)
-"lgh" = (
-/obj/structure/flora/trees220/tree_12,
-/obj/structure/flora/bush/ausbushes/var3/fullgrass{
-	pixel_y = 16
-	},
-/turf/open/organic/grass,
-/area/swamp/murasverd/village)
 "lgi" = (
 /obj/structure/platform/kutjevo,
 /turf/open/auto_turf/strata_grass,
@@ -49286,7 +49272,7 @@
 "lhO" = (
 /obj/structure/flora/bush/ausbushes/var3/brflowers,
 /turf/open/auto_turf/strata_grass,
-/area/swamp/base/road)
+/area/swamp/base/outskirts)
 "lhQ" = (
 /obj/structure/prop/swamp_plants/algae/small,
 /obj/structure/prop/swamp_plants/algae/corner2/south_east,
@@ -49423,6 +49409,29 @@
 	},
 /turf/open/floor/carpet10_8,
 /area/swamp/villa/house)
+"lje" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 4;
+	layer = 5.0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 11;
+	pixel_x = -2
+	},
+/obj/structure/prop/structure_lattice{
+	dir = 1;
+	health = 300;
+	layer = 6
+	},
+/turf/closed/wall/strata_outpost/reinforced/hull,
+/area/swamp/base/outskirts)
 "ljf" = (
 /obj/effect/projector{
 	vector_x = -59;
@@ -49567,6 +49576,24 @@
 	},
 /turf/open/gm/dirt/desert1,
 /area/swamp/beach)
+"lkm" = (
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 11;
+	pixel_x = -2
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice1";
+	pixel_x = 4;
+	layer = 5.0
+	},
+/turf/closed/wall/r_wall/bunker,
+/area/swamp/base/inside)
 "lkq" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
@@ -49680,7 +49707,7 @@
 	pixel_y = 1
 	},
 /obj/structure/surface/table/holotable/wood,
-/turf/open/floor/hybrisa/carpet/carpetgreen,
+/turf/open/floor/hybrisa/carpet/blue_grey,
 /area/swamp/murasverd/house)
 "llE" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -49772,13 +49799,6 @@
 	},
 /turf/open/gm/river/swamp/deep,
 /area/swamp/murasverd/swamp)
-"lme" = (
-/obj/structure/platform/kutjevo/smooth{
-	layer = 2.98
-	},
-/obj/structure/machinery/light,
-/turf/open/floor/wood,
-/area/swamp/base/church/int)
 "lmh" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
@@ -49806,8 +49826,7 @@
 /turf/open/floor/prison/darkred2,
 /area/swamp/colony/complex)
 "lmF" = (
-/obj/structure/machinery/light,
-/turf/open/floor/hybrisa/carpet/carpetbeigedeco,
+/turf/open/floor/chapel/east,
 /area/swamp/murasverd/house)
 "lmM" = (
 /obj/structure/flora/bush/ausbushes/var3/leafybush,
@@ -49854,7 +49873,7 @@
 /area/swamp/colony/engineering)
 "lnk" = (
 /obj/structure/platform_decoration,
-/turf/open/gm/river/swamp,
+/turf/open/gm/river/beach_water,
 /area/swamp/beach)
 "lnq" = (
 /obj/structure/cable/heavyduty{
@@ -50185,9 +50204,20 @@
 /turf/open/floor/prison/floor_marked,
 /area/swamp/base/bunker/cargo)
 "lrp" = (
-/obj/structure/closet/cabinet,
-/turf/open/floor/hybrisa/carpet/carpetbeigedeco,
-/area/swamp/murasverd/house)
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 8;
+	layer = 5.2
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 9;
+	dir = 8;
+	pixel_x = 0
+	},
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/swamp/base/outskirts)
 "lrq" = (
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/floor/plating,
@@ -50472,10 +50502,6 @@
 	},
 /turf/open/gm/river/swamp/mid/grass,
 /area/swamp/murasverd/swamp)
-"ltz" = (
-/obj/item/trash/cigbutt,
-/turf/open/floor/hybrisa/carpet/pink,
-/area/swamp/murasverd/house)
 "ltQ" = (
 /turf/closed/wall/strata_outpost/reinforced/hull,
 /area/swamp/base/keppitz/armory)
@@ -50799,8 +50825,10 @@
 /turf/open/floor/hybrisa/carpet/carpetred,
 /area/swamp/murasverd/house)
 "lwg" = (
-/turf/open/floor/carpet/edge/northeast,
-/area/swamp/base/church/int)
+/obj/structure/flora/trees220/tree_4,
+/obj/structure/flora/grass/desert/heavy,
+/turf/open/organic/grass,
+/area/swamp/murasverd/village)
 "lwk" = (
 /obj/structure/barricade/handrail/kutjevo,
 /obj/structure/flora/bush/ausbushes/grassybush{
@@ -50929,17 +50957,12 @@
 /turf/open/gm/river/swamp,
 /area/swamp/murasverd/swamp)
 "lxB" = (
-/obj/effect/decal/strata_decals/grime/grime3{
-	dir = 4;
-	pixel_x = -6;
-	pixel_y = 6
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4
 	},
-/obj/effect/decal/strata_decals/grime/grime4{
-	dir = 1;
-	pixel_y = 12
-	},
-/turf/open/floor/white,
-/area/swamp/murasverd/house)
+/obj/structure/flora/grass/desert/heavygrass_8,
+/turf/open/organic/grass,
+/area/swamp/murasverd/village)
 "lxG" = (
 /obj/structure/largecrate/random/case/double{
 	pixel_y = 2;
@@ -50962,9 +50985,9 @@
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/swamp/base/outskirts)
 "lxI" = (
-/obj/item/weapon/gun/rifle/sniper/svd,
+/obj/item/weapon/gun/launcher/grenade/m92/upp,
 /turf/open/floor/almayer/plating,
-/area/swamp/murasverd/oldman_basement)
+/area/swamp/caverns)
 "lxL" = (
 /obj/structure/flora/trees220/tree_10,
 /obj/structure/flora/bush/ausbushes/grassybush{
@@ -51177,12 +51200,12 @@
 /turf/open/floor/prison,
 /area/swamp/colony/complex)
 "lAv" = (
-/obj/structure/stairs/perspective{
-	icon_state = "p_stair_sn_full_cap";
-	dir = 1
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	color = "#999900";
+	dir = 5
 	},
-/turf/open/floor/wood,
-/area/swamp/base/church/int)
+/turf/open/gm/grass,
+/area/swamp/base/outskirts)
 "lAF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/surface/table/reinforced/prison,
@@ -51311,6 +51334,7 @@
 /obj/structure/machinery/light{
 	dir = 8
 	},
+/obj/item/prop/helmetgarb/helmet_nvg,
 /turf/open/floor/hybrisa/carpet/carpetblue,
 /area/swamp/villa/house)
 "lBN" = (
@@ -51343,7 +51367,7 @@
 /obj/structure/platform_decoration/kutjevo/rock{
 	color = "#999999"
 	},
-/turf/open/gm/river/swamp,
+/turf/open/gm/river/beach_water,
 /area/swamp/beach)
 "lCn" = (
 /obj/effect/particle_effect/shockwave,
@@ -51894,9 +51918,6 @@
 	},
 /turf/open/floor/almayer_hull,
 /area/swamp/colony/logistics_hub)
-"lJP" = (
-/turf/open/asphalt/cement_darkened,
-/area/swamp/base/church/ext)
 "lJU" = (
 /turf/open/void,
 /area/swamp/murasverd/house)
@@ -52279,7 +52300,7 @@
 	pixel_y = 8
 	},
 /turf/open/organic/grass,
-/area/swamp/base/church/ext)
+/area/swamp/murasverd/village)
 "lPi" = (
 /obj/structure/largecrate/supply/supplies/metal,
 /turf/open/floor/almayer/plate,
@@ -52724,12 +52745,11 @@
 /turf/open/floor/almayer_hull,
 /area/swamp/shuttles/drop2)
 "lUS" = (
-/obj/structure/barricade/handrail/kutjevo{
-	dir = 8
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 1
 	},
-/obj/structure/flora/trees220/tree_1,
-/turf/open/organic/grass,
-/area/swamp/murasverd/village)
+/turf/open/auto_turf/strata_grass/layer1,
+/area/swamp/base/road)
 "lUU" = (
 /obj/item/tool/warning_cone{
 	pixel_y = 17
@@ -53221,7 +53241,7 @@
 /obj/structure/platform{
 	dir = 4
 	},
-/turf/open/gm/river/swamp,
+/turf/open/gm/river/beach_water,
 /area/swamp/beach)
 "mas" = (
 /obj/structure/largecrate/supply/ammo,
@@ -53245,7 +53265,7 @@
 /obj/structure/platform_decoration/kutjevo/rock{
 	color = "#999999"
 	},
-/turf/open/gm/river/swamp,
+/turf/open/gm/river/beach_water,
 /area/swamp/beach)
 "maO" = (
 /obj/structure/closet/cabinet,
@@ -54141,6 +54161,14 @@
 	},
 /turf/open/gm/river/swamp/dirt/slow3,
 /area/swamp/murasverd/swamp)
+"mjB" = (
+/obj/structure/largecrate/random/barrel/true_random{
+	layer = 3.01;
+	pixel_x = -5;
+	pixel_y = 18
+	},
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/swamp/base/road)
 "mjG" = (
 /obj/structure/flora/bush/ausbushes/ppflowers{
 	icon_state = "brflowers_3"
@@ -54420,10 +54448,11 @@
 /turf/open/floor/plating,
 /area/swamp/murasverd/oldman_basement)
 "mmN" = (
-/obj/structure/flora/trees220/tree_7,
-/obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/organic/grass,
-/area/swamp/murasverd/village)
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4
+	},
+/turf/open/floor/carpet/edge/northeast,
+/area/swamp/murasverd/house)
 "mmS" = (
 /obj/structure/platform/kutjevo,
 /obj/structure/largecrate/supply/ammo/shotgun,
@@ -54718,6 +54747,14 @@
 /obj/item/trash/hybrisa/cuppa_joes/empty_cup,
 /turf/open/asphalt/cement/cement12,
 /area/swamp/colony/colony_exterior)
+"mqf" = (
+/obj/structure/flora/grass/tallgrass/jungle,
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	color = "#999900";
+	dir = 10
+	},
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/swamp/base/outskirts)
 "mql" = (
 /obj/effect/step_trigger/clone_cleaner,
 /turf/open/void,
@@ -54853,14 +54890,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/white,
 /area/swamp/colony/complex)
-"mrq" = (
-/obj/structure/sign/poster/ad{
-	layer = 4;
-	pixel_x = -12;
-	pixel_y = 34
-	},
-/turf/open/floor/hybrisa/carpet/pink,
-/area/swamp/murasverd/house)
 "mru" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner,
 /turf/open/auto_turf/strata_grass/layer0_mud,
@@ -55474,12 +55503,6 @@
 "mxV" = (
 /turf/open/floor/kutjevo/tan/multi_tiles,
 /area/swamp/murasverd/house)
-"mya" = (
-/obj/structure/sink/kitchen{
-	pixel_y = 21
-	},
-/turf/open/floor/hybrisa/tile/tilelightbeige,
-/area/swamp/murasverd/house)
 "myh" = (
 /obj/structure/machinery/faxmachine/uscm,
 /obj/structure/surface/table/reinforced/prison{
@@ -55540,7 +55563,9 @@
 /turf/open/floor/prison/bluecorner/north,
 /area/swamp/colony/complex)
 "myN" = (
-/turf/open/floor/carpet/bcarpet01,
+/obj/structure/surface/table/holotable/wood,
+/obj/item/tool/candle,
+/turf/open/floor/wood,
 /area/swamp/murasverd/house)
 "myR" = (
 /obj/effect/decal/strata_decals/grime/grime4{
@@ -56037,29 +56062,7 @@
 /turf/open/gm/river/swamp/deep,
 /area/swamp/murasverd/swamp)
 "mEw" = (
-/obj/item/reagent_container/food/snacks/lemondrop{
-	pixel_x = 9;
-	pixel_y = -1
-	},
-/obj/item/reagent_container/food/snacks/lemondrop{
-	pixel_x = 2;
-	pixel_y = -5
-	},
-/obj/item/reagent_container/food/drinks/coffeecup{
-	pixel_x = -6;
-	pixel_y = 11
-	},
-/obj/item/reagent_container/pill/teabag{
-	pixel_x = 5;
-	pixel_y = 10
-	},
-/obj/item/trash/ceramic_plate{
-	pixel_y = -2;
-	pixel_x = 5;
-	layer = 3.01
-	},
-/obj/structure/surface/table/holotable/wood,
-/turf/open/floor/wood,
+/turf/open/floor/carpet,
 /area/swamp/murasverd/house)
 "mEB" = (
 /obj/structure/vehicle_locker/cabinet/cups{
@@ -57142,10 +57145,6 @@
 	},
 /turf/open/gm/river/swamp/deep,
 /area/swamp/murasverd/swamp)
-"mQO" = (
-/obj/structure/machinery/power/apc/almayer/south,
-/turf/open/floor/prison/floor_marked,
-/area/swamp/colony/complex)
 "mQP" = (
 /obj/structure/platform_decoration/strata/metal{
 	dir = 4
@@ -57268,6 +57267,7 @@
 	req_one_access = "106;102;101"
 	},
 /obj/structure/machinery/door/poddoor/shutters/almayer,
+/obj/structure/blocker/invisible_wall,
 /turf/open/floor/prison/floor_plate,
 /area/swamp/colony/filtration)
 "mRN" = (
@@ -57548,11 +57548,6 @@
 	},
 /turf/open/floor/airless/asteroidfloor,
 /area/swamp/base/inside/command)
-"mWk" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
-/obj/item/reagent_container/food/condiment/enzyme,
-/turf/open/floor/hybrisa/tile/tilewhitecheckered/biege,
-/area/swamp/murasverd/house)
 "mWn" = (
 /turf/open/gm/dirtgrassborder/desert3,
 /area/swamp/beach)
@@ -57796,7 +57791,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 4
 	},
-/obj/structure/flora/grass/desert/heavygrass_8,
+/obj/structure/flora/grass/desert/lightgrass_2,
 /turf/open/organic/grass,
 /area/swamp/murasverd/village)
 "mYP" = (
@@ -58064,12 +58059,9 @@
 /turf/open/gm/river/swamp/deep,
 /area/swamp/murasverd/swamp)
 "nbU" = (
-/obj/structure/roof/cargocrane_tracks/horizontal{
-	pixel_y = 14
-	},
-/obj/item/weapon/gun/launcher/rocket/upp,
+/obj/item/weapon/gun/revolver/upp,
 /turf/open/floor/almayer/plating,
-/area/swamp/murasverd/oldman_basement)
+/area/swamp/caverns)
 "nbX" = (
 /obj/item/clothing/shoes/red,
 /obj/item/clothing/shoes/rainbow,
@@ -58810,13 +58802,6 @@
 "nke" = (
 /turf/open/floor/airless/asteroidfloor,
 /area/swamp/base/inside/command)
-"nki" = (
-/obj/structure/machinery/light{
-	unacidable = 1;
-	unslashable = 1
-	},
-/turf/open/floor/hybrisa/carpet/carpetgreendeco,
-/area/swamp/murasverd/house)
 "nkk" = (
 /obj/structure/machinery/telecomms/processor,
 /turf/open/floor/prison/floor_plate,
@@ -58898,7 +58883,7 @@
 	dir = 1;
 	color = "#999999"
 	},
-/turf/open/gm/river/swamp,
+/turf/open/gm/river/beach_water,
 /area/swamp/beach)
 "nkO" = (
 /obj/structure/largecrate/goat,
@@ -60634,14 +60619,12 @@
 /turf/open/organic/grass,
 /area/swamp/murasverd/swamp)
 "nEI" = (
-/obj/structure/surface/table/holotable/wood,
-/obj/structure/phone_base/colony_net/rotary{
-	phone_category = "Murasverd Village";
-	phone_id = "Proffesor - Hall";
-	pixel_y = 6
+/obj/structure/flora/bush/ausbushes/var3/brflowers,
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 1
 	},
-/turf/open/floor/carpet/edge/northeast,
-/area/swamp/murasverd/house)
+/turf/open/organic/grass,
+/area/swamp/murasverd/village)
 "nEL" = (
 /obj/structure/largecrate/supply/supplies/water,
 /turf/open/floor/prison/floor_marked,
@@ -61376,12 +61359,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk/aicore/white,
 /area/swamp/base/inside/dorms)
-"nMy" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/turf/open/organic/grass,
-/area/swamp/base/church/ext)
 "nMC" = (
 /obj/structure/surface/table/woodentable,
 /obj/structure/largecrate/random/mini/small_case/c{
@@ -61597,10 +61574,6 @@
 /obj/structure/prop/server_equipment/yutani_server{
 	pixel_y = 17
 	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "SW-out";
-	layer = 2.5
-	},
 /turf/open/floor/prison,
 /area/swamp/colony/complex)
 "nOx" = (
@@ -61637,7 +61610,7 @@
 /area/swamp/murasverd/swamp)
 "nON" = (
 /obj/structure/blocker/invisible_wall/water,
-/turf/open/gm/river/swamp,
+/turf/open/gm/river/beach_water,
 /area/swamp/beach)
 "nOO" = (
 /obj/structure/reagent_dispensers/fueltank,
@@ -62234,10 +62207,6 @@
 	},
 /turf/open/gm/river/swamp/mid/grass,
 /area/swamp/murasverd/village)
-"nWY" = (
-/obj/structure/bed/chair/wood/normal,
-/turf/open/floor/chapel/north,
-/area/swamp/base/church/int)
 "nWZ" = (
 /obj/structure/surface/rack,
 /obj/effect/decal/siding,
@@ -62286,9 +62255,9 @@
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/swamp/murasverd/swamp)
 "nXq" = (
-/obj/structure/bed/chair/wood/normal,
-/turf/open/floor/wood,
-/area/swamp/base/church/int)
+/obj/structure/cargo_container/horizontal/blue/middle,
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/swamp/base/road)
 "nXy" = (
 /turf/open/floor/strata/floor3,
 /area/swamp/base/keppitz/Engineeringlower)
@@ -62433,12 +62402,10 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/swamp/base/outskirts)
 "nYD" = (
-/obj/structure/filingcabinet/chestdrawer{
-	density = 0;
-	pixel_x = -8;
-	pixel_y = 20
+/obj/structure/machinery/light{
+	dir = 8
 	},
-/turf/closed/wall/wood,
+/turf/open/floor/carpet/edge/west,
 /area/swamp/murasverd/house)
 "nYK" = (
 /obj/structure/platform/kutjevo/rock{
@@ -62603,12 +62570,8 @@
 /turf/open/floor/prison,
 /area/swamp/colony/complex)
 "oae" = (
-/obj/structure/roof/cargocrane_tracks/horizontal{
-	pixel_y = 14
-	},
-/obj/item/weapon/gun/shotgun/type23,
 /turf/open/floor/almayer/plating,
-/area/swamp/murasverd/oldman_basement)
+/area/swamp/caverns)
 "oal" = (
 /obj/structure/roof/cargocrane_tracks/vertical{
 	pixel_y = 14
@@ -62692,7 +62655,7 @@
 	dir = 4
 	},
 /turf/open/floor/prison/floor_plate,
-/area/swamp/colony/colony_exterior)
+/area/swamp/colony/complex)
 "oaV" = (
 /obj/structure/toilet{
 	dir = 4
@@ -62851,11 +62814,6 @@
 	},
 /turf/open/asphalt/cement/cement12,
 /area/swamp/base/road)
-"odl" = (
-/obj/structure/surface/table/holotable/wood,
-/obj/item/clothing/under/rank/chaplain,
-/turf/open/floor/carpet,
-/area/swamp/base/church/int)
 "odn" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -63118,12 +63076,6 @@
 /obj/structure/prop/swamp_plants/algae/corner2/north_west,
 /turf/open/gm/river/swamp/deep,
 /area/swamp/murasverd/swamp)
-"ogv" = (
-/obj/item/prop/helmetgarb/chaplain_patch,
-/obj/structure/surface/table/holotable/wood,
-/obj/item/prop/helmetgarb/rosary,
-/turf/open/floor/carpet/edge/northwest,
-/area/swamp/base/church/int)
 "ogz" = (
 /obj/effect/step_trigger/clone_cleaner,
 /turf/open/gm/dirtgrassborder/south,
@@ -63195,8 +63147,9 @@
 /turf/open/floor/prison/floor_plate,
 /area/swamp/base/bunker/engineering)
 "ohJ" = (
-/turf/closed/wall,
-/area/swamp/base/church/int)
+/obj/structure/reagent_dispensers/fueltank/gas/methane,
+/turf/open/auto_turf/strata_grass,
+/area/swamp/base/road)
 "ohN" = (
 /obj/structure/surface/table/reinforced,
 /obj/structure/machinery/light{
@@ -63939,8 +63892,9 @@
 /turf/closed/wall/r_wall/bunker,
 /area/swamp/base/inside/medical)
 "opK" = (
-/turf/open/floor/carpet,
-/area/swamp/base/church/int)
+/obj/structure/flora/bush/ausbushes/ppflowers,
+/turf/open/auto_turf/strata_grass,
+/area/swamp/base/road)
 "opQ" = (
 /obj/structure/pipes/vents/pump{
 	dir = 4
@@ -64270,15 +64224,6 @@
 	},
 /turf/open/floor/almayer,
 /area/swamp/base/inside/garage)
-"otp" = (
-/obj/structure/surface/table/holotable/wood,
-/obj/item/storage/fancy/candle_box,
-/obj/item/storage/fancy/candle_box{
-	pixel_x = 6;
-	pixel_y = -2
-	},
-/turf/open/floor/wood,
-/area/swamp/base/church/int)
 "otE" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	color = "#999900";
@@ -65138,19 +65083,15 @@
 /turf/open/organic/grass,
 /area/swamp/murasverd/village)
 "oDB" = (
-/obj/structure/barricade/handrail/kutjevo{
-	dir = 4
+/obj/structure/flora/bush/ausbushes/ppflowers{
+	icon_state = "fullgrass_1"
 	},
-/obj/structure/flora/grass/desert/heavygrass_10,
-/turf/open/organic/grass,
-/area/swamp/murasverd/village)
+/turf/open/auto_turf/strata_grass,
+/area/swamp/base/outskirts)
 "oDC" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/swamp/base/outskirts)
-"oDE" = (
-/turf/open/floor/carpet/bcarpet07,
-/area/swamp/murasverd/house)
 "oDG" = (
 /obj/structure/surface/rack{
 	color = "#6b675e";
@@ -65443,14 +65384,9 @@
 /turf/open/asphalt,
 /area/swamp/base/keppitz/entry_pub)
 "oHs" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/prison/green/east,
-/area/swamp/colony/colony_exterior)
+/obj/structure/platform,
+/turf/open/gm/river/beach_water,
+/area/swamp/base/road)
 "oHy" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
 	req_one_access = "200"
@@ -65818,14 +65754,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/interior/wood,
 /area/swamp/murasverd/trench)
-"oMl" = (
-/obj/structure/surface/table/holotable/wood,
-/obj/structure/machinery/light{
-	dir = 8
-	},
-/obj/item/tool/candle,
-/turf/open/floor/wood,
-/area/swamp/base/church/int)
 "oMw" = (
 /obj/effect/vehicle_spawner/apc_cmd/decrepit{
 	dir = 8
@@ -67188,7 +67116,7 @@
 /area/swamp/villa/house)
 "pap" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/gm/river/swamp,
+/turf/open/gm/river/beach_water,
 /area/swamp/beach)
 "pav" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
@@ -67453,12 +67381,12 @@
 /turf/open/gm/river/swamp/mid/grass,
 /area/swamp/murasverd/river)
 "pdw" = (
-/obj/structure/window/reinforced,
-/obj/effect/decal/strata_decals/grime/grime3{
-	pixel_y = 12
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	color = "#999900";
+	dir = 8
 	},
-/turf/open/floor/white,
-/area/swamp/murasverd/house)
+/turf/open/auto_turf/strata_grass/layer0,
+/area/swamp/base/outskirts)
 "pdN" = (
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal3";
@@ -67746,7 +67674,7 @@
 	color = "#999999";
 	layer = 3.02
 	},
-/turf/open/gm/river/swamp,
+/turf/open/gm/river/beach_water,
 /area/swamp/beach)
 "phB" = (
 /obj/structure/flora/bush/ausbushes/var3/stalkybush,
@@ -68035,6 +67963,24 @@
 	},
 /turf/closed/wall/r_wall/bunker,
 /area/swamp/base/inside/garage)
+"plL" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 4;
+	layer = 5.0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 11;
+	pixel_x = -2
+	},
+/turf/open/auto_turf/strata_grass,
+/area/swamp/base/road)
 "plM" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
 /turf/open/floor/asteroidplating,
@@ -69017,12 +68963,9 @@
 /turf/open/floor/prison,
 /area/swamp/base/keppitz/entry_pub)
 "pvJ" = (
-/obj/structure/flora/grass/tallgrass/jungle/corner{
-	color = "#999900";
-	dir = 1
-	},
+/obj/structure/fence,
 /turf/open/auto_turf/strata_grass/layer0_mud,
-/area/swamp/base/road)
+/area/swamp/base/outskirts)
 "pvN" = (
 /obj/structure/largecrate/random/case{
 	pixel_y = -5
@@ -69367,6 +69310,7 @@
 /area/swamp/base/farmland)
 "pAa" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer,
+/obj/structure/blocker/invisible_wall,
 /turf/open/floor/prison/floor_plate,
 /area/swamp/colony/filtration)
 "pAl" = (
@@ -69820,21 +69764,11 @@
 /turf/open/gm/river/swamp/mid,
 /area/swamp/murasverd/swamp)
 "pGQ" = (
-/obj/structure/surface/rack,
-/obj/item/reagent_container/food/drinks/bottle/holywater{
-	pixel_x = -2;
-	pixel_y = 6
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4
 	},
-/obj/item/reagent_container/food/drinks/bottle/holywater{
-	pixel_x = 4;
-	pixel_y = -2
-	},
-/obj/item/reagent_container/food/drinks/bottle/holywater{
-	pixel_x = -4;
-	pixel_y = -4
-	},
-/turf/open/floor/carpet/edge/east,
-/area/swamp/base/church/int)
+/turf/open/floor/carpet/edge/southeast,
+/area/swamp/murasverd/house)
 "pGW" = (
 /obj/vehicle/train/cargo/engine,
 /obj/effect/decal/cleanable/dirt,
@@ -70289,6 +70223,27 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer_hull,
 /area/swamp/base/road)
+"pLr" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 4;
+	layer = 5.0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 11;
+	pixel_x = -2
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/swamp/base/outskirts)
 "pLs" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/liquid_fuel,
@@ -70491,9 +70446,11 @@
 /turf/open/auto_turf/sand_white/layer1,
 /area/swamp/beach)
 "pNZ" = (
-/obj/structure/flora/bush/ausbushes/var3,
-/turf/open/auto_turf/strata_grass,
-/area/swamp/base/road)
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/carpet,
+/area/swamp/murasverd/house)
 "pOj" = (
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 4;
@@ -70780,7 +70737,7 @@
 "pSs" = (
 /obj/structure/surface/table/almayer,
 /turf/open/floor/prison/green/southeast,
-/area/swamp/colony/colony_exterior)
+/area/swamp/colony/complex)
 "pSv" = (
 /obj/structure/machinery/door/airlock/almayer/maint/colony/autoname{
 	dir = 1;
@@ -70816,7 +70773,7 @@
 /obj/structure/platform/kutjevo/rock{
 	color = "#999999"
 	},
-/turf/open/gm/river/swamp,
+/turf/open/gm/river/beach_water,
 /area/swamp/beach)
 "pSE" = (
 /obj/structure/largecrate/random/case/small{
@@ -71514,7 +71471,7 @@
 	dir = 6
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud,
-/area/swamp/base/road)
+/area/swamp/base/outskirts)
 "qbl" = (
 /obj/structure/surface/table/holotable/wood,
 /obj/item/tool/kitchen/utensil/fork{
@@ -71523,7 +71480,7 @@
 /obj/item/tool/kitchen/utensil/spoon{
 	pixel_x = -8
 	},
-/turf/open/floor/hybrisa/carpet/carpetgreen,
+/turf/open/floor/hybrisa/carpet/blue_grey,
 /area/swamp/murasverd/house)
 "qbq" = (
 /obj/effect/decal/cleanable/dirt{
@@ -71551,9 +71508,9 @@
 /turf/open/organic/grass,
 /area/swamp/murasverd/trench)
 "qbv" = (
-/obj/item/weapon/gun/smartgun/upp,
-/turf/open/floor/almayer/plating_striped/north,
-/area/swamp/murasverd/oldman_basement)
+/obj/item/weapon/gun/rifle/sniper/svd,
+/turf/open/floor/almayer/plating,
+/area/swamp/caverns)
 "qbw" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/darkyellow2/southwest,
@@ -71729,12 +71686,6 @@
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/swamp/murasverd/river)
-"qcY" = (
-/obj/structure/platform{
-	dir = 1
-	},
-/turf/open/gm/river/swamp,
-/area/swamp/base/road)
 "qda" = (
 /obj/structure/stairs/perspective{
 	color = "#6e6e6e";
@@ -72543,7 +72494,7 @@
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 4
 	},
-/obj/structure/flora/grass/desert/lightgrass_4,
+/obj/structure/flora/grass/desert/heavygrass_10,
 /turf/open/organic/grass,
 /area/swamp/murasverd/village)
 "qmv" = (
@@ -72762,10 +72713,10 @@
 /turf/open/asphalt,
 /area/swamp/colony/complex)
 "qpa" = (
-/obj/structure/bed/sofa/pews/flipped{
-	pixel_x = -10
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4
 	},
-/turf/open/floor/carpet/edge/west,
+/turf/open/floor/carpet/edge/east,
 /area/swamp/murasverd/house)
 "qpd" = (
 /obj/structure/bed/sofa/pews,
@@ -72845,6 +72796,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/kutjevo/tan/multi_tiles/west,
 /area/swamp/colony/complex)
+"qpG" = (
+/obj/structure/platform_decoration/kutjevo/rock{
+	dir = 4;
+	color = "#999999"
+	},
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	color = "#999900"
+	},
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/swamp/base/outskirts)
 "qpI" = (
 /obj/structure/closet/jcloset,
 /turf/open/floor/almayer/plating,
@@ -73262,10 +73223,6 @@
 	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/swamp/colony/complex)
-"qua" = (
-/obj/structure/platform/kutjevo/smooth,
-/turf/open/floor/carpet/edge/southwest,
-/area/swamp/base/church/int)
 "qud" = (
 /obj/structure/bed{
 	pixel_y = 10
@@ -73702,16 +73659,8 @@
 /area/swamp/beach)
 "qyP" = (
 /obj/structure/surface/table/holotable/wood,
-/obj/item/paper_bin/uscm{
-	pixel_x = 5;
-	pixel_y = 6
-	},
-/obj/item/tool/pen/clicky,
-/obj/item/device/flashlight/lamp/on{
-	pixel_y = 17;
-	pixel_x = -5
-	},
-/turf/open/floor/hybrisa/carpet/carpetfadedred,
+/obj/item/clothing/under/rank/chaplain,
+/turf/open/floor/carpet,
 /area/swamp/murasverd/house)
 "qyS" = (
 /obj/structure/flora/grass/tallgrass/jungle,
@@ -74043,9 +73992,11 @@
 /turf/open/floor/prison/floor_plate,
 /area/swamp/base/bunker/synthetic)
 "qCi" = (
-/obj/structure/bed/sofa,
-/turf/open/floor/carpet15_15/west,
-/area/swamp/murasverd/house)
+/obj/structure/flora/bush/ausbushes/ppflowers{
+	icon_state = "fullgrass_1"
+	},
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/swamp/base/road)
 "qCj" = (
 /obj/structure/mineral_door/wood,
 /obj/effect/decal/cleanable/hybrisa/dirt,
@@ -74186,13 +74137,6 @@
 /obj/structure/flora/trees220/tree_12,
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/swamp/murasverd/swamp)
-"qEd" = (
-/obj/item/reagent_container/food/snacks/donut{
-	pixel_y = 9
-	},
-/obj/structure/surface/table/holotable/wood,
-/turf/open/floor/wood,
-/area/swamp/murasverd/house)
 "qEq" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	color = "#999900";
@@ -74531,12 +74475,9 @@
 /turf/open/gm/river/swamp/mid,
 /area/swamp/murasverd/village)
 "qIi" = (
-/obj/structure/machinery/light/small,
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/turf/open/asphalt,
-/area/swamp/base/road)
+/obj/structure/flora/pottedplant/random,
+/turf/open/floor/hybrisa/carpet/carpetgreendeco,
+/area/swamp/murasverd/house)
 "qIn" = (
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
 /obj/effect/decal/grass_overlay/grass1/inner{
@@ -74743,17 +74684,6 @@
 	},
 /turf/open/organic/grass,
 /area/swamp/murasverd/village)
-"qLi" = (
-/obj/structure/sink{
-	pixel_y = 24;
-	layer = 3.1
-	},
-/obj/structure/machinery/light{
-	dir = 1;
-	pixel_y = 20
-	},
-/turf/open/floor/hybrisa/tile/tilewhitecheckered/biege,
-/area/swamp/murasverd/house)
 "qLj" = (
 /obj/structure/machinery/portable_atmospherics/hydroponics/soil,
 /obj/structure/flora/bush/ausbushes/genericbush,
@@ -74770,10 +74700,11 @@
 /turf/open/asphalt/cement,
 /area/swamp/base/keppitz/entry_pub)
 "qLq" = (
-/obj/structure/platform,
-/obj/structure/fence,
-/turf/open/auto_turf/strata_grass/layer1,
-/area/swamp/base/church/ext)
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/swamp/murasverd/house)
 "qLt" = (
 /obj/structure/prop/swamp_plants/algae/straight/east,
 /obj/structure/prop/swamp_plants/lily_pads/lily_pads_7{
@@ -74955,6 +74886,10 @@
 	dir = 8
 	},
 /turf/open/auto_turf/strata_grass,
+/area/swamp/base/road)
+"qNc" = (
+/obj/structure/prop/rock/brown,
+/turf/open/auto_turf/strata_grass/layer0_mud,
 /area/swamp/base/road)
 "qNe" = (
 /obj/structure/machinery/light{
@@ -75305,8 +75240,9 @@
 /turf/open/gm/dirt2,
 /area/swamp/murasverd/trench)
 "qQQ" = (
-/turf/open/floor/hybrisa/carpet/carpetbeigedeco,
-/area/swamp/murasverd/house)
+/obj/structure/flora/trees220/tree_5,
+/turf/open/organic/grass,
+/area/swamp/murasverd/village)
 "qQS" = (
 /obj/structure/flora/bush/ausbushes/var3/leafybush,
 /turf/open/organic/grass,
@@ -76131,12 +76067,6 @@
 "qZw" = (
 /turf/open/floor/wood/wood_broken4,
 /area/swamp/murasverd/house)
-"qZA" = (
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/carpet/edge/north,
-/area/swamp/base/church/int)
 "qZG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment{
@@ -76565,9 +76495,14 @@
 /turf/open/floor/kutjevo/fake_wood,
 /area/swamp/murasverd/village)
 "res" = (
-/obj/structure/fence,
-/turf/open/gm/grass,
-/area/swamp/base/church/ext)
+/obj/structure/stairs/perspective{
+	dir = 1;
+	icon_state = "p_stair_ew_full_cap";
+	layer = 3.5
+	},
+/obj/structure/platform_decoration/kutjevo/smooth,
+/turf/open/floor/wood,
+/area/swamp/murasverd/house)
 "reB" = (
 /obj/structure/platform/kutjevo/rock{
 	color = "#999999"
@@ -76931,6 +76866,15 @@
 /obj/structure/prop/invuln/darkness,
 /turf/open/gm/river/swamp,
 /area/swamp/murasverd/house)
+"riV" = (
+/obj/structure/prop/rock/brown{
+	dir = 9;
+	pixel_x = -4;
+	pixel_y = 12;
+	layer = 4.21
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/swamp/base/outskirts)
 "rjb" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/effect/projector{
@@ -77582,10 +77526,6 @@
 	},
 /turf/open/auto_turf/strata_grass,
 /area/swamp/murasverd/swamp)
-"rrd" = (
-/obj/structure/platform,
-/turf/open/gm/river/swamp,
-/area/swamp/base/road)
 "rre" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/machinery/m56d_hmg/mg_turret{
@@ -77653,18 +77593,16 @@
 /turf/open/floor/strata/floor3,
 /area/swamp/colony/hangar)
 "rrX" = (
-/obj/structure/coatrack{
-	pixel_y = 24
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	icon_state = "p_stair_full";
+	dir = 8
 	},
-/obj/item/clothing/suit/storage/jacket/marine/bomber/grey{
-	pixel_y = 23
+/obj/structure/machinery/light{
+	dir = 4
 	},
-/turf/open/floor/hybrisa/tile/tilebeige,
-/area/swamp/murasverd/house)
-"rsc" = (
-/obj/structure/mineral_door/wood,
-/turf/open/floor/hybrisa/tile/tilelightbeige,
-/area/swamp/murasverd/house)
+/turf/open/asphalt/cement_darkened,
+/area/swamp/murasverd/village)
 "rsd" = (
 /obj/structure/closet/wardrobe/grey{
 	pixel_x = 8
@@ -77742,9 +77680,12 @@
 /turf/open/gm/river/swamp,
 /area/swamp/murasverd/house)
 "rsM" = (
-/obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/obj/structure/flora/bush/ausbushes/palebush,
-/turf/open/organic/grass,
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	icon_state = "p_stair_full";
+	dir = 10
+	},
+/turf/open/asphalt/cement_darkened,
 /area/swamp/murasverd/village)
 "rsV" = (
 /obj/effect/decal/grass_overlay/grass1/inner,
@@ -77984,14 +77925,15 @@
 /turf/open/asphalt/cement/cement12,
 /area/swamp/colony/colony_exterior)
 "rvN" = (
-/obj/structure/surface/table/holotable/wood,
-/obj/item/tool/candle,
-/obj/item/reagent_container/food/drinks/bottle/holywater{
-	pixel_x = 4;
-	pixel_y = -2
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4
 	},
-/turf/open/floor/carpet/edge/northeast,
-/area/swamp/base/church/int)
+/obj/structure/flora/bush/ausbushes/palebush{
+	pixel_y = 5;
+	icon_state = "palebush_2"
+	},
+/turf/open/organic/grass,
+/area/swamp/murasverd/village)
 "rvX" = (
 /obj/structure/platform/kutjevo{
 	dir = 4
@@ -78851,11 +78793,11 @@
 /turf/open/floor/hydrofloor,
 /area/swamp/base/inside/messhall)
 "rGD" = (
-/obj/structure/flora/trees220/tree_12{
-	pixel_y = 16
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	color = "#999900"
 	},
-/turf/open/organic/grass,
-/area/swamp/murasverd/village)
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/swamp/base/outskirts)
 "rGG" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 5
@@ -80161,9 +80103,15 @@
 /turf/open/auto_turf/strata_grass,
 /area/swamp/base/farmland)
 "rVu" = (
-/obj/structure/machinery/light,
-/turf/open/floor/carpet/edge,
-/area/swamp/base/church/int)
+/obj/structure/platform/kutjevo/smooth{
+	layer = 2.98
+	},
+/obj/structure/stairs/perspective{
+	dir = 8;
+	icon_state = "p_stair_full"
+	},
+/turf/open/floor/wood,
+/area/swamp/murasverd/house)
 "rVC" = (
 /obj/structure/flora/trees220/tree_2,
 /obj/structure/flora/grass/desert/heavygrass_5,
@@ -80243,14 +80191,6 @@
 	},
 /turf/open/floor/prison/blue,
 /area/swamp/base/keppitz/command)
-"rWv" = (
-/obj/structure/sink{
-	dir = 4;
-	pixel_x = 9;
-	pixel_y = -3
-	},
-/turf/open/floor/hybrisa/tile/tilewhitecheckered/blue,
-/area/swamp/murasverd/house)
 "rWC" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo_arrow2";
@@ -81305,6 +81245,25 @@
 	},
 /turf/open/floor/prison/sterile_white,
 /area/swamp/villa/bunker/research)
+"sgb" = (
+/obj/structure/prop/invuln/overhead_pipe{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 11;
+	pixel_x = -2
+	},
+/obj/structure/platform,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 4;
+	layer = 5.0
+	},
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/swamp/base/outskirts)
 "sge" = (
 /obj/structure/largecrate/random/mini/chest,
 /obj/effect/decal/cleanable/dirt,
@@ -81821,11 +81780,14 @@
 /turf/open/floor/prison,
 /area/swamp/murasverd/oldman)
 "smb" = (
-/obj/structure/bed/chair/wood/normal{
-	dir = 1
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8
 	},
-/turf/open/floor/hybrisa/carpet/carpetgreendeco,
-/area/swamp/murasverd/house)
+/obj/structure/flora/bush/ausbushes/grassybush{
+	icon_state = "grassybush_2"
+	},
+/turf/open/organic/grass,
+/area/swamp/murasverd/village)
 "smc" = (
 /obj/structure/bed{
 	icon_state = "psychbed"
@@ -82004,7 +81966,7 @@
 /obj/structure/prop/rock/brown{
 	dir = 6
 	},
-/turf/open/gm/river/swamp,
+/turf/open/gm/river/beach_water,
 /area/swamp/beach)
 "snJ" = (
 /obj/effect/step_trigger/clone_cleaner,
@@ -82365,10 +82327,10 @@
 /turf/open/floor/prison/cell_stripe/west,
 /area/swamp/murasverd/oldman_basement)
 "srp" = (
+/obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 4
 	},
-/obj/structure/flora/bush/ausbushes/palebush,
 /turf/open/organic/grass,
 /area/swamp/murasverd/village)
 "sru" = (
@@ -82573,13 +82535,9 @@
 /turf/open/floor/airless/asteroidfloor,
 /area/swamp/base/inside/command)
 "stq" = (
-/obj/structure/bookcase{
-	icon_state = "book-5";
-	name = "law and engineering manuals bookcase";
-	opacity = 0
-	},
-/turf/open/floor/hybrisa/carpet/carpetfadedred,
-/area/swamp/murasverd/house)
+/obj/structure/prop/wooden_cross,
+/turf/open/organic/grass,
+/area/swamp/murasverd/village)
 "stw" = (
 /obj/effect/decal/strata_decals/grime/grime3{
 	dir = 8
@@ -82950,7 +82908,7 @@
 /obj/structure/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/hybrisa/carpet/carpetgreen,
+/turf/open/floor/hybrisa/carpet/blue_grey,
 /area/swamp/murasverd/house)
 "sxf" = (
 /obj/structure/machinery/light{
@@ -83073,21 +83031,17 @@
 /turf/open/floor/prison/floor_marked,
 /area/swamp/murasverd/oldman_basement)
 "syd" = (
-/obj/structure/surface/rack,
+/obj/structure/surface/table/holotable/wood,
+/obj/item/storage/fancy/candle_box,
 /obj/item/storage/fancy/candle_box{
-	pixel_x = 4;
-	pixel_y = 12
+	pixel_x = 6;
+	pixel_y = -2
 	},
-/obj/item/storage/fancy/candle_box{
-	pixel_x = -5;
-	pixel_y = 5
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4
 	},
-/obj/item/storage/fancy/candle_box{
-	pixel_x = 4;
-	pixel_y = -4
-	},
-/turf/open/floor/carpet/edge/east,
-/area/swamp/base/church/int)
+/turf/open/floor/wood,
+/area/swamp/murasverd/house)
 "syl" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/podhatch/southeast,
@@ -84465,7 +84419,7 @@
 /obj/structure/platform/kutjevo/rock{
 	color = "#999999"
 	},
-/turf/open/gm/river/swamp,
+/turf/open/gm/river/beach_water,
 /area/swamp/beach)
 "sPn" = (
 /obj/structure/barricade/handrail/kutjevo{
@@ -85335,6 +85289,10 @@
 	},
 /turf/open/gm/river/swamp/dirt,
 /area/swamp/caverns)
+"sYv" = (
+/obj/item/weapon/gun/rifle/type71,
+/turf/open/floor/almayer/plating,
+/area/swamp/caverns)
 "sYA" = (
 /obj/effect/projector{
 	vector_x = -240;
@@ -85353,6 +85311,25 @@
 /obj/structure/flora/trees220/tree_12,
 /turf/open/organic/grass,
 /area/swamp/murasverd/swamp)
+"sYS" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 8;
+	layer = 5.2
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 9;
+	dir = 8;
+	pixel_x = 0
+	},
+/obj/structure/machinery/light/double{
+	dir = 8;
+	pixel_y = -5
+	},
+/turf/open/auto_turf/strata_grass,
+/area/swamp/base/outskirts)
 "sZa" = (
 /obj/structure/platform_decoration/strata/metal{
 	dir = 1
@@ -86234,13 +86211,40 @@
 /turf/open/asphalt,
 /area/swamp/colony/hangar)
 "tlX" = (
-/obj/structure/prop/rock/brown{
-	dir = 5;
-	pixel_y = -9;
-	pixel_x = 10
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 4;
+	layer = 5.0
 	},
-/turf/open/auto_turf/strata_grass/layer0_mud,
-/area/swamp/base/road)
+/obj/structure/prop/invuln/overhead_pipe{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 8;
+	layer = 5.2
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 11;
+	pixel_x = -2
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 9;
+	dir = 8;
+	pixel_x = 0
+	},
+/obj/structure/prop/structure_lattice{
+	dir = 1;
+	health = 300;
+	layer = 6
+	},
+/turf/closed/wall/strata_outpost/reinforced/hull,
+/area/swamp/base/outskirts)
 "tlY" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -86594,11 +86598,6 @@
 	},
 /turf/open/floor/prison/floor_plate,
 /area/swamp/colony/hangar)
-"tpU" = (
-/obj/structure/platform,
-/obj/structure/flora/bush/ausbushes/var3/brflowers,
-/turf/open/organic/grass,
-/area/swamp/base/church/ext)
 "tqb" = (
 /obj/structure/closet/firecloset,
 /turf/open/floor/almayer,
@@ -86961,21 +86960,6 @@
 /obj/item/ammo_box/magazine/misc/mre/empty,
 /turf/open/floor/prison/floor_plate,
 /area/swamp/colony/complex)
-"tus" = (
-/obj/structure/bed{
-	pixel_y = 10
-	},
-/obj/item/bedsheet/ce{
-	pixel_y = 8
-	},
-/obj/item/bedsheet/ce{
-	pixel_y = -8
-	},
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/hybrisa/carpet/blue_grey,
-/area/swamp/murasverd/house)
 "tuw" = (
 /obj/structure/cargo_container/trijent/mid/alt,
 /obj/effect/decal/warning_stripes{
@@ -87557,6 +87541,14 @@
 "tBC" = (
 /turf/open/floor/prison,
 /area/swamp/colony/hangar)
+"tBJ" = (
+/obj/structure/largecrate/random/barrel/true_random{
+	layer = 3.01;
+	pixel_x = 5;
+	pixel_y = 13
+	},
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/swamp/base/road)
 "tBR" = (
 /obj/effect/decal/siding{
 	icon_state = "siding10"
@@ -87661,7 +87653,8 @@
 /turf/closed/wall/strata_outpost/reinforced/hull,
 /area/swamp/murasverd/swamp)
 "tCT" = (
-/turf/open/floor/hybrisa/tile/tilewhitecheckered/biege,
+/obj/structure/platform_decoration/kutjevo/smooth,
+/turf/open/floor/wood,
 /area/swamp/murasverd/house)
 "tDc" = (
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -87832,16 +87825,21 @@
 	},
 /turf/open/floor/prison/floor_plate,
 /area/swamp/colony/hangar)
-"tEY" = (
-/turf/open/floor/carpet/edge/west,
-/area/swamp/murasverd/house)
 "tFb" = (
-/obj/structure/barricade/handrail/kutjevo{
-	dir = 4
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 8;
+	layer = 5.2
 	},
-/obj/structure/flora/grass/desert/lightgrass_2,
-/turf/open/organic/grass,
-/area/swamp/murasverd/village)
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 9;
+	dir = 8;
+	pixel_x = 0
+	},
+/turf/closed/wall/strata_outpost/reinforced/hull,
+/area/swamp/base/outskirts)
 "tFi" = (
 /turf/open/asphalt/cement/cement3,
 /area/swamp/base/farmland)
@@ -87883,12 +87881,11 @@
 /turf/open/floor/almayer,
 /area/swamp/base/inside/garage)
 "tFH" = (
-/obj/structure/flora/trees220/tree_9,
-/obj/structure/flora/bush/ausbushes/var3/fullgrass{
-	pixel_y = 16
+/obj/structure/flora/bush/ausbushes/ppflowers{
+	icon_state = "lavendergrass_1"
 	},
-/turf/open/organic/grass,
-/area/swamp/murasverd/village)
+/turf/open/auto_turf/strata_grass/layer1,
+/area/swamp/base/road)
 "tFI" = (
 /obj/structure/prop/rock/brown,
 /obj/structure/platform_decoration/kutjevo/rock{
@@ -88044,15 +88041,6 @@
 /obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/wood,
 /area/swamp/villa/house)
-"tHB" = (
-/obj/structure/coatrack{
-	pixel_y = 24
-	},
-/obj/item/clothing/suit/storage/forensics/red{
-	pixel_y = 24
-	},
-/turf/open/floor/hybrisa/tile/tilebeige,
-/area/swamp/murasverd/house)
 "tHH" = (
 /obj/structure/flora/bush/ausbushes/grassybush{
 	icon_state = "fullgrass_1"
@@ -88148,11 +88136,6 @@
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/swamp/murasverd/swamp)
-"tIu" = (
-/obj/structure/surface/table/holotable/wood,
-/obj/item/tool/candle,
-/turf/open/floor/wood,
-/area/swamp/base/church/int)
 "tIx" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 5
@@ -88283,6 +88266,7 @@
 /obj/item/weapon/gun/shotgun/pump,
 /obj/item/clothing/shoes/laceup,
 /obj/structure/closet/cabinet,
+/obj/item/prop/helmetgarb/helmet_nvg,
 /turf/open/floor/hybrisa/carpet/carpetfadedred,
 /area/swamp/murasverd/house)
 "tKC" = (
@@ -88514,28 +88498,10 @@
 /obj/structure/machinery/light,
 /turf/open/floor/hybrisa/carpet/carpetgreen,
 /area/swamp/murasverd/house)
-"tMD" = (
-/obj/item/reagent_container/food/drinks/bottle/whiskey{
-	pixel_y = 16;
-	pixel_x = 8
-	},
-/obj/item/reagent_container/food/drinks/drinkingglass{
-	icon_state = "shotglass";
-	pixel_x = 16;
-	pixel_y = 6
-	},
-/obj/structure/surface/table/woodentable/fancy,
-/obj/item/ashtray/bronze{
-	pixel_x = -7
-	},
-/obj/item/clothing/mask/cigarette/cigar/cohiba,
-/turf/open/floor/carpet15_15/west,
-/area/swamp/murasverd/house)
 "tMJ" = (
-/obj/structure/flora/trees220/tree_12,
-/obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/organic/grass,
-/area/swamp/murasverd/village)
+/obj/structure/platform,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/swamp/base/outskirts)
 "tMO" = (
 /obj/structure/cable/heavyduty,
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -88658,7 +88624,7 @@
 /area/swamp/base/inside)
 "tOQ" = (
 /obj/structure/flora/pottedplant/random,
-/turf/open/floor/hybrisa/carpet/carpetgreen,
+/turf/open/floor/hybrisa/carpet/blue_grey,
 /area/swamp/murasverd/house)
 "tOS" = (
 /turf/open/auto_turf/sand_white/layer1,
@@ -88778,20 +88744,10 @@
 /turf/open/floor/prison/floor_plate,
 /area/swamp/base/bunker/synthetic)
 "tQI" = (
+/obj/item/prop/helmetgarb/chaplain_patch,
 /obj/structure/surface/table/holotable/wood,
-/obj/structure/flora/pottedplant/random{
-	pixel_y = 10
-	},
-/turf/open/floor/hybrisa/carpet/blue_grey,
-/area/swamp/murasverd/house)
-"tQL" = (
-/obj/structure/toilet{
-	dir = 4
-	},
-/obj/structure/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/white,
+/obj/item/prop/helmetgarb/rosary,
+/turf/open/floor/carpet,
 /area/swamp/murasverd/house)
 "tQM" = (
 /obj/structure/sink{
@@ -88846,7 +88802,7 @@
 	color = "#999900"
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud,
-/area/swamp/base/road)
+/area/swamp/base/outskirts)
 "tRp" = (
 /obj/structure/barricade/handrail{
 	dir = 8
@@ -88895,6 +88851,12 @@
 	},
 /turf/open/gm/river/swamp/dirt,
 /area/swamp/caverns)
+"tRS" = (
+/obj/structure/flora/bush/ausbushes/var3/fullgrass{
+	icon_state = "fullgrass_3"
+	},
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/swamp/base/road)
 "tSd" = (
 /obj/item/device/flashlight/lamp/tripod/grey,
 /obj/effect/decal/warning_stripes{
@@ -89173,10 +89135,6 @@
 	},
 /turf/open/auto_turf/strata_grass,
 /area/swamp/base/outskirts)
-"tVn" = (
-/obj/structure/bed/chair/wood/normal,
-/turf/open/floor/chapel/west,
-/area/swamp/base/church/int)
 "tVv" = (
 /obj/structure/platform/kutjevo/rock{
 	color = "#9494b8"
@@ -89361,19 +89319,8 @@
 /turf/open/floor/prison/floor_plate,
 /area/swamp/colony/complex)
 "tXi" = (
-/obj/item/tool/kitchen/rollingpin,
-/obj/item/reagent_container/food/condiment/saltshaker{
-	pixel_x = -4
-	},
-/obj/item/reagent_container/food/condiment/peppermill{
-	pixel_x = 4
-	},
-/obj/item/tool/kitchen/knife{
-	pixel_x = -9;
-	pixel_y = 3
-	},
-/obj/structure/surface/table/reinforced,
-/turf/open/floor/hybrisa/tile/tilewhitecheckered/blue,
+/obj/structure/closet/wardrobe/chaplain_black,
+/turf/open/floor/carpet,
 /area/swamp/murasverd/house)
 "tXj" = (
 /obj/structure/surface/table/reinforced,
@@ -89507,9 +89454,9 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/swamp/base/keppitz/Engineeringlower)
 "tYD" = (
-/obj/item/weapon/gun/launcher/grenade/m92/upp,
+/obj/item/weapon/gun/smg/pps43/extended_mag,
 /turf/open/floor/almayer/plating,
-/area/swamp/murasverd/oldman_basement)
+/area/swamp/caverns)
 "tYG" = (
 /obj/structure/barricade/handrail/kutjevo{
 	dir = 4
@@ -89641,8 +89588,12 @@
 /turf/open/asphalt/cement,
 /area/swamp/colony/colony_exterior)
 "uaB" = (
-/turf/open/floor/hybrisa/tile/tilebeige,
-/area/swamp/murasverd/house)
+/obj/structure/machinery/portable_atmospherics/hydroponics/soil{
+	pixel_y = 8
+	},
+/obj/structure/prop/wooden_cross,
+/turf/open/organic/grass,
+/area/swamp/murasverd/village)
 "uaD" = (
 /obj/structure/cargo_container/canc/right,
 /obj/structure/desertdam/decals/road_edge{
@@ -90817,7 +90768,7 @@
 	dir = 1;
 	color = "#999999"
 	},
-/turf/open/gm/river/swamp,
+/turf/open/gm/river/beach_water,
 /area/swamp/beach)
 "uok" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -90890,8 +90841,8 @@
 /area/swamp/canal)
 "upd" = (
 /obj/effect/decal/warning_stripes{
-	icon_state = "S";
-	layer = 3.3
+	icon_state = "SW-out";
+	layer = 2.5
 	},
 /turf/open/floor/prison,
 /area/swamp/colony/complex)
@@ -91629,9 +91580,9 @@
 /turf/open/gm/river/swamp/deep,
 /area/swamp/murasverd/river)
 "uxU" = (
-/obj/item/weapon/gun/revolver/upp,
+/obj/item/weapon/gun/shotgun/type23,
 /turf/open/floor/almayer/plating,
-/area/swamp/murasverd/oldman_basement)
+/area/swamp/caverns)
 "uxW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/platform/kutjevo/rock{
@@ -91670,12 +91621,27 @@
 /turf/open/gm/river/swamp/deep,
 /area/swamp/murasverd/swamp)
 "uyk" = (
-/obj/structure/flora/grass/tallgrass/jungle/corner{
-	color = "#999900";
-	dir = 6
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 4;
+	layer = 5.0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 11;
+	pixel_x = -2
+	},
+/obj/structure/machinery/light/double{
+	dir = 1;
+	pixel_y = 9
 	},
 /turf/open/auto_turf/strata_grass/layer0_mud,
-/area/swamp/base/road)
+/area/swamp/base/outskirts)
 "uyo" = (
 /obj/structure/flora/grass/tallgrass/jungle{
 	color = "#999900"
@@ -91926,11 +91892,9 @@
 /turf/open/floor/strata/multi_tiles,
 /area/swamp/base/keppitz/armory)
 "uAE" = (
-/obj/structure/bed{
-	pixel_y = 23
-	},
-/turf/open/floor/hybrisa/carpet/blue_grey,
-/area/swamp/murasverd/house)
+/obj/structure/flora/bush/ausbushes/grassybush,
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/swamp/base/road)
 "uAG" = (
 /obj/structure/machinery/door/airlock/almayer/maint/colony/autoname{
 	dir = 1;
@@ -92186,8 +92150,9 @@
 /turf/closed/wall/r_wall/elevator/button/research,
 /area/swamp/base/keppitz/interlude)
 "uDJ" = (
-/turf/open/organic/grass,
-/area/swamp/base/church/ext)
+/obj/structure/flora/bush/ausbushes/ppflowers,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/swamp/base/road)
 "uDP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/pottedplant{
@@ -92461,6 +92426,13 @@
 /obj/structure/flora/jungle/vines/light_1,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/swamp/caverns)
+"uGi" = (
+/obj/structure/machinery/light/double{
+	dir = 1;
+	pixel_y = 9
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/swamp/base/road)
 "uGo" = (
 /obj/structure/platform{
 	dir = 8;
@@ -92721,15 +92693,6 @@
 /obj/structure/surface/table/woodentable/fancy,
 /turf/open/floor/hybrisa/carpet/carpetblue,
 /area/swamp/villa/house)
-"uIT" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/turf/open/organic/grass,
-/area/swamp/base/church/ext)
 "uJe" = (
 /obj/structure/machinery/door/airlock/multi_tile/upp_grey{
 	dir = 2;
@@ -92886,8 +92849,8 @@
 	color = "#999900";
 	dir = 10
 	},
-/turf/open/auto_turf/strata_grass/layer0_mud,
-/area/swamp/base/road)
+/turf/open/auto_turf/strata_grass,
+/area/swamp/base/outskirts)
 "uKO" = (
 /turf/closed/wall/strata_outpost,
 /area/swamp/base/bunker/synthetic)
@@ -93001,14 +92964,6 @@
 	},
 /turf/open/floor/prison/floor_plate,
 /area/swamp/base/bunker/cargo)
-"uME" = (
-/obj/structure/surface/table/holotable/wood,
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/obj/item/tool/candle,
-/turf/open/floor/wood,
-/area/swamp/base/church/int)
 "uMG" = (
 /obj/effect/overlay/palmtree_r{
 	icon_state = "palm2";
@@ -93685,9 +93640,6 @@
 	},
 /turf/open/gm/coast/dirt/swampbeachcorner/south_west,
 /area/swamp/murasverd/swamp)
-"uTZ" = (
-/turf/closed/wall/strata_outpost,
-/area/swamp/base/church/ext)
 "uUk" = (
 /obj/structure/platform/kutjevo/rock{
 	color = "#999999"
@@ -93873,13 +93825,6 @@
 /obj/item/ammo_box/magazine/m4a3,
 /turf/open/floor/almayer/cargo,
 /area/swamp/base/inside/requisitions)
-"uWp" = (
-/obj/structure/surface/table/holotable/wood,
-/obj/structure/flora/pottedplant/random{
-	pixel_y = 10
-	},
-/turf/open/floor/carpet/edge,
-/area/swamp/murasverd/house)
 "uWv" = (
 /obj/structure/machinery/conveyor{
 	dir = 8;
@@ -94164,10 +94109,8 @@
 /turf/open/asphalt/cement/cement3,
 /area/swamp/base/bunker/cargo)
 "van" = (
-/obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/obj/structure/flora/bigtree220/tree_5{
-	pixel_y = -36
-	},
+/obj/structure/flora/trees220/tree_12,
+/obj/structure/barricade/handrail/kutjevo,
 /turf/open/organic/grass,
 /area/swamp/murasverd/village)
 "var" = (
@@ -94743,6 +94686,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/floor_plate,
 /area/swamp/villa/bunker/holding)
+"vgS" = (
+/obj/item/weapon/gun/smartgun/upp,
+/turf/open/floor/almayer/plating,
+/area/swamp/caverns)
 "vgT" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 4
@@ -94840,11 +94787,6 @@
 	},
 /turf/open/auto_turf/strata_grass/layer1,
 /area/swamp/murasverd/trench)
-"vil" = (
-/obj/structure/platform,
-/obj/structure/fence,
-/turf/open/auto_turf/strata_grass/layer0,
-/area/swamp/base/church/ext)
 "viw" = (
 /obj/structure/machinery/door/poddoor/railing{
 	dir = 4;
@@ -95110,6 +95052,26 @@
 	},
 /turf/open/gm/river/swamp/mid/grass,
 /area/swamp/murasverd/village)
+"vmW" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 8;
+	layer = 5.2
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 9;
+	dir = 8;
+	pixel_x = 0
+	},
+/obj/structure/prop/ice_colony/dense/planter_box/hydro{
+	density = 0;
+	layer = 4.99;
+	pixel_y = 7
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/swamp/base/outskirts)
 "vna" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass{
 	icon_state = "fullgrass_2"
@@ -95441,12 +95403,6 @@
 /obj/item/clothing/accessory/health/scrap,
 /turf/open/gm/dirt2,
 /area/swamp/murasverd/village)
-"vqx" = (
-/obj/structure/closet/cabinet,
-/obj/item/clothing/glasses/monocle,
-/obj/item/clothing/gloves/white,
-/turf/open/floor/hybrisa/carpet/blue_grey,
-/area/swamp/murasverd/house)
 "vqz" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo_arrow2"
@@ -95471,17 +95427,6 @@
 	},
 /turf/open/asphalt/cement,
 /area/swamp/base/inside)
-"vrb" = (
-/obj/structure/machinery/computer/cameras/telescreen{
-	pixel_y = 8
-	},
-/obj/structure/surface/table/holotable/wood,
-/obj/structure/machinery/light{
-	dir = 1;
-	pixel_y = 20
-	},
-/turf/open/floor/carpet/edge/north,
-/area/swamp/murasverd/house)
 "vre" = (
 /obj/structure/machinery/light{
 	dir = 4
@@ -95716,15 +95661,6 @@
 /obj/structure/girder/displaced,
 /turf/open/floor/plating,
 /area/swamp/colony/colony_exterior)
-"vtN" = (
-/obj/structure/bed/chair/wood/normal{
-	dir = 1
-	},
-/obj/structure/bed/chair/wood/normal{
-	dir = 1
-	},
-/turf/open/floor/hybrisa/carpet/carpetgreendeco,
-/area/swamp/murasverd/house)
 "vtV" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 10
@@ -96208,12 +96144,11 @@
 /turf/closed/wall/strata_outpost/reinforced/hull,
 /area/swamp/base/bunker/cargo)
 "vAK" = (
-/obj/structure/flora/trees220/tree_7,
-/obj/structure/flora/bush/ausbushes/var3/fullgrass{
-	pixel_y = 16
-	},
-/turf/open/organic/grass,
-/area/swamp/murasverd/village)
+/obj/structure/surface/table/holotable/wood,
+/obj/item/tool/candle,
+/obj/structure/machinery/light,
+/turf/open/floor/wood,
+/area/swamp/murasverd/house)
 "vAV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/poster/art{
@@ -96485,6 +96420,25 @@
 /obj/structure/flora/grass/tallgrass/jungle,
 /turf/open/gm/river/swamp/mid/grass,
 /area/swamp/murasverd/swamp)
+"vEd" = (
+/obj/structure/flora/grass/tallgrass/jungle,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 4;
+	layer = 5.0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 11;
+	pixel_x = -2
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/swamp/base/outskirts)
 "vEm" = (
 /obj/structure/filingcabinet/chestdrawer{
 	pixel_x = -8;
@@ -96961,8 +96915,13 @@
 /turf/open/organic/grass,
 /area/swamp/murasverd/swamp)
 "vKp" = (
-/turf/open/floor/hybrisa/tile/tilewhitecheckered/blue,
-/area/swamp/murasverd/house)
+/obj/structure/stairs/perspective{
+	color = "#6e6e6e";
+	icon_state = "p_stair_full";
+	dir = 8
+	},
+/turf/open/asphalt/cement_darkened,
+/area/swamp/murasverd/village)
 "vKr" = (
 /obj/item/trash/uscm_mre,
 /turf/open/gm/river/swamp/mid,
@@ -97242,6 +97201,26 @@
 /obj/structure/prop/swamp_plants/algae/straight,
 /turf/open/gm/river/swamp/mid,
 /area/swamp/murasverd/swamp)
+"vNQ" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 8;
+	layer = 5.2
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 9;
+	dir = 8;
+	pixel_x = 0
+	},
+/obj/structure/prop/structure_lattice{
+	dir = 1;
+	health = 300;
+	layer = 6
+	},
+/turf/closed/wall/strata_outpost/reinforced/hull,
+/area/swamp/base/outskirts)
 "vNY" = (
 /obj/item/stack/sandbags_empty/full,
 /obj/structure/platform_decoration/kutjevo,
@@ -97351,13 +97330,9 @@
 /turf/open/asphalt/cement_sunbleached_darkened,
 /area/swamp/caverns)
 "vPn" = (
-/obj/item/storage/bible{
-	desc = "As the legendary US Army chaplain once said, 'There are no Athiests in fancy offices'.";
-	name = "Holy Bible"
-	},
-/obj/structure/surface/table/holotable/wood,
-/turf/open/floor/carpet/edge/north,
-/area/swamp/base/church/int)
+/obj/structure/flora/bush/ausbushes/var3/stalkybush,
+/turf/open/organic/grass,
+/area/swamp/murasverd/village)
 "vPo" = (
 /obj/item/weapon/twohanded/folded_metal_chair,
 /obj/item/weapon/twohanded/folded_metal_chair{
@@ -97410,7 +97385,7 @@
 	pixel_y = 4
 	},
 /obj/structure/surface/table/holotable/wood,
-/turf/open/floor/hybrisa/carpet/carpetgreen,
+/turf/open/floor/hybrisa/carpet/blue_grey,
 /area/swamp/murasverd/house)
 "vPP" = (
 /obj/structure/window/framed/upp/grey,
@@ -98831,8 +98806,12 @@
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/swamp/caverns)
 "wfz" = (
-/turf/open/floor/chapel/east,
-/area/swamp/base/church/int)
+/obj/structure/stairs/perspective{
+	icon_state = "p_stair_ew_full_cap";
+	layer = 3.5
+	},
+/turf/open/floor/wood,
+/area/swamp/murasverd/house)
 "wfB" = (
 /obj/structure/platform/kutjevo/rock{
 	dir = 1;
@@ -99563,7 +99542,7 @@
 	pixel_x = -11;
 	pixel_y = -3
 	},
-/turf/open/floor/hybrisa/carpet/carpetgreen,
+/turf/open/floor/hybrisa/carpet/blue_grey,
 /area/swamp/murasverd/house)
 "woX" = (
 /obj/structure/flora/grass/tallgrass/jungle{
@@ -99994,10 +99973,7 @@
 /turf/open/floor/almayer/plating,
 /area/swamp/base/inside/engineering)
 "wub" = (
-/obj/structure/flora/grass/tallgrass/jungle/corner{
-	color = "#999900";
-	dir = 9
-	},
+/obj/structure/flora/bush/ausbushes/palebush,
 /turf/open/auto_turf/strata_grass,
 /area/swamp/base/road)
 "wuc" = (
@@ -101453,9 +101429,23 @@
 /turf/open/auto_turf/strata_grass,
 /area/swamp/base/outskirts)
 "wON" = (
-/obj/structure/mineral_door/wood,
-/turf/open/floor/wood,
-/area/swamp/base/church/int)
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 4;
+	layer = 5.0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 11;
+	pixel_x = -2
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/swamp/base/outskirts)
 "wOZ" = (
 /obj/structure/prop/rock/black_ground,
 /turf/open/gm/river/swamp,
@@ -102098,13 +102088,6 @@
 /obj/effect/step_trigger/clone_cleaner,
 /turf/open/gm/grass,
 /area/swamp/villa)
-"wWa" = (
-/obj/structure/platform_decoration/kutjevo/rock{
-	dir = 4;
-	color = "#999999"
-	},
-/turf/open/gm/river/swamp,
-/area/swamp/beach)
 "wWc" = (
 /obj/structure/largecrate/random{
 	pixel_x = -3;
@@ -102422,10 +102405,6 @@
 /obj/structure/flora/bush/ausbushes/palebush,
 /turf/open/organic/grass,
 /area/swamp/murasverd/swamp)
-"wZM" = (
-/obj/structure/flora/bush/ausbushes/var3/leafybush,
-/turf/open/auto_turf/strata_grass,
-/area/swamp/base/road)
 "wZP" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	dir = 5
@@ -103030,14 +103009,6 @@
 /obj/structure/flora/bush/ausbushes/grassybush,
 /turf/open/auto_turf/strata_grass/layer1,
 /area/swamp/base/outskirts)
-"xgA" = (
-/obj/structure/prop/invuln/lattice_prop{
-	icon_state = "lattice12";
-	pixel_x = 16;
-	pixel_y = -8
-	},
-/turf/open/gm/river/swamp,
-/area/swamp/beach)
 "xgB" = (
 /obj/item/prop/colony/usedbandage{
 	dir = 4
@@ -103636,6 +103607,12 @@
 	},
 /turf/open/floor/dark,
 /area/swamp/base/inside)
+"xnm" = (
+/obj/structure/prop/rock/brown{
+	dir = 8
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/swamp/base/road)
 "xnn" = (
 /obj/structure/prop/ice_colony/dense/planter_box{
 	dir = 9
@@ -103687,12 +103664,8 @@
 /turf/open/gm/river/swamp/deep,
 /area/swamp/murasverd/swamp)
 "xoh" = (
-/obj/structure/bed/chair/wood/normal{
-	dir = 1;
-	pixel_y = 12
-	},
-/obj/effect/decal/cleanable/hybrisa/dirt,
-/turf/open/floor/hybrisa/carpet/pink,
+/obj/structure/window/framed/hangar/reinforced,
+/turf/open/asphalt/cement_darkened,
 /area/swamp/murasverd/house)
 "xoj" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -104136,10 +104109,13 @@
 	},
 /turf/open/gm/river/swamp/deep,
 /area/swamp/murasverd/swamp)
+"xsE" = (
+/turf/open/floor/plating/plating_catwalk/shiva,
+/area/swamp/base/road)
 "xsF" = (
-/obj/structure/flora/bush/ausbushes/var3/brflowers,
-/turf/open/organic/grass,
-/area/swamp/base/church/ext)
+/obj/structure/flora/bush/ausbushes/var3/sparsegrass,
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/swamp/base/road)
 "xsK" = (
 /obj/structure/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
@@ -104325,6 +104301,12 @@
 	},
 /turf/open/asphalt/cement/cement4,
 /area/swamp/colony/colony_exterior)
+"xvY" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 6
+	},
+/turf/open/gm/grass,
+/area/swamp/base/outskirts)
 "xvZ" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/suit/storage/jacket/marine/dress/general/executive,
@@ -104363,10 +104345,6 @@
 	},
 /turf/open/gm/grass,
 /area/swamp/base/outskirts)
-"xwz" = (
-/obj/structure/window/framed/hangar/reinforced,
-/turf/open/asphalt/cement_darkened,
-/area/swamp/base/church/int)
 "xwF" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer{
 	id = "Requisitions";
@@ -104506,9 +104484,12 @@
 /turf/open/gm/dirt,
 /area/swamp/beach)
 "xxU" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/hybrisa/carpet/pink,
-/area/swamp/murasverd/house)
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	color = "#999900";
+	dir = 5
+	},
+/turf/open/auto_turf/strata_grass,
+/area/swamp/base/outskirts)
 "xxY" = (
 /obj/structure/largecrate/random/mini{
 	layer = 3.1;
@@ -105135,12 +105116,9 @@
 /turf/open/floor/almayer,
 /area/swamp/base/inside/garage)
 "xGe" = (
-/obj/structure/stairs/perspective{
-	dir = 8;
-	icon_state = "p_stair_sn_full_cap"
-	},
-/turf/open/floor/wood,
-/area/swamp/base/church/int)
+/obj/structure/flora/grass/tallgrass/jungle,
+/turf/open/auto_turf/strata_grass/layer0,
+/area/swamp/base/outskirts)
 "xGk" = (
 /obj/structure/largecrate/random/secure{
 	pixel_x = 5;
@@ -105513,8 +105491,11 @@
 /turf/open/floor/corsat/purple/southwest,
 /area/swamp/base/keppitz/research)
 "xKd" = (
-/turf/open/floor/chapel/north,
-/area/swamp/base/church/int)
+/obj/structure/machinery/door/airlock/almayer/generic{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/swamp/murasverd/house)
 "xKj" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
 	color = "#999900";
@@ -105751,6 +105732,27 @@
 	pixel_y = -8
 	},
 /turf/closed/wall/strata_outpost/reinforced/hull,
+/area/swamp/base/outskirts)
+"xMX" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 9
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 4;
+	layer = 5.0
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	icon = 'icons/obj/structures/props/almayer_props.dmi';
+	icon_state = "wallpipe_2";
+	pixel_y = 11;
+	pixel_x = -2
+	},
+/obj/structure/prop/invuln/overhead_pipe{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/turf/open/auto_turf/strata_grass/layer1,
 /area/swamp/base/outskirts)
 "xMY" = (
 /obj/structure/platform/kutjevo/rock{
@@ -106074,11 +106076,6 @@
 /obj/structure/barricade/handrail/kutjevo,
 /turf/open/gm/river/swamp/deep,
 /area/swamp/murasverd/swamp)
-"xRs" = (
-/obj/structure/bed,
-/obj/item/bedsheet/orange,
-/turf/open/floor/hybrisa/carpet/carpetbeigedeco,
-/area/swamp/murasverd/house)
 "xRv" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/surface/table/woodentable/fancy,
@@ -106167,12 +106164,11 @@
 /turf/open/floor/plating,
 /area/swamp/base/keppitz/entry_pub)
 "xSQ" = (
-/obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
+/obj/structure/machinery/light{
+	dir = 4
 	},
-/turf/open/organic/grass,
-/area/swamp/base/church/ext)
+/turf/open/floor/hybrisa/carpet/carpetgreendeco,
+/area/swamp/murasverd/house)
 "xTa" = (
 /obj/structure/platform/kutjevo/rock{
 	dir = 8;
@@ -106433,12 +106429,12 @@
 /turf/open/gm/grass,
 /area/swamp/villa)
 "xVL" = (
-/obj/structure/surface/table/holotable/wood,
-/obj/structure/flora/pottedplant/random{
-	pixel_y = 8
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 4
 	},
-/turf/open/floor/hybrisa/carpet/carpetbeigedeco,
-/area/swamp/murasverd/house)
+/obj/structure/flora/grass/desert/lightgrass_4,
+/turf/open/organic/grass,
+/area/swamp/murasverd/village)
 "xVN" = (
 /obj/structure/flora/grass/tallgrass/jungle{
 	color = "#999900"
@@ -106732,8 +106728,10 @@
 /turf/open/gm/river/beach_water,
 /area/swamp/beach)
 "xZR" = (
-/turf/open/floor/carpet/edge/east,
-/area/swamp/base/church/int)
+/obj/item/device/flashlight/lamp/candelabra,
+/obj/structure/surface/table/holotable/wood,
+/turf/open/floor/carpet,
+/area/swamp/murasverd/house)
 "xZS" = (
 /obj/structure/machinery/bioprinter{
 	stored_metal = 125
@@ -107330,15 +107328,8 @@
 /turf/open/asphalt/cement,
 /area/swamp/colony/colony_exterior)
 "ygI" = (
-/obj/structure/surface/table/holotable/wood,
-/obj/item/tool/kitchen/utensil/fork{
-	pixel_x = 7
-	},
-/obj/item/tool/kitchen/utensil/spoon{
-	pixel_x = -8
-	},
-/turf/open/floor/hybrisa/carpet/carpetgreendeco,
-/area/swamp/murasverd/house)
+/turf/open/floor/plating/plating_catwalk/shiva,
+/area/swamp/base/outskirts)
 "ygR" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/asteroidwarning/northwest,
@@ -108916,10 +108907,10 @@ oOP
 oOP
 oOP
 oOP
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 oOP
 oOP
 oOP
@@ -109236,12 +109227,12 @@ sHd
 rDo
 oOP
 oOP
-daf
-daf
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 oOP
@@ -109559,9 +109550,9 @@ fLY
 fLY
 dpI
 oOP
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
 vjf
 rpj
 vjf
@@ -109882,8 +109873,8 @@ fLY
 fLY
 oOP
 oOP
-daf
-daf
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -110205,7 +110196,7 @@ fLY
 fLY
 oOP
 oOP
-daf
+yfQ
 vjf
 vjf
 vjf
@@ -110527,8 +110518,8 @@ brD
 brD
 oOP
 oOP
-daf
-daf
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -110850,7 +110841,7 @@ fLY
 fLY
 qfP
 xwY
-daf
+yfQ
 vjf
 vjf
 vjf
@@ -113111,14 +113102,14 @@ vjf
 vjf
 vjf
 vjf
-daf
-rrd
+yfQ
+oHs
 bep
 bep
 bep
-qcY
-daf
-daf
+jcp
+yfQ
+vjf
 gSn
 vjf
 vjf
@@ -113426,7 +113417,7 @@ bzB
 ezs
 fLY
 lVZ
-daf
+yfQ
 vjf
 vjf
 vjf
@@ -113434,11 +113425,11 @@ oCT
 vjf
 vjf
 vjf
-rrd
+oHs
 bep
 bep
 bep
-qcY
+jcp
 vjf
 vjf
 gSn
@@ -113748,7 +113739,7 @@ fLY
 fLY
 ffI
 dGT
-daf
+yfQ
 vjf
 vjf
 vjf
@@ -113756,11 +113747,11 @@ vjf
 vjf
 vjf
 vjf
-rrd
+oHs
 bep
 bep
 bep
-qcY
+jcp
 vjf
 vjf
 gSn
@@ -114068,9 +114059,9 @@ fLY
 fLY
 fLY
 fLY
-bRM
-daf
-daf
+lVZ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -114078,11 +114069,11 @@ vjf
 vjf
 vjf
 vjf
-rrd
+oHs
 bep
 bep
 bep
-qcY
+jcp
 vjf
 vjf
 gSn
@@ -114390,9 +114381,9 @@ fLY
 fLY
 fLY
 fLY
-bRM
-daf
-daf
+lVZ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -114400,11 +114391,11 @@ vjf
 vjf
 vjf
 vjf
-rrd
+oHs
 bep
 bep
 bep
-qcY
+jcp
 vjf
 vjf
 gSn
@@ -114713,7 +114704,7 @@ rhh
 rhh
 aoD
 eEv
-daf
+yfQ
 vjf
 vjf
 hur
@@ -114722,11 +114713,11 @@ vjf
 vjf
 vjf
 vjf
-rrd
+oHs
 bep
 bep
 bep
-qcY
+jcp
 vjf
 vjf
 gSn
@@ -115044,11 +115035,11 @@ vjf
 vjf
 vjf
 vjf
-rrd
+oHs
 bep
 bep
 bep
-qcY
+jcp
 vjf
 vjf
 gSn
@@ -119175,7 +119166,7 @@ dxa
 eKo
 mOX
 mOX
-eKo
+dpI
 eKo
 eKo
 eGI
@@ -119186,7 +119177,7 @@ eGI
 bJK
 cuv
 lJm
-eGI
+cwJ
 liL
 cwJ
 flv
@@ -119489,26 +119480,26 @@ hki
 mqJ
 mjJ
 oOP
-bpC
-qnJ
-eGI
-eGI
-eGI
-eGI
-eGI
-eKo
-eKo
-eKo
-eKo
-eGI
-eGI
-eGI
+dpI
+dpI
+dpI
+dpI
+dpI
+dpI
+dpI
+dpI
+dpI
+dpI
+dpI
+dpI
+dpI
+dpI
 aMW
 aGw
 dLc
 bpC
 cuv
-eGI
+cwJ
 liL
 cwJ
 cwJ
@@ -119810,27 +119801,27 @@ dMA
 tKV
 kwd
 mjJ
-xfB
-vBw
-vBw
-vBw
-vBw
-nmW
-vBw
-vBw
-aAU
-aAU
-nmW
-aAU
-vBw
-vBw
-vBw
-nmW
+oOP
+dpI
+dpI
+dpI
+dpI
+dpI
+dpI
+dpI
+dpI
+dpI
+dpI
+dpI
+dpI
+dpI
+dpI
+aMW
 aGV
 fJU
 bpC
 lYx
-eGI
+cwJ
 liL
 cwJ
 cwJ
@@ -120133,26 +120124,26 @@ ijA
 qig
 mjJ
 oOP
-eKo
-eGI
-wZM
-eGI
-lJm
-eGI
-aGw
-afI
-afI
-afI
-nMq
-eKo
-uHj
-eGI
-hTh
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+vNQ
+aMW
 aGV
 fJU
 bpC
 qnJ
-eGI
+cwJ
 liL
 cwJ
 cwJ
@@ -120455,20 +120446,20 @@ xRB
 hFG
 mjJ
 oOP
-dpI
-eKo
-eKo
-aGw
-mEm
-mEm
-fJU
-spA
-vTB
-vTB
-jAi
-eKo
-eGI
-lJm
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+goM
+tFb
 eGI
 dHq
 spA
@@ -120777,25 +120768,25 @@ viU
 nyJ
 mjJ
 oOP
-dpI
-dpI
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+mnH
+jXh
+vrn
+bhz
+bhz
+bhz
+xxU
+sYS
+eGI
+hTh
 eKo
-xfT
-spA
-spA
-wub
-cwJ
-cwJ
-liL
-liL
-liL
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
+eKo
+eKo
 cwJ
 cwJ
 cwJ
@@ -120817,7 +120808,7 @@ dzv
 cPJ
 jXh
 jXh
-jXh
+aNJ
 xjG
 fak
 kTr
@@ -121099,30 +121090,30 @@ dmx
 wGx
 mjJ
 oOP
-dpI
-dpI
-mOX
-mOX
+sfX
+sfX
+bSk
+bSk
+jXh
+vrn
+bhz
+bhz
+rEp
+nAn
+nAn
+nAn
+ekG
+exI
+lJm
 eKo
-eGI
-liL
+eKo
+eKo
+eKo
 cwJ
 liL
+cwJ
 liL
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-flv
-cwJ
-cwJ
-cwJ
-cwJ
+liL
 eKo
 jXh
 iCc
@@ -121421,27 +121412,27 @@ hBW
 wGx
 mjJ
 oOP
-dpI
-rDv
-afI
-nMq
+sfX
+vrn
+bhz
+aCQ
 dPN
+dRB
+nAn
+nAn
+ekG
+jXh
+jXh
+sdE
+sdE
+exI
+eGI
+eGI
+fdg
+eKo
+eKo
 cwJ
 liL
-cwJ
-cwJ
-cwJ
-cwJ
-liL
-liL
-cwJ
-liL
-cwJ
-liL
-cwJ
-cwJ
-cwJ
-cwJ
 cwJ
 cwJ
 cwJ
@@ -121743,30 +121734,30 @@ pNa
 iDH
 mjJ
 oOP
-dpI
-vto
-xZE
-pUF
+sfX
+rGD
+sRy
+dEM
+jXh
+jXh
+jXh
+jXh
+hdv
+jXh
+jCU
+sdE
+sdE
+cqZ
+eGI
+eGI
+xTr
+eKo
 eKo
 cwJ
 cwJ
 cwJ
 cwJ
 cwJ
-liL
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-liL
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-pNZ
 eGI
 pEc
 dCC
@@ -121783,7 +121774,7 @@ ihV
 ihV
 ihV
 ihV
-jXh
+kpi
 dEg
 fak
 kTr
@@ -122065,34 +122056,34 @@ daT
 wxu
 mjJ
 oOP
-eKo
-vto
-xZE
-pUF
-eKo
-liL
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-vmi
-cwJ
-liL
-liL
-liL
-liL
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
+jXh
+rGD
+sRy
+dEM
+jXh
+jXh
+riV
+jXh
+jXh
+eXW
+eXW
+sdE
+sdE
+exI
+uHj
 eGI
-eGI
+wPz
+eKo
+eKo
+cwJ
+cwJ
+cwJ
+cwJ
+cwJ
 eGI
 vnd
 vnd
-dXX
+qjz
 qjz
 ihV
 ihV
@@ -122102,7 +122093,7 @@ qjz
 ihV
 ihV
 ihV
-ihV
+iiy
 ihV
 ihV
 jXh
@@ -122387,48 +122378,48 @@ qig
 qig
 mjJ
 oOP
+oDC
+rGD
+sRy
+rEp
+aCQ
+jXh
+jXh
+sfX
+sfX
+sfX
+eXW
+eXW
+sdE
+cqZ
+eGI
+eGI
 wPz
-vto
-xZE
-stI
-nMq
-liL
+wPz
+eKo
 cwJ
 cwJ
 cwJ
 cwJ
 cwJ
-uTZ
-uTZ
-jov
-jov
-jov
-jov
-jov
-uTZ
-jov
-jov
-jov
-jov
-jov
-uTZ
-jov
-jov
-jov
-jov
-jov
-uTZ
-jov
-jov
-jov
-jov
-jov
-uTZ
-res
-res
-exI
-res
-qLq
+xTr
+vnd
+hft
+irg
+lAv
+fuK
+ihV
+xvY
+gKB
+ihV
+ihV
+ihV
+ihV
+ihV
+ihV
+ihV
+jXh
+tMJ
 fak
 kTr
 aFm
@@ -122709,48 +122700,48 @@ oLn
 efh
 nBX
 oOP
+oDC
+rGD
+sRy
+sRy
+dEM
+jXh
+sfX
+sfX
+sfX
+sfX
+sfX
+eXW
+sdE
+exI
+eGI
+eGI
+xTr
 wPz
-vto
-xZE
-xZE
-pUF
+xTr
+cwJ
+cwJ
+cwJ
+cwJ
 liL
-cwJ
-cwJ
-cwJ
-qIi
-uTZ
-uTZ
-uTZ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-fWe
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-fVD
+xsF
+vnd
+qpG
+knB
+cNV
+ihV
+ubw
+mNl
+mNl
+gKB
+jXh
+ihV
+ihV
+ihV
+mDZ
+bhz
+aCQ
+tMJ
 fak
 kTr
 kTr
@@ -123031,48 +123022,48 @@ lcP
 iMn
 nBX
 oOP
-dpI
-vto
-xZE
-xZE
-pUF
+sfX
+rGD
+sRy
+sRy
+dEM
+jXh
+sfX
+sfX
+sfX
+sfX
+sfX
+eXW
+jXh
+vmW
+eGI
+eGI
+xTr
+qNc
+xTr
+cwJ
+cwJ
+cwJ
+cwJ
 liL
-cwJ
-cwJ
-cwJ
-liL
-uTZ
-uTZ
-uDJ
-uDJ
-uDJ
-fWe
-fWe
-xSQ
-uDJ
-uDJ
-nMy
-uDJ
-uDJ
-nMy
-uDJ
 xsF
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-xsF
-uDJ
-uDJ
-uDJ
-fWe
-fWe
-uDJ
-uDJ
-uDJ
-uDJ
-fVD
+nyZ
+rGD
+knB
+cNV
+xvY
+mNl
+mNl
+mNl
+mNl
+gKB
+jXh
+tWX
+mDZ
+rEp
+rEp
+dEM
+tMJ
 fak
 kTr
 kTr
@@ -123353,48 +123344,48 @@ juG
 uby
 nBX
 oOP
-dpI
-paL
-xZE
-xZE
-pUF
-liL
+sfX
+dbN
+sRy
+sRy
+dEM
+jXh
+sfX
+sfX
+sfX
+sfX
+sfX
+eXW
+jXh
+bHt
+eKo
+eGI
+xTr
+xTr
+xTr
+cwJ
 cwJ
 liL
 cwJ
 liL
-jov
-uDJ
-uDJ
-lOX
-nMy
-uDJ
-lOX
-uDJ
-uDJ
-lOX
-uDJ
-uDJ
-ohJ
-ohJ
-ohJ
-xwz
-ohJ
-xwz
-ohJ
-xwz
-ohJ
-ohJ
-uDJ
-uDJ
-uDJ
-fWe
-uDJ
-uDJ
-xsF
-uDJ
-uDJ
-fVD
+xTr
+nyZ
+rGD
+knB
+dEM
+uBl
+mNl
+mNl
+mNl
+mNl
+pMA
+jXh
+vrn
+rEp
+rEp
+nAn
+hcY
+dEg
 fak
 kTr
 kTr
@@ -123675,48 +123666,48 @@ dWM
 xQO
 nBX
 oOP
-dpI
-wPz
-vto
-xZE
-pUF
-liL
+sfX
+oDC
+rGD
+sRy
+dEM
+jXh
+jXh
+sfX
+sfX
+sfX
+sfX
+eXW
+vnd
+kYa
+xTr
+tRS
+xTr
+bge
+eKo
+cwJ
 cwJ
 liL
 cwJ
 liL
-jov
-fWe
-uDJ
-lOX
-uDJ
-uDJ
-lOX
-uDJ
-uDJ
-lOX
-uDJ
-uDJ
-ohJ
-otp
-tIu
-fdg
-oMl
-fdg
-oMl
-fdg
-dkr
-ohJ
-uDJ
-uDJ
-xsF
-uDJ
-xsF
-uDJ
-uDJ
-uDJ
-uDJ
-fVD
+xTr
+nyZ
+jRd
+cYH
+ekG
+uBl
+xGe
+xGe
+mNl
+mNl
+pMA
+jXh
+dRB
+nAn
+ekG
+eIy
+eIy
+dEg
 fak
 cCd
 nNI
@@ -123997,48 +123988,48 @@ oNS
 qFG
 nBX
 oOP
-dpI
-dpI
-vto
-xZE
-pUF
+sfX
+sfX
+rGD
+sRy
+dEM
+jXh
+hoj
+sfX
+sfX
+sfX
+sfX
+sfX
+vnd
+lrp
+xTr
+xTr
+xTr
+xTr
+eKo
 cwJ
 cwJ
 cwJ
 cwJ
 liL
-jov
-fWe
-uDJ
-lOX
-uDJ
-uDJ
-lOX
-uDJ
-uDJ
-lOX
-uDJ
-xsF
-xwz
-fdg
-nXq
-fdg
-nXq
-fdg
-nXq
-fdg
-lme
-ohJ
-xwz
-ohJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-fVD
+xTr
+vnd
+toS
+mnH
+tWX
+uBl
+xGe
+xGe
+xGe
+xGe
+gRl
+eIy
+eIy
+eIy
+eIy
+eIy
+eIy
+dEg
 fak
 kTr
 kTr
@@ -124319,48 +124310,48 @@ gfA
 wjn
 nBX
 oOP
-dpI
-dpI
-paL
-fwQ
-jAi
+sfX
+sfX
+dbN
+efO
+ekG
+jXh
+jXh
+sfX
+sfX
+sfX
+sfX
+sfX
+vnd
+kYa
+xTr
+wPz
+xTr
+eKo
+uDJ
 cwJ
 cwJ
 cwJ
 cwJ
 liL
-jov
-uDJ
-uDJ
-lOX
-nMy
-uDJ
-lOX
-nMy
-uDJ
-lOX
-uDJ
-uDJ
-xwz
-fdg
-nXq
-xKd
-tVn
-fdg
-nWY
-jds
-lAv
-eKu
-fmg
-ohJ
-xwz
-xwz
-xwz
-xwz
-ohJ
-fWe
-uDJ
-fVD
+eGI
+sdE
+sdE
+sdE
+ubw
+xGe
+xGe
+sfX
+sfX
+xGe
+gRl
+sfX
+sfX
+sfX
+vnd
+vnd
+vnd
+xjG
 fak
 kTr
 kTr
@@ -124641,48 +124632,48 @@ ucJ
 ucJ
 nBX
 oOP
-tlX
+rbb
+vnd
+vnd
+vnd
+jXh
+jXh
+jXh
+sfX
+sfX
+sfX
+sfX
+sfX
+vnd
+lrp
 xTr
+wPz
 xTr
-xTr
+eKo
 eKo
 cwJ
 cwJ
 cwJ
 cwJ
 cwJ
-jov
-uDJ
-uDJ
-lOX
-uDJ
-uDJ
-lOX
-uDJ
-uDJ
-lOX
-uDJ
-uDJ
-ohJ
-eGd
-nXq
-wfz
-iYc
-fdg
-dkV
-gyI
-xGe
-avy
-rVu
-ohJ
-haR
-afr
-kpi
-jcG
-ohJ
-uDJ
-uDJ
-fVD
+eGI
+tve
+sdE
+sdE
+uBl
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+goM
+vnd
+vnd
+xjG
 fak
 kTr
 kTr
@@ -124963,47 +124954,47 @@ aXD
 scg
 nBX
 oOP
+vnd
+vnd
+apq
+apq
+jXh
+jXh
+jXh
+sfX
+sfX
+sfX
+sfX
+sfX
+vnd
+kYa
 xTr
-xTr
-hED
-hED
+wPz
+rrA
+vfr
 eKo
-liL
 cwJ
 cwJ
 cwJ
 cwJ
-uTZ
-uDJ
-nMy
-uDJ
-xsF
-uDJ
-uDJ
-xsF
-uDJ
-uDJ
-uDJ
-gWH
-ohJ
-fdg
-nXq
-fdg
-nXq
-fdg
-nXq
-kCc
-bqi
-avy
-cJK
-ohJ
-avy
-opK
-opK
-rVu
-ohJ
-ohJ
-uDJ
+cwJ
+eGI
+sdE
+sdE
+sdE
+nYs
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+goM
+pvJ
+pvJ
 fVD
 fak
 kTr
@@ -125285,48 +125276,48 @@ ciq
 aVo
 nBX
 oOP
-dpI
-hED
-hED
+sfX
+apq
+apq
+sdE
+vnd
+vnd
+jXh
+sfX
+sfX
+sfX
+sfX
+sfX
+vnd
+cFB
+xTr
+xTr
+jNt
+lUS
+eKo
+cwJ
+cwJ
+cwJ
+cwJ
+cwJ
 eGI
-eGI
-liL
-cwJ
-cwJ
-cwJ
-cwJ
-lJP
-lJP
-lJP
-lJP
-lJP
-lJP
-lJP
-lJP
-lJP
-lJP
-lJP
-gld
-wON
-eKu
-dWc
-dWc
-dWc
-dWc
-dWc
-qua
-ogv
-opK
-cJK
-gRl
-avy
-bHt
-opK
-opK
-fmg
-xwz
-uDJ
-fVD
+gOD
+tve
+sdE
+sdE
+sfX
+sfX
+dHL
+dHL
+dHL
+dHL
+dHL
+sfX
+sfX
+goM
+vnd
+vnd
+xjG
 fak
 kTr
 kTr
@@ -125607,48 +125598,48 @@ rwZ
 rDF
 nBX
 oOP
-dpI
+flq
 lhO
-lJm
-uHj
-lJm
+mnH
+ipr
+oDC
+vnd
+vnd
+flq
+sfX
+sfX
+sfX
+sfX
+sfX
+goM
+eGI
+eGI
+sMK
+lUS
+eKo
 cwJ
 liL
 cwJ
 cwJ
 cwJ
-lJP
-lJP
-lJP
-lJP
-lJP
-lJP
-evx
-lJP
-lJP
-lJP
-evx
-gld
-ohJ
-qZA
-opK
-opK
-opK
-opK
-opK
-kEa
-vPn
-opK
-rVu
-ohJ
-qZA
-klu
-odl
-opK
-cJK
-xwz
-uDJ
-fVD
+eGI
+gOD
+sdE
+sdE
+tFb
+sfX
+sfX
+dHL
+dHL
+dHL
+dHL
+dHL
+sfX
+sfX
+goM
+vnd
+ygI
+xjG
 fak
 poC
 poC
@@ -125929,48 +125920,48 @@ owU
 czB
 nBX
 oOP
-eGI
-eGI
-lJm
-eGI
-lJm
-cwJ
-liL
-cwJ
-liL
-cwJ
-lJP
-lJP
-evx
-evx
-lJP
-lJP
-lJP
-lJP
-lJP
-lJP
-lJP
-gld
-wON
-lwg
-xZR
-xZR
-xZR
-xZR
-xZR
-aGT
-rvN
-opK
-cJK
-gRl
-avy
-kYa
-opK
-opK
-jNt
-xwz
-uDJ
-fVD
+flq
+flq
+pvJ
+pvJ
+pvJ
+pvJ
+pvJ
+flq
+sfX
+sfX
+sfX
+sfX
+sfX
+lje
+fCi
+hte
+jPB
+imQ
+eim
+aBT
+aBT
+aBT
+aBT
+aBT
+plL
+bSt
+bSt
+jeJ
+tlX
+sfX
+sfX
+dHL
+dHL
+dHL
+dHL
+dHL
+sfX
+sfX
+goM
+dcP
+vnd
+xjG
 fak
 poC
 rGB
@@ -126251,49 +126242,49 @@ rwZ
 yck
 nBX
 oOP
-eGI
-lJm
-eGI
-lJm
-eGI
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-uTZ
-uDJ
-uDJ
-xsF
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-cHJ
+flq
+mnH
+sdE
+oDC
+vnd
+vnd
+vnd
+flq
+sfX
+sfX
+sfX
+sfX
+sfX
+tFb
 ohJ
-fdg
-nXq
-fdg
-nXq
-fdg
-nXq
-aiY
-kVi
-avy
-cJK
-ohJ
-avy
-opK
-opK
-rVu
-ohJ
-ohJ
-uDJ
-fVD
-fak
+eKo
+sMK
+lUS
+eKo
+cwJ
+cwJ
+cwJ
+cwJ
+cwJ
+wub
+vbQ
+xxU
+jXh
+goM
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+jeJ
+uyk
+arU
+sgb
+lkm
 poC
 jNV
 oAJ
@@ -126573,48 +126564,48 @@ vsj
 ovH
 nBX
 oOP
-dpI
-eGI
-uHj
+sfX
+sdE
+toS
 erx
+sdE
+jXh
+jXh
+sfX
+sfX
+sfX
+sfX
+sfX
+sdE
+sYS
 eGI
+uDJ
+sMK
+lUS
+eKo
 cwJ
 cwJ
-liL
 cwJ
 cwJ
-jov
-nMy
-uDJ
-lOX
-uDJ
-uDJ
-lOX
-uDJ
-nMy
-lOX
-uDJ
-uDJ
-ohJ
-eGd
-nXq
-xKd
-tVn
-fdg
-nWY
-jds
-lAv
-avy
-rVu
-ohJ
-eFr
-syd
-pGQ
-hCY
-ohJ
-uDJ
-uDJ
-fVD
+cwJ
+rDv
+rEp
+rEp
+aCQ
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+sfX
+goM
+vnd
+bRm
+xjG
 fak
 poC
 jZT
@@ -126895,48 +126886,48 @@ sVc
 eMt
 nBX
 oOP
-dpI
-dpI
+sfX
+sfX
 irg
-mEm
-twl
+acn
+xxU
+jXh
+jXh
+sfX
+sfX
+sfX
+sfX
+sfX
+sdE
+cqZ
+opK
+eKo
+eWG
+dzZ
+eKo
 cwJ
 cwJ
 liL
 liL
 cwJ
-jov
-uDJ
-nMy
-lOX
-uDJ
-uDJ
-lOX
-uDJ
-uDJ
-lOX
-uDJ
-uDJ
-xwz
-fdg
-nXq
-wfz
-iYc
-fdg
-dkV
-gyI
-xGe
-lwg
-jNt
-ohJ
-xwz
-xwz
-xwz
-xwz
-ohJ
-uDJ
-uDJ
-tpU
+xbr
+rEp
+rEp
+uMg
+pEc
+fvl
+iRY
+iRY
+iRY
+iRY
+sfX
+sfX
+sfX
+sfX
+goM
+vnd
+ygI
+xjG
 fak
 poC
 qMU
@@ -127217,48 +127208,48 @@ pIz
 uRU
 nBX
 oOP
-dpI
-dpI
-xZE
-xZE
+sfX
+sfX
+sRy
+sRy
 cNV
+jXh
+jXh
+sfX
+sfX
+sfX
+sfX
+sfX
+eXW
+exI
+eGI
+eKo
+mOX
+mOX
+eKo
 cwJ
 cwJ
 cwJ
 cwJ
 cwJ
-jov
-uDJ
-uDJ
-lOX
-nMy
-uDJ
-lOX
-uDJ
-uDJ
-lOX
-uDJ
-nMy
-xwz
-fdg
-nXq
-fdg
-nXq
-fdg
-nXq
-fdg
-lme
-ohJ
-xwz
-ohJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-fVD
+xbr
+rEp
+nAn
+ekG
+vnd
+pEc
+iRY
+iRY
+iRY
+bbC
+eIy
+sfX
+sfX
+sfX
+goM
+vnd
+vnd
+xjG
 fak
 poC
 poC
@@ -127539,47 +127530,47 @@ cSh
 uRU
 jdy
 oOP
-dpI
-eGI
-vto
-xZE
-pvJ
+sfX
+sdE
+rGD
+sRy
+uMg
+jXh
+eXW
+sfX
+sfX
+sfX
+sfX
+sfX
+eXW
+cqZ
+xsE
+eKo
+eKo
+mOX
+xTr
 cwJ
 cwJ
 liL
 cwJ
 cwJ
-jov
-uDJ
-uDJ
-lOX
-uDJ
-uDJ
-lOX
-uDJ
-uDJ
-lOX
-uDJ
-uDJ
-ohJ
-tIu
-otp
-fdg
-uME
-fdg
-uME
-fdg
-dkr
-ohJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
+xfT
+ekG
+jXh
+daP
+vnd
+vnd
+rtV
+acg
+npj
+eIy
+eIy
+eIy
+sfX
+sfX
+goM
+pvJ
+pvJ
 fVD
 fak
 poC
@@ -127743,7 +127734,7 @@ lHp
 oab
 lAq
 upd
-iRL
+iWR
 lHp
 nOa
 nuj
@@ -127861,48 +127852,48 @@ upU
 uRU
 jdy
 oOP
-cuD
-uyk
-xZE
-xZE
-pvJ
+pdi
+hft
+sRy
+sRy
+uMg
+jXh
+eXW
+sfX
+sfX
+sfX
+sfX
+sfX
+jXh
+exI
+eGI
+eKo
+eKo
+fkJ
+xTr
 cwJ
 cwJ
 cwJ
 cwJ
-liL
-jov
-fWe
-uDJ
-lOX
-uIT
-uDJ
-lOX
-uDJ
-uDJ
-lOX
-uDJ
-uDJ
-ohJ
-ohJ
-ohJ
-xwz
-ohJ
-xwz
-ohJ
-xwz
-ohJ
-ohJ
-uDJ
-uDJ
-uDJ
-fWe
-uDJ
-xsF
-uDJ
-uDJ
-uDJ
-fVD
+cwJ
+eKo
+jXh
+vrn
+pdi
+ygI
+ygI
+ihV
+ihV
+eIy
+eIy
+eIy
+eeD
+sfX
+sfX
+goM
+ihV
+ihV
+izp
 fak
 poC
 iWX
@@ -128064,8 +128055,8 @@ oqT
 kTv
 jnK
 glw
-upd
-mQO
+phN
+phN
 lHp
 vlF
 vlF
@@ -128183,48 +128174,48 @@ upU
 uRU
 jdy
 oOP
-xZE
+sRy
 tRf
-xZE
-xZE
-pvJ
+sRy
+sRy
+uMg
+jXh
+eXW
+sfX
+sfX
+sfX
+eXW
+eXW
+jXh
+cqZ
+dVV
+nXq
+jaY
+tBJ
+xTr
 cwJ
 liL
 cwJ
 cwJ
-liL
-uTZ
-uTZ
+cwJ
 uDJ
-nMy
-nMy
-xsF
-uDJ
-fWe
-uDJ
-uDJ
-nMy
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-xsF
-uDJ
-uDJ
-uDJ
-uDJ
-fWe
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-fVD
+jXh
+wuM
+uMg
+ygI
+ygI
+eIy
+eIy
+eIy
+cjE
+eIy
+wuM
+sfX
+sfX
+lAv
+ihV
+ihV
+izp
 fak
 poC
 aNU
@@ -128387,7 +128378,7 @@ pdt
 hpO
 xlz
 nOr
-iWR
+phN
 lHp
 gxE
 vlF
@@ -128505,48 +128496,48 @@ cSh
 uRU
 jdy
 oOP
-uKN
-xZE
-xZE
-xZE
-pvJ
+mqf
+sRy
+sRy
+sRy
+uMg
+jXh
+eXW
+sfX
+sfX
+sfX
+eXW
+sdE
+sdE
+exI
+eGI
+xTr
+xTr
+mjB
+xTr
 cwJ
 cwJ
 cwJ
 cwJ
-jPL
-uTZ
-uTZ
-uTZ
-uDJ
-uDJ
-uDJ
-fWe
-fWe
-uDJ
-xsF
-uDJ
-uDJ
-nMy
-uDJ
-uDJ
-uDJ
-uDJ
-fWe
-fWe
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-uDJ
-fWe
-xsF
-uDJ
-uDJ
-uDJ
-xsF
-fVD
+cwJ
+eKo
+jXh
+wuM
+sRy
+dPs
+pdi
+eIy
+eIy
+eIy
+eIy
+jXh
+wuM
+rEp
+rEp
+knB
+lAv
+ihV
+izp
 fak
 poC
 mno
@@ -128827,48 +128818,48 @@ tLQ
 uRU
 nBX
 oOP
-dTr
-uKN
-xZE
-xZE
-pvJ
+fvl
+mqf
+sRy
+sRy
+uMg
+jXh
+eXW
+sfX
+sfX
+eXW
+eXW
+sdE
+sdE
+cqZ
+eKo
+eKo
+avh
+uAE
+xTr
 cwJ
 cwJ
 cwJ
 cwJ
 cwJ
 cwJ
-uTZ
-uTZ
-jov
-jov
-jov
-jov
-jov
-uTZ
-jov
-jov
-jov
-jov
-jov
-uTZ
-jov
-jov
-jov
-jov
-jov
-uTZ
-jov
-jov
-jov
-jov
-jov
-uTZ
-jov
-jov
-res
-res
-vil
+aIb
+dbN
+efO
+pdw
+hcY
+eIy
+eIy
+eIy
+eIy
+jXh
+dRB
+rEp
+rEp
+rEp
+cNV
+ihV
+izp
 fak
 poC
 tpj
@@ -129149,31 +129140,31 @@ rDF
 oJD
 nBX
 oOP
-dTr
+fvl
 qbh
-xZE
-xZE
-pUF
+sRy
+sRy
+dEM
+jXh
+eXW
+eXW
+eXW
+eXW
+sdE
+oDB
+bXn
+bHt
+eKo
+xnm
+eKo
+xTr
+xTr
 liL
 cwJ
 cwJ
 cwJ
 cwJ
 cwJ
-kcv
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
 cwJ
 cwJ
 cwJ
@@ -129185,10 +129176,10 @@ eIy
 eIy
 jXh
 jXh
-jXh
-jXh
-jXh
-eIy
+dRB
+nAn
+nAn
+hcY
 eIy
 dEg
 fak
@@ -129471,37 +129462,37 @@ tYN
 jaT
 nBX
 oOP
-dpI
+goM
 uKN
-dHL
+hzz
 arf
-jAi
+ekG
+jXh
+jXh
+jXh
+jXh
+jXh
+sdE
+sdE
+sdE
+tFb
+bZD
+hmG
+eKo
+qCi
+xTr
 liL
 cwJ
 cwJ
 cwJ
 cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-liL
-liL
-cwJ
-cwJ
-cwJ
-liL
-liL
-cwJ
-cwJ
-liL
 liL
 liL
 cwJ
 cwJ
 cwJ
 cwJ
-xYJ
+etC
 xYJ
 eIy
 jXh
@@ -129685,19 +129676,19 @@ mSK
 xvR
 nqq
 mnw
-tpB
-tpB
+vJp
+vJp
 jmj
 jmj
-mba
+lHp
 byS
-oHs
+kvE
 pSs
-mba
-fwR
-jam
-tpB
-tpB
+lHp
+quy
+jVM
+vJp
+vJp
 hjF
 ahA
 ahA
@@ -129793,28 +129784,28 @@ ksz
 ovJ
 nBX
 oOP
-dpI
-dTr
-dTr
-dzZ
+lje
+jeJ
+vEd
+xMX
+wON
+pLr
+wON
+ibc
+wON
+wON
+wON
+bSt
+jeJ
+tlX
+cqi
+uGi
+eKo
+eKo
 eKo
 liL
 liL
 liL
-cwJ
-cwJ
-liL
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-liL
-cwJ
 cwJ
 cwJ
 cwJ
@@ -130008,17 +129999,17 @@ mCN
 ptf
 szV
 tox
-tpB
-tpB
-tpB
-tpB
-dnD
+vJp
+vJp
+vJp
+vJp
+eZb
 oaU
-dnD
-tpB
-tpB
-tpB
-tpB
+eZb
+vJp
+vJp
+vJp
+vJp
 deO
 gve
 nOl
@@ -130115,25 +130106,25 @@ nBX
 nBX
 nBX
 oOP
-dpI
-dpI
+cqi
+rHG
 dba
 eKo
 eKo
 eKo
-liL
-liL
-liL
-cwJ
-cwJ
-liL
-liL
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
+hmG
+kSp
+kSp
+eKo
+eKo
+eKo
+hmG
+cqi
+eKo
+tFH
+eKo
+eKo
+eKo
 cwJ
 cwJ
 cwJ
@@ -130330,17 +130321,17 @@ kmC
 cxQ
 dCl
 vwR
-tpB
-tpB
-tpB
+vJp
+vJp
+vJp
 fMn
 czR
 mPZ
 rgn
 fMn
-tpB
-tpB
-tpB
+vJp
+vJp
+vJp
 qUz
 raU
 nOl
@@ -130444,19 +130435,19 @@ qTa
 lTe
 mOX
 eKo
-liL
-liL
-liL
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
-cwJ
+kSp
+kSp
+kSp
+fWe
+eKo
+eKo
+eKo
+eKo
+eKo
+eKo
+tFH
+eKo
+eGI
 cwJ
 cwJ
 liL
@@ -135329,13 +135320,13 @@ nMN
 yfQ
 yfQ
 pap
-daf
-rrd
+yfQ
+oHs
 bep
 bep
 bep
-qcY
-daf
+jcp
+yfQ
 vjf
 gSn
 vjf
@@ -135648,16 +135639,16 @@ oOP
 oOP
 oOP
 nMN
-daf
-daf
-daf
-daf
-rrd
+yfQ
+yfQ
+yfQ
+yfQ
+oHs
 bep
 bep
 bep
-qcY
-daf
+jcp
+yfQ
 vjf
 gSn
 vjf
@@ -135970,15 +135961,15 @@ oOP
 oOP
 oOP
 nMN
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 ePg
 bep
 bep
 bep
-qcY
+jcp
 vjf
 vjf
 gSn
@@ -136292,15 +136283,15 @@ oOP
 oOP
 oOP
 nMN
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 ePg
 bep
 bep
 bep
-qcY
+jcp
 vjf
 vjf
 gSn
@@ -136611,18 +136602,18 @@ oOP
 oOP
 yfQ
 yfQ
-daf
-daf
-xgA
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+nMN
+yfQ
+yfQ
+yfQ
+yfQ
 ePg
 bep
 bep
 bep
-qcY
+jcp
 vjf
 vjf
 gSn
@@ -136934,17 +136925,17 @@ oOP
 iFM
 yfQ
 aXE
-daf
-xgA
-daf
-daf
-daf
-daf
-rrd
+yfQ
+nMN
+yfQ
+yfQ
+yfQ
+yfQ
+oHs
 bep
 bep
 bep
-qcY
+jcp
 vjf
 vjf
 gSn
@@ -137256,17 +137247,17 @@ oOP
 bQQ
 iFM
 yfQ
-daf
-xgA
-daf
-daf
-daf
-daf
-rrd
+yfQ
+nMN
+yfQ
+yfQ
+yfQ
+yfQ
+oHs
 bep
 bep
 bep
-qcY
+jcp
 vjf
 vjf
 gSn
@@ -137579,16 +137570,16 @@ lVZ
 iFM
 fac
 yfQ
-xgA
-daf
-daf
-daf
-daf
-rrd
+nMN
+yfQ
+yfQ
+yfQ
+yfQ
+oHs
 bep
 bep
 bep
-qcY
+jcp
 vjf
 vjf
 gSn
@@ -137902,15 +137893,15 @@ bQQ
 iFM
 yfQ
 nMN
-daf
-daf
-daf
-daf
-rrd
+yfQ
+yfQ
+yfQ
+yfQ
+oHs
 bep
 bep
 bep
-qcY
+jcp
 vjf
 vjf
 gSn
@@ -138224,15 +138215,15 @@ lVZ
 fnh
 iFM
 nMN
-daf
-daf
-daf
-daf
-rrd
+yfQ
+yfQ
+yfQ
+yfQ
+oHs
 bep
 bep
 bep
-qcY
+jcp
 vjf
 vjf
 gSn
@@ -138546,15 +138537,15 @@ lVZ
 cUo
 htO
 nMN
-daf
-daf
-daf
-daf
-rrd
+yfQ
+yfQ
+yfQ
+yfQ
+oHs
 bep
 bep
 bep
-qcY
+jcp
 vjf
 vjf
 gSn
@@ -138868,15 +138859,15 @@ cUo
 fnh
 iFM
 nMN
-daf
-daf
-daf
-daf
-rrd
+yfQ
+yfQ
+yfQ
+yfQ
+oHs
 bep
 bep
 bep
-qcY
+jcp
 vjf
 vjf
 gSn
@@ -139189,16 +139180,16 @@ iXQ
 iFM
 fnh
 yfQ
-xgA
-daf
-daf
-daf
-daf
-rrd
+nMN
+yfQ
+yfQ
+yfQ
+yfQ
+oHs
 bep
 bep
 bep
-qcY
+jcp
 vjf
 vjf
 gSn
@@ -139510,17 +139501,17 @@ sYD
 snU
 iFM
 yfQ
-daf
-xgA
-daf
-daf
-daf
-daf
-rrd
+yfQ
+nMN
+yfQ
+yfQ
+yfQ
+yfQ
+oHs
 bep
 bep
 bep
-qcY
+jcp
 vjf
 vjf
 gSn
@@ -139831,37 +139822,37 @@ oOP
 oOP
 iFM
 yfQ
-daf
-daf
+yfQ
+yfQ
 frI
-daf
-daf
-daf
-daf
-rrd
+yfQ
+yfQ
+yfQ
+yfQ
+oHs
 bep
 bep
 bep
-qcY
-daf
-daf
+jcp
+vjf
+vjf
+gSn
+gSn
+gSn
+gSn
+gSn
+vjf
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
 nON
-nON
-nON
-nON
-nON
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-nON
-daf
+vjf
 vjf
 vjf
 vjf
@@ -140151,39 +140142,39 @@ sYD
 sYD
 oOP
 oOP
-daf
-daf
-daf
-daf
-xgA
-daf
-daf
-daf
-daf
-rrd
+yfQ
+yfQ
+yfQ
+yfQ
+nMN
+yfQ
+yfQ
+yfQ
+yfQ
+oHs
 bep
 bep
 bep
-qcY
-daf
-daf
-daf
-daf
-daf
+jcp
+vjf
+vjf
+vjf
+vjf
+vjf
+gSn
 nON
-nON
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
 maG
 ioy
 ioy
 ioy
 ioy
-avo
-daf
+xwY
+yfQ
 nON
-nON
+gSn
 vjf
 vjf
 vjf
@@ -140474,27 +140465,27 @@ oOP
 oOP
 dDV
 yfQ
-daf
-daf
+yfQ
+yfQ
 snI
-xgA
-daf
-daf
-daf
-daf
-rrd
+nMN
+yfQ
+yfQ
+yfQ
+yfQ
+oHs
 bep
 bep
 bep
-qcY
-daf
-daf
-daf
-daf
-daf
-nON
-daf
-daf
+jcp
+vjf
+vjf
+vjf
+vjf
+vjf
+gSn
+yfQ
+yfQ
 maG
 ioy
 pSC
@@ -140503,8 +140494,8 @@ fOY
 fLY
 rTW
 uob
-avo
-daf
+xwY
+yfQ
 nON
 gSn
 vjf
@@ -140795,27 +140786,27 @@ oOP
 oOP
 oOP
 oOP
-daf
-daf
-daf
-daf
-xgA
-daf
-daf
-daf
-daf
-rrd
+yfQ
+yfQ
+yfQ
+yfQ
+nMN
+yfQ
+yfQ
+yfQ
+yfQ
+oHs
 bep
 bep
 bep
-qcY
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+jcp
+yfQ
+yfQ
+vjf
+vjf
+vjf
+vjf
+yfQ
 maG
 pSC
 fLY
@@ -140826,8 +140817,8 @@ fLY
 fLY
 fLY
 uob
-avo
-daf
+xwY
+yfQ
 vjf
 gSn
 vjf
@@ -141120,24 +141111,24 @@ oOP
 oOP
 oOP
 oOP
-daf
-xgA
-daf
-daf
-daf
-daf
-rrd
+yfQ
+nMN
+yfQ
+yfQ
+yfQ
+yfQ
+oHs
 bep
 bep
 bep
-qcY
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+jcp
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
 sPi
 fLY
 rTW
@@ -141149,7 +141140,7 @@ fLY
 fLY
 fLY
 uob
-avo
+xwY
 vjf
 gSn
 vjf
@@ -141443,7 +141434,7 @@ oOP
 oOP
 oOP
 oOP
-xgA
+nMN
 lnk
 gxu
 gxu
@@ -141455,10 +141446,10 @@ feG
 dou
 gxu
 dHA
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 maG
 pSC
 fLY
@@ -141471,7 +141462,7 @@ oND
 fLY
 fLY
 fLY
-bRM
+lVZ
 vjf
 gSn
 vjf
@@ -141793,7 +141784,7 @@ oND
 oND
 fLY
 fLY
-bRM
+lVZ
 vjf
 gSn
 vjf
@@ -142115,7 +142106,7 @@ oND
 wRu
 wRu
 fLY
-bRM
+lVZ
 vjf
 gSn
 vjf
@@ -142437,7 +142428,7 @@ oND
 oND
 fLY
 fLY
-bRM
+lVZ
 vjf
 gSn
 vjf
@@ -142759,7 +142750,7 @@ oND
 rTW
 fLY
 fOY
-bRM
+lVZ
 vjf
 gSn
 vjf
@@ -143081,7 +143072,7 @@ fLY
 fLY
 fLY
 nkJ
-wWa
+dGT
 vjf
 gSn
 vjf
@@ -143402,8 +143393,8 @@ fLY
 fLY
 fLY
 nkJ
-wWa
-daf
+dGT
+yfQ
 vjf
 gSn
 vjf
@@ -143723,9 +143714,9 @@ nkJ
 phy
 phy
 phy
-wWa
-daf
-daf
+dGT
+yfQ
+yfQ
 gSn
 gSn
 vjf
@@ -144038,15 +144029,15 @@ bnF
 bnF
 bnF
 bnF
-bnF
+aZT
 nkJ
 phy
-wWa
-daf
-daf
-daf
-daf
-daf
+dGT
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
 nON
 gSn
 vjf
@@ -144361,14 +144352,14 @@ phy
 phy
 phy
 phy
-wWa
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+dGT
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
 nON
 vjf
 vjf
@@ -144679,19 +144670,19 @@ sHd
 rDo
 dpI
 dpI
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
 nON
-daf
+yfQ
 vjf
 vjf
 vjf
@@ -145002,18 +144993,18 @@ fLY
 fLY
 dpI
 dpI
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
 nON
 nON
-daf
+yfQ
 vjf
 vjf
 vjf
@@ -145325,17 +145316,17 @@ fLY
 fLY
 dpI
 dpI
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
 nON
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -145648,16 +145639,16 @@ fLY
 fLY
 dpI
 dpI
-daf
-daf
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
 nON
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -145970,16 +145961,16 @@ brD
 brD
 dpI
 dpI
-daf
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-adg
+yfQ
+yfQ
+yfQ
+uMs
 vjf
 vjf
 vjf
@@ -146293,15 +146284,15 @@ fLY
 fLY
 qfP
 xwY
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -146616,14 +146607,14 @@ ngP
 fLY
 lVZ
 yfQ
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -146939,13 +146930,13 @@ fLY
 kCI
 ico
 yfQ
-daf
-daf
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -147261,13 +147252,13 @@ fLY
 fLY
 sEc
 yfQ
-daf
-daf
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -147583,13 +147574,13 @@ fLY
 fLY
 sEc
 yfQ
-daf
-daf
+yfQ
+yfQ
 nON
-daf
-daf
-adg
-daf
+yfQ
+yfQ
+uMs
+yfQ
 vjf
 vjf
 vjf
@@ -147905,13 +147896,13 @@ fLY
 fLY
 sEc
 yfQ
-daf
-daf
+yfQ
+yfQ
 nON
 iTg
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -148227,13 +148218,13 @@ fLY
 fLY
 sEc
 yfQ
-daf
-daf
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -148549,13 +148540,13 @@ fLY
 nCG
 aRe
 yfQ
-daf
+yfQ
 nON
 nON
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -148870,14 +148861,14 @@ ezs
 fLY
 lVZ
 yfQ
-daf
-daf
+yfQ
+yfQ
 nON
-daf
-adg
-daf
-daf
-daf
+yfQ
+uMs
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -149191,15 +149182,15 @@ fLY
 fLY
 ffI
 dGT
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -149511,17 +149502,17 @@ eKo
 fLY
 fLY
 fLY
-bRM
-daf
-daf
-daf
-daf
+lVZ
+yfQ
+yfQ
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -149833,17 +149824,17 @@ fLY
 fLY
 fLY
 fLY
-bRM
-daf
-daf
-daf
-daf
+lVZ
+yfQ
+yfQ
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -150154,18 +150145,18 @@ eKo
 fLY
 fLY
 fLY
-gnz
-wWa
-daf
-daf
+ffI
+dGT
+yfQ
+yfQ
 cUo
 cUo
 cUo
 cUo
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -150476,17 +150467,17 @@ eGI
 eGI
 fLY
 fLY
-bRM
-daf
-daf
-daf
+lVZ
+yfQ
+yfQ
+yfQ
 nON
 nON
-daf
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -150798,17 +150789,17 @@ eGI
 eGI
 fLY
 fLY
-bRM
-daf
-daf
-daf
-daf
+lVZ
+yfQ
+yfQ
+yfQ
+yfQ
 cUo
 cUo
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -151120,17 +151111,17 @@ eGI
 eGI
 fLY
 fLY
-bRM
-daf
-daf
-daf
-daf
+lVZ
+yfQ
+yfQ
+yfQ
+yfQ
 cUo
 cUo
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -151443,16 +151434,16 @@ eKo
 fLY
 fLY
 jHA
-avo
-daf
-daf
-daf
-daf
+xwY
+yfQ
+yfQ
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -151765,16 +151756,16 @@ fLY
 fLY
 fLY
 fLY
-bRM
-daf
-daf
-daf
-daf
+lVZ
+yfQ
+yfQ
+yfQ
+yfQ
 nON
-daf
+yfQ
 iTg
-daf
-daf
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -152087,16 +152078,16 @@ fLY
 fLY
 fLY
 fLY
-bRM
-daf
-daf
-daf
-daf
+lVZ
+yfQ
+yfQ
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -152409,16 +152400,16 @@ agL
 fLY
 fIw
 ngP
-jHA
-avo
-daf
-daf
-daf
+qfP
+xwY
+yfQ
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -152732,15 +152723,15 @@ fLY
 pZO
 izS
 fLY
-bRM
-daf
-daf
-daf
+lVZ
+yfQ
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -153054,15 +153045,15 @@ fLY
 bzB
 ezs
 fLY
-bRM
-daf
-daf
-daf
+lVZ
+yfQ
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -153376,15 +153367,15 @@ fLY
 fLY
 fLY
 fLY
-bRM
-daf
-daf
-daf
+lVZ
+yfQ
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-adg
+yfQ
+yfQ
+yfQ
+uMs
 vjf
 vjf
 vjf
@@ -153698,15 +153689,15 @@ fLY
 fLY
 fLY
 fLY
-bRM
-daf
-daf
-daf
+lVZ
+yfQ
+yfQ
+yfQ
 nON
 iTg
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -154020,15 +154011,15 @@ fLY
 fLY
 fLY
 fLY
-bRM
-daf
-daf
-daf
+lVZ
+yfQ
+yfQ
+yfQ
 nON
-daf
+yfQ
 cUo
 cUo
-daf
+yfQ
 vjf
 vjf
 vjf
@@ -154342,15 +154333,15 @@ fLY
 fLY
 fLY
 fLY
-bRM
-daf
-daf
-daf
+lVZ
+yfQ
+yfQ
+yfQ
 nON
-daf
+yfQ
 cUo
 cUo
-daf
+yfQ
 vjf
 vjf
 vjf
@@ -154664,15 +154655,15 @@ fLY
 fLY
 fLY
 fLY
-bRM
-daf
-daf
-daf
+lVZ
+yfQ
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -154986,15 +154977,15 @@ veA
 veA
 fLY
 fLY
-bRM
-daf
-daf
-daf
+lVZ
+yfQ
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -155308,15 +155299,15 @@ veA
 fLY
 fLY
 fLY
-bRM
-daf
-daf
-daf
+lVZ
+yfQ
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -155630,15 +155621,15 @@ mUD
 fIw
 ngP
 fLY
-bRM
-daf
-daf
-daf
+lVZ
+yfQ
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-adg
+yfQ
+yfQ
+yfQ
+uMs
 vjf
 vjf
 vjf
@@ -155951,16 +155942,16 @@ nEk
 onr
 pZO
 izS
-gnz
-wWa
-daf
-daf
-daf
+ffI
+dGT
+yfQ
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -156273,16 +156264,16 @@ ogm
 fLY
 bzB
 ezs
-bRM
-daf
-daf
-daf
-daf
+lVZ
+yfQ
+yfQ
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -156595,16 +156586,16 @@ csB
 rNh
 fWp
 ltd
-wWa
-daf
-daf
-daf
-daf
+dGT
+yfQ
+yfQ
+yfQ
+yfQ
 nON
-daf
+yfQ
 iTg
-daf
-daf
+yfQ
+yfQ
 vjf
 vjf
 vjf
@@ -156917,16 +156908,16 @@ wYE
 fEv
 vuf
 gIa
-daf
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 cUo
 cUo
 vjf
@@ -157239,16 +157230,16 @@ pwn
 nkP
 vuf
 gIa
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 cUo
 cUo
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 cUo
 cUo
 vjf
@@ -157561,34 +157552,34 @@ pwn
 azu
 vuf
 gIa
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
 cUo
 cUo
-daf
-daf
-daf
-adg
+yfQ
+yfQ
+yfQ
+uMs
 cUo
 cUo
 cUo
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
 vjf
 vjf
 vjf
@@ -157897,20 +157888,20 @@ cUo
 cUo
 cUo
 cUo
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
 vjf
 vjf
 vjf
@@ -158220,19 +158211,19 @@ cUo
 cUo
 cUo
 cUo
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
 vjf
 vjf
 vjf
@@ -158543,18 +158534,18 @@ cUo
 cUo
 cUo
 cUo
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
 vjf
 vjf
 vjf
@@ -158865,18 +158856,18 @@ cUo
 cUo
 cUo
 cUo
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
 vjf
 vjf
 vjf
@@ -159186,19 +159177,19 @@ cUo
 cUo
 cUo
 cUo
-daf
-adg
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+yfQ
+uMs
+yfQ
+yfQ
+yfQ
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
 vjf
 vjf
 vjf
@@ -159507,20 +159498,20 @@ cUo
 cUo
 cUo
 cUo
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
 vjf
 vjf
 vjf
@@ -159829,20 +159820,20 @@ cUo
 cUo
 cUo
 nON
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
 vjf
 vjf
 vjf
@@ -160149,22 +160140,22 @@ cUo
 cUo
 cUo
 cUo
-hyE
+nsi
 nON
 iTg
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
 vjf
 vjf
 vjf
@@ -160471,22 +160462,22 @@ byQ
 cUo
 cUo
 yfQ
-daf
+yfQ
 nON
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
 vjf
 vjf
 vjf
@@ -160793,22 +160784,22 @@ pte
 gvl
 yfQ
 nsi
-daf
+yfQ
 nON
 nON
-adg
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+uMs
+yfQ
+yfQ
+yfQ
+yfQ
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
 vjf
 vjf
 vjf
@@ -161116,21 +161107,21 @@ iRu
 yfQ
 yfQ
 yfQ
-daf
+yfQ
 nON
 nON
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
 vjf
 vjf
 vjf
@@ -161438,21 +161429,21 @@ izW
 yfQ
 yfQ
 yfQ
-daf
-daf
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
 vjf
 vjf
 vjf
@@ -161761,20 +161752,20 @@ yfQ
 yfQ
 yfQ
 yfQ
-daf
+yfQ
 nON
 iTg
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
 vjf
 vjf
 vjf
@@ -162083,20 +162074,20 @@ yfQ
 yfQ
 yfQ
 yfQ
-daf
-daf
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-adg
-daf
+yfQ
+yfQ
+yfQ
+yfQ
+yfQ
+vjf
+vjf
+vjf
+vjf
+eRN
+vjf
 vjf
 vjf
 vjf
@@ -162407,18 +162398,18 @@ yfQ
 yfQ
 yfQ
 yfQ
-daf
+yfQ
 nON
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+yfQ
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
 vjf
 vjf
 vjf
@@ -162729,18 +162720,18 @@ yfQ
 yfQ
 yfQ
 yfQ
-daf
-daf
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+yfQ
+yfQ
+yfQ
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
 vjf
 vjf
 vjf
@@ -163052,17 +163043,17 @@ yfQ
 yfQ
 yfQ
 yfQ
-daf
-daf
+yfQ
+yfQ
 nON
 iTg
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+yfQ
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
 vjf
 vjf
 vjf
@@ -163375,16 +163366,16 @@ yfQ
 yfQ
 yfQ
 yfQ
-daf
-daf
+yfQ
+yfQ
 nON
-daf
-daf
-daf
-daf
-daf
-daf
-daf
+yfQ
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
 vjf
 vjf
 vjf
@@ -163698,15 +163689,15 @@ yfQ
 yfQ
 yfQ
 yfQ
-daf
-daf
+yfQ
+yfQ
 nON
-daf
-daf
-adg
-daf
-daf
-daf
+vjf
+vjf
+eRN
+vjf
+vjf
+vjf
 vjf
 vjf
 vjf
@@ -164021,14 +164012,14 @@ fhL
 yfQ
 yfQ
 yfQ
-daf
+yfQ
 nON
-daf
-daf
-daf
-daf
-daf
-daf
+vjf
+vjf
+vjf
+vjf
+vjf
+vjf
 vjf
 vjf
 vjf
@@ -164343,9 +164334,9 @@ xZG
 yfQ
 yfQ
 yfQ
-daf
+yfQ
 nON
-daf
+yfQ
 vjf
 vjf
 vjf
@@ -164665,8 +164656,8 @@ xZG
 yfQ
 yfQ
 yfQ
-daf
-daf
+yfQ
+yfQ
 nON
 raW
 vjf
@@ -164987,8 +164978,8 @@ xZG
 yfQ
 yfQ
 yfQ
-daf
-daf
+yfQ
+yfQ
 nON
 vjf
 vjf
@@ -165309,7 +165300,7 @@ dfF
 yfQ
 yfQ
 yfQ
-daf
+yfQ
 vjf
 gSn
 vjf
@@ -165631,7 +165622,7 @@ yfQ
 yfQ
 yfQ
 yfQ
-daf
+yfQ
 vjf
 gSn
 gSn
@@ -165953,7 +165944,7 @@ yfQ
 yfQ
 yfQ
 yfQ
-vjf
+yfQ
 vjf
 vjf
 vjf
@@ -176282,11 +176273,11 @@ vjf
 vjf
 vjf
 vjf
+vjf
 mWD
 mWD
 mWD
-mWD
-mWD
+vjf
 vjf
 vjf
 gSn
@@ -178537,9 +178528,9 @@ vjf
 vjf
 vjf
 vjf
-vjf
-vjf
-vjf
+mWD
+mWD
+mWD
 vjf
 vjf
 vjf
@@ -205730,14 +205721,14 @@ duW
 duW
 duW
 gYr
-gYr
-xkA
-gYr
+auh
+auh
+auh
 duW
 duW
 duW
 gYr
-gYr
+eoD
 gYr
 gYr
 rjT
@@ -206043,27 +206034,27 @@ fSt
 fSt
 fSt
 duW
-yhG
-oWY
+dJT
+jds
 bhr
 bhr
-oWY
 bhr
 bhr
-lUS
-fmH
 bhr
-hcY
-nxO
-nxO
-nxO
-rSa
-nxO
-rSa
-rSa
-nxO
-nxO
-yjX
+bhr
+bhr
+auh
+auh
+auh
+bhr
+bhr
+bhr
+bhr
+bhr
+bhr
+smb
+jjb
+gYr
 jFJ
 fSt
 fSt
@@ -206367,25 +206358,25 @@ fSt
 gYr
 yjX
 gYr
-vAK
-bvY
 gYr
+lOX
+lOX
+lOX
+lOX
+lOX
 gYr
-bLf
-uzC
+auh
+auh
+auh
 gYr
+lOX
+lOX
+lOX
+lOX
+lOX
 gYr
-gVh
-aHA
-mya
-rsc
-ony
-blM
-eIC
-tQI
-fTk
-nxO
-yjX
+bLx
+tok
 fSt
 fSt
 fSt
@@ -206688,27 +206679,27 @@ fSt
 jFJ
 eoD
 yjX
+aGZ
 gYr
 gYr
 gYr
 gYr
 gYr
 gYr
-xkA
+vPn
+auh
+auh
+auh
 gYr
 gYr
 gYr
-nxO
-jnw
-nxO
-ony
-nxO
-eIC
-eIC
-eIC
-rSa
-yjX
-gcd
+gYr
+gYr
+gYr
+jwe
+bLx
+gYr
+fSt
 jFJ
 fSt
 duW
@@ -207010,26 +207001,26 @@ fSt
 jFJ
 gYr
 yjX
-rjT
-nxO
-nxO
-rSa
-nxO
-nxO
-nxO
-rSa
-rSa
-nxO
-nxO
-nxO
-nxO
-ony
-nxO
-vqx
-eIC
-eIC
-rSa
-yjX
+gYr
+gYr
+lOX
+lOX
+lOX
+lOX
+lOX
+gYr
+auh
+auh
+auh
+gYr
+lOX
+lOX
+lOX
+lOX
+lOX
+uzC
+bLx
+gYr
 fSt
 egi
 jFJ
@@ -207332,26 +207323,26 @@ fSt
 jFJ
 xov
 yjX
-rjT
-nxO
-rrX
-flq
-nxO
-gwP
-aaB
-dVK
-ygI
-smb
-nxO
-lbJ
-qyP
-ony
-nxO
-bSt
-tus
-uAE
-rSa
-yjX
+gYr
+gYr
+gYr
+gYr
+gYr
+gYr
+gYr
+gYr
+auh
+auh
+auh
+gYr
+gYr
+gYr
+gYr
+gYr
+gYr
+gYr
+bLx
+uzC
 egi
 fSt
 jFJ
@@ -207654,26 +207645,26 @@ jFJ
 fSt
 xov
 yjX
-rjT
-nxO
-tHB
+xkA
+stq
 uaB
-nxO
-gwP
+uaB
+uaB
+uaB
 aaB
 iwz
-aIb
-vtN
-nxO
+auh
+auh
+auh
 stq
-ony
-ony
-nxO
-nxO
-nxO
-nxO
-nxO
-jeJ
+uaB
+uaB
+uaB
+uaB
+aaB
+gYr
+bLx
+gYr
 egi
 fSt
 jFJ
@@ -207975,27 +207966,27 @@ fSt
 jFJ
 fSt
 gYr
-auh
-auh
-qqB
-uaB
-uaB
-nxO
-hTx
-gwP
-gwP
-dIz
-nki
-nxO
-sCl
-tEY
-tEY
-tEY
-aqf
-qpa
-tzx
-nxO
 yjX
+gYr
+gYr
+gYr
+gYr
+gYr
+gYr
+gYr
+gYr
+auh
+auh
+auh
+gYr
+gYr
+gYr
+gYr
+gYr
+gYr
+qQQ
+bLx
+iHI
 fSt
 jFJ
 fSt
@@ -208298,26 +208289,26 @@ jFJ
 fSt
 gYr
 yjX
+tVf
+mpR
 gYr
-rSa
-kXP
-fSq
-nxO
-ihk
-eIC
-eIC
-eIC
-eIC
-qqB
-cfa
-bSk
-bSk
-bSk
-bSk
-tMD
-qiB
-rSa
-yjX
+gYr
+hlI
+gYr
+gYr
+gYr
+auh
+auh
+auh
+gYr
+mpR
+gYr
+gdD
+gYr
+gYr
+gYr
+bLx
+gYr
 fSt
 fSt
 fSt
@@ -208620,26 +208611,26 @@ fSt
 fSt
 duW
 yjX
-rjT
-rSa
-dwh
+gYr
+gYr
+xkA
 aqG
-ltz
-xxU
+gYr
+qBk
+gYr
+gWH
 vKp
+rrX
 vKp
-vKp
-vKp
-nxO
-cfa
-bSk
-bSk
-bSk
-bSk
-bSk
-qiB
-rSa
-yjX
+rsM
+gYr
+jwe
+qBk
+aqG
+gYr
+duW
+kRU
+gYr
 fSt
 fSt
 fSt
@@ -208942,26 +208933,26 @@ fSt
 fSt
 duW
 yjX
-ipr
-nxO
-mrq
+gYr
+gYr
 hRF
-kqC
+hRF
 xoh
-vKp
-kRU
-tXi
-rWv
-nxO
-vrb
-bSk
-qCi
-bSk
-bSk
-bSk
-uWp
-rSa
-yjX
+xoh
+hRF
+hRF
+qqB
+hRF
+qqB
+hRF
+hRF
+xoh
+xoh
+hRF
+hRF
+gYr
+bLx
+gYr
 jFJ
 fSt
 fSt
@@ -209054,9 +209045,9 @@ rUa
 rUa
 rUa
 rUa
-rUa
-rUa
-rUa
+dsM
+ata
+qbv
 rUa
 rUa
 rUa
@@ -209265,25 +209256,25 @@ fSt
 duW
 yjX
 gYr
-nxO
-nxO
-rSa
-rSa
-nxO
-nxO
-rSa
-rSa
+gYr
+hRF
+myN
+tBd
+tBd
+mso
+tBd
+sCl
 nYD
-nxO
-nEI
+tzx
+tBd
+mso
+tBd
+tBd
 fwh
-fwh
-bXv
-fwh
-apq
-bKZ
-nxO
-yjX
+hRF
+gYr
+bLx
+duW
 jFJ
 fSt
 fSt
@@ -209376,9 +209367,9 @@ rUa
 rUa
 rUa
 rUa
-rUa
-rUa
-rUa
+kMK
+tYD
+sYv
 rUa
 rUa
 rUa
@@ -209586,26 +209577,26 @@ jFJ
 fSt
 gYr
 yjX
-rjT
+qQQ
 gYr
-eoD
+hRF
+fwh
+hbs
+jer
+fTk
+hbs
+cfa
+mEw
+qiB
+hbs
+jer
+fTk
+hbs
+myN
+hRF
 gYr
-gYr
-xkA
-gYr
-uzC
-gYr
-uzC
-nxO
-nxO
-rSa
-rSa
-nxO
-rSa
-rSa
-nxO
-nxO
-yjX
+bLx
+duW
 jFJ
 jFJ
 egi
@@ -209698,9 +209689,9 @@ rUa
 rUa
 rUa
 rUa
-rUa
-rUa
-rUa
+nbU
+dKi
+oae
 rUa
 rUa
 rUa
@@ -209908,26 +209899,26 @@ jFJ
 fSt
 xkA
 yjX
-rjT
-rGD
 gYr
-mpR
-van
-mpR
-mpR
-mpR
-tKj
-gYr
-gYr
-hqO
-gYr
-gYr
-tVf
-uzC
 eoD
-mpR
-mpR
-yjX
+xoh
+tBd
+tBd
+lmF
+bKZ
+tBd
+cfa
+mEw
+qiB
+tBd
+lmF
+bKZ
+tBd
+tBd
+xoh
+ucH
+bLx
+gYr
 fSt
 fSt
 egi
@@ -210020,9 +210011,9 @@ rUa
 rUa
 rUa
 rUa
-rUa
-rUa
-rUa
+jmO
+uxU
+oae
 rUa
 rUa
 rUa
@@ -210230,26 +210221,26 @@ jFJ
 jFJ
 gYr
 yjX
-rjT
 gYr
 gYr
-mpR
+hRF
+gld
+hbs
+hbs
+hbs
+hbs
+cfa
+mEw
+qiB
+hbs
+hbs
+hbs
+hbs
+vAK
+hRF
 gYr
-eoD
+bLx
 gYr
-gYr
-mpR
-mpR
-gYr
-gYr
-gYr
-gYr
-gYr
-gYr
-bBE
-mpR
-xkA
-yjX
 fSt
 fSt
 egi
@@ -210342,9 +210333,9 @@ vBQ
 rUa
 rUa
 rUa
-rUa
-rUa
-rUa
+vgS
+lxI
+oae
 rUa
 rUa
 rUa
@@ -210552,26 +210543,26 @@ fSt
 jFJ
 gYr
 yjX
-rjT
-xkA
-mpR
-mpR
-uzC
 gYr
+mpR
+xoh
+tBd
+tBd
+tBd
+tBd
+tBd
+cfa
+mEw
+qiB
+tBd
+tBd
+tBd
+tBd
+tBd
+xoh
 gYr
-tVf
-xkA
-rsM
-mpR
-mpR
-mpR
-tMJ
-mpR
-mpR
-mpR
+bLx
 gYr
-gcp
-yjX
 fSt
 fSt
 fSt
@@ -210664,9 +210655,9 @@ vBQ
 rUa
 rUa
 rUa
-rUa
-rUa
-rUa
+awn
+agq
+dTx
 rUa
 rUa
 rUa
@@ -210873,27 +210864,27 @@ fSt
 fSt
 jFJ
 gYr
-wqz
-xMa
-srp
-xMa
-xMa
-xMa
-jer
-xMa
-xMa
-xMa
-xMa
-xMa
-xMa
-xMa
-xMa
-xMa
-jin
-xMa
-xMa
-xMa
 yjX
+vrG
+gYr
+hRF
+gld
+hbs
+jer
+fTk
+hbs
+cfa
+mEw
+qiB
+hbs
+jer
+fTk
+hbs
+vAK
+hRF
+bHb
+bLx
+duW
 fSt
 fSt
 fSt
@@ -210978,7 +210969,7 @@ xqA
 hfS
 jIs
 kGQ
-lxI
+qDc
 vxl
 qDc
 hjL
@@ -211196,26 +211187,26 @@ fSt
 fSt
 uzC
 yjX
-rjT
-gYr
-bLf
-eoD
-gYr
-mfN
-gYr
-gYr
+mpR
+dhn
+xoh
+tBd
+tBd
+lmF
+bKZ
+tCT
 mmN
-mpR
-mpR
+qpa
+pGQ
+jcG
+lmF
+bKZ
+tBd
+tBd
+xoh
 gYr
-eoD
-xkA
-duW
-uzC
+jnU
 gYr
-mpR
-gYr
-yjX
 fSt
 egi
 fSt
@@ -211298,9 +211289,9 @@ vBQ
 sHE
 llT
 llT
-ata
-jmO
-awn
+jIs
+ang
+qDc
 vxl
 qDc
 jsO
@@ -211518,26 +211509,26 @@ fSt
 fSt
 duW
 yjX
-lgh
 gYr
 gYr
-xkA
-mpR
-mpR
-mpR
-mpR
-mpR
-xkA
-gYr
+hRF
+syd
+qLq
+wfz
+blM
+rVu
+dIz
+cHJ
+tQI
 byW
-uzC
-duW
+blM
+res
+qLq
+syd
+hRF
 gYr
-tVf
-rsM
-mpR
-kKt
-yjX
+bLx
+gYr
 fSt
 egi
 jFJ
@@ -211620,8 +211611,8 @@ vBQ
 toC
 xEM
 xEM
-uxU
-dKi
+qDc
+ang
 efY
 vBQ
 vBQ
@@ -211841,25 +211832,25 @@ fSt
 gYr
 yjX
 gYr
-nxO
-nxO
-rSa
-nxO
-rSa
-rSa
-nxO
-nxO
-eoD
 gYr
+hRF
+hRF
+hRF
+mEw
+mEw
+mEw
+mEw
+mEw
+mEw
+mEw
+mEw
+mEw
+hRF
+hRF
+hRF
 gYr
-gYr
+yeX
 uzC
-gYr
-mpR
-mpR
-gYr
-gYr
-jeJ
 fSt
 egi
 jFJ
@@ -211942,8 +211933,8 @@ vBQ
 egj
 hHn
 egj
-dsM
-oae
+qDc
+ang
 mgN
 vBQ
 ppj
@@ -212162,26 +212153,26 @@ jFJ
 fSt
 gYr
 yjX
-rjT
-nxO
-lrp
-xVL
-nxO
-eim
-jMM
-mWk
-nxO
-gYr
-uzC
-eoD
-gYr
-jbk
 mpR
-rsM
+xkA
 gYr
-hqO
 gYr
-yjX
+xoh
+mEw
+jMM
+mEw
+mEw
+jMM
+mEw
+mEw
+jMM
+mEw
+xoh
+gYr
+gYr
+gYr
+bLx
+gYr
 jFJ
 fSt
 jFJ
@@ -212264,9 +212255,9 @@ vBQ
 llT
 gpu
 sko
-qbv
+jIs
 ang
-tYD
+qDc
 bLi
 qDc
 uaT
@@ -212484,26 +212475,26 @@ fSt
 fSt
 gYr
 yjX
-ipr
-rSa
+mpR
+gYr
 qQQ
-lmF
-nxO
-qLi
-tCT
-tCT
-nxO
-dxZ
-hlI
+gYr
+hRF
+hRF
+hRF
+hRF
+xKd
+hRF
+xKd
+hRF
+hRF
+hRF
+hRF
+gab
 gYr
 gYr
+bLx
 gYr
-xkA
-gYr
-gYr
-gYr
-xkA
-yjX
 jFJ
 fSt
 jFJ
@@ -212587,8 +212578,8 @@ llT
 icR
 gQj
 fFt
-nbU
-agq
+ang
+qDc
 bLi
 jGx
 bji
@@ -212806,26 +212797,26 @@ fSt
 fSt
 eoD
 yjX
+gYr
+gYr
+gYr
+jwe
+gYr
+xoh
+fmg
+mEw
+mEw
+pNZ
+mEw
+mEw
+kCc
+xoh
+gYr
+gYr
+gYr
 rjT
-rSa
-xRs
-qQQ
-nxO
-cqZ
-tBd
-qEd
-rSa
-dxZ
-hlI
+bLx
 gYr
-gYr
-xkA
-nxO
-nxO
-rSa
-nxO
-nxO
-yjX
 jFJ
 fSt
 fSt
@@ -213128,26 +213119,26 @@ fSt
 fSt
 gYr
 yjX
-tFH
-nxO
-nxO
-qqB
-nxO
-tBd
+rjT
+gYr
+gYr
+jwe
+gYr
+xoh
 grE
 mEw
-rSa
-dxZ
-hlI
+fmg
+xZR
+evx
+mEw
+grE
+xoh
 gYr
-mpR
-mpR
-nxO
-tQL
-pdw
-unU
-nxO
-yjX
+gYr
+jwe
+gYr
+van
+gYr
 jFJ
 fSt
 fSt
@@ -213451,25 +213442,25 @@ fSt
 gYr
 yjX
 gYr
-nxO
-myN
-oDE
-tBd
-tBd
-tBd
-qPr
-nxO
-dxZ
-hlI
-auh
-cBJ
-auh
-jaY
-xoO
-lxB
-hbs
-rSa
-yjX
+gcp
+gYr
+jwe
+gYr
+xoh
+dkV
+mEw
+mEw
+qyP
+mEw
+mEw
+dkV
+xoh
+gYr
+bLf
+jwe
+gYr
+bLx
+iHI
 jFJ
 fSt
 fSt
@@ -213772,26 +213763,26 @@ fSt
 fSt
 gYr
 yjX
-rjT
-rSa
-klJ
-iRY
-tBd
-hmP
-hmP
-hmP
-nxO
-uzC
 gYr
-auh
 gYr
+duW
+duW
 eoD
-nxO
-dFi
-tQM
-xoO
-nxO
-yjX
+xoh
+tXi
+jMM
+mEw
+mEw
+mEw
+jMM
+tXi
+xoh
+gYr
+gYr
+gYr
+gYr
+bLx
+gYr
 fSt
 egi
 fSt
@@ -214094,26 +214085,26 @@ fSt
 jFJ
 gYr
 yjX
-vAK
-rSa
-aAS
-iRY
-tBd
-hmP
-hmP
-hmP
-qqB
-auh
-auh
-auh
-gYE
+gYr
+gYr
+gYr
+gYr
+kKt
+hRF
+hRF
+hRF
+mEw
+mEw
+mEw
+hRF
+hRF
+hRF
 ked
-nxO
-nxO
-nxO
-nxO
-nxO
-yjX
+gYr
+gYr
+rjT
+bLx
+gYr
 fSt
 egi
 fSt
@@ -214415,27 +214406,27 @@ fSt
 fSt
 jFJ
 uzC
-yjX
-rjT
-nxO
-kxu
-akd
-afh
-cfo
-hmP
-hdb
-nxO
+nEI
+gYr
 duW
-auh
-auh
+gYr
+gYr
+gYr
+gYr
+gYr
+hRF
+xoh
+xoh
+xoh
+hRF
+gYr
 gYE
 gzz
-knB
+lwg
 dnF
 rdM
-gYr
-tVf
-yjX
+bLx
+iHI
 egi
 egi
 sFF
@@ -214737,27 +214728,27 @@ fSt
 fSt
 fSt
 xkA
-wqz
+biV
 srp
-nxO
-nxO
-rSa
-rSa
-nxO
-rSa
-rSa
-nxO
-pir
-auh
-hqf
-tFb
+srp
+rvN
+xMa
+xMa
+xMa
+xMa
+xMa
+xMa
+xMa
+xMa
+xMa
+xMa
 mYK
+lxB
 fLm
-oDB
 qmq
-xMa
-xMa
-yjX
+xVL
+tYG
+gYr
 fSt
 fSt
 nms
@@ -215070,8 +215061,8 @@ duW
 duW
 duW
 eoD
-auh
-auh
+gYr
+gYr
 luq
 mTK
 gYE
@@ -218263,11 +218254,11 @@ mso
 tBd
 tBd
 mso
-tBd
-tBd
-tBd
-tBd
-tLf
+gwP
+gwP
+gwP
+gwP
+qIi
 nxO
 bLx
 duW
@@ -218580,16 +218571,16 @@ xOq
 yjX
 rjT
 rSa
-gka
-gka
-gka
-gka
+eIC
+eIC
+eIC
+eIC
 tBd
-tBd
-tBd
-aAj
-tBd
-tBd
+gwP
+gwP
+xSQ
+gwP
+gwP
 rSa
 bLx
 gYr
@@ -219224,10 +219215,10 @@ xOq
 yjX
 gYr
 rSa
-gka
+eIC
 woN
 vPI
-gka
+eIC
 pvB
 mNo
 nxO
@@ -219869,8 +219860,8 @@ yjX
 gYr
 nxO
 tOQ
-gka
-gka
+eIC
+eIC
 swV
 aiu
 uTE

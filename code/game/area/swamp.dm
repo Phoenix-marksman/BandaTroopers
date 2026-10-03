@@ -1,4 +1,4 @@
-// Swamp_1
+// Goone_amide
 // Areas
 //Base
 /area/swamp
@@ -113,15 +113,6 @@
 	name = "Farmland"
 	icon_state = "yellow"
 	ceiling = CEILING_NONE
-
-/area/swamp/base/church/ext
-	name = "Antverd military Base - Church"
-	icon_state = "central"
-
-/area/swamp/base/church/int
-	name = "Antverd military Base - Church"
-	icon_state = "away1"
-	ceiling = CEILING_METAL
 
 /area/swamp/base/checkpoint
 	name = "Antverd Military Base - Checkpoint"
